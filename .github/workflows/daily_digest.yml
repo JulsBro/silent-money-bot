@@ -1,10 +1,14 @@
-name: 📰 Crypto News Daily Digest
+name: 🤫💰 Silent Money Daily Digest
 
 on:
   schedule:
-    # Запуск каждый день в 08:00 по Москве (05:00 UTC)
-    - cron: '0 5 * * *'
-  workflow_dispatch:  # Ручной запуск через GitHub UI
+    # 5x täglich (MSK = UTC+3)
+    - cron: '0 4 * * *'   # 07:00 MSK — Morgen
+    - cron: '0 8 * * *'   # 11:00 MSK — Mittag
+    - cron: '30 11 * * *' # 14:30 MSK — Nachmittag
+    - cron: '0 14 * * *'  # 17:00 MSK — Abend
+    - cron: '0 17 * * *'  # 20:00 MSK — Nacht
+  workflow_dispatch:       # Manueller Start
 
 jobs:
   send-digest:
@@ -21,9 +25,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic requests
+        run: pip install anthropic requests yfinance
 
-      - name: Run news bot
+      - name: Run Silent Money Bot
         env:
           ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -31,4 +35,3 @@ jobs:
           CRYPTOPANIC_API_KEY: ${{ secrets.CRYPTOPANIC_API_KEY }}
           NEWS_API_KEY:        ${{ secrets.NEWS_API_KEY }}
         run: python crypto_news_bot.py
-
