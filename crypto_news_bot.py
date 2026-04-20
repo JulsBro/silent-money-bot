@@ -64,13 +64,13 @@ def fetch_market_snapshot() -> str:
 
         mcap_str = f"${total_mcap/1e12:.2f}T" if total_mcap > 1e12 else f"${total_mcap/1e9:.0f}B"
 
-        now_msk = datetime.utcnow() + timedelta(hours=3)
-        slot_hour = min(SLOT_NAMES.keys(), key=lambda h: abs(h - (now_msk.hour - 3 + 3) % 24))
+        now_berlin = datetime.utcnow() + timedelta(hours=2)  # CEST (Sommer); Winter: +1
+        slot_hour = min(SLOT_NAMES.keys(), key=lambda h: abs(h - now_berlin.hour))
         slot_name = SLOT_NAMES.get(slot_hour, "📊 Update")
 
         msg = (
             f"💼 <b>SILENT MONEY</b> — {slot_name}\n"
-            f"{now_msk.strftime('%d.%m.%Y  %H:%M')} MSK\n"
+            f"{now_berlin.strftime('%d.%m.%Y  %H:%M')} Berlin\n"
             f"{'─'*30}\n"
             f"₿  <b>BTC</b>    {fmt('bitcoin')}\n"
             f"Ξ  <b>ETH</b>    {fmt('ethereum')}\n"
@@ -224,29 +224,33 @@ def select_and_summarize(raw_news: list) -> list:
     )
 
     prompt = f"""
-Jetzt ist {now}. Du bist Chefredakteur von "Silent Money" auf Telegram.
-Deine Leser: erfahrene Investoren im deutschsprachigen Raum.
+Jetzt ist {now}. Du bist Redakteur von "Silent Money" — einem Telegram-Kanal mit dieser Philosophie:
 
-AUFGABE: Wähle GENAU 5 der wichtigsten Nachrichten aus.
+REDAKTIONELLE LINIE:
+Kein Informationslärm. Keine Meinungen. Keine Prognosen. Keine Kauf-/Verkaufssignale.
+Nur: Fakten — regulatorische Entscheidungen — Unternehmenshandlungen — Ereignisse die Märkte wirklich bewegen.
+Format jedes Posts: Ereignis → Auswirkung → Quelle
 
-AUSWAHLPRINZIP — nur Nachrichten die Märkte BEWEGEN oder BEWEGEN WERDEN:
+AUFGABE: Wähle GENAU 5 Nachrichten aus. Nur solche die wirklich Bedeutung haben.
+
+AUSWAHLKRITERIEN — Märkte bewegende Ereignisse:
 → Regulierung & Gesetze: SEC, CFTC, MiCA, BaFin, Kongress, Kreml
-→ Zentralbanken: Fed-Entscheidungen, EZB, Zinsen, Inflation
-→ Politik die Märkte betrifft: Trump-Dekrete, Sanktionen, Handelskrieg
-→ Wichtige Unternehmens-News: große Earnings, Übernahmen, Krisen bei relevanten Firmen (Nvidia, Apple, Coinbase, Tesla, BlackRock)
-→ Krypto-Institutionelles: ETF-Entscheidungen, große Käufe/Verkäufe, Hacks
-→ Makro-Schocks: Rezession, Bankenkrise, große Marktbewegungen mit Grund
+→ Zentralbanken: Fed, EZB, Zinsentscheidungen, Inflation
+→ Politik mit Marktauswirkung: Trump-Dekrete, Sanktionen, Handelskrieg
+→ Unternehmen: Earnings-Überraschungen, Übernahmen, Krisen (Nvidia, Apple, Coinbase, Tesla, BlackRock)
+→ Krypto-Institutionelles: ETF-Entscheidungen, große Käufe/Verkäufe, Protokoll-Hacks
+→ Makro-Schocks: Rezessionszeichen, Bankenkrisen, systemische Ereignisse
 
-NICHT auswählen:
-✗ Reine Preisbewegungen ohne Nachrichtengrund ("BTC stieg 3%")
-✗ Unwichtige Altcoin-Projekte
-✗ Werbung oder PR-Artikel
+AUSSCHLUSSKRITERIEN:
+✗ Preisbewegungen ohne klaren Nachrichtengrund
+✗ Altcoin-Projekte ohne systemische Relevanz
+✗ PR-Artikel, Spekulationen, Meinungsstücke
 
-Schreibe jeden Post AUF DEUTSCH:
-• Passendes Emoji
-• Schlagzeile: prägnant, max. 10 Wörter (fett)
-• Text: 3–4 Sätze. 80% Fakten + 20% "Was bedeutet das für Märkte/Investoren?"
-• Professionell, direkt, kein Bullshit
+SCHREIBSTIL — Silent Money Format:
+• Emoji passend zum Thema
+• Schlagzeile: Fakt in max. 10 Wörtern (fett) — kein Clickbait
+• Text: 2–3 Sätze. Erst das Ereignis (was genau passiert ist). Dann die Auswirkung (was das konkret bedeutet — für Markt, Regulierung, Investoren). Keine weichen Formulierungen, keine Meinungen, keine Prognosen.
+• Ton: sachlich, präzise, direkt. Wie Reuters — nicht wie ein Krypto-Blog.
 
 Antworte NUR mit validen JSON-Array (keine Codeblöcke):
 [
