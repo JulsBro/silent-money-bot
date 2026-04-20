@@ -1,6 +1,7 @@
 """
 Silent Money — Crypto & Finance Daily Digest Bot
-Quellen: EN + RU + EU | Ausgabe: Deutsch | Kanal: @SilentMoney
+Quellen: EN + RU + EU | Ausgabe: Deutsch | Kanal: @silentmoney_feed
+5x täglich: 07:00 / 11:00 / 14:30 / 17:00 / 20:00 MSK
 """
 
 import os
@@ -19,61 +20,123 @@ NEWS_API_KEY        = os.environ.get("NEWS_API_KEY", "")
 
 client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
-# ─── RSS-QUELLEN ──────────────────────────────────────────────────────────────
-#  (feed_url, Quellenname, Kategorie, Sprache)
+SLOT_NAMES = {
+    4:  "🌅 Morgen",
+    8:  "☀️ Mittag",
+    11: "📊 Nachmittag",
+    14: "🌆 Abend",
+    17: "🌙 Nacht",
+}
+
+# ─── MARKTPREISE ──────────────────────────────────────────────────────────────
+
+def fetch_market_snapshot() -> str:
+    """BTC, ETH, SOL + Gold + Gesamt-Marktkapitalisierung"""
+    try:
+        # Krypto-Preise
+        r = requests.get(
+            "https://api.coingecko.com/api/v3/simple/price",
+            params={
+                "ids": "bitcoin,ethereum,solana,pax-gold",
+                "vs_currencies": "usd",
+                "include_24hr_change": "true",
+                "include_market_cap": "true",
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        data = r.json()
+
+        # Globale Marktdaten
+        g = requests.get("https://api.coingecko.com/api/v3/global", timeout=15).json()
+        gdata = g.get("data", {})
+        total_mcap = gdata.get("total_market_cap", {}).get("usd", 0)
+        btc_dom    = gdata.get("market_cap_percentage", {}).get("btc", 0)
+
+        def fmt(coin, key="usd"):
+            p = data.get(coin, {}).get(key, 0)
+            c = data.get(coin, {}).get("usd_24h_change", 0)
+            arrow = "▲" if c >= 0 else "▼"
+            sign  = "+" if c >= 0 else ""
+            if p > 1000:
+                return f"${p:,.0f}  {arrow}{sign}{c:.1f}%"
+            return f"${p:,.2f}  {arrow}{sign}{c:.1f}%"
+
+        mcap_str = f"${total_mcap/1e12:.2f}T" if total_mcap > 1e12 else f"${total_mcap/1e9:.0f}B"
+
+        now_msk = datetime.utcnow() + timedelta(hours=3)
+        slot_hour = min(SLOT_NAMES.keys(), key=lambda h: abs(h - (now_msk.hour - 3 + 3) % 24))
+        slot_name = SLOT_NAMES.get(slot_hour, "📊 Update")
+
+        msg = (
+            f"💼 <b>SILENT MONEY</b> — {slot_name}\n"
+            f"{now_msk.strftime('%d.%m.%Y  %H:%M')} MSK\n"
+            f"{'─'*30}\n"
+            f"₿  <b>BTC</b>    {fmt('bitcoin')}\n"
+            f"Ξ  <b>ETH</b>    {fmt('ethereum')}\n"
+            f"◎  <b>SOL</b>    {fmt('solana')}\n"
+            f"🥇 <b>Gold</b>   {fmt('pax-gold')}\n"
+            f"{'─'*30}\n"
+            f"🌍 Krypto-Markt:  <b>{mcap_str}</b>\n"
+            f"👑 BTC Dominanz: <b>{btc_dom:.1f}%</b>\n"
+            f"{'─'*30}\n"
+            f"Nachrichten folgen 👇"
+        )
+        return msg
+    except Exception as e:
+        print(f"[MarktDaten] Fehler: {e}")
+        return "📊 <b>Marktdaten momentan nicht verfügbar</b>\n\nNachrichten folgen 👇"
+
+
+# ─── NACHRICHTENQUELLEN ───────────────────────────────────────────────────────
+
 RSS_FEEDS = [
-    # 🇺🇸 Englisch — Krypto
+    # 🇺🇸 Krypto
     ("https://www.coindesk.com/arc/outboundfeeds/rss/",         "CoinDesk",          "crypto",  "en"),
     ("https://cointelegraph.com/rss",                            "Cointelegraph",     "crypto",  "en"),
     ("https://decrypt.co/feed",                                  "Decrypt",           "crypto",  "en"),
     ("https://bitcoinmagazine.com/.rss/full/",                   "Bitcoin Magazine",  "crypto",  "en"),
     ("https://theblock.co/rss.xml",                              "The Block",         "crypto",  "en"),
-
-    # 🇺🇸 Englisch — Finanzen
+    # 🇺🇸 Finanzen & Märkte
     ("https://feeds.a.dj.com/rss/RSSMarketsMain.xml",           "WSJ Markets",       "finance", "en"),
     ("https://www.cnbc.com/id/10000664/device/rss/rss.html",    "CNBC Finance",      "finance", "en"),
     ("https://feeds.bbci.co.uk/news/business/rss.xml",          "BBC Business",      "finance", "en"),
     ("https://www.ft.com/rss/home/uk",                          "Financial Times",   "finance", "en"),
     ("https://fortune.com/feed/",                               "Fortune",           "finance", "en"),
-
-    # 🇩🇪🇪🇺 Deutsch / Europäisch
+    # 🇺🇸 Makro & Politik
+    ("https://feeds.a.dj.com/rss/RSSWorldNews.xml",             "WSJ World",         "macro",   "en"),
+    ("https://feeds.bbci.co.uk/news/world/rss.xml",             "BBC World",         "macro",   "en"),
+    ("https://www.cnbc.com/id/100003114/device/rss/rss.html",   "CNBC Economy",      "macro",   "en"),
+    # 🇩🇪🇪🇺 Europäisch
     ("https://www.handelsblatt.com/contentexport/feed/finanzen", "Handelsblatt",      "finance", "de"),
     ("https://www.faz.net/rss/aktuell/finanzen/",               "FAZ Finanzen",      "finance", "de"),
-    ("https://www.boerse.de/rss/nachrichten.htm",               "Boerse.de",         "finance", "de"),
     ("https://www.btc-echo.de/feed/",                           "BTC-Echo",          "crypto",  "de"),
     ("https://www.crypto-news-flash.com/de/feed/",              "Crypto News Flash", "crypto",  "de"),
-
-    # 🇷🇺 Russisch — Krypto & Finanzen
-    ("https://bits.media/rss/news/",                            "Bits.media",        "crypto",  "ru"),
+    # 🇷🇺 Russisch
     ("https://forklog.com/feed/",                               "Forklog",           "crypto",  "ru"),
-    ("https://www.rbc.ru/crypto/rss/",                          "RBC Crypto",        "crypto",  "ru"),
     ("https://coinpost.ru/?feed=rss2",                          "CoinPost RU",       "crypto",  "ru"),
 ]
 
 NEWSAPI_QUERIES = [
-    ("crypto regulation SEC CFTC law",        "en"),
-    ("Bitcoin Ethereum Federal Reserve rates", "en"),
-    ("MiCA Europe crypto ECB regulation",      "en"),
-    ("crypto token unlock liquidation DeFi",   "en"),
-    ("Binance Coinbase BlackRock crypto ETF",  "en"),
-    ("Krypto Regulierung BaFin Deutschland",   "de"),
-    ("Bitcoin Zinsen EZB Inflation",           "de"),
+    ("crypto regulation SEC CFTC Congress law",        "en"),
+    ("Bitcoin Ethereum ETF Federal Reserve rates",     "en"),
+    ("MiCA Europe crypto ECB regulation",              "en"),
+    ("Trump crypto executive order sanctions",         "en"),
+    ("Nvidia Apple Microsoft earnings stock market",   "en"),
+    ("Fed interest rate inflation recession",          "en"),
+    ("Krypto Regulierung BaFin EZB Deutschland",       "de"),
 ]
 
 
-# ─── QUELLEN ABRUFEN ─────────────────────────────────────────────────────────
-
-def fetch_rss(feed_url: str, source: str, category: str, lang: str) -> list[dict]:
+def fetch_rss(feed_url, source, category, lang):
     import xml.etree.ElementTree as ET
     try:
-        r = requests.get(
-            feed_url, timeout=15,
-            headers={"User-Agent": "Mozilla/5.0 (SilentMoneyBot/1.0)"}
-        )
+        r = requests.get(feed_url, timeout=15,
+                         headers={"User-Agent": "Mozilla/5.0 (SilentMoneyBot/1.0)"})
         r.raise_for_status()
         root = ET.fromstring(r.content)
         results = []
-        for item in root.findall(".//item")[:15]:
+        for item in root.findall(".//item")[:12]:
             title = (item.findtext("title") or "").strip()
             link  = (item.findtext("link")  or "").strip()
             desc  = (item.findtext("description") or "")[:300]
@@ -86,7 +149,7 @@ def fetch_rss(feed_url: str, source: str, category: str, lang: str) -> list[dict
         return []
 
 
-def fetch_cryptopanic() -> list[dict]:
+def fetch_cryptopanic():
     if not CRYPTOPANIC_API_KEY:
         return []
     try:
@@ -100,21 +163,21 @@ def fetch_cryptopanic() -> list[dict]:
         return [{"title": i.get("title", ""), "url": i.get("url", ""),
                  "source": i.get("source", {}).get("title", "CryptoPanic"),
                  "description": "", "category": "crypto", "lang": "en"}
-                for i in r.json().get("results", [])[:40]]
+                for i in r.json().get("results", [])[:30]]
     except Exception as e:
         print(f"[CryptoPanic]: {e}")
         return []
 
 
-def fetch_newsapi(query: str, lang: str) -> list[dict]:
+def fetch_newsapi(query, lang):
     if not NEWS_API_KEY:
         return []
-    yesterday = (datetime.utcnow() - timedelta(days=1)).strftime("%Y-%m-%d")
+    since = (datetime.utcnow() - timedelta(hours=7)).strftime("%Y-%m-%dT%H:%M:%S")
     try:
         r = requests.get(
             "https://newsapi.org/v2/everything",
-            params={"apiKey": NEWS_API_KEY, "q": query, "from": yesterday,
-                    "language": lang, "sortBy": "relevancy", "pageSize": 15},
+            params={"apiKey": NEWS_API_KEY, "q": query, "from": since,
+                    "language": lang, "sortBy": "publishedAt", "pageSize": 10},
             timeout=15,
         )
         r.raise_for_status()
@@ -129,7 +192,7 @@ def fetch_newsapi(query: str, lang: str) -> list[dict]:
         return []
 
 
-def fetch_all_news() -> list[dict]:
+def fetch_all_news():
     print("📡 Nachrichten werden gesammelt...")
     all_news = []
     all_news.extend(fetch_cryptopanic())
@@ -150,8 +213,8 @@ def fetch_all_news() -> list[dict]:
 
 # ─── CLAUDE-VERARBEITUNG ──────────────────────────────────────────────────────
 
-def select_and_summarize(raw_news: list[dict]) -> list[dict]:
-    today = datetime.utcnow().strftime("%d. %B %Y")
+def select_and_summarize(raw_news: list) -> list:
+    now = datetime.utcnow().strftime("%d. %B %Y, %H:%M UTC")
     news_json = json.dumps(
         [{"i": i, "title": n["title"], "source": n["source"],
           "url": n["url"], "lang": n.get("lang", "en"),
@@ -161,46 +224,49 @@ def select_and_summarize(raw_news: list[dict]) -> list[dict]:
     )
 
     prompt = f"""
-Heute ist der {today}. Du bist Chefredakteur von "Silent Money" — einem professionellen 
-Krypto- und Finanzkanal auf Telegram. Deine Leser: erfahrene Investoren aus dem 
-deutschsprachigen Raum, die präzise, interpretierte Informationen schätzen.
+Jetzt ist {now}. Du bist Chefredakteur von "Silent Money" auf Telegram.
+Deine Leser: erfahrene Investoren im deutschsprachigen Raum.
 
-AUFGABE:
-1. Wähle MAXIMAL 25 der wichtigsten Nachrichten aus EN, DE, RU und EU Quellen.
-   Priorität:
-   → Regulierung (SEC, CFTC, MiCA, BaFin, Russland)
-   → Zinsentscheidungen (Fed, EZB, russische Zentralbank)
-   → Große Deals, ETF-Entscheidungen, institutionelle Bewegungen
-   → Aussagen von Trump, Powell, Lagarde, Binance/Coinbase-CEOs, Vitalik
-   → Token-Unlocks, Liquidierungen, Marktbewegungen
-   → Regulatorische Neuheiten in Europa und USA
+AUFGABE: Wähle GENAU 5 der wichtigsten Nachrichten aus.
 
-2. Schreibe jeden Beitrag AUF DEUTSCH im Stil von Silent Money:
-   • Passendes Emoji (einzigartig pro Post)
-   • Prägnante Schlagzeile (max. 12 Wörter, fett)
-   • 3–5 Sätze: 80% Fakten + 20% Interpretation ("Was bedeutet das?")
-   • Professioneller, aber zugänglicher Ton
-   • Quellenlink am Ende
+AUSWAHLPRINZIP — nur Nachrichten die Märkte BEWEGEN oder BEWEGEN WERDEN:
+→ Regulierung & Gesetze: SEC, CFTC, MiCA, BaFin, Kongress, Kreml
+→ Zentralbanken: Fed-Entscheidungen, EZB, Zinsen, Inflation
+→ Politik die Märkte betrifft: Trump-Dekrete, Sanktionen, Handelskrieg
+→ Wichtige Unternehmens-News: große Earnings, Übernahmen, Krisen bei relevanten Firmen (Nvidia, Apple, Coinbase, Tesla, BlackRock)
+→ Krypto-Institutionelles: ETF-Entscheidungen, große Käufe/Verkäufe, Hacks
+→ Makro-Schocks: Rezession, Bankenkrise, große Marktbewegungen mit Grund
 
-Antworte NUR mit einem validen JSON-Array (keine Codeblöcke, keine Erklärung):
+NICHT auswählen:
+✗ Reine Preisbewegungen ohne Nachrichtengrund ("BTC stieg 3%")
+✗ Unwichtige Altcoin-Projekte
+✗ Werbung oder PR-Artikel
+
+Schreibe jeden Post AUF DEUTSCH:
+• Passendes Emoji
+• Schlagzeile: prägnant, max. 10 Wörter (fett)
+• Text: 3–4 Sätze. 80% Fakten + 20% "Was bedeutet das für Märkte/Investoren?"
+• Professionell, direkt, kein Bullshit
+
+Antworte NUR mit validen JSON-Array (keine Codeblöcke):
 [
   {{
     "emoji": "🔥",
-    "headline": "Deutsche Schlagzeile",
-    "body": "Post-Text auf Deutsch, 3–5 Sätze.",
+    "headline": "Schlagzeile auf Deutsch",
+    "body": "Post-Text, 3–4 Sätze auf Deutsch.",
     "source_name": "Quellenname",
     "url": "https://..."
   }}
 ]
 
 NACHRICHTEN:
-{news_json[:14000]}
+{news_json[:13000]}
 """
 
-    print("🤖 Claude analysiert und übersetzt...")
+    print("🤖 Claude analysiert...")
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=8000,
+        max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
     )
     text = response.content[0].text.strip()
@@ -236,17 +302,13 @@ def send_message(text: str) -> bool:
         return False
 
 
-def send_digest(items: list[dict]) -> None:
-    today = datetime.utcnow().strftime("%d.%m.%Y")
+def send_digest(items: list) -> None:
+    # 1. Marktpreise
+    market_msg = fetch_market_snapshot()
+    send_message(market_msg)
+    time.sleep(3)
 
-    send_message(
-        f"🤫💰 <b>SILENT MONEY — {today}</b>\n\n"
-        f"Die {len(items)} wichtigsten Krypto- & Finanznachrichten des Tages.\n"
-        f"Quellen: 🇺🇸 EN · 🇩🇪 DE · 🇪🇺 EU · 🇷🇺 RU\n\n"
-        f"Jede Nachricht folgt einzeln 👇"
-    )
-    time.sleep(2)
-
+    # 2. Nachrichten einzeln
     for i, item in enumerate(items, 1):
         msg = (
             f"{item.get('emoji','📌')} <b>{item.get('headline','')}</b>\n\n"
@@ -254,18 +316,17 @@ def send_digest(items: list[dict]) -> None:
             f"📰 <a href=\"{item.get('url','')}\">{ item.get('source_name','Quelle')}</a>"
         )
         ok = send_message(msg)
-        print(f"{'✅' if ok else '❌'} [{i}/{len(items)}] {item.get('headline','')[:60]}")
+        print(f"{'✅' if ok else '❌'} [{i}/5] {item.get('headline','')[:60]}")
         time.sleep(3)
-
-    send_message(f"✅ <b>Silent Money Digest {today} — vollständig.</b>\nBis morgen! 🤫💰")
 
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
-    print(f"\n{'─'*55}")
-    print(f"🤫💰 SILENT MONEY BOT | {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
-    print(f"{'─'*55}\n")
+    now_utc = datetime.utcnow()
+    print(f"\n{'─'*50}")
+    print(f"🤫💰 SILENT MONEY | {now_utc.strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"{'─'*50}\n")
 
     raw = fetch_all_news()
     if not raw:
@@ -273,7 +334,7 @@ def main():
 
     selected = select_and_summarize(raw)
     if not selected:
-        print("❌ Claude hat keine Nachrichten zurückgegeben"); return
+        print("❌ Keine Nachrichten von Claude"); return
 
     send_digest(selected)
     print("\n✅ Digest erfolgreich gesendet!")
