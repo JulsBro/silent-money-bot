@@ -2,12 +2,12 @@ name: 🤫💰 Silent Money Daily Digest
 
 on:
   schedule:
-    # 5x täglich (MSK = UTC+3)
-    - cron: '0 4 * * *'   # 07:00 MSK — Morgen
-    - cron: '0 8 * * *'   # 11:00 MSK — Mittag
-    - cron: '30 11 * * *' # 14:30 MSK — Nachmittag
-    - cron: '0 14 * * *'  # 17:00 MSK — Abend
-    - cron: '0 17 * * *'  # 20:00 MSK — Nacht
+    # 5x täglich (Berliner Zeit CEST = UTC+2)
+    - cron: '0 5 * * *'   # 07:00 Berlin
+    - cron: '0 9 * * *'   # 11:00 Berlin
+    - cron: '30 12 * * *' # 14:30 Berlin
+    - cron: '0 15 * * *'  # 17:00 Berlin
+    - cron: '0 18 * * *'  # 20:00 Berlin
   workflow_dispatch:       # Manueller Start
 
 jobs:
