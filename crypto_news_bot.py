@@ -1,12 +1,15 @@
 """
 Silent Money — Crypto & Finance Daily Digest Bot
-Quellen: EN + RU + EU | Ausgabe: Deutsch | Kanal: @silentmoney_feed
-5x täglich: 07:00 / 11:00 / 14:30 / 17:00 / 20:00 MSK
+Quellen: EN + RU + EU + Global | Ausgabe: Deutsch | Kanal: @silentmoney_feed
+5x täglich: 07:00 / 11:00 / 14:30 / 17:00 / 20:00 Berlin
++ Sonntags Wochenrückblick
++ Deduplizierung: keine Wiederholungen innerhalb 48h
 """
 
 import os
 import json
 import time
+import hashlib
 import requests
 from datetime import datetime, timedelta
 from anthropic import Anthropic
@@ -20,55 +23,111 @@ NEWS_API_KEY        = os.environ.get("NEWS_API_KEY", "")
 
 client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
+SENT_LOG_FILE = "sent_news_log.json"  # wird im Repo gespeichert
+DEDUP_HOURS   = 48                     # Nachrichten werden 48h lang nicht wiederholt
+
 SLOT_NAMES = {
-    4:  "🌅 Morgen",
-    8:  "☀️ Mittag",
-    11: "📊 Nachmittag",
-    14: "🌆 Abend",
-    17: "🌙 Nacht",
+    5:  "🌅 Morgen",
+    9:  "☀️ Mittag",
+    12: "📊 Nachmittag",
+    15: "🌆 Abend",
+    18: "🌙 Nacht",
 }
+
+# ─── DEDUPLIZIERUNG ───────────────────────────────────────────────────────────
+
+def load_sent_log() -> dict:
+    """Lädt die Liste der bereits gesendeten Nachrichten"""
+    try:
+        if os.path.exists(SENT_LOG_FILE):
+            with open(SENT_LOG_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"[Log] Ladefehler: {e}")
+    return {}
+
+
+def save_sent_log(log: dict) -> None:
+    """Speichert die aktualisierte Liste"""
+    try:
+        with open(SENT_LOG_FILE, "w", encoding="utf-8") as f:
+            json.dump(log, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[Log] Speicherfehler: {e}")
+
+
+def clean_old_entries(log: dict) -> dict:
+    """Entfernt Einträge die älter als 48h sind"""
+    cutoff = (datetime.utcnow() - timedelta(hours=DEDUP_HOURS)).isoformat()
+    return {k: v for k, v in log.items() if v >= cutoff}
+
+
+def make_news_key(title: str) -> str:
+    """Erstellt einen eindeutigen Hash für einen Nachrichtentitel"""
+    normalized = title.lower().strip()[:120]
+    return hashlib.md5(normalized.encode()).hexdigest()
+
+
+def filter_already_sent(news_items: list, log: dict) -> list:
+    """Filtert bereits gesendete Nachrichten heraus"""
+    filtered = []
+    skipped  = 0
+    for item in news_items:
+        key = make_news_key(item["title"])
+        if key not in log:
+            filtered.append(item)
+        else:
+            skipped += 1
+    print(f"🔁 Deduplizierung: {skipped} bereits gesendete Nachrichten gefiltert, {len(filtered)} neu")
+    return filtered
+
+
+def mark_as_sent(items: list, log: dict) -> dict:
+    """Markiert gesendete Nachrichten im Log"""
+    now = datetime.utcnow().isoformat()
+    for item in items:
+        # Titel aus rohen News-Items oder aus Claude-Output
+        title = item.get("title") or item.get("headline", "")
+        if title:
+            key = make_news_key(title)
+            log[key] = now
+    return log
+
 
 # ─── MARKTPREISE ──────────────────────────────────────────────────────────────
 
 def fetch_market_snapshot() -> str:
-    """BTC, ETH, SOL + Gold + Gesamt-Marktkapitalisierung"""
     try:
-        # Krypto-Preise
         r = requests.get(
             "https://api.coingecko.com/api/v3/simple/price",
             params={
                 "ids": "bitcoin,ethereum,solana,pax-gold",
                 "vs_currencies": "usd",
                 "include_24hr_change": "true",
-                "include_market_cap": "true",
             },
             timeout=15,
         )
         r.raise_for_status()
         data = r.json()
 
-        # Globale Marktdaten
         g = requests.get("https://api.coingecko.com/api/v3/global", timeout=15).json()
-        gdata = g.get("data", {})
+        gdata      = g.get("data", {})
         total_mcap = gdata.get("total_market_cap", {}).get("usd", 0)
         btc_dom    = gdata.get("market_cap_percentage", {}).get("btc", 0)
 
-        def fmt(coin, key="usd"):
-            p = data.get(coin, {}).get(key, 0)
+        def fmt(coin):
+            p = data.get(coin, {}).get("usd", 0)
             c = data.get(coin, {}).get("usd_24h_change", 0)
             arrow = "▲" if c >= 0 else "▼"
             sign  = "+" if c >= 0 else ""
-            if p > 1000:
-                return f"${p:,.0f}  {arrow}{sign}{c:.1f}%"
-            return f"${p:,.2f}  {arrow}{sign}{c:.1f}%"
+            return f"${p:,.0f}  {arrow}{sign}{c:.1f}%" if p > 1000 else f"${p:,.2f}  {arrow}{sign}{c:.1f}%"
 
-        mcap_str = f"${total_mcap/1e12:.2f}T" if total_mcap > 1e12 else f"${total_mcap/1e9:.0f}B"
+        mcap_str   = f"${total_mcap/1e12:.2f}T" if total_mcap > 1e12 else f"${total_mcap/1e9:.0f}B"
+        now_berlin = datetime.utcnow() + timedelta(hours=2)
+        slot_hour  = min(SLOT_NAMES.keys(), key=lambda h: abs(h - now_berlin.hour))
+        slot_name  = SLOT_NAMES.get(slot_hour, "📊 Update")
 
-        now_berlin = datetime.utcnow() + timedelta(hours=2)  # CEST (Sommer); Winter: +1
-        slot_hour = min(SLOT_NAMES.keys(), key=lambda h: abs(h - now_berlin.hour))
-        slot_name = SLOT_NAMES.get(slot_hour, "📊 Update")
-
-        msg = (
+        return (
             f"💼 <b>SILENT MONEY</b> — {slot_name}\n"
             f"{now_berlin.strftime('%d.%m.%Y  %H:%M')} Berlin\n"
             f"{'─'*30}\n"
@@ -82,7 +141,6 @@ def fetch_market_snapshot() -> str:
             f"{'─'*30}\n"
             f"Nachrichten folgen 👇"
         )
-        return msg
     except Exception as e:
         print(f"[MarktDaten] Fehler: {e}")
         return "📊 <b>Marktdaten momentan nicht verfügbar</b>\n\nNachrichten folgen 👇"
@@ -91,40 +149,37 @@ def fetch_market_snapshot() -> str:
 # ─── NACHRICHTENQUELLEN ───────────────────────────────────────────────────────
 
 RSS_FEEDS = [
-    # 🇺🇸 Krypto
     ("https://www.coindesk.com/arc/outboundfeeds/rss/",         "CoinDesk",          "crypto",  "en"),
     ("https://cointelegraph.com/rss",                            "Cointelegraph",     "crypto",  "en"),
     ("https://decrypt.co/feed",                                  "Decrypt",           "crypto",  "en"),
     ("https://bitcoinmagazine.com/.rss/full/",                   "Bitcoin Magazine",  "crypto",  "en"),
     ("https://theblock.co/rss.xml",                              "The Block",         "crypto",  "en"),
-    # 🇺🇸 Finanzen & Märkte
     ("https://feeds.a.dj.com/rss/RSSMarketsMain.xml",           "WSJ Markets",       "finance", "en"),
     ("https://www.cnbc.com/id/10000664/device/rss/rss.html",    "CNBC Finance",      "finance", "en"),
     ("https://feeds.bbci.co.uk/news/business/rss.xml",          "BBC Business",      "finance", "en"),
     ("https://www.ft.com/rss/home/uk",                          "Financial Times",   "finance", "en"),
-    ("https://fortune.com/feed/",                               "Fortune",           "finance", "en"),
-    # 🇺🇸 Makro & Politik
     ("https://feeds.a.dj.com/rss/RSSWorldNews.xml",             "WSJ World",         "macro",   "en"),
-    ("https://feeds.bbci.co.uk/news/world/rss.xml",             "BBC World",         "macro",   "en"),
     ("https://www.cnbc.com/id/100003114/device/rss/rss.html",   "CNBC Economy",      "macro",   "en"),
-    # 🇩🇪🇪🇺 Europäisch
+    ("https://asia.nikkei.com/rss/feed/nar",                    "Nikkei Asia",       "finance", "en"),
+    ("https://www.arabnews.com/taxonomy/term/328/feed",         "Arab News Finance", "finance", "en"),
     ("https://www.handelsblatt.com/contentexport/feed/finanzen", "Handelsblatt",      "finance", "de"),
     ("https://www.faz.net/rss/aktuell/finanzen/",               "FAZ Finanzen",      "finance", "de"),
     ("https://www.btc-echo.de/feed/",                           "BTC-Echo",          "crypto",  "de"),
     ("https://www.crypto-news-flash.com/de/feed/",              "Crypto News Flash", "crypto",  "de"),
-    # 🇷🇺 Russisch
     ("https://forklog.com/feed/",                               "Forklog",           "crypto",  "ru"),
     ("https://coinpost.ru/?feed=rss2",                          "CoinPost RU",       "crypto",  "ru"),
 ]
 
 NEWSAPI_QUERIES = [
-    ("crypto regulation SEC CFTC Congress law",        "en"),
-    ("Bitcoin Ethereum ETF Federal Reserve rates",     "en"),
-    ("MiCA Europe crypto ECB regulation",              "en"),
-    ("Trump crypto executive order sanctions",         "en"),
-    ("Nvidia Apple Microsoft earnings stock market",   "en"),
-    ("Fed interest rate inflation recession",          "en"),
-    ("Krypto Regulierung BaFin EZB Deutschland",       "de"),
+    ("crypto regulation SEC CFTC Congress law",           "en"),
+    ("Bitcoin Ethereum ETF Federal Reserve rates",        "en"),
+    ("MiCA Europe crypto ECB regulation",                 "en"),
+    ("Trump crypto executive order sanctions tariffs",    "en"),
+    ("Nvidia Apple Microsoft earnings stock market",      "en"),
+    ("Fed interest rate inflation recession",             "en"),
+    ("Japan UAE Singapore crypto regulation law",         "en"),
+    ("Bitcoin whale institutional purchase BlackRock",    "en"),
+    ("Krypto Regulierung BaFin EZB Deutschland",          "de"),
 ]
 
 
@@ -134,7 +189,7 @@ def fetch_rss(feed_url, source, category, lang):
         r = requests.get(feed_url, timeout=15,
                          headers={"User-Agent": "Mozilla/5.0 (SilentMoneyBot/1.0)"})
         r.raise_for_status()
-        root = ET.fromstring(r.content)
+        root    = ET.fromstring(r.content)
         results = []
         for item in root.findall(".//item")[:12]:
             title = (item.findtext("title") or "").strip()
@@ -213,51 +268,60 @@ def fetch_all_news():
 
 # ─── CLAUDE-VERARBEITUNG ──────────────────────────────────────────────────────
 
-def select_and_summarize(raw_news: list) -> list:
-    now = datetime.utcnow().strftime("%d. %B %Y, %H:%M UTC")
+def select_and_summarize(raw_news: list, is_weekly: bool = False) -> list:
+    now   = datetime.utcnow().strftime("%d. %B %Y, %H:%M UTC")
+    count = 7 if is_weekly else 5
+    mode  = "WOCHENRÜCKBLICK — die 7 wichtigsten Ereignisse der Woche" if is_weekly else "TAGES-UPDATE — genau 5 Nachrichten"
+
     news_json = json.dumps(
         [{"i": i, "title": n["title"], "source": n["source"],
           "url": n["url"], "lang": n.get("lang", "en"),
+          "category": n.get("category", ""),
           "desc": n.get("description", "")[:200]}
          for i, n in enumerate(raw_news)],
         ensure_ascii=False,
     )
 
     prompt = f"""
-Jetzt ist {now}. Du bist Redakteur von "Silent Money" — einem Telegram-Kanal mit dieser Philosophie:
+Jetzt ist {now}. Du bist Redakteur von "Silent Money".
+Philosophie: Fakten. Regulatorische Entscheidungen. Unternehmenshandlungen. Ereignisse die Märkte bewegen.
+Kein Lärm. Keine Meinungen. Keine Prognosen.
 
-REDAKTIONELLE LINIE:
-Kein Informationslärm. Keine Meinungen. Keine Prognosen. Keine Kauf-/Verkaufssignale.
-Nur: Fakten — regulatorische Entscheidungen — Unternehmenshandlungen — Ereignisse die Märkte wirklich bewegen.
-Format jedes Posts: Ereignis → Auswirkung → Quelle
+MODUS: {mode}
 
-AUFGABE: Wähle GENAU 5 Nachrichten aus. Nur solche die wirklich Bedeutung haben.
-
-AUSWAHLKRITERIEN — Märkte bewegende Ereignisse:
-→ Regulierung & Gesetze: SEC, CFTC, MiCA, BaFin, Kongress, Kreml
+AUSWAHLKRITERIEN:
+→ Regulierung & Gesetze: SEC, CFTC, MiCA, BaFin, Kongress, Kreml, Japan, UAE, Singapur
 → Zentralbanken: Fed, EZB, Zinsentscheidungen, Inflation
 → Politik mit Marktauswirkung: Trump-Dekrete, Sanktionen, Handelskrieg
-→ Unternehmen: Earnings-Überraschungen, Übernahmen, Krisen (Nvidia, Apple, Coinbase, Tesla, BlackRock)
-→ Krypto-Institutionelles: ETF-Entscheidungen, große Käufe/Verkäufe, Protokoll-Hacks
+→ Unternehmen: Earnings, Übernahmen, Krisen (Nvidia, Apple, Coinbase, Tesla, BlackRock)
+→ Krypto-Institutionelles: ETF-Entscheidungen, große Käufe, Hacks, Protokoll-Updates
+→ Stille Bewegungen: Whale-Transfers, staatliche BTC-Käufe/-Verkäufe, große OTC-Deals
 → Makro-Schocks: Rezessionszeichen, Bankenkrisen, systemische Ereignisse
+
+WICHTIG — Entwicklungen einer laufenden Geschichte:
+Wenn ein Ereignis eine Fortsetzung einer bekannten Geschichte ist (z.B. "Protokoll XY wurde gehackt" → "Protokoll XY hat Mittel eingefroren"), 
+dann NUR aufnehmen wenn es eine echte neue Entwicklung gibt. Nicht dieselbe Information nochmal.
 
 AUSSCHLUSSKRITERIEN:
 ✗ Preisbewegungen ohne klaren Nachrichtengrund
-✗ Altcoin-Projekte ohne systemische Relevanz
+✗ Kleine Altcoin-Projekte ohne systemische Relevanz
 ✗ PR-Artikel, Spekulationen, Meinungsstücke
 
-SCHREIBSTIL — Silent Money Format:
-• Emoji passend zum Thema
-• Schlagzeile: Fakt in max. 10 Wörtern (fett) — kein Clickbait
-• Text: 2–3 Sätze. Erst das Ereignis (was genau passiert ist). Dann die Auswirkung (was das konkret bedeutet — für Markt, Regulierung, Investoren). Keine weichen Formulierungen, keine Meinungen, keine Prognosen.
-• Ton: sachlich, präzise, direkt. Wie Reuters — nicht wie ein Krypto-Blog.
+SCHREIBFORMAT pro Post:
+Zeile 1: Emoji + fette Schlagzeile (Fakt, max. 10 Wörter)
+Zeile 2-3: Ereignis — was genau passiert ist
+Zeile 4: Auswirkung — was das für Märkte/Investoren bedeutet
+Zeile 5: 💡 Einfach gesagt: [1 Satz ohne Fachjargon]
+
+Ton: sachlich wie Reuters. Sprache: Deutsch.
 
 Antworte NUR mit validen JSON-Array (keine Codeblöcke):
 [
   {{
-    "emoji": "🔥",
+    "emoji": "🏛",
     "headline": "Schlagzeile auf Deutsch",
-    "body": "Post-Text, 3–4 Sätze auf Deutsch.",
+    "body": "Ereignis-Text.\\n\\nAuswirkung-Text.",
+    "simple": "Einfach gesagt: ...",
     "source_name": "Quellenname",
     "url": "https://..."
   }}
@@ -267,10 +331,10 @@ NACHRICHTEN:
 {news_json[:13000]}
 """
 
-    print("🤖 Claude analysiert...")
+    print(f"🤖 Claude analysiert ({'Woche' if is_weekly else 'Tag'})...")
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=4000,
+        max_tokens=5000,
         messages=[{"role": "user", "content": prompt}],
     )
     text = response.content[0].text.strip()
@@ -283,7 +347,7 @@ NACHRICHTEN:
     try:
         result = json.loads(text)
         print(f"✅ {len(result)} Nachrichten ausgewählt")
-        return result
+        return result[:count]
     except json.JSONDecodeError as e:
         print(f"❌ JSON-Fehler: {e}\n{text[:400]}")
         return []
@@ -306,42 +370,75 @@ def send_message(text: str) -> bool:
         return False
 
 
-def send_digest(items: list) -> None:
-    # 1. Marktpreise
-    market_msg = fetch_market_snapshot()
-    send_message(market_msg)
-    time.sleep(3)
+def send_digest(items: list, is_weekly: bool = False) -> None:
+    now_berlin = datetime.utcnow() + timedelta(hours=2)
 
-    # 2. Nachrichten einzeln
+    if not is_weekly:
+        send_message(fetch_market_snapshot())
+        time.sleep(3)
+    else:
+        send_message(
+            f"📅 <b>SILENT MONEY — Wochenrückblick</b>\n"
+            f"{now_berlin.strftime('%d.%m.%Y')} · Die 7 wichtigsten Ereignisse der Woche\n\n"
+            f"Was wirklich zählte 👇"
+        )
+        time.sleep(3)
+
     for i, item in enumerate(items, 1):
+        simple_line = f"\n\n💡 <i>{item.get('simple', '')}</i>" if item.get('simple') else ""
         msg = (
             f"{item.get('emoji','📌')} <b>{item.get('headline','')}</b>\n\n"
-            f"{item.get('body','')}\n\n"
+            f"{item.get('body','')}"
+            f"{simple_line}\n\n"
             f"📰 <a href=\"{item.get('url','')}\">{ item.get('source_name','Quelle')}</a>"
         )
         ok = send_message(msg)
-        print(f"{'✅' if ok else '❌'} [{i}/5] {item.get('headline','')[:60]}")
+        print(f"{'✅' if ok else '❌'} [{i}] {item.get('headline','')[:60]}")
         time.sleep(3)
 
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 
 def main():
-    now_utc = datetime.utcnow()
+    now_utc    = datetime.utcnow()
+    now_berlin = now_utc + timedelta(hours=2)
+    is_sunday  = now_berlin.weekday() == 6
+    is_evening = now_berlin.hour >= 18
+    is_weekly  = is_sunday and is_evening
+
     print(f"\n{'─'*50}")
-    print(f"🤫💰 SILENT MONEY | {now_utc.strftime('%Y-%m-%d %H:%M UTC')}")
+    print(f"🤫💰 SILENT MONEY | {now_berlin.strftime('%Y-%m-%d %H:%M')} Berlin")
+    print(f"Modus: {'🗓 Wochenrückblick' if is_weekly else '📰 Tages-Update'}")
     print(f"{'─'*50}\n")
 
+    # 1. Log laden und bereinigen
+    log = load_sent_log()
+    log = clean_old_entries(log)
+    print(f"📋 Gesendete Nachrichten im Log (letzte 48h): {len(log)}")
+
+    # 2. Nachrichten holen
     raw = fetch_all_news()
     if not raw:
         print("❌ Keine Nachrichten gefunden"); return
 
-    selected = select_and_summarize(raw)
+    # 3. Bereits gesendete herausfiltern
+    filtered = filter_already_sent(raw, log)
+    if not filtered:
+        print("⚠️ Alle Nachrichten wurden bereits gesendet — nichts Neues")
+        return
+
+    # 4. Claude wählt aus und schreibt
+    selected = select_and_summarize(filtered, is_weekly=is_weekly)
     if not selected:
         print("❌ Keine Nachrichten von Claude"); return
 
-    send_digest(selected)
-    print("\n✅ Digest erfolgreich gesendet!")
+    # 5. Senden
+    send_digest(selected, is_weekly=is_weekly)
+
+    # 6. Log aktualisieren — gesendete Titel markieren
+    log = mark_as_sent(selected, log)
+    save_sent_log(log)
+    print(f"\n✅ Digest gesendet! Log aktualisiert: {len(log)} Einträge")
 
 
 if __name__ == "__main__":
