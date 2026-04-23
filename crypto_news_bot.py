@@ -24,7 +24,7 @@ NEWS_API_KEY        = os.environ.get("NEWS_API_KEY", "")
 client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
 SENT_LOG_FILE = "sent_news_log.json"  # wird im Repo gespeichert
-DEDUP_HOURS   = 48                     # Nachrichten werden 48h lang nicht wiederholt
+DEDUP_HOURS   = 72                     # Nachrichten werden 72h lang nicht wiederholt
 
 SLOT_NAMES = {
     5:  "🌅 Morgen",
@@ -298,9 +298,8 @@ AUSWAHLKRITERIEN:
 → Stille Bewegungen: Whale-Transfers, staatliche BTC-Käufe/-Verkäufe, große OTC-Deals
 → Makro-Schocks: Rezessionszeichen, Bankenkrisen, systemische Ereignisse
 
-WICHTIG — Entwicklungen einer laufenden Geschichte:
-Wenn ein Ereignis eine Fortsetzung einer bekannten Geschichte ist (z.B. "Protokoll XY wurde gehackt" → "Protokoll XY hat Mittel eingefroren"), 
-dann NUR aufnehmen wenn es eine echte neue Entwicklung gibt. Nicht dieselbe Information nochmal.
+INHALTLICHE DEDUPLIZIERUNG — sehr wichtig:
+Mehrere Quellen berichten oft über dasselbe Ereignis. Wähle pro Ereignis NUR EINE Quelle — die beste, aktuellste oder detaillierteste. Zwei Nachrichten über denselben Vorfall (egal ob Überschrift gleich oder nicht) zählen als eine. Lieber 4 wirklich verschiedene Ereignisse als 5 mit einem Duplikat.
 
 AUSSCHLUSSKRITERIEN:
 ✗ Preisbewegungen ohne klaren Nachrichtengrund
@@ -385,11 +384,10 @@ def send_digest(items: list, is_weekly: bool = False) -> None:
         time.sleep(3)
 
     for i, item in enumerate(items, 1):
-        simple_line = f"\n\n💡 <i>{item.get('simple', '')}</i>" if item.get('simple') else ""
+        simple_line = ""
         msg = (
             f"{item.get('emoji','📌')} <b>{item.get('headline','')}</b>\n\n"
-            f"{item.get('body','')}"
-            f"{simple_line}\n\n"
+            f"{item.get('body','')}\n\n"
             f"📰 <a href=\"{item.get('url','')}\">{ item.get('source_name','Quelle')}</a>"
         )
         ok = send_message(msg)
