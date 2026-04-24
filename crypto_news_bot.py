@@ -23,8 +23,9 @@ NEWS_API_KEY        = os.environ.get("NEWS_API_KEY", "")
 
 client = Anthropic(api_key=ANTHROPIC_API_KEY)
 
-SENT_LOG_FILE = "sent_news_log.json"  # wird im Repo gespeichert
-DEDUP_HOURS   = 72                     # Nachrichten werden 72h lang nicht wiederholt
+SENT_LOG_FILE = "sent_news_log.json"
+DEDUP_HOURS   = 72
+PRICES_SHOWN_KEY = "__prices_shown_date__"  # Speichert wann Preise zuletzt gezeigt wurden
 
 SLOT_NAMES = {
     5:  "🌅 Morgen",
@@ -96,7 +97,20 @@ def mark_as_sent(items: list, log: dict) -> dict:
 
 # ─── MARKTPREISE ──────────────────────────────────────────────────────────────
 
-def fetch_market_snapshot() -> str:
+def prices_already_shown_today(log: dict) -> bool:
+    """Prüft ob Preise heute schon gesendet wurden"""
+    today = (datetime.utcnow() + timedelta(hours=2)).strftime("%Y-%m-%d")
+    return log.get(PRICES_SHOWN_KEY) == today
+
+
+def mark_prices_shown(log: dict) -> dict:
+    """Markiert dass Preise heute gesendet wurden"""
+    today = (datetime.utcnow() + timedelta(hours=2)).strftime("%Y-%m-%d")
+    log[PRICES_SHOWN_KEY] = today
+    return log
+
+
+
     try:
         r = requests.get(
             "https://api.coingecko.com/api/v3/simple/price",
@@ -149,23 +163,34 @@ def fetch_market_snapshot() -> str:
 # ─── NACHRICHTENQUELLEN ───────────────────────────────────────────────────────
 
 RSS_FEEDS = [
+    # 🇺🇸 Krypto
     ("https://www.coindesk.com/arc/outboundfeeds/rss/",         "CoinDesk",          "crypto",  "en"),
     ("https://cointelegraph.com/rss",                            "Cointelegraph",     "crypto",  "en"),
     ("https://decrypt.co/feed",                                  "Decrypt",           "crypto",  "en"),
     ("https://bitcoinmagazine.com/.rss/full/",                   "Bitcoin Magazine",  "crypto",  "en"),
     ("https://theblock.co/rss.xml",                              "The Block",         "crypto",  "en"),
+    ("https://blockworks.co/feed",                               "Blockworks",        "crypto",  "en"),
+    ("https://www.dlnews.com/rss.xml",                           "DL News",           "crypto",  "en"),
+    # 🇺🇸 Finanzen & Märkte
     ("https://feeds.a.dj.com/rss/RSSMarketsMain.xml",           "WSJ Markets",       "finance", "en"),
     ("https://www.cnbc.com/id/10000664/device/rss/rss.html",    "CNBC Finance",      "finance", "en"),
     ("https://feeds.bbci.co.uk/news/business/rss.xml",          "BBC Business",      "finance", "en"),
     ("https://www.ft.com/rss/home/uk",                          "Financial Times",   "finance", "en"),
+    ("https://fortune.com/feed/",                               "Fortune",           "finance", "en"),
+    # 🇺🇸 Makro & Politik
     ("https://feeds.a.dj.com/rss/RSSWorldNews.xml",             "WSJ World",         "macro",   "en"),
     ("https://www.cnbc.com/id/100003114/device/rss/rss.html",   "CNBC Economy",      "macro",   "en"),
+    ("https://www.politico.com/rss/politicopicks.xml",          "Politico",          "macro",   "en"),
+    # 🌏 Global
     ("https://asia.nikkei.com/rss/feed/nar",                    "Nikkei Asia",       "finance", "en"),
     ("https://www.arabnews.com/taxonomy/term/328/feed",         "Arab News Finance", "finance", "en"),
+    # 🇩🇪🇪🇺 Europäisch
     ("https://www.handelsblatt.com/contentexport/feed/finanzen", "Handelsblatt",      "finance", "de"),
     ("https://www.faz.net/rss/aktuell/finanzen/",               "FAZ Finanzen",      "finance", "de"),
     ("https://www.btc-echo.de/feed/",                           "BTC-Echo",          "crypto",  "de"),
     ("https://www.crypto-news-flash.com/de/feed/",              "Crypto News Flash", "crypto",  "de"),
+    ("https://www.boerse-express.com/rss",                      "Börse Express",     "finance", "de"),
+    # 🇷🇺 Russisch
     ("https://forklog.com/feed/",                               "Forklog",           "crypto",  "ru"),
     ("https://coinpost.ru/?feed=rss2",                          "CoinPost RU",       "crypto",  "ru"),
 ]
@@ -298,8 +323,15 @@ AUSWAHLKRITERIEN:
 → Stille Bewegungen: Whale-Transfers, staatliche BTC-Käufe/-Verkäufe, große OTC-Deals
 → Makro-Schocks: Rezessionszeichen, Bankenkrisen, systemische Ereignisse
 
-INHALTLICHE DEDUPLIZIERUNG — sehr wichtig:
-Mehrere Quellen berichten oft über dasselbe Ereignis. Wähle pro Ereignis NUR EINE Quelle — die beste, aktuellste oder detaillierteste. Zwei Nachrichten über denselben Vorfall (egal ob Überschrift gleich oder nicht) zählen als eine. Lieber 4 wirklich verschiedene Ereignisse als 5 mit einem Duplikat.
+INHALTLICHE DEDUPLIZIERUNG — absolut wichtig:
+Viele Quellen berichten über dasselbe Ereignis mit unterschiedlichen Überschriften.
+Vergleiche INHALTE, nicht Überschriften.
+Regel: Pro Ereignis/Thema genau EINE Nachricht — die beste Quelle.
+Beispiele was als GLEICH gilt:
+- "SEC verklagt Binance" und "Binance unter SEC-Beschuss" → dasselbe Ereignis → nur einmal
+- "BTC fällt nach Fed-Entscheidung" und "Krypto-Markt reagiert auf Powell-Aussage" → dasselbe → nur einmal
+- Zwei Artikel über denselben Hack, dieselbe Regulierung, dieselbe Entscheidung → nur einmal
+Lieber 4 wirklich verschiedene Ereignisse als 5 mit einem inhaltlichen Duplikat.
 
 AUSSCHLUSSKRITERIEN:
 ✗ Preisbewegungen ohne klaren Nachrichtengrund
@@ -369,22 +401,23 @@ def send_message(text: str) -> bool:
         return False
 
 
-def send_digest(items: list, is_weekly: bool = False) -> None:
+def send_digest(items: list, log: dict, is_weekly: bool = False) -> dict:
     now_berlin = datetime.utcnow() + timedelta(hours=2)
+    show_prices = not is_weekly and not prices_already_shown_today(log)
 
-    if not is_weekly:
-        send_message(fetch_market_snapshot())
-        time.sleep(3)
-    else:
+    if is_weekly:
         send_message(
             f"📅 <b>SILENT MONEY — Wochenrückblick</b>\n"
             f"{now_berlin.strftime('%d.%m.%Y')} · Die 7 wichtigsten Ereignisse der Woche\n\n"
             f"Was wirklich zählte 👇"
         )
         time.sleep(3)
+    elif show_prices:
+        send_message(fetch_market_snapshot())
+        log = mark_prices_shown(log)
+        time.sleep(3)
 
     for i, item in enumerate(items, 1):
-        simple_line = ""
         msg = (
             f"{item.get('emoji','📌')} <b>{item.get('headline','')}</b>\n\n"
             f"{item.get('body','')}\n\n"
@@ -393,6 +426,8 @@ def send_digest(items: list, is_weekly: bool = False) -> None:
         ok = send_message(msg)
         print(f"{'✅' if ok else '❌'} [{i}] {item.get('headline','')[:60]}")
         time.sleep(3)
+
+    return log
 
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
@@ -431,7 +466,7 @@ def main():
         print("❌ Keine Nachrichten von Claude"); return
 
     # 5. Senden
-    send_digest(selected, is_weekly=is_weekly)
+    log = send_digest(selected, log, is_weekly=is_weekly)
 
     # 6. Log aktualisieren — gesendete Titel markieren
     log = mark_as_sent(selected, log)
