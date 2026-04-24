@@ -97,6 +97,52 @@ def mark_as_sent(items: list, log: dict) -> dict:
 
 # ─── MARKTPREISE ──────────────────────────────────────────────────────────────
 
+def fetch_market_snapshot() -> str:
+    try:
+        r = requests.get(
+            "https://api.coingecko.com/api/v3/simple/price",
+            params={"ids": "bitcoin,ethereum,solana,pax-gold", "vs_currencies": "usd",
+                    "include_24hr_change": "true"},
+            timeout=15,
+        )
+        r.raise_for_status()
+        data = r.json()
+        g = requests.get("https://api.coingecko.com/api/v3/global", timeout=15).json()
+        gdata      = g.get("data", {})
+        total_mcap = gdata.get("total_market_cap", {}).get("usd", 0)
+        btc_dom    = gdata.get("market_cap_percentage", {}).get("btc", 0)
+
+        def fmt(coin):
+            p = data.get(coin, {}).get("usd", 0)
+            c = data.get(coin, {}).get("usd_24h_change", 0)
+            arrow = "▲" if c >= 0 else "▼"
+            sign  = "+" if c >= 0 else ""
+            return f"${p:,.0f}  {arrow}{sign}{c:.1f}%" if p > 1000 else f"${p:,.2f}  {arrow}{sign}{c:.1f}%"
+
+        mcap_str   = f"${total_mcap/1e12:.2f}T" if total_mcap > 1e12 else f"${total_mcap/1e9:.0f}B"
+        now_berlin = datetime.utcnow() + timedelta(hours=2)
+        slot_hour  = min(SLOT_NAMES.keys(), key=lambda h: abs(h - now_berlin.hour))
+        slot_name  = SLOT_NAMES.get(slot_hour, "📊 Update")
+
+        return (
+            f"💼 <b>SILENT MONEY</b> — {slot_name}\n"
+            f"{now_berlin.strftime('%d.%m.%Y  %H:%M')} Berlin\n"
+            f"{'─'*30}\n"
+            f"₿  <b>BTC</b>    {fmt('bitcoin')}\n"
+            f"Ξ  <b>ETH</b>    {fmt('ethereum')}\n"
+            f"◎  <b>SOL</b>    {fmt('solana')}\n"
+            f"🥇 <b>Gold</b>   {fmt('pax-gold')}\n"
+            f"{'─'*30}\n"
+            f"🌍 Krypto-Markt:  <b>{mcap_str}</b>\n"
+            f"👑 BTC Dominanz: <b>{btc_dom:.1f}%</b>\n"
+            f"{'─'*30}\n"
+            f"Nachrichten folgen 👇"
+        )
+    except Exception as e:
+        print(f"[MarktDaten] Fehler: {e}")
+        return "📊 <b>Marktdaten momentan nicht verfügbar</b>\n\nNachrichten folgen 👇"
+
+
 def prices_already_shown_today(log: dict) -> bool:
     """Prüft ob Preise heute schon gesendet wurden"""
     today = (datetime.utcnow() + timedelta(hours=2)).strftime("%Y-%m-%d")
