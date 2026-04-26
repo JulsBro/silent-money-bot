@@ -1,9 +1,4 @@
 {
-  "1b8822dfb2f152c4ed8b5a6fdc1dced8": "2026-04-23T12:10:26.756546",
-  "eb8877064c7900af13bb1f3dd8464e1d": "2026-04-23T12:10:26.756546",
-  "36a84da3fc6686e417971e48a0a6ebf3": "2026-04-23T12:10:26.756546",
-  "99913c2b66eb3213a8d9e7a538ab6eba": "2026-04-23T12:10:26.756546",
-  "0d5a46e667d0a20306f437ab872d9767": "2026-04-23T12:10:26.756546",
   "ea25340cb3efbb6bf9ee83344fbfa4d9": "2026-04-23T17:05:50.149982",
   "5fc15d2413c4080be8732d076a67bafe": "2026-04-23T18:18:14.970232",
   "9e81778c6ff066cfa816090458ccd19b": "2026-04-23T17:05:50.149982",
@@ -95,7 +90,12 @@
     "BlackRock Bitcoin-ETF-Optionen überholen Deribit-Volumen",
     "Quantencomputer-Bedrohung: 6,9 Mio. Bitcoin gefährdet",
     "Brasilien verbietet 27 Prediction-Market-Plattformen",
-    "Europäische Banken integrieren Krypto-Assets ins Kerngeschäft"
+    "Europäische Banken integrieren Krypto-Assets ins Kerngeschäft",
+    "Bitcoin-Wale bauen Long-Positionen auf, Funding bleibt negativ",
+    "5,6 Mio. dormante Bitcoin-Einfrierung risikiert Repricing",
+    "MiCA reicht nicht: Bybit braucht weitere Lizenzen für Rentabilität",
+    "BlackRock Bitcoin-ETF-Optionen überflügeln Deribit-Volumen",
+    "Litecoin erleidet 13-Block-Reorg durch DoS-Angriff"
   ],
   "bbb2f13c3bb28e19918a58caf1cfc24a": "2026-04-24T20:10:59.678025",
   "f79567852a324a85d89f63ee0f399804": "2026-04-24T20:10:59.678025",
@@ -131,9 +131,13 @@
   "d689b742657f818d10feeb0f4a66ea6e": "2026-04-26T08:45:30.531923",
   "c4c6c20d4a3068e8637928ce165443bc": "2026-04-26T08:45:30.531923",
   "322c8e8f832b32db9f711865ea0b0486": "2026-04-26T08:45:30.531923",
-  "3ddd5feb6a70f45d8f9fd9b13cb1bd0b": "2026-04-26T11:27:09.033118",
+  "3ddd5feb6a70f45d8f9fd9b13cb1bd0b": "2026-04-26T15:05:41.504636",
   "f9067b2f71efabf439f8efe0997a9d27": "2026-04-26T11:27:09.033118",
   "091dc9f093e2f10cd1841a870754eb00": "2026-04-26T11:27:09.033118",
   "687c621d10ccf6390d7f05ae6166a219": "2026-04-26T11:27:09.033118",
-  "da4659e8b3c5f02fe3b4494bf66c2e47": "2026-04-26T11:27:09.033118"
+  "da4659e8b3c5f02fe3b4494bf66c2e47": "2026-04-26T11:27:09.033118",
+  "fbe42c66386fecd9da588cc7830f6658": "2026-04-26T15:05:41.504636",
+  "33499d757fe3255c245215079becb8f6": "2026-04-26T15:05:41.504636",
+  "c5c7afee87fc085bcca4a9464afaa962": "2026-04-26T15:05:41.504636",
+  "e022e485e8bb2b3d2f35ec4e8dbf7480": "2026-04-26T15:05:41.504636"
 }
