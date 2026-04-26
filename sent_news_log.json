@@ -1,9 +1,4 @@
 {
-  "6e2e75de48838822874f52fbadd3b15b": "2026-04-22T21:12:23.291375",
-  "95ce9f08e7da831932163c9af03cb7f7": "2026-04-22T21:12:23.291375",
-  "1f4eafba2e0d45ebaede7c1064aae65b": "2026-04-22T21:12:23.291375",
-  "1976d2967dfea227bc4680f19a216f09": "2026-04-22T21:12:23.291375",
-  "28691d082f078eebbf11615719248c3b": "2026-04-22T21:12:23.291375",
   "9c1fcd5abf413519fdb30d83b8eaf37e": "2026-04-23T10:10:52.599980",
   "4f53c08850a8092732b8b9365f36bb0d": "2026-04-23T10:10:52.599980",
   "de9625c5ab0e5bc178b2009581a302a4": "2026-04-23T10:10:52.599980",
@@ -54,7 +49,7 @@
   "ebf25936b9589288f6fd77029d5fcda3": "2026-04-24T17:56:45.689527",
   "86760ddbe53858f4d2bc4c3a0f2ecb39": "2026-04-24T17:56:45.689527",
   "301a9cf3e99721b04891b94ef36a5f7c": "2026-04-24T17:56:45.689527",
-  "__prices_date__": "2026-04-25",
+  "__prices_date__": "2026-04-26",
   "cbef22ab982116f6c7bb934142f5a3bf": "2026-04-24T18:37:46.565962",
   "cabc59842c2f31dce8e4a5b51367dc9d": "2026-04-24T18:37:46.565962",
   "dedc85c0057d4cfb6e16c989858d6ffb": "2026-04-24T18:37:46.565962",
@@ -95,7 +90,12 @@
     "Quantencomputer knackt Bitcoin-Schlüssel – Migration dringend",
     "Trump verteidigt Krypto-Gesetzgebung vor Investoren",
     "Aurelion ordnet 48 Mio. tokenisiertes Gold Yield-Protokoll zu",
-    "XRP-Trader ziehen 35 Mio. Token von Börsen ab"
+    "XRP-Trader ziehen 35 Mio. Token von Börsen ab",
+    "Litecoin erleidet 13-Block-Reorg – GitHub zeigt Zero-Day-Lücke",
+    "BlackRock Bitcoin-ETF überholt Deribit im Optionsvolumen",
+    "Europäische Banken integrieren digitale Assets ins Kerngeschäft",
+    "Quantenbedrohung: 6,9 Mio. Bitcoin gefährdet – Migration kritisch",
+    "Tennessee kriminalisiert Bitcoin- und Krypto-Automaten"
   ],
   "bbb2f13c3bb28e19918a58caf1cfc24a": "2026-04-24T20:10:59.678025",
   "f79567852a324a85d89f63ee0f399804": "2026-04-24T20:10:59.678025",
@@ -105,7 +105,7 @@
   "1de37bb9e1e41a0cdb96bd635d1f9dc9": "2026-04-25T08:13:47.604620",
   "91e40588dbed9822d9f208c2e589325b": "2026-04-25T08:13:47.604620",
   "40a2ba99c9e907f30a73fe19c5fe2522": "2026-04-25T08:13:47.604620",
-  "466d86a4eb2c64d8c34990f2c66c6e29": "2026-04-25T08:13:47.604620",
+  "466d86a4eb2c64d8c34990f2c66c6e29": "2026-04-26T08:45:30.531923",
   "0f8af97277cab672f5826a2eea71108b": "2026-04-25T08:13:47.604620",
   "54b16cd1dd2c0c50a4b07044bd9680fc": "2026-04-25T11:26:32.307019",
   "85697f7424adcdd73f07bf7c13775b33": "2026-04-25T11:26:32.307019",
@@ -126,5 +126,9 @@
   "5c40ebc8acd7ca307738b77c9e8af196": "2026-04-25T19:58:14.094061",
   "a1bb545be83bf152280bb3535b9869ff": "2026-04-25T19:58:14.094061",
   "6f52d2c67f8983d05a00e866878b7ecb": "2026-04-25T19:58:14.094061",
-  "dadde2a6df0dc1928f0fafd0b6976699": "2026-04-25T19:58:14.094061"
+  "dadde2a6df0dc1928f0fafd0b6976699": "2026-04-25T19:58:14.094061",
+  "0683c8be418d6c0b15ff0867b9f62d9f": "2026-04-26T08:45:30.531923",
+  "d689b742657f818d10feeb0f4a66ea6e": "2026-04-26T08:45:30.531923",
+  "c4c6c20d4a3068e8637928ce165443bc": "2026-04-26T08:45:30.531923",
+  "322c8e8f832b32db9f711865ea0b0486": "2026-04-26T08:45:30.531923"
 }
