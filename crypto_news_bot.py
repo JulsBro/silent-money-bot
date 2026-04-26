@@ -92,8 +92,14 @@ def news_key(title: str) -> str:
     return hashlib.md5(title.lower().strip()[:120].encode()).hexdigest()
 
 
+def url_key(url: str) -> str:
+    return hashlib.md5(url.lower().strip().encode()).hexdigest()
+
+
 def filter_sent(news: list, log: dict) -> list:
-    filtered = [n for n in news if news_key(n["title"]) not in log]
+    filtered = [n for n in news
+                if news_key(n["title"]) not in log
+                and url_key(n["url"]) not in log]
     print(f"🔁 Gefiltert: {len(news)-len(filtered)} bereits gesendet → {len(filtered)} neu")
     return filtered
 
@@ -102,8 +108,11 @@ def mark_sent(items: list, log: dict) -> dict:
     now = datetime.utcnow().isoformat()
     for item in items:
         title = item.get("headline") or item.get("title", "")
+        url   = item.get("url", "")
         if title:
             log[news_key(title)] = now
+        if url:
+            log[url_key(url)] = now
     return log
 
 
@@ -407,9 +416,13 @@ def main():
         new_titles.append(item.get("headline",""))
         time.sleep(3)
 
-    # 7. Log speichern
+    # 7. Log speichern — recent_titles dedupliziert
     log = mark_sent(selected, log)
-    log["__recent_titles__"] = new_titles[-60:]  # Letzte 60 Headlines merken
+    seen_t, deduped = set(), []
+    for t in new_titles:
+        if t and t not in seen_t:
+            seen_t.add(t); deduped.append(t)
+    log["__recent_titles__"] = deduped[-60:]
     save_log(log)
     print(f"\n✅ Fertig! Log: {len([k for k in log if not k.startswith('__')])} Einträge")
 
