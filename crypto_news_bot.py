@@ -166,27 +166,93 @@ def fetch_market_snapshot() -> str:
 # ─── QUELLEN ──────────────────────────────────────────────────────────────────
 
 RSS_FEEDS = [
+    # 🇺🇸 Krypto
     ("https://www.coindesk.com/arc/outboundfeeds/rss/",         "CoinDesk",         "crypto",  "en"),
     ("https://cointelegraph.com/rss",                            "Cointelegraph",    "crypto",  "en"),
     ("https://decrypt.co/feed",                                  "Decrypt",          "crypto",  "en"),
     ("https://bitcoinmagazine.com/.rss/full/",                   "Bitcoin Magazine", "crypto",  "en"),
     ("https://theblock.co/rss.xml",                              "The Block",        "crypto",  "en"),
     ("https://blockworks.co/feed",                               "Blockworks",       "crypto",  "en"),
+    # 🇺🇸 Finanzen & Märkte
     ("https://feeds.a.dj.com/rss/RSSMarketsMain.xml",           "WSJ Markets",      "finance", "en"),
     ("https://www.cnbc.com/id/10000664/device/rss/rss.html",    "CNBC Finance",     "finance", "en"),
     ("https://feeds.bbci.co.uk/news/business/rss.xml",          "BBC Business",     "finance", "en"),
     ("https://www.ft.com/rss/home/uk",                          "Financial Times",  "finance", "en"),
     ("https://fortune.com/feed/",                               "Fortune",          "finance", "en"),
+    # 🇺🇸 Makro & Politik
     ("https://feeds.a.dj.com/rss/RSSWorldNews.xml",             "WSJ World",        "macro",   "en"),
     ("https://www.cnbc.com/id/100003114/device/rss/rss.html",   "CNBC Economy",     "macro",   "en"),
+    # 🤖 AI & Technologie
+    ("https://techcrunch.com/feed/",                            "TechCrunch",       "ai",      "en"),
+    ("https://www.theverge.com/rss/index.xml",                  "The Verge",        "ai",      "en"),
+    ("https://venturebeat.com/feed/",                           "VentureBeat",      "ai",      "en"),
+    ("https://www.wired.com/feed/rss",                          "Wired",            "ai",      "en"),
+    # 🌏 Global
     ("https://asia.nikkei.com/rss/feed/nar",                    "Nikkei Asia",      "finance", "en"),
+    # 🇩🇪🇪🇺 Europäisch
     ("https://www.handelsblatt.com/contentexport/feed/finanzen", "Handelsblatt",     "finance", "de"),
     ("https://www.faz.net/rss/aktuell/finanzen/",               "FAZ Finanzen",     "finance", "de"),
     ("https://www.btc-echo.de/feed/",                           "BTC-Echo",         "crypto",  "de"),
     ("https://www.crypto-news-flash.com/de/feed/",              "Crypto News Flash","crypto",  "de"),
+    # 🇷🇺 Russisch
     ("https://forklog.com/feed/",                               "Forklog",          "crypto",  "ru"),
     ("https://coinpost.ru/?feed=rss2",                          "CoinPost RU",      "crypto",  "ru"),
 ]
+
+# Twitter/X via Nitter RSS (kostenlos, keine API nötig)
+NITTER_ACCOUNTS = [
+    ("elonmusk",        "Elon Musk",              "twitter"),
+    ("vitalikbuterin",  "Vitalik Buterin",        "twitter"),
+    ("durov",           "Pavel Durov",            "twitter"),
+    ("cz_binance",      "CZ Binance",             "twitter"),
+    ("brian_armstrong", "Brian Armstrong",        "twitter"),
+    ("realDonaldTrump", "Donald Trump",           "twitter"),
+    ("ethereum",        "Ethereum",               "twitter"),
+    ("binance",         "Binance",                "twitter"),
+    ("coinbase",        "Coinbase",               "twitter"),
+    ("federalreserve",  "Federal Reserve",        "twitter"),
+    ("ECB",             "EZB",                    "twitter"),
+    ("michael_saylor",  "Michael Saylor",         "twitter"),
+    ("SBF_FTX",         "Sam Bankman-Fried",      "twitter"),
+]
+
+NITTER_INSTANCES = [
+    "https://nitter.net",
+    "https://nitter.privacydev.net",
+    "https://nitter.poast.org",
+]
+
+
+def fetch_nitter(account: str, name: str) -> list[dict]:
+    """Holt Tweets via Nitter RSS"""
+    import xml.etree.ElementTree as ET
+    for instance in NITTER_INSTANCES:
+        try:
+            url = f"{instance}/{account}/rss"
+            r   = requests.get(url, timeout=10,
+                               headers={"User-Agent": "Mozilla/5.0"})
+            if r.status_code != 200:
+                continue
+            root = ET.fromstring(r.content)
+            results = []
+            for item in root.findall(".//item")[:5]:
+                title = (item.findtext("title") or "").strip()
+                link  = (item.findtext("link")  or "").strip()
+                desc  = (item.findtext("description") or "")[:400]
+                if title and link and len(title) > 20:
+                    results.append({
+                        "title": f"[{name}] {title}",
+                        "url": link.replace(instance, "https://twitter.com"),
+                        "source": f"X/@{account}",
+                        "description": desc,
+                        "category": "twitter",
+                        "lang": "en",
+                    })
+            if results:
+                return results
+        except Exception:
+            continue
+    return []
 
 NEWSAPI_QUERIES = [
     ("crypto regulation SEC CFTC Congress",        "en"),
@@ -197,7 +263,10 @@ NEWSAPI_QUERIES = [
     ("Fed inflation recession macro",              "en"),
     ("Japan UAE Singapore crypto law",             "en"),
     ("whale bitcoin institutional BlackRock",      "en"),
+    ("AI regulation artificial intelligence law",  "en"),
+    ("OpenAI Anthropic Google AI policy",          "en"),
     ("Krypto BaFin EZB Regulierung",               "de"),
+    ("KI Regulierung Europa Deutschland",          "de"),
 ]
 
 
@@ -265,6 +334,14 @@ def fetch_all() -> list:
     for args in RSS_FEEDS:
         all_n.extend(fetch_rss(*args))
 
+    # Twitter via Nitter
+    print("🐦 Sammle Tweets...")
+    for account, name, _ in NITTER_ACCOUNTS:
+        tweets = fetch_nitter(account, name)
+        all_n.extend(tweets)
+        if tweets:
+            print(f"  ✅ @{account}: {len(tweets)} Tweets")
+
     seen, unique = set(), []
     for n in all_n:
         k = n["title"][:80].lower()
@@ -288,6 +365,9 @@ def summarize(news: list, recent_headlines: list, is_weekly: bool = False) -> li
 
     recent_str = "\n".join(f"- {h}" for h in recent_headlines[-40:]) if recent_headlines else "keine"
 
+    now_b     = datetime.utcnow() + timedelta(hours=2)
+    is_sunday = now_b.weekday() == 6
+
     prompt = f"""
 Jetzt: {now}. Redakteur von "Silent Money" — Krypto/Finanz Telegram-Kanal.
 Philosophie: Fakten. Regulatorische Entscheidungen. Unternehmenshandlungen. Ereignisse die Märkte bewegen.
@@ -296,29 +376,40 @@ Kein Lärm. Keine Meinungen. Keine Prognosen.
 BEREITS IN DEN LETZTEN 72H GESENDET (diese Themen NICHT wiederholen):
 {recent_str}
 
-AUFGABE: Wähle GENAU {count} Nachrichten. Nur Ereignisse die Märkte wirklich bewegen.
+AUFGABE: Wähle GENAU {count} Nachrichten.
 
-AUSWAHLREGELN:
-→ Regulierung: SEC, CFTC, MiCA, BaFin, Kongress, Kreml, Japan, UAE
-→ Zentralbanken: Fed, EZB, Zinsen, Inflation
-→ Politik: Trump, Sanktionen, Handelskrieg, G7
+TÄGLICH PRÜFEN:
+→ Krypto-Regulierung: SEC, CFTC, MiCA, BaFin, Kongress, Kreml, Japan, UAE
+→ Zentralbanken: Fed, EZB, Zinsentscheidungen
+→ Politik mit Marktauswirkung: Trump, Sanktionen, Handelskrieg
 → Unternehmen: Earnings, Übernahmen (Nvidia, Apple, Tesla, BlackRock, Coinbase)
 → Krypto-Institutionell: ETF, große Käufe, Hacks, Protokoll-Updates
 → Stille Bewegungen: Whales, staatliche BTC-Käufe, große OTC-Deals
-→ Makro: Rezession, Bankenkrisen
+→ AI-Regulierung: OpenAI, Anthropic, Google AI, EU AI Act, US AI Policy
+→ Twitter/X: Nur wenn eine relevante Persönlichkeit (Musk, Vitalik, CZ, Trump, Powell) etwas KONKRETES und MARKTRELEVANTES gepostet hat — keine Meinungen, nur Fakten oder Ankündigungen
+
+{"HEUTE SONNTAG — ZUSÄTZLICH PRÜFEN:" if is_sunday else ""}
+{"→ Rohstoffe: Öl (WTI/Brent), Gas, Kupfer, Lithium — wichtige Preisbewegungen oder OPEC-Entscheidungen" if is_sunday else ""}
+{"→ Währungen: Dollar-Index (DXY), EUR/USD, USD/JPY, Yuan — wichtige Bewegungen" if is_sunday else ""}
+{"→ Makro: CPI, PMI, Arbeitsmarkt — neue Daten der Woche" if is_sunday else ""}
+{"→ Energie: OPEC-Entscheidungen, Gaspreise Europa" if is_sunday else ""}
+
+TWITTER-FILTER (sehr streng):
+✓ Nur aufnehmen wenn: konkrete Ankündigung, Gesetzesvorhaben, Unternehmungsentscheidung
+✗ Nicht aufnehmen: Meinungen, Witze, Retweets ohne neue Info, allgemeine Kommentare
 
 STRENGE DEDUPLIZIERUNG:
-- Bereits gesendete Themen aus der Liste oben: NICHT nochmal senden
-- Pro Ereignis NUR EINE Nachricht — auch wenn 5 Quellen darüber berichten
+- Bereits gesendete Themen: NICHT nochmal senden
+- Pro Ereignis NUR EINE Quelle
 - Gleicher Inhalt mit anderer Überschrift = Duplikat = weglassen
-- Lieber 4 verschiedene Ereignisse als 5 mit Duplikat
 
 FORMAT pro Post (Deutsch):
 Emoji + fette Schlagzeile (max 10 Wörter, reiner Fakt)
 2-3 Sätze: Was passiert ist → Was es für Märkte bedeutet
+Bei Twitter-Posts: Wer hat was gesagt/angekündigt → Marktbedeutung
 Ton: Reuters, nicht Krypto-Blog
 
-JSON-Array (keine Codeblöcke, keine Erklärung):
+JSON-Array (keine Codeblöcke):
 [{{"emoji":"🏛","headline":"...","body":"...","source_name":"...","url":"..."}}]
 
 NACHRICHTEN:
