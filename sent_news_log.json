@@ -1,9 +1,4 @@
 {
-  "9c1fcd5abf413519fdb30d83b8eaf37e": "2026-04-23T10:10:52.599980",
-  "4f53c08850a8092732b8b9365f36bb0d": "2026-04-23T10:10:52.599980",
-  "de9625c5ab0e5bc178b2009581a302a4": "2026-04-23T10:10:52.599980",
-  "bbe31d74144092b826641d0e69b0d30c": "2026-04-23T10:10:52.599980",
-  "ef1354d2e8b3e5c9c51efd5c3dd97eea": "2026-04-23T10:10:52.599980",
   "1b8822dfb2f152c4ed8b5a6fdc1dced8": "2026-04-23T12:10:26.756546",
   "eb8877064c7900af13bb1f3dd8464e1d": "2026-04-23T12:10:26.756546",
   "36a84da3fc6686e417971e48a0a6ebf3": "2026-04-23T12:10:26.756546",
@@ -95,7 +90,12 @@
     "BlackRock Bitcoin-ETF überholt Deribit im Optionsvolumen",
     "Europäische Banken integrieren digitale Assets ins Kerngeschäft",
     "Quantenbedrohung: 6,9 Mio. Bitcoin gefährdet – Migration kritisch",
-    "Tennessee kriminalisiert Bitcoin- und Krypto-Automaten"
+    "Tennessee kriminalisiert Bitcoin- und Krypto-Automaten",
+    "Litecoin erleidet 13-Block-Reorg durch DoS-Angriff",
+    "BlackRock Bitcoin-ETF-Optionen überholen Deribit-Volumen",
+    "Quantencomputer-Bedrohung: 6,9 Mio. Bitcoin gefährdet",
+    "Brasilien verbietet 27 Prediction-Market-Plattformen",
+    "Europäische Banken integrieren Krypto-Assets ins Kerngeschäft"
   ],
   "bbb2f13c3bb28e19918a58caf1cfc24a": "2026-04-24T20:10:59.678025",
   "f79567852a324a85d89f63ee0f399804": "2026-04-24T20:10:59.678025",
@@ -130,5 +130,10 @@
   "0683c8be418d6c0b15ff0867b9f62d9f": "2026-04-26T08:45:30.531923",
   "d689b742657f818d10feeb0f4a66ea6e": "2026-04-26T08:45:30.531923",
   "c4c6c20d4a3068e8637928ce165443bc": "2026-04-26T08:45:30.531923",
-  "322c8e8f832b32db9f711865ea0b0486": "2026-04-26T08:45:30.531923"
+  "322c8e8f832b32db9f711865ea0b0486": "2026-04-26T08:45:30.531923",
+  "3ddd5feb6a70f45d8f9fd9b13cb1bd0b": "2026-04-26T11:27:09.033118",
+  "f9067b2f71efabf439f8efe0997a9d27": "2026-04-26T11:27:09.033118",
+  "091dc9f093e2f10cd1841a870754eb00": "2026-04-26T11:27:09.033118",
+  "687c621d10ccf6390d7f05ae6166a219": "2026-04-26T11:27:09.033118",
+  "da4659e8b3c5f02fe3b4494bf66c2e47": "2026-04-26T11:27:09.033118"
 }
