@@ -1,9 +1,4 @@
 {
-  "b5d74f0b44c05de5a7e1f1b1f4c820da": "2026-04-24T12:06:51.248019",
-  "4f796af9276fd70d0037c937695187e2": "2026-04-24T12:06:51.248019",
-  "504ddfdab41df8f0bb9f5841ce435cea": "2026-04-24T12:06:51.248019",
-  "6025770d0fbf1df5b524a9d6634281ea": "2026-04-24T12:06:51.248019",
-  "3ff04e70cd04e057a607e362a55e1455": "2026-04-24T12:06:51.248019",
   "__prices_shown_date__": "2026-04-24",
   "6772850d0ad9a2be750eafe24af65d93": "2026-04-24T16:05:02.553507",
   "f837a5d744c46cabdd036547beec20d9": "2026-04-24T16:05:02.553507",
@@ -27,10 +22,6 @@
   "533637fc3fef720594601dab4d44b914": "2026-04-24T18:37:46.565962",
   "604cf19618413b493f878a9991099cdd": "2026-04-24T18:37:46.565962",
   "__recent_titles__": [
-    "Wisconsin verklagt Polymarket und Kalshi wegen Sportwetten-Verträge",
-    "USA friert 344 Mio. USDT ein, Iran-Sanktionen verschärfen sich",
-    "Quantencomputer bricht 15-Bit-ECC-Schlüssel: Krypto-Bedrohung real",
-    "Metaplanet sammelt 50 Mio. Dollar für Bitcoin-Käufe ein",
     "EZB unterzeichnet Standards-Deals für digitalen Euro",
     "China verschärft Online-Marketing-Regeln gegen Krypto-Werbung",
     "CFTC verklagt New York wegen Prediction-Market-Regulierung",
@@ -85,7 +76,12 @@
     "Western Union startet Solana-Stablecoin USDPT im Mai",
     "Bitcoin-Fork-Proposal: Satoshi-Coins umzuverteilen umstritten",
     "Brasilien verbietet Prediction-Market-Plattformen komplett",
-    "Tennessee kriminalisiert Bitcoin- und Krypto-Geldautomaten"
+    "Tennessee kriminalisiert Bitcoin- und Krypto-Geldautomaten",
+    "Kanada verabschiedet Krypto-Spendenverbot mit konservativer Unterstützung",
+    "Südkoreas KBank testet Ripple für internationale Blockchain-Transfers",
+    "Bitmine kauft 236 Millionen Dollar Ether in Zehn Monaten",
+    "Banking Circle erhält MiCA-Lizenz für Euro-Stablecoin-Settlement",
+    "Microsoft und OpenAI überarbeiten Deal, lockern Exklusivität"
   ],
   "bbb2f13c3bb28e19918a58caf1cfc24a": "2026-04-24T20:10:59.678025",
   "f79567852a324a85d89f63ee0f399804": "2026-04-24T20:10:59.678025",
@@ -149,5 +145,15 @@
   "c8e1432759262fe6d596dc6e5050ad06": "2026-04-27T11:28:00.457341",
   "9d50cd3f45a20383b588d8bbc2f75b80": "2026-04-27T11:28:00.457341",
   "99a8aa1a85b678c9b4f89ac1581f2e40": "2026-04-27T11:28:00.457341",
-  "5bcbdde923f8e6b3fc03652c0722cb11": "2026-04-27T11:28:00.457341"
+  "5bcbdde923f8e6b3fc03652c0722cb11": "2026-04-27T11:28:00.457341",
+  "fc43f04b985606303767f2bb0c531194": "2026-04-27T15:27:05.084723",
+  "786c23b8cb2aff66e0d56b0b4ee37e56": "2026-04-27T15:27:05.084723",
+  "8e1b7627c4eaeb087f402761998e7307": "2026-04-27T15:27:05.084723",
+  "8ce2120e7d55ad776ba9252af547fef6": "2026-04-27T15:27:05.084723",
+  "72b39899f40d27d33e75aa24fd41d19e": "2026-04-27T15:27:05.084723",
+  "c445287a98e998f10ca01395e6e39a22": "2026-04-27T15:27:05.084723",
+  "60de30cc62d8f7b3317aa8aa097f4090": "2026-04-27T15:27:05.084723",
+  "5e4a39eefe3eaf990359303b0103d860": "2026-04-27T15:27:05.084723",
+  "32548b09a14c98ddd94a2c94cc53fec8": "2026-04-27T15:27:05.084723",
+  "b10ef899cef3581ded1eccc9b8293bb2": "2026-04-27T15:27:05.084723"
 }
