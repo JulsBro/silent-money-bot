@@ -1,15 +1,5 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "6772850d0ad9a2be750eafe24af65d93": "2026-04-24T16:05:02.553507",
-  "f837a5d744c46cabdd036547beec20d9": "2026-04-24T16:05:02.553507",
-  "67f4d11e48f35e33b90e9b2b02ed1fdd": "2026-04-24T16:05:02.553507",
-  "76699c85e1c4281f51a0ff9f6cfc1f3f": "2026-04-24T16:05:02.553507",
-  "1db0a6487d141aad1b28f405884fa72b": "2026-04-24T16:05:02.553507",
-  "67ba141bcbf429dd61b9cc4288e33c79": "2026-04-24T16:12:04.954774",
-  "55266c056a6668f019fb773879f1e69e": "2026-04-24T16:12:04.954774",
-  "ac949794b628e9dac2d47c1f1a0c0015": "2026-04-24T16:12:04.954774",
-  "7e01f982d6ee467b0d0f146d735182a3": "2026-04-24T16:12:04.954774",
-  "e3ad228396ca31839806047af4ed9781": "2026-04-24T16:12:04.954774",
   "f0f8ec4065ff3e6be65cdaa132241a2c": "2026-04-24T17:56:45.689527",
   "f76da77f793620d7642ebd7d8a087cce": "2026-04-24T17:56:45.689527",
   "ebf25936b9589288f6fd77029d5fcda3": "2026-04-24T17:56:45.689527",
@@ -22,11 +12,6 @@
   "533637fc3fef720594601dab4d44b914": "2026-04-24T18:37:46.565962",
   "604cf19618413b493f878a9991099cdd": "2026-04-24T18:37:46.565962",
   "__recent_titles__": [
-    "EZB unterzeichnet Standards-Deals für digitalen Euro",
-    "China verschärft Online-Marketing-Regeln gegen Krypto-Werbung",
-    "CFTC verklagt New York wegen Prediction-Market-Regulierung",
-    "SpaceX-IPO könnte Liquidität aus Krypto abziehen",
-    "Brasilien verbietet Prediction-Market-Plattformen umfassend",
     "Tennessee kriminalisiert Bitcoin- und Krypto-Automaten",
     "Bitcoin-Dollar-Korrelation erreicht 4-Jahres-Extremum",
     "Quantencomputer knackt 15-Bit-ECC-Schlüssel – Bitcoin-Migration jetzt kritisch",
@@ -81,7 +66,12 @@
     "Südkoreas KBank testet Ripple für internationale Blockchain-Transfers",
     "Bitmine kauft 236 Millionen Dollar Ether in Zehn Monaten",
     "Banking Circle erhält MiCA-Lizenz für Euro-Stablecoin-Settlement",
-    "Microsoft und OpenAI überarbeiten Deal, lockern Exklusivität"
+    "Microsoft und OpenAI überarbeiten Deal, lockern Exklusivität",
+    "Solana-Entwickler planen Schutz vor Quantenangriffen",
+    "Strategy kauft 3.273 Bitcoin – nähert sich 1-Million-Ziel",
+    "B2B-Stablecoin-Zahlungen erreichen 5 Billionen USD bis 2035",
+    "Tether launcht Open-Source-Framework für Bitcoin-Mining",
+    "Gemini integriert KI-Agenten für automatisiertes Trading"
   ],
   "bbb2f13c3bb28e19918a58caf1cfc24a": "2026-04-24T20:10:59.678025",
   "f79567852a324a85d89f63ee0f399804": "2026-04-24T20:10:59.678025",
@@ -155,5 +145,15 @@
   "60de30cc62d8f7b3317aa8aa097f4090": "2026-04-27T15:27:05.084723",
   "5e4a39eefe3eaf990359303b0103d860": "2026-04-27T15:27:05.084723",
   "32548b09a14c98ddd94a2c94cc53fec8": "2026-04-27T15:27:05.084723",
-  "b10ef899cef3581ded1eccc9b8293bb2": "2026-04-27T15:27:05.084723"
+  "b10ef899cef3581ded1eccc9b8293bb2": "2026-04-27T15:27:05.084723",
+  "22a38b72342726e38561ff6243ddd88b": "2026-04-27T17:45:28.939195",
+  "e64d01faaec7bf0b7b8fabfac8d117eb": "2026-04-27T17:45:28.939195",
+  "dc60850eae8e749215e047a0b1803b29": "2026-04-27T17:45:28.939195",
+  "5eb812c022ccf306b7c108d30444373c": "2026-04-27T17:45:28.939195",
+  "393c6a59e20b9a7bf974d7a79f8543d5": "2026-04-27T17:45:28.939195",
+  "09d7b18bae833ceccbf68da2d67e55d5": "2026-04-27T17:45:28.939195",
+  "f23148273de60f56c23d32ea735cfba4": "2026-04-27T17:45:28.939195",
+  "75e5d82ca966fb0f11a670da28241283": "2026-04-27T17:45:28.939195",
+  "25030fa2cd90d5575784f50165bfbda0": "2026-04-27T17:45:28.939195",
+  "8def163684fe6d197ab980a0cda70813": "2026-04-27T17:45:28.939195"
 }
