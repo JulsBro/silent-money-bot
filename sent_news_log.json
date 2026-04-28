@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-04-28",
   "__recent_titles__": [
-    "Brasilien verbietet 27 Prediction-Market-Plattformen",
-    "Europäische Banken integrieren Krypto-Assets ins Kerngeschäft",
-    "Bitcoin-Wale bauen Long-Positionen auf, Funding bleibt negativ",
-    "5,6 Mio. dormante Bitcoin-Einfrierung risikiert Repricing",
-    "MiCA reicht nicht: Bybit braucht weitere Lizenzen für Rentabilität",
     "BlackRock Bitcoin-ETF-Optionen überflügeln Deribit-Volumen",
     "Aave sammelt 160 Mio. Dollar für Kelp-DAO-Exploit-Verluste",
     "5,6 Millionen dormante Bitcoin könnten Repricing auslösen",
@@ -61,7 +56,12 @@
     "Riot erweitert 200-Millionen-Kreditfazilität mit Coinbase",
     "DeFi-Koalition präsentiert Rettungsplan für Aave-rsETH-Hack",
     "Microsoft warnt: Altbanken erreichen Belastungsgrenze durch KI",
-    "Soldat wegen Insider-Trading auf Polymarket angeklagt"
+    "Soldat wegen Insider-Trading auf Polymarket angeklagt",
+    "Robinhood: Krypto-Revenue um 47% gefallen, Prediction Markets kompensieren",
+    "RedStone startet Settlement Layer für RWA-Liquidität in DeFi",
+    "Chiliz expandiert auf Solana und Base für Fan-Token-Handel",
+    "Aave und Compound enthüllen Rettungsplan für Kelp-DAO-Hack",
+    "CFTC verklagt Wisconsin über Prediction-Markets-Jurisdiktion erneut"
   ],
   "466d86a4eb2c64d8c34990f2c66c6e29": "2026-04-26T20:02:04.970286",
   "0683c8be418d6c0b15ff0867b9f62d9f": "2026-04-26T08:45:30.531923",
@@ -175,5 +175,15 @@
   "315c8b7415acbb9a2eb69951655cb914": "2026-04-28T20:06:25.566258",
   "862e158460d8c64786cb1f011693d34c": "2026-04-28T20:06:25.566258",
   "01ea8e9532ed96033b1a26f25485656b": "2026-04-28T20:06:25.566258",
-  "f9582bd62cf10b856421c2946e310a9f": "2026-04-28T20:06:25.566258"
+  "f9582bd62cf10b856421c2946e310a9f": "2026-04-28T20:06:25.566258",
+  "6718b4d718a23da4eec8714f9e9930f0": "2026-04-28T21:41:27.917010",
+  "4b2e92c18a906897539214dc81eb304e": "2026-04-28T21:41:27.917010",
+  "5edee9bff807bcb7767465a53527f4ad": "2026-04-28T21:41:27.917010",
+  "56e3f5d1c0faaacde7ee823d58d06d09": "2026-04-28T21:41:27.917010",
+  "9b02e63a7758549acc5692345b3b346d": "2026-04-28T21:41:27.917010",
+  "2262ec49cd0d01d254036978ba2e17b8": "2026-04-28T21:41:27.917010",
+  "dbd25f7344905a2094dc468795790009": "2026-04-28T21:41:27.917010",
+  "fe947eafb3aba455b26a06845e7c1f64": "2026-04-28T21:41:27.917010",
+  "e21f386bfa4b69cd1b876e4eae2f76cc": "2026-04-28T21:41:27.917010",
+  "d8c93088c0ad4d81be599737dfd48829": "2026-04-28T21:41:27.917010"
 }
