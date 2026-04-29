@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-04-29",
   "__recent_titles__": [
-    "Banking Circle erhält MiCA-Lizenz für Euro-Stablecoin-Settlement",
-    "Microsoft und OpenAI überarbeiten Deal, lockern Exklusivität",
-    "Solana-Entwickler planen Schutz vor Quantenangriffen",
-    "Strategy kauft 3.273 Bitcoin – nähert sich 1-Million-Ziel",
-    "B2B-Stablecoin-Zahlungen erreichen 5 Billionen USD bis 2035",
     "Tether launcht Open-Source-Framework für Bitcoin-Mining",
     "Gemini integriert KI-Agenten für automatisiertes Trading",
     "MARA gründet Foundation gegen Quantenbedrohung für Bitcoin",
@@ -61,7 +56,12 @@
     "Meta zahlt Creator mit Stablecoin – Stripe Integration",
     "US-Senator: Clarity Act bereit für Anhörung",
     "JPMorgan ernennt neuen Blockchain-Chef",
-    "Visa expandiert Stablecoin-Settlement auf neue Netzwerke"
+    "Visa expandiert Stablecoin-Settlement auf neue Netzwerke",
+    "Fed hält Zinsen stabil – Powell bleibt Gouverneur",
+    "Visa erweitert Stablecoin-Settlement auf Polygon und Base",
+    "Meta zahlt Creator mit USDC auf Solana und Polygon",
+    "KuCoin EU stellt AML-Chef nach Österreich-Ban ein",
+    "Senator Tillis drängt auf Clarity-Act-Abstimmung"
   ],
   "574c93db6858cfec0effb1f937edb7a0": "2026-04-27T11:28:00.457341",
   "c8f769ef34c5a5ecd54bb0d50f7f803f": "2026-04-27T11:28:00.457341",
@@ -200,5 +200,14 @@
   "236e4979d17e97560752574a096bd9dc": "2026-04-29T20:03:32.220511",
   "c969ec012b9ba8b07ae33969b5d2f098": "2026-04-29T20:03:32.220511",
   "1423b5adb31a8d93c62d6e19f2d3ad2e": "2026-04-29T20:03:32.220511",
-  "7ee01cc5e91dea098102a6de3662d52c": "2026-04-29T20:03:32.220511"
+  "7ee01cc5e91dea098102a6de3662d52c": "2026-04-29T21:43:37.516598",
+  "dbe4daf6d69584ea86d8d37694b28315": "2026-04-29T21:43:37.516598",
+  "065bd14d22350243ab6448c43b9cd8be": "2026-04-29T21:43:37.516598",
+  "9dc57e77e0790ae142dd55ee34443cb1": "2026-04-29T21:43:37.516598",
+  "35cb1595c10ada068994c3e4cd30f76e": "2026-04-29T21:43:37.516598",
+  "b70df104b4821622e094c79ceffed8c9": "2026-04-29T21:43:37.516598",
+  "ba5dbaeee90001403f56f2a07affadc5": "2026-04-29T21:43:37.516598",
+  "bc0b761d220ad6a0080aa8ae3eac069a": "2026-04-29T21:43:37.516598",
+  "1d2ace11a7c7e3be88eaae52e1e33f46": "2026-04-29T21:43:37.516598",
+  "a5615db1fb101057632d5ef03763fd37": "2026-04-29T21:43:37.516598"
 }
