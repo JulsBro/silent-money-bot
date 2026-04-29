@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-04-28",
+  "__prices_date__": "2026-04-29",
   "__recent_titles__": [
-    "BlackRock Bitcoin-ETF-Optionen überflügeln Deribit-Volumen",
-    "Aave sammelt 160 Mio. Dollar für Kelp-DAO-Exploit-Verluste",
-    "5,6 Millionen dormante Bitcoin könnten Repricing auslösen",
-    "Bybit: MiCA reicht nicht für europäische Rentabilität",
-    "Litecoin leidet unter DoS-Angriff, schreibt 13 Blöcke neu",
     "Bitcoin-Wale bauen Long-Positionen auf trotz negativen Funding",
     "Brasilien verbietet 27 Prediction-Market-Plattformen komplett",
     "Bitcoin-Wale bauen Long-Positionen bei negativem Funding auf",
@@ -61,13 +56,15 @@
     "RedStone startet Settlement Layer für RWA-Liquidität in DeFi",
     "Chiliz expandiert auf Solana und Base für Fan-Token-Handel",
     "Aave und Compound enthüllen Rettungsplan für Kelp-DAO-Hack",
-    "CFTC verklagt Wisconsin über Prediction-Markets-Jurisdiktion erneut"
+    "CFTC verklagt Wisconsin über Prediction-Markets-Jurisdiktion erneut",
+    "Kanada plant Verbot von Krypto-Geldautomaten wegen Betrugsfällen",
+    "Celsius-Gründer Mashinsky einigt sich mit FTC auf 10-Millionen-Vergleich",
+    "Gericht lehnt neuen Prozess für SBF ab",
+    "Mezo launcht institutionelle Bitcoin-Yield-Vaults",
+    "Tether führt Belo-Finanzierung mit 14 Millionen USD an"
   ],
   "466d86a4eb2c64d8c34990f2c66c6e29": "2026-04-26T20:02:04.970286",
-  "0683c8be418d6c0b15ff0867b9f62d9f": "2026-04-26T08:45:30.531923",
   "d689b742657f818d10feeb0f4a66ea6e": "2026-04-26T17:12:33.506750",
-  "c4c6c20d4a3068e8637928ce165443bc": "2026-04-26T08:45:30.531923",
-  "322c8e8f832b32db9f711865ea0b0486": "2026-04-26T08:45:30.531923",
   "3ddd5feb6a70f45d8f9fd9b13cb1bd0b": "2026-04-26T15:05:41.504636",
   "f9067b2f71efabf439f8efe0997a9d27": "2026-04-26T11:27:09.033118",
   "091dc9f093e2f10cd1841a870754eb00": "2026-04-26T11:27:09.033118",
@@ -185,5 +182,15 @@
   "dbd25f7344905a2094dc468795790009": "2026-04-28T21:41:27.917010",
   "fe947eafb3aba455b26a06845e7c1f64": "2026-04-28T21:41:27.917010",
   "e21f386bfa4b69cd1b876e4eae2f76cc": "2026-04-28T21:41:27.917010",
-  "d8c93088c0ad4d81be599737dfd48829": "2026-04-28T21:41:27.917010"
+  "d8c93088c0ad4d81be599737dfd48829": "2026-04-28T21:41:27.917010",
+  "3156f3d172c238b23ff1f716cc688940": "2026-04-29T11:17:29.566909",
+  "bd24a5f907fa544f3cccd62d0d25c03d": "2026-04-29T11:17:29.566909",
+  "218b32be6c6b554c798339c91c4699c1": "2026-04-29T11:17:29.566909",
+  "fe4f109d936de515300f3ebdc68f5534": "2026-04-29T11:17:29.566909",
+  "df9dbcfed1c0add9312d751536e93130": "2026-04-29T11:17:29.566909",
+  "e24b2646dac8325aca1dc4d3d8c388af": "2026-04-29T11:17:29.566909",
+  "bc70805251f5ba0a7a65fbac0930da62": "2026-04-29T11:17:29.566909",
+  "2e78a2c011bbe05edcdff1d9cc9ce669": "2026-04-29T11:17:29.566909",
+  "40f9b429930adb8c09a5c9b11ec03c1d": "2026-04-29T11:17:29.566909",
+  "df63ed631b108cd6f76bfd273bd6fb9d": "2026-04-29T11:17:29.566909"
 }
