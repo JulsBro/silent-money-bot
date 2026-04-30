@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-04-29",
+  "__prices_date__": "2026-04-30",
   "__recent_titles__": [
-    "Tether launcht Open-Source-Framework für Bitcoin-Mining",
-    "Gemini integriert KI-Agenten für automatisiertes Trading",
-    "MARA gründet Foundation gegen Quantenbedrohung für Bitcoin",
-    "IREN schwenkt von Bitcoin-Mining zu 3,7-Mrd.-KI-Cloud um",
-    "Strive kauft 60 Millionen Dollar Bitcoin, plant Gipfel",
     "Rep. Begich plant neuen Bitcoin-Reserve-Gesetzentwurf",
     "Curve-Gründer pitcht Markt-Lösung für 700K-Schulden",
     "Western Union plant Stablecoin-Launch für SWIFT-Alternative",
@@ -61,7 +56,12 @@
     "Visa erweitert Stablecoin-Settlement auf Polygon und Base",
     "Meta zahlt Creator mit USDC auf Solana und Polygon",
     "KuCoin EU stellt AML-Chef nach Österreich-Ban ein",
-    "Senator Tillis drängt auf Clarity-Act-Abstimmung"
+    "Senator Tillis drängt auf Clarity-Act-Abstimmung",
+    "Wasabi Protocol drained for 4.5 Millionen Dollar – Admin-Key kompromittiert",
+    "Tether plant Dreiweg-Fusion mit Strike und Elektron",
+    "US, UAE und China zerschlagen neun Krypto-Betrugszentren",
+    "WLFI-Token fällt 14 Prozent – 62-Milliarden-Unit-Unlock zur Abstimmung",
+    "Brent-Öl auf 126 Dollar – Bitcoin rutscht unter 75.000"
   ],
   "574c93db6858cfec0effb1f937edb7a0": "2026-04-27T11:28:00.457341",
   "c8f769ef34c5a5ecd54bb0d50f7f803f": "2026-04-27T11:28:00.457341",
@@ -209,5 +209,15 @@
   "ba5dbaeee90001403f56f2a07affadc5": "2026-04-29T21:43:37.516598",
   "bc0b761d220ad6a0080aa8ae3eac069a": "2026-04-29T21:43:37.516598",
   "1d2ace11a7c7e3be88eaae52e1e33f46": "2026-04-29T21:43:37.516598",
-  "a5615db1fb101057632d5ef03763fd37": "2026-04-29T21:43:37.516598"
+  "a5615db1fb101057632d5ef03763fd37": "2026-04-29T21:43:37.516598",
+  "afe8e2edf68fe21c62f632ecccadd61d": "2026-04-30T11:17:15.140246",
+  "12dcc5b54776e9fab741c897aa84de52": "2026-04-30T11:17:15.140246",
+  "57ceed09ad9c40eb0e2f85123687eba6": "2026-04-30T11:17:15.140246",
+  "e88fc4d815d1b2378907ab6247576090": "2026-04-30T11:17:15.140246",
+  "b712135148b3134344740a58d85578db": "2026-04-30T11:17:15.140246",
+  "9d0d3177d8a72dedb92b70f43e3e8882": "2026-04-30T11:17:15.140246",
+  "9ffc2df8c1e2d9305b43aff24922068e": "2026-04-30T11:17:15.140246",
+  "f18121545540fede22c7210d1e241f88": "2026-04-30T11:17:15.140246",
+  "9253e0a9bc9efc30ab374db52068cce2": "2026-04-30T11:17:15.140246",
+  "b10db21889cb1559ed86a9447774ec7b": "2026-04-30T11:17:15.140246"
 }
