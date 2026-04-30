@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-04-30",
   "__recent_titles__": [
-    "Weißes Haus signalisiert Bitcoin-Reserve-Ankündigung in Kürze",
-    "Israel genehmigt erste regulierte Stablecoin BILS",
-    "Block nähert sich 9.000 Bitcoin im Treasury",
-    "Bank of Japan: Drei Ratsmitglieder fordern Leitzinserhöhung",
-    "DOJ bestätigt: Code ist kein Verbrechen",
     "Solana-Validator-Clients implementieren Post-Quantum Falcon",
     "Visa baut mit Tether-Mitgründer Stablecoin-Bankinfrastruktur auf",
     "Post-Quantum-Wallet schützt Bitcoin ohne Hard Fork",
@@ -61,7 +56,12 @@
     "Polymarket integriert Chainalysis für Wall-Street-Aufsicht",
     "Anchorage und M0 kooperieren bei regulierten Stablecoins",
     "Nordkoreanische Hacker verursachen 76% aller Krypto-Exploits",
-    "USA beschlagnahmen 500 Millionen Dollar iranischer Krypto-Assets"
+    "USA beschlagnahmen 500 Millionen Dollar iranischer Krypto-Assets",
+    "Banken drängen auf Verzögerung von Stablecoin-Gesetz",
+    "Polymarket-Insiderhandel: Militär zeigt verdächtig hohe Gewinnquoten",
+    "Coinbase Asset Manager launcht Stablecoin-Kreditfonds",
+    "UK-Regulator genehmigt tokenisierte Fonds unter bestehenden Regeln",
+    "AllUnity expandiert MiCA-Euro-Stablecoin auf Solana"
   ],
   "8e1b7627c4eaeb087f402761998e7307": "2026-04-27T21:38:05.369348",
   "22a38b72342726e38561ff6243ddd88b": "2026-04-27T17:45:28.939195",
@@ -210,5 +210,15 @@
   "bf8f0c33cec3c6e89055547e08a22c67": "2026-04-30T15:30:04.708313",
   "3a841376d0fafa10ad86fa4cbe9e24a4": "2026-04-30T15:30:04.708313",
   "fcda63251869753a4e418d447508bdf7": "2026-04-30T15:30:04.708313",
-  "2c30dcc019643ecd015055a9d73fe8f0": "2026-04-30T15:30:04.708313"
+  "2c30dcc019643ecd015055a9d73fe8f0": "2026-04-30T15:30:04.708313",
+  "78a3fb7683a9ea4857c428a10dbe76ca": "2026-04-30T17:06:37.560366",
+  "9e9ec332382d35ee4acebc676b1a8975": "2026-04-30T17:06:37.560366",
+  "fb67cc0d9cdc5c93938bd3a8beb07965": "2026-04-30T17:06:37.560366",
+  "1802dd92982226879e76e19ce54a5970": "2026-04-30T17:06:37.560366",
+  "b2e2136e409a5357564920c64e0cbc30": "2026-04-30T17:06:37.560366",
+  "6fdf204ecd11e7e303ca776ba428c0f5": "2026-04-30T17:06:37.560366",
+  "b49b46b57ad5d02e7892a19da2c488e3": "2026-04-30T17:06:37.560366",
+  "efa0c3de5a8d29c6e67589b87ac4072c": "2026-04-30T17:06:37.560366",
+  "767f0232f1a59a115e23b449130d1fed": "2026-04-30T17:06:37.560366",
+  "416deb28d3ec41207294ad9dbc8cbd18": "2026-04-30T17:06:37.560366"
 }
