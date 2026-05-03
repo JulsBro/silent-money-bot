@@ -2,9 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-03",
   "__recent_titles__": [
-    "Senat verbietet Senatoren Handel auf Prediction Markets",
-    "Polymarket startet Compliance-Tools mit Chainalysis",
-    "MARA Holdings kauft Long Ridge Energy für 1,5 Milliarden Dollar",
     "Südkorea fordert 20-Jahres-Strafe für Delio-CEO",
     "Crypto-Marktstruktur-Gesetz rückt näher — Mai-Abstimmung geplant",
     "Stablecoins verdrängen Bitcoin in Lateinamerika",
@@ -61,7 +58,10 @@
     "Kraken-Muttergesellschaft schließt Bitnomial-Übernahme ab",
     "BlackRock fordert Lockerung von Tokenisierungs-Obergrenzen",
     "New York zwingt Uphold zu 5-Millionen-Dollar-Zahlung",
-    "Irans führende Krypto-Börse Nobitex von Elite-Familie gegründet"
+    "Irans führende Krypto-Börse Nobitex von Elite-Familie gegründet",
+    "Figure Technologies erreicht 1 Milliarde Dollar Transaktionen monatlich",
+    "Vorhersagemärkte erreichen 240-Milliarden-Dollar-Volumen",
+    "Minnesota verbietet KI-Apps für Fake-Nacktbilder"
   ],
   "405c6fe9bc6170e258af38ec72c69b00": "2026-04-30T15:30:04.708313",
   "2c747334eefae43e1df9db68072868e7": "2026-04-30T15:30:04.708313",
@@ -182,14 +182,20 @@
   "ec1d35b65403cf93fe80ff4e31c71690": "2026-05-02T20:05:03.050544",
   "087d95b33e4d0cafb847c0c6dddaaa3b": "2026-05-02T20:05:03.050544",
   "ba37ec392aee6313a5222625c9afd54d": "2026-05-02T20:05:03.050544",
-  "381c178a946616c814197a77fe0d98fc": "2026-05-03T11:28:29.721077",
+  "381c178a946616c814197a77fe0d98fc": "2026-05-03T15:09:36.930954",
   "5731cf83228089ed1cd85507e6bea4a0": "2026-05-03T09:49:16.481183",
   "6e26f5af701587310a6540fceed7d442": "2026-05-03T11:28:29.721077",
   "02fe72ecc7e661ae3cd2e83b68c301cc": "2026-05-03T09:49:16.481183",
   "d573f3947addbb7b8a1fc079afe292cc": "2026-05-03T11:28:29.721077",
   "66f66b2c0efef628b36adb1917fe37d0": "2026-05-03T11:28:29.721077",
-  "c06a4ed77b9a167cd9061edb0319f36b": "2026-05-03T11:28:29.721077",
-  "6ddbba4ebfc450850738a0ea212c0b0f": "2026-05-03T11:28:29.721077",
+  "c06a4ed77b9a167cd9061edb0319f36b": "2026-05-03T15:09:36.930954",
+  "6ddbba4ebfc450850738a0ea212c0b0f": "2026-05-03T15:09:36.930954",
   "6f423f34212fd2a35de66c698a7195ba": "2026-05-03T11:28:29.721077",
-  "1d1192f9cbb9809836a3f09f4406bb0e": "2026-05-03T11:28:29.721077"
+  "1d1192f9cbb9809836a3f09f4406bb0e": "2026-05-03T15:09:36.930954",
+  "05218e16adb5ee64bc31f587fedb3ee5": "2026-05-03T15:09:36.930954",
+  "65c01230aea8bb492697b17a4246f7f7": "2026-05-03T15:09:36.930954",
+  "42e023369064fc12849f8da49c7d20f1": "2026-05-03T15:09:36.930954",
+  "54b5aa6e656f350fbfb7cc932a264d0c": "2026-05-03T15:09:36.930954",
+  "b981f41f4fb28f14db1e0fab828d51e6": "2026-05-03T15:09:36.930954",
+  "562a402d09677b621fc81de3e6227e14": "2026-05-03T15:09:36.930954"
 }
