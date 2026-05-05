@@ -437,7 +437,47 @@ NACHRICHTEN:
         return []
 
 
-# ─── TELEGRAM ─────────────────────────────────────────────────────────────────
+def self_check_duplicates(selected: list, recent_titles: list) -> list:
+    """Claude prüft seine eigene Auswahl nochmal auf inhaltliche Duplikate"""
+    if not recent_titles or not selected:
+        return selected
+
+    selected_json  = json.dumps([{"i": i, "h": s.get("headline","")} for i, s in enumerate(selected)], ensure_ascii=False)
+    recent_str     = "\n".join(f"- {t}" for t in recent_titles[-50:])
+
+    prompt = f"""Du hast diese Nachrichten ausgewählt:
+{selected_json}
+
+Bereits in den letzten 72h gesendet:
+{recent_str}
+
+Prüfe: Welche der ausgewählten Nachrichten sind inhaltlich GLEICH oder SEHR ÄHNLICH zu bereits gesendeten?
+Gleich = dasselbe Ereignis, auch wenn anders formuliert.
+
+Antworte NUR mit JSON-Array der Indizes die BEHALTEN werden sollen (nicht die Duplikate):
+[0, 1, 2, 3, 4]
+
+Wenn alle ok: alle Indizes zurückgeben. Wenn ein Duplikat: diesen Index weglassen."""
+
+    try:
+        resp = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=100,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = resp.content[0].text.strip().replace("```json","").replace("```","").strip()
+        keep = json.loads(text)
+        result = [selected[i] for i in keep if i < len(selected)]
+        removed = len(selected) - len(result)
+        if removed > 0:
+            print(f"🔍 Selbstprüfung: {removed} Duplikat(e) entfernt")
+        return result
+    except Exception as e:
+        print(f"[Selbstprüfung] Fehler: {e}")
+        return selected
+
+
+
 
 def send(text: str) -> bool:
     try:
@@ -482,10 +522,13 @@ def main():
     # Wir speichern Headlines separat
     recent_titles = log.get("__recent_titles__", [])
 
-    # 5. Claude
+    # 5. Claude wählt aus
     selected = summarize(filtered, recent_titles, is_weekly)
     if not selected:
         print("❌ Nichts von Claude"); return
+
+    # 5b. Selbstprüfung — Claude checkt nochmal auf Duplikate
+    selected = self_check_duplicates(selected, recent_titles)
 
     # 6. Senden
     if is_weekly:
