@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-06",
   "__recent_titles__": [
-    "Südkorea warnt vor übermäßigen AML-Reporting-Schwellen",
-    "Shopify, Nationale Bank Kanada stützen neue 24/7-Stablecoin CADD",
-    "Payward schließt 550-Millionen-Dollar-Bitnomial-Deal ab",
-    "Western Union startet USDPT-Stablecoin auf Solana",
-    "DTCC startet Tokenisierungs-Service mit Wall-Street-Partnern",
     "Trump-World-Liberty verklagt Justin Sun wegen Marktmanipulation",
     "Hut 8 refinanziert Bitcoin-Darlehen mit $200M FalconX-Deal",
     "BitMine kauft $238 Millionen Ethereum nach Clarity-Act-Fortschritt",
@@ -61,7 +56,12 @@
     "JPMorgan, Ondo, Mastercard siedeln Schatzanleihen auf XRP Ledger",
     "Amina wird erste regulierte Bank für Canton-Coin-Verwahrung",
     "Bitcoin-Dominanz überschreitet 61-Prozent-Marke",
-    "Bittrex verlangt 24-Millionen-Dollar-Settlement von SEC zurück"
+    "Bittrex verlangt 24-Millionen-Dollar-Settlement von SEC zurück",
+    "White House zielt auf Juli 4 für Clarity Act Verabschiedung",
+    "Senator Gillibrand: Krypto-Marktstruktur-Abstimmung bis August möglich",
+    "OKX startet Perpetual Futures für OpenAI, SpaceX, Anthropic",
+    "Bitcoin- und Ethereum-Quantenbedrohung könnte 2030 ankommen",
+    "Anthropic setzt AI-Agenten für Wall-Street-Aufgaben ein"
   ],
   "b15d336a973d000719c8aedda8f81bfe": "2026-05-04T15:33:48.053416",
   "78ce1fd0e9d82d8733127333556d0156": "2026-05-04T15:33:48.053416",
@@ -190,5 +190,15 @@
   "4ed3eb936514eda512a3724ddd481134": "2026-05-06T20:14:19.214552",
   "1cccc99e9b962e0ac12dfc536ac08fd2": "2026-05-06T20:14:19.214552",
   "983b48dff1c232bb92fab907bf4430c1": "2026-05-06T20:14:19.214552",
-  "a07d1337f0f8fb0eab554c86f00ecbdb": "2026-05-06T20:14:19.214552"
+  "a07d1337f0f8fb0eab554c86f00ecbdb": "2026-05-06T20:14:19.214552",
+  "a16bb1e645e1c35bfc98834ae4543b24": "2026-05-06T21:45:40.530676",
+  "1bf424772a2aa535d4463bc6a4d98e8b": "2026-05-06T21:45:40.530676",
+  "2e2033f529c498449815a5ff51dc8f60": "2026-05-06T21:45:40.530676",
+  "a4eddcd9bc652d183a163a33ecdf4add": "2026-05-06T21:45:40.530676",
+  "2e29f490bc32066cc7f99a1a00a0fb3f": "2026-05-06T21:45:40.530676",
+  "50161eda89988371398bb4417df588e9": "2026-05-06T21:45:40.530676",
+  "57ea967d1480cf0eb1bafcc35b497758": "2026-05-06T21:45:40.530676",
+  "a6ba5d637aa31efe529c580ebcd241df": "2026-05-06T21:45:40.530676",
+  "1463f3f2e9702fa4fcbd2f6f1debaf05": "2026-05-06T21:45:40.530676",
+  "13de4c5b1d73f45eb7969dc391a1db0f": "2026-05-06T21:45:40.530676"
 }
