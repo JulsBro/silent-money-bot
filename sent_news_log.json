@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-05-06",
+  "__prices_date__": "2026-05-07",
   "__recent_titles__": [
-    "Trump-World-Liberty verklagt Justin Sun wegen Marktmanipulation",
-    "Hut 8 refinanziert Bitcoin-Darlehen mit $200M FalconX-Deal",
-    "BitMine kauft $238 Millionen Ethereum nach Clarity-Act-Fortschritt",
-    "Vorhersagemärkte treten in institutionelle Phase nach Blockhandel ein",
-    "Aave bekämpft $73 Millionen ETH-Sperrung vor Gericht",
     "Upbits Ethereum-Rollup startet mit Optimism-Unterstützung",
     "Senatoren einigen sich auf Clarity Act Stablecoin-Kompromiss",
     "Haun Ventures schließt 1-Milliarden-Dollar-Fonds für KI-Agenten",
@@ -61,7 +56,12 @@
     "Senator Gillibrand: Krypto-Marktstruktur-Abstimmung bis August möglich",
     "OKX startet Perpetual Futures für OpenAI, SpaceX, Anthropic",
     "Bitcoin- und Ethereum-Quantenbedrohung könnte 2030 ankommen",
-    "Anthropic setzt AI-Agenten für Wall-Street-Aufgaben ein"
+    "Anthropic setzt AI-Agenten für Wall-Street-Aufgaben ein",
+    "BNY Mellon erweitert Krypto-Services in Abu Dhabi",
+    "Ripple, JPMorgan: Erste tokenisierte Treasury-Redemption auf XRP",
+    "Core Scientific verkauft 208 Millionen Dollar Bitcoin im Q1",
+    "TrustedVolumes erleidet 6,7-Millionen-Dollar-Exploit",
+    "UAE-regulierte Stablecoins entwickeln AED-USD-Settlement-Rails"
   ],
   "b15d336a973d000719c8aedda8f81bfe": "2026-05-04T15:33:48.053416",
   "78ce1fd0e9d82d8733127333556d0156": "2026-05-04T15:33:48.053416",
@@ -200,5 +200,15 @@
   "57ea967d1480cf0eb1bafcc35b497758": "2026-05-06T21:45:40.530676",
   "a6ba5d637aa31efe529c580ebcd241df": "2026-05-06T21:45:40.530676",
   "1463f3f2e9702fa4fcbd2f6f1debaf05": "2026-05-06T21:45:40.530676",
-  "13de4c5b1d73f45eb7969dc391a1db0f": "2026-05-06T21:45:40.530676"
+  "13de4c5b1d73f45eb7969dc391a1db0f": "2026-05-06T21:45:40.530676",
+  "1879a5257070a21f2cf5820c8c391733": "2026-05-07T11:29:59.280079",
+  "46e417c67513daffee2b522fe7d2ea4a": "2026-05-07T11:29:59.280079",
+  "85fd999ee87f9ea9c0d3cdb339d2f9fe": "2026-05-07T11:29:59.280079",
+  "62fe246d787a734482cc1b7a7821c916": "2026-05-07T11:29:59.280079",
+  "ab8a1f18fb57c54348b0b53b824416ff": "2026-05-07T11:29:59.280079",
+  "0e702da09fbaaa482027f0bbdd2d865e": "2026-05-07T11:29:59.280079",
+  "04f1d07d17a461bc09d1f8f62b3dd74e": "2026-05-07T11:29:59.280079",
+  "887a36fddd4014e89f34dff3c09447f3": "2026-05-07T11:29:59.280079",
+  "1f22a22c02beaae270cdf462e77da665": "2026-05-07T11:29:59.280079",
+  "98b66c801f3a967b16107f6cd6852ce3": "2026-05-07T11:29:59.280079"
 }
