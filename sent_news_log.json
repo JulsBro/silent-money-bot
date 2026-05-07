@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-07",
   "__recent_titles__": [
-    "DTCC zielt auf Oktober-Start für tokenisierte Wertpapiere",
-    "Coinbase streicht 14% der Belegschaft wegen AI-Umstrukturierung",
-    "Andreessen Horowitz sammelt 2,2 Milliarden für fünften Krypto-Fonds",
-    "Standard Chartered investiert 150 Millionen in GSR-Handelsfirma",
-    "Telegram wird größter TON-Validator, senkt Gebühren gegen Null",
     "Clarity Act braucht Senatshearing diesen Monat für Verabschiedung",
     "Coinbase investiert strategisch in Centrifuge für Tokenisierung",
     "State Street und Galaxy starten tokenisierten Cash-Management-Fonds",
@@ -61,7 +56,12 @@
     "Solv Protocol migriert $700M Bitcoin-Assets zu Chainlink CCIP",
     "Anchorage hat 20 Großunternehmen in Stablecoin-Pipeline",
     "Polygon reduziert Block-Zeit auf 1,75 Sekunden",
-    "Bitcoin-Spot-ETFs sammeln 5 Wochen lang Kapital ein"
+    "Bitcoin-Spot-ETFs sammeln 5 Wochen lang Kapital ein",
+    "CZ plant Binance.US-Neustart für US-Krypto-Liquidität",
+    "Tether-Chef warnt vor seismischen Auswirkungen 2026-Wahlen",
+    "Amazon, Coinbase, Stripe verbinden AI-Agenten mit USDC",
+    "21Shares startet Canton-Network-ETF auf Nasdaq",
+    "IMF warnt: AI beschleunigt Cyberattacken auf Finanzsystem"
   ],
   "1af24347cbce6a84f01fc3385387c934": "2026-05-04T20:06:48.496230",
   "7f3ec46ce6f1a36c6dd4f8c06f43b649": "2026-05-04T20:06:48.496230",
@@ -210,5 +210,15 @@
   "c6a773f569cfdf635dab423a92fcfbec": "2026-05-07T18:14:25.791327",
   "19a40e4b09834a2c2c456b8a05fded58": "2026-05-07T18:14:25.791327",
   "82af38b05bee1464e7c147c1eacbbad0": "2026-05-07T18:14:25.791327",
-  "adba38e9554cb2082be1402d7604c210": "2026-05-07T18:14:25.791327"
+  "adba38e9554cb2082be1402d7604c210": "2026-05-07T18:14:25.791327",
+  "9815db6606e1d2c357db045e5679df15": "2026-05-07T20:06:51.018105",
+  "38e214863ce1c264a577fc4be3ee39d1": "2026-05-07T20:06:51.018105",
+  "f4a0737cb891dba639c61c7a25a7ea62": "2026-05-07T20:06:51.018105",
+  "9032cf66e50d885c219f4f49b97b7e6e": "2026-05-07T20:06:51.018105",
+  "e41e0fecb5bfb9e74a7fc64fe81d8926": "2026-05-07T20:06:51.018105",
+  "fc10042d6fe36f5c5731a28bd510e6b1": "2026-05-07T20:06:51.018105",
+  "dd86ac36d2b514f068a09d365fac7045": "2026-05-07T20:06:51.018105",
+  "f7de144b25b3323f5a075ac1b4f8a256": "2026-05-07T20:06:51.018105",
+  "c174f9c980391226d6bee4599df38969": "2026-05-07T20:06:51.018105",
+  "5a4b4fb4bcde0bc236e4d5c0f46dcd5d": "2026-05-07T20:06:51.018105"
 }
