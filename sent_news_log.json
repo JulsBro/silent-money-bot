@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-08",
   "__recent_titles__": [
-    "Solana und Google Cloud starten KI-Agent-Zahlungsdienst",
-    "Taurus erhält MiFID-Lizenz in Zypern für EU-Tokenisierung",
-    "Robinhood, Bitstamp: Banken bauen On-Chain-Infrastruktur auf",
-    "CME startet Bitcoin-Volatilitäts-Futures unabhängig vom Preis",
-    "Nordkorea-Opfer eskalieren Kampf um 71 Millionen aus Aave",
     "Kelp migriert rsETH zu Chainlink CCIP nach LayerZero-Fehler",
     "Morgan Stanley startet Krypto-Trading auf E*Trade mit niedrigeren Gebühren",
     "Börse England: Stablecoin-Branche lehnt Wallet-Verbot ab",
@@ -61,7 +56,12 @@
     "Bitcoin fällt unter 80.000 Dollar nach Iran-Eskalation",
     "Stablecoin-Kartenausgaben wachsen 100% Jahr-über-Jahr",
     "EZB-Lagarde: Stablecoins stärken Euro-Position nicht",
-    "CLARITY Act erhält +20-Prozent Wahlbonus"
+    "CLARITY Act erhält +20-Prozent Wahlbonus",
+    "Coinbase Ausfallauswirkungen nach Amazon AWS-Fehler",
+    "Australien intensiviert Krypto-Regulierungsaufsicht",
+    "Arbitrum DAO freigegrenzt 70 Millionen für Kelp-Relief",
+    "Tether friert über 500 Millionen USDT ein",
+    "Stablecoin-Regulierung beschleunigt institutionelle Adoption"
   ],
   "c112e407ee84fc38beace7de71b53a40": "2026-05-05T17:09:50.649807",
   "8f9c7fa8d84b20c8e55c9a1f43bcc89d": "2026-05-05T17:09:50.649807",
@@ -210,5 +210,15 @@
   "192bef595d61c58f9fc77d75213d7695": "2026-05-08T15:08:36.071527",
   "4e5fe234a74f660fa8a1c9cc93410f30": "2026-05-08T15:08:36.071527",
   "a031cf9adf11c9bbd75036ee11e9424a": "2026-05-08T15:08:36.071527",
-  "444711174e901e4295151547b56c68ab": "2026-05-08T15:08:36.071527"
+  "444711174e901e4295151547b56c68ab": "2026-05-08T15:08:36.071527",
+  "8f5bc6dc1087d53f7e66af573ee0206f": "2026-05-08T16:56:52.464590",
+  "a82b5f3dfc3eaa270500df2abef01ca8": "2026-05-08T16:56:52.464590",
+  "8521458ddfedce8b64ee0a5ad74dd675": "2026-05-08T16:56:52.464590",
+  "7b1be291c1c202f318aaa08a528547cd": "2026-05-08T16:56:52.464590",
+  "a1e293a5ca2d5f1f68394d0998546ba5": "2026-05-08T16:56:52.464590",
+  "96252bf05fa27865897f0913ac7eb6f1": "2026-05-08T16:56:52.464590",
+  "afe59330246a91940ca84ebd03e0131b": "2026-05-08T16:56:52.464590",
+  "c9978179c011037ce6933bd3e11236bf": "2026-05-08T16:56:52.464590",
+  "167d2bda14d78ec93bbf20af17e028a7": "2026-05-08T16:56:52.464590",
+  "75a3afdb273515d71a4bf9bf499958da": "2026-05-08T16:56:52.464590"
 }
