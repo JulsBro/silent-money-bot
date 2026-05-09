@@ -2,10 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-09",
   "__recent_titles__": [
-    "Senator Gillibrand: Krypto-Marktstruktur-Abstimmung bis August möglich",
-    "OKX startet Perpetual Futures für OpenAI, SpaceX, Anthropic",
-    "Bitcoin- und Ethereum-Quantenbedrohung könnte 2030 ankommen",
-    "Anthropic setzt AI-Agenten für Wall-Street-Aufgaben ein",
     "BNY Mellon erweitert Krypto-Services in Abu Dhabi",
     "Ripple, JPMorgan: Erste tokenisierte Treasury-Redemption auf XRP",
     "Core Scientific verkauft 208 Millionen Dollar Bitcoin im Q1",
@@ -61,7 +57,11 @@
     "Kraken-Mutter Payward beantragt OCC-Bankcharter",
     "Bitcoin-Spot-ETFs verzeichnen 6 Wochen Netto-Zuflüsse",
     "Gericht genehmigt Arbitrum, 71 Millionen ETH aus Nordkorea-Hack zu transferieren",
-    "EZB-Lagarde warnt vor strukturellen Schwächen von Euro-Stablecoins"
+    "EZB-Lagarde warnt vor strukturellen Schwächen von Euro-Stablecoins",
+    "CME startet Bitcoin-Volatilitäts-Futures am 1. Juni",
+    "BlackRock erweitert Tokenisierungs-Produktlinie",
+    "LayerZero übernimmt Verantwortung für 292-Million-Kelp-Exploit",
+    "Bitcoin-Spot-ETFs verzeichnen 6. Woche Netto-Zuflüsse"
   ],
   "b33957ff82017e6724749c83a38db77a": "2026-05-06T16:12:47.488228",
   "e0311f28afa1109af2f8fa6583d56745": "2026-05-06T16:12:47.488228",
@@ -207,7 +207,7 @@
   "a6ecefac417653da47efa559a1ab477a": "2026-05-09T09:54:59.254317",
   "db72baa6041ff0c9a7cbdd0b3e1588f2": "2026-05-09T09:54:59.254317",
   "f4468234b9914ebd788bcb7f2f30e757": "2026-05-09T09:54:59.254317",
-  "106df553c8899dce91fff7b33dd44772": "2026-05-09T11:39:03.893699",
+  "106df553c8899dce91fff7b33dd44772": "2026-05-09T15:36:57.297005",
   "15c64515b1c8885993527f15e508e58e": "2026-05-09T11:39:03.893699",
   "8e0c2e581bf026f22212e40221fc43c0": "2026-05-09T11:39:03.893699",
   "f0de6dc55bdd97128144d61d65bc7078": "2026-05-09T11:39:03.893699",
@@ -216,5 +216,14 @@
   "3612d60e224ca6e499168f9e81cb5993": "2026-05-09T11:39:03.893699",
   "aa6fdf7001121cb05cff3472531142d8": "2026-05-09T11:39:03.893699",
   "12d365df5668a725fe815fc612bb0d06": "2026-05-09T11:39:03.893699",
-  "cd60345912ccc645a37b5e0f08fa2ffc": "2026-05-09T11:39:03.893699"
+  "cd60345912ccc645a37b5e0f08fa2ffc": "2026-05-09T11:39:03.893699",
+  "3a136c6de269ed37527ec76fc3b6feb2": "2026-05-09T15:36:57.297005",
+  "8942137be5822a3b827f815a369acbcb": "2026-05-09T15:36:57.297005",
+  "767d3db1ac50d9e17d70ec632de9b722": "2026-05-09T15:36:57.297005",
+  "2a437acac6deebb7b448cb6ea3d0aa4b": "2026-05-09T15:36:57.297005",
+  "3cb0c46b2533b028f8416836f7fbbf91": "2026-05-09T15:36:57.297005",
+  "e31d0cc2ce24b8043ff3dcde3b55edb5": "2026-05-09T15:36:57.297005",
+  "f6ce97b33d2635c3c779f7c09dbf3fda": "2026-05-09T15:36:57.297005",
+  "013a91ee76657b7406f1764140d9b068": "2026-05-09T15:36:57.297005",
+  "2f8b8d2cd14c44352bb10169f004f7fe": "2026-05-09T15:36:57.297005"
 }
