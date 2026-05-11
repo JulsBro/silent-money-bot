@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-11",
   "__recent_titles__": [
-    "Stablecoin-Regulierung beschleunigt institutionelle Adoption",
-    "SEC plant neue Regeln für On-Chain-Märkte und AI-Finanzinfrastruktur",
-    "Kraken-Mutterkonzern Payward beantragt OCC-Bankcharter",
-    "EZB-Lagarde warnt vor Dollarlokalisierung durch Stablecoins",
-    "Bitcoin-Miner IREN sichert sich 3,4-Milliarden-Dollar-Nvidia-Deal",
     "XRP-Adressen und aktive Bestände fallen auf Mehrjahrestief",
     "SEC-Chef Atkins signalisiert Unterstützung für On-Chain-Finance-Regeln",
     "Exodus startet KI-Agent-fokussierte Stablecoin auf Solana",
@@ -61,7 +56,12 @@
     "Augustus erhält bedingte OCC-Genehmigung für Stablecoin-Bank",
     "Circle sammelt 222 Millionen Dollar in Arc-Token-Presale",
     "Solana aktiviert Alpenglow Consensus-Update zu Tests",
-    "Ronin migriert von Sidechain zu Ethereum Layer 2"
+    "Ronin migriert von Sidechain zu Ethereum Layer 2",
+    "Ripple erhält 200 Millionen Dollar von Neuberger Berman",
+    "Corpay integriert Stablecoin-Wallets in Unternehmens-Zahlungsverkehr",
+    "Strategy kauft 535 Bitcoin für 43 Millionen Dollar",
+    "Bankensektor verstärkt Kampf gegen CLARITY-Act-Stablecoin-Bestimmungen",
+    "OpenAI startet Consulting-Abteilung mit 4 Milliarden Dollar"
   ],
   "73b1f6fe42098c7d7f9c96ac57f506d0": "2026-05-08T19:00:27.098028",
   "8a1f5a0b705426b9fc7405ddba191401": "2026-05-08T19:00:27.098028",
@@ -178,5 +178,15 @@
   "80c3955044a381bc31c5e69386be970f": "2026-05-11T17:31:40.613755",
   "633ca11bcc418acbacdad704eacf4d05": "2026-05-11T17:31:40.613755",
   "6b32afd502f4ae245e5443e7e5e9a71e": "2026-05-11T17:31:40.613755",
-  "d9a480a30cca5fa384452698a758f31f": "2026-05-11T17:31:40.613755"
+  "d9a480a30cca5fa384452698a758f31f": "2026-05-11T17:31:40.613755",
+  "8a647f913a444244cac2e56e88da6a2f": "2026-05-11T18:30:21.622004",
+  "1048194d1ad2446ccf58693e88c4c8fb": "2026-05-11T18:30:21.622004",
+  "e9fbf084a41418094504a2192de31669": "2026-05-11T18:30:21.622004",
+  "7e53140a53ad1272e3089c4ca96fa56d": "2026-05-11T18:30:21.622004",
+  "07ab4e73923e999182c7e61f895b5dc2": "2026-05-11T18:30:21.622004",
+  "c64fa6583e89d1c9957979bd4e98367d": "2026-05-11T18:30:21.622004",
+  "3ce4108eb47c0981cbef4fe5c3b28e24": "2026-05-11T18:30:21.622004",
+  "cb81d83579abdd1bc9eee10939d65714": "2026-05-11T18:30:21.622004",
+  "4e44008ba0d9fcda73c122e49007f82c": "2026-05-11T18:30:21.622004",
+  "47f888e62f4d473144639f516e39442e": "2026-05-11T18:30:21.622004"
 }
