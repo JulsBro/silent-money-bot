@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-05-12",
+  "__prices_date__": "2026-05-13",
   "__recent_titles__": [
-    "Krypto-Wallets werden für AI-Agents neu aufgebaut",
-    "SEC plant neue Regeln für On-Chain-Märkte und Software",
-    "South Korea Krypto-Bestände halbieren sich in einem Jahr",
-    "TeraWulf AI-Umsatz überholt Bitcoin-Mining erstmals",
-    "Krypto-Wrench-Attacken steigen 41 Prozent",
     "LayerZero entschuldigt sich für Kelp-Exploit-Reaktion",
     "PayPal, Google sagen: AI-Commerce läuft auf Crypto-Schienen",
     "Duke-Jurist: World Liberty Financial ist ein Wertpapier",
@@ -61,7 +56,12 @@
     "JPMorgan startet zweiten tokenisierten Geldmarktfonds auf Ethereum",
     "CFTC unterstützt Kalshi in Prediction-Markets-Kompetenzbatteln Ohio",
     "Ethereum-Entwickler schlagen Fix gegen Blind-Signing-Risiken vor",
-    "Marathon Digital verkauft 1,5 Milliarden Dollar Bitcoin-Bestände"
+    "Marathon Digital verkauft 1,5 Milliarden Dollar Bitcoin-Bestände",
+    "JPMorgan reicht zweiten tokenisierten Geldmarktfonds ein",
+    "Privacy-Blockchains Arc, Canton, Tempo sammeln über 1 Mrd. Dollar",
+    "DTCC nutzt Chainlink für 24/7-Collateral-Management-Netzwerk",
+    "Nordkorea verantwortlich für 60% aller Crypto-Diebstähle 2025",
+    "CFTC unterstützt Kalshi gegen Ohio-Prediction-Markets-Streit"
   ],
   "8e0c2e581bf026f22212e40221fc43c0": "2026-05-10T20:33:36.123514",
   "62bea6b0d2d3dd7ac99bc5e97aabf7d9": "2026-05-10T11:38:52.739030",
@@ -184,9 +184,18 @@
   "df448f70f965f496216b4dd0628cd760": "2026-05-12T20:53:06.262626",
   "a999c77d0d61086cf6346a86dbbfd9b2": "2026-05-12T20:53:06.262626",
   "86359081010d31594138409e00d56c56": "2026-05-12T20:53:06.262626",
-  "6f2e806120ed796d4dee02631a32808a": "2026-05-12T20:53:06.262626",
+  "6f2e806120ed796d4dee02631a32808a": "2026-05-12T22:38:33.114033",
   "1370133e27178614a4e955203ee87d62": "2026-05-12T20:53:06.262626",
   "b78a3ac8560bfeb144cc439fed878cce": "2026-05-12T20:53:06.262626",
   "d809a7e0bf57d6c68c071c260b316a58": "2026-05-12T20:53:06.262626",
-  "393b782b1dc746d6b0836a4fb5947525": "2026-05-12T20:53:06.262626"
+  "393b782b1dc746d6b0836a4fb5947525": "2026-05-12T20:53:06.262626",
+  "ea044cab263509b7e17c5a2dffc0c2ab": "2026-05-12T22:38:33.114033",
+  "325a9fe014772f885add712ba7ea74c6": "2026-05-12T22:38:33.114033",
+  "decf99d9cc26c709f7a97bd6b7adfef3": "2026-05-12T22:38:33.114033",
+  "a54f0a5851e0b8762335e3749f2c4776": "2026-05-12T22:38:33.114033",
+  "d8cbd99064683e6ce8f3d0c445d71503": "2026-05-12T22:38:33.114033",
+  "79781dee38393a8f4078c39dd3e0c168": "2026-05-12T22:38:33.114033",
+  "7b00034fe4fedc4087969295d6eb3efe": "2026-05-12T22:38:33.114033",
+  "35d604a3913036ea20e01874d38d54bf": "2026-05-12T22:38:33.114033",
+  "647020bf9efa8d956d6b1e9fe24faf94": "2026-05-12T22:38:33.114033"
 }
