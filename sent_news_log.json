@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-05-13",
+  "__prices_date__": "2026-05-14",
   "__recent_titles__": [
-    "Ripple erhält 200 Millionen Dollar von Neuberger Berman",
-    "Corpay integriert Stablecoin-Wallets in Unternehmens-Zahlungsverkehr",
-    "Strategy kauft 535 Bitcoin für 43 Millionen Dollar",
-    "Bankensektor verstärkt Kampf gegen CLARITY-Act-Stablecoin-Bestimmungen",
-    "OpenAI startet Consulting-Abteilung mit 4 Milliarden Dollar",
     "Payward strebt 20-Milliarden-Bewertung und IPO an",
     "Circle setzt auf 3-Milliarden-Blockchain Arc",
     "Binance blockiert 10,5 Mrd. Dollar Krypto-Betrug mit AI",
@@ -61,7 +56,12 @@
     "Consensys verschiebt IPO bis Herbst 2026",
     "Société Générale startet Stablecoins auf Canton-Netzwerk",
     "Clarity Act erhält über 100 Änderungsanträge vor Abstimmung",
-    "Bank of England klassifiziert Stablecoins als neue Geldform"
+    "Bank of England klassifiziert Stablecoins als neue Geldform",
+    "UK-Parlament untersucht Nigel Farages 6,8-Millionen-Dollar-Spende von Krypto-Milliardär",
+    "Société Générale startet Stablecoins auf Canton-Netzwerk für tokenisierte Finanz",
+    "US-Regierung fordert 1 Million Dollar Vermögensabschöpfung von Ex-Celsius-Manager",
+    "Myriad nutzt Chainlink zur Abwicklung neuer Krypto-Vorhersagemärkte",
+    "Metaplanet verschiebt Preferred-Share-Listing nach 725-Millionen-Dollar-Verlust"
   ],
   "3f329034f458fd068b1b99cc79f25a43": "2026-05-11T17:31:40.613755",
   "70f0a6b823328068b0407504a3a920a8": "2026-05-11T17:31:40.613755",
@@ -187,9 +187,18 @@
   "d2225e66ef35d5478fcd8ccbf0d05bbf": "2026-05-13T21:01:03.165501",
   "1fd82380d5550d0a14ee6d2a90cf8b4a": "2026-05-13T21:01:03.165501",
   "424213f68200be52fb7221c68c37f909": "2026-05-13T21:01:03.165501",
-  "2ce3c746f1f5f263d1ee8d581d683349": "2026-05-13T21:01:03.165501",
+  "2ce3c746f1f5f263d1ee8d581d683349": "2026-05-13T22:46:41.113628",
   "3006b122d37858ae48639fc8c0c4b610": "2026-05-13T21:01:03.165501",
   "c2ae453672aa8f05abcb06ad1b8bfc92": "2026-05-13T21:01:03.165501",
   "940c0c8b711cd266a79bd8311f094419": "2026-05-13T21:01:03.165501",
-  "f7ab4a7e695e7d9d6b9970977c0c08e7": "2026-05-13T21:01:03.165501"
+  "f7ab4a7e695e7d9d6b9970977c0c08e7": "2026-05-13T21:01:03.165501",
+  "d17b08cd3f8b0ce83247c93a4599ac9b": "2026-05-13T22:46:41.113628",
+  "4517fffbbf858861d4d992e8f3603884": "2026-05-13T22:46:41.113628",
+  "9fcf2f80b538f6214dfa87c835c6b3e0": "2026-05-13T22:46:41.113628",
+  "b40760b0ec3f2b509ffd4dfc45cb5b91": "2026-05-13T22:46:41.113628",
+  "7ed901ba0bc20fa113777a4e6885d3e4": "2026-05-13T22:46:41.113628",
+  "27a0dbe45e1655c75d8e42dc442adde6": "2026-05-13T22:46:41.113628",
+  "a33199769a028991d2c32afb388d6f89": "2026-05-13T22:46:41.113628",
+  "bb324aad214774453149e1a5dbbce2f6": "2026-05-13T22:46:41.113628",
+  "20fc9278ff24ce2ff8092a83b2ba8cb3": "2026-05-13T22:46:41.113628"
 }
