@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-14",
   "__recent_titles__": [
-    "Payward strebt 20-Milliarden-Bewertung und IPO an",
-    "Circle setzt auf 3-Milliarden-Blockchain Arc",
-    "Binance blockiert 10,5 Mrd. Dollar Krypto-Betrug mit AI",
-    "Solana Alpenglow-Upgrade tritt Test-Phase ein",
-    "BoE-Chef warnt vor US-Stablecoin-Aufsichts-Konflikt",
     "Senate Banking Committee stimmt Clarity Act am Donnerstag ab",
     "Circle ermöglicht AI-Agenten Transaktionen mit USDC",
     "MoonPay übernimmt Dawn Labs für Prediction Markets",
@@ -61,7 +56,12 @@
     "Société Générale startet Stablecoins auf Canton-Netzwerk für tokenisierte Finanz",
     "US-Regierung fordert 1 Million Dollar Vermögensabschöpfung von Ex-Celsius-Manager",
     "Myriad nutzt Chainlink zur Abwicklung neuer Krypto-Vorhersagemärkte",
-    "Metaplanet verschiebt Preferred-Share-Listing nach 725-Millionen-Dollar-Verlust"
+    "Metaplanet verschiebt Preferred-Share-Listing nach 725-Millionen-Dollar-Verlust",
+    "Moody's vergibt AAA-Rating an tokenisierte Geldmarktfonds",
+    "Bitcoin-ETF-Abflüsse: 635 Millionen Dollar in einem Tag",
+    "CFTC lockert Meldepflichten für Event-Verträge",
+    "Bank of England lockert Stablecoin-Regulierung",
+    "Trump erwägt 250 Begnadigungen — Krypto-Gründer im Fokus"
   ],
   "3f329034f458fd068b1b99cc79f25a43": "2026-05-11T17:31:40.613755",
   "70f0a6b823328068b0407504a3a920a8": "2026-05-11T17:31:40.613755",
@@ -200,5 +200,15 @@
   "27a0dbe45e1655c75d8e42dc442adde6": "2026-05-13T22:46:41.113628",
   "a33199769a028991d2c32afb388d6f89": "2026-05-13T22:46:41.113628",
   "bb324aad214774453149e1a5dbbce2f6": "2026-05-13T22:46:41.113628",
-  "20fc9278ff24ce2ff8092a83b2ba8cb3": "2026-05-13T22:46:41.113628"
+  "20fc9278ff24ce2ff8092a83b2ba8cb3": "2026-05-13T22:46:41.113628",
+  "4d1b22621535d5bf6585789528f0acee": "2026-05-14T11:29:32.042758",
+  "262cfbb628be99afe6e45bc76575d43f": "2026-05-14T11:29:32.042758",
+  "67672d39596602fae76fbd17318b8d8a": "2026-05-14T11:29:32.042758",
+  "74a52b0292ced35c6403b99e607aa561": "2026-05-14T11:29:32.042758",
+  "44fb10329e45f3c116f4dcd62ed71fba": "2026-05-14T11:29:32.042758",
+  "e010e447f6e49212e2d253accf15de74": "2026-05-14T11:29:32.042758",
+  "33d65530b4ced32102dd7010f89b9a95": "2026-05-14T11:29:32.042758",
+  "2cee28520986c5d96354589755f0861b": "2026-05-14T11:29:32.042758",
+  "6a557c4f7988473235e9f7b14d7d653b": "2026-05-14T11:29:32.042758",
+  "e4917797f0f03c3bbd26536822df09b9": "2026-05-14T11:29:32.042758"
 }
