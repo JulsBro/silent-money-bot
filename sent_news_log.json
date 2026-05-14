@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-14",
   "__recent_titles__": [
-    "DTCC baut Blockchain-Collateral-System mit Chainlink auf",
-    "Marathon Digital verkauft 1,5 Milliarden Dollar Bitcoin",
-    "Exodus verkauft 1.000 Bitcoin für Zahlungs-Expansion",
-    "Anthropic warnt vor unauthorisierten Aktienmarkt-Expositionen",
-    "Senate Banking Committee startet CLARITY-Act-Abstimmung Donnerstag",
     "CFTC verhandelt mit allen Major-Sportligen über Prediction-Market-Kontrolle",
     "Kraken-Mutter Payward und Franklin Templeton gründen On-Chain-Partnership",
     "Frankreichs Zentralbanker fordert private digitale Euro-Mobilisierung",
@@ -61,7 +56,12 @@
     "BlackRock und Janus Henderson erhalten 1-Milliarde-Dollar-Instant-Redemption-Facility",
     "Tether T3-Unit friert 450 Millionen Dollar verdächtiger Krypto ein",
     "Fasset sammelt 51 Millionen Dollar für Stablecoin-Neobank-Expansion",
-    "Anwaltskanzlei Fenwick & West verklagt wegen 525 Millionen Dollar FTX-Rolle"
+    "Anwaltskanzlei Fenwick & West verklagt wegen 525 Millionen Dollar FTX-Rolle",
+    "CME startet Nasdaq-CME-Krypto-Index-Futures auf 85-Billionen-Markt",
+    "US-Senatbanking-Komitee stimmt Clarity-Act-Voranbringung zu",
+    "Coinbase verwaltet USDC-Liquidität auf Hyperliquid-Plattform",
+    "Bank of England lockert \"zu konservative\" Stablecoin-Regulierung",
+    "CFTC erleichtert Meldepflichten für Event-Kontrakten"
   ],
   "3f329034f458fd068b1b99cc79f25a43": "2026-05-11T17:31:40.613755",
   "70f0a6b823328068b0407504a3a920a8": "2026-05-11T17:31:40.613755",
@@ -220,5 +220,15 @@
   "bb2e126c543ffec714234d1c95980f38": "2026-05-14T16:26:45.101573",
   "651b1b23a6054748a2505820bc2b3b13": "2026-05-14T16:26:45.101573",
   "09c38a1820c2745c45908a108cdd88a2": "2026-05-14T16:26:45.101573",
-  "6e81d5d6a9eefdf74d03ecc5f1c7a89b": "2026-05-14T16:26:45.101573"
+  "6e81d5d6a9eefdf74d03ecc5f1c7a89b": "2026-05-14T16:26:45.101573",
+  "fad7fed682cb0203a87a6cc848e883aa": "2026-05-14T16:57:48.160145",
+  "d68f3fd3f2fc2dca66f5abee59a670cb": "2026-05-14T16:57:48.160145",
+  "3cf4123c3cb9d0840532e81c0d92e3fb": "2026-05-14T16:57:48.160145",
+  "3085812d621c8b56e599c873845e7495": "2026-05-14T16:57:48.160145",
+  "88f6cc1b02efbcce1671a45de46b76ff": "2026-05-14T16:57:48.160145",
+  "64f669db9054de55cb61641954d02409": "2026-05-14T16:57:48.160145",
+  "bb3b459b05fbc1a4361b5aeaa37d674f": "2026-05-14T16:57:48.160145",
+  "dfb329aeac4bcbaace7c36d70ef7eb58": "2026-05-14T16:57:48.160145",
+  "9e8516dea265c1c9f41c1dd6e15edc0c": "2026-05-14T16:57:48.160145",
+  "cadd242ded0571c6b45e7c19da6da6ae": "2026-05-14T16:57:48.160145"
 }
