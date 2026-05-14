@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-14",
   "__recent_titles__": [
-    "Senate Banking Committee stimmt Clarity Act am Donnerstag ab",
-    "Circle ermöglicht AI-Agenten Transaktionen mit USDC",
-    "MoonPay übernimmt Dawn Labs für Prediction Markets",
-    "Galaxy und Sharplink planen 125-Millionen-DeFi-Yield-Fund",
-    "Google: Hacker nutzen AI für Zero-Day-Exploits",
     "DTCC baut Blockchain-Collateral-System mit Chainlink auf",
     "Marathon Digital verkauft 1,5 Milliarden Dollar Bitcoin",
     "Exodus verkauft 1.000 Bitcoin für Zahlungs-Expansion",
@@ -61,7 +56,12 @@
     "Bitcoin-ETF-Abflüsse: 635 Millionen Dollar in einem Tag",
     "CFTC lockert Meldepflichten für Event-Verträge",
     "Bank of England lockert Stablecoin-Regulierung",
-    "Trump erwägt 250 Begnadigungen — Krypto-Gründer im Fokus"
+    "Trump erwägt 250 Begnadigungen — Krypto-Gründer im Fokus",
+    "Kraken ersetzt LayerZero durch Chainlink für Cross-Chain-Brücken",
+    "BlackRock und Janus Henderson erhalten 1-Milliarde-Dollar-Instant-Redemption-Facility",
+    "Tether T3-Unit friert 450 Millionen Dollar verdächtiger Krypto ein",
+    "Fasset sammelt 51 Millionen Dollar für Stablecoin-Neobank-Expansion",
+    "Anwaltskanzlei Fenwick & West verklagt wegen 525 Millionen Dollar FTX-Rolle"
   ],
   "3f329034f458fd068b1b99cc79f25a43": "2026-05-11T17:31:40.613755",
   "70f0a6b823328068b0407504a3a920a8": "2026-05-11T17:31:40.613755",
@@ -210,5 +210,15 @@
   "33d65530b4ced32102dd7010f89b9a95": "2026-05-14T11:29:32.042758",
   "2cee28520986c5d96354589755f0861b": "2026-05-14T11:29:32.042758",
   "6a557c4f7988473235e9f7b14d7d653b": "2026-05-14T11:29:32.042758",
-  "e4917797f0f03c3bbd26536822df09b9": "2026-05-14T11:29:32.042758"
+  "e4917797f0f03c3bbd26536822df09b9": "2026-05-14T11:29:32.042758",
+  "613e26f1a38368febba700708adf917f": "2026-05-14T16:26:45.101573",
+  "39bd2280696bfc5b0fbc8b0c43883211": "2026-05-14T16:26:45.101573",
+  "d82b584b8e96a5d6d9ef6d75232066ab": "2026-05-14T16:26:45.101573",
+  "3c1132ca848817405d9707b7dd069eaa": "2026-05-14T16:26:45.101573",
+  "c296d34e6ea2dee1185f66dbcc0ed19d": "2026-05-14T16:26:45.101573",
+  "8ef35586538427ed0cbef45f2e6e14db": "2026-05-14T16:26:45.101573",
+  "bb2e126c543ffec714234d1c95980f38": "2026-05-14T16:26:45.101573",
+  "651b1b23a6054748a2505820bc2b3b13": "2026-05-14T16:26:45.101573",
+  "09c38a1820c2745c45908a108cdd88a2": "2026-05-14T16:26:45.101573",
+  "6e81d5d6a9eefdf74d03ecc5f1c7a89b": "2026-05-14T16:26:45.101573"
 }
