@@ -2,10 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-16",
   "__recent_titles__": [
-    "Senat bestätigt Kevin Warsh als neuer Fed-Vorsitzender",
-    "Consensys verschiebt IPO bis Herbst 2026",
-    "Société Générale startet Stablecoins auf Canton-Netzwerk",
-    "Clarity Act erhält über 100 Änderungsanträge vor Abstimmung",
     "Bank of England klassifiziert Stablecoins als neue Geldform",
     "UK-Parlament untersucht Nigel Farages 6,8-Millionen-Dollar-Spende von Krypto-Milliardär",
     "Société Générale startet Stablecoins auf Canton-Netzwerk für tokenisierte Finanz",
@@ -61,7 +57,11 @@
     "Trump soll CFTC-Positionen besetzen, fordern Abgeordnete",
     "SpaceX setzt IPO-Pricing auf 11. Juni fest",
     "Lombard Finance migriert 1 Milliarde Bitcoin-Assets zu Chainlink",
-    "Trump offenbart Trades in Coinbase und Bitcoin-Mining-Aktien"
+    "Trump offenbart Trades in Coinbase und Bitcoin-Mining-Aktien",
+    "Spot Bitcoin ETFs verlieren 1 Milliarde Dollar in einer Woche",
+    "Myanmar schlägt lebenslange Freiheitsstrafen für Krypto-Betrüger vor",
+    "Hyperliquid Policy Center wehrt CFTC-Übersehensforderungen ab",
+    "IREN schließt 3-Milliarden-Dollar-Finanzierung für KI-Infrastruktur ab"
   ],
   "d2d5072a0702dbf562664452ffb04bd3": "2026-05-13T12:28:58.446363",
   "6ea99ffaea86372d2f52b31768a9f1d2": "2026-05-13T12:28:58.446363",
@@ -190,7 +190,7 @@
   "82afe345eb387a466da04529493917d4": "2026-05-15T16:48:36.007794",
   "44f91cddcdfdf8fc1eb199de70d7b9eb": "2026-05-15T16:48:36.007794",
   "2082a7c9d597fdff891a3a0a657f6736": "2026-05-15T16:48:36.007794",
-  "0c5a5b1463ff174edd9d3ccc11d62c1f": "2026-05-15T16:48:36.007794",
+  "0c5a5b1463ff174edd9d3ccc11d62c1f": "2026-05-16T10:09:31.105426",
   "7308969cdc0036c5ce621d985d038024": "2026-05-15T16:48:36.007794",
   "a81fe75ec596a4d7f97aae430e70077a": "2026-05-15T19:47:50.479681",
   "f3ae586a69ce3457c892c4fbec544936": "2026-05-15T19:47:50.479681",
@@ -199,7 +199,7 @@
   "0bbc44a0ea5de0294a7a83c6c01a10ed": "2026-05-15T19:47:50.479681",
   "ac59cb0ed7a42a59fa9086a3ec7cc9b7": "2026-05-15T19:47:50.479681",
   "c7c7f8775d16f3f009b01b1912aebe44": "2026-05-15T19:47:50.479681",
-  "a3aa8884d453d74b786ffbeacb7198de": "2026-05-15T19:47:50.479681",
+  "a3aa8884d453d74b786ffbeacb7198de": "2026-05-16T10:09:31.105426",
   "4a24658fdd9ff6e8d0e5a9eacf36c7aa": "2026-05-15T19:47:50.479681",
   "d61c14664a87cf40df57028fb657f4e3": "2026-05-15T19:47:50.479681",
   "2e8903e2cdce9b390ad0ef36ede5a1bb": "2026-05-16T07:09:42.536381",
@@ -211,5 +211,13 @@
   "3c93d3f74f11008ebb617504a87177a8": "2026-05-16T07:09:42.536381",
   "37cb0dcda6e31cd344b29bb50537fa68": "2026-05-16T07:09:42.536381",
   "f71f701e03d357415f188178d14ddc76": "2026-05-16T07:09:42.536381",
-  "6ec1e01183bd9fdd73f204c7fbc94429": "2026-05-16T07:09:42.536381"
+  "6ec1e01183bd9fdd73f204c7fbc94429": "2026-05-16T07:09:42.536381",
+  "b221b8f350020b40bcf2038ceec7c50d": "2026-05-16T10:09:31.105426",
+  "e22a590f7afaa8293601c5f3bd494cb1": "2026-05-16T10:09:31.105426",
+  "f53cfece29ad1d9403dc7b3cf31b8d46": "2026-05-16T10:09:31.105426",
+  "30b556bd59df528bfe08c08252225593": "2026-05-16T10:09:31.105426",
+  "9954346648bf8ae149643eed41e74d89": "2026-05-16T10:09:31.105426",
+  "4808bb4d9da213cfcee7f4d4e1b66cf5": "2026-05-16T10:09:31.105426",
+  "0872ef84a408189c0706f3b710360853": "2026-05-16T10:09:31.105426",
+  "baea1ba6aa4e6f906f0251ba2aaf680d": "2026-05-16T10:09:31.105426"
 }
