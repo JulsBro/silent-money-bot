@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-19",
   "__recent_titles__": [
-    "VanEck, Grayscale reichen BNB-ETF-Anträge ein",
-    "Italiens größte Bank verdoppelt Crypto-Holdings auf $235M",
-    "Russland-Stablecoin A7A5 plant Sanktions-Umgehung",
-    "THORChain bestätigt $10M-Exploit, startet Recovery",
-    "VanEck, Grayscale reichen BNB-ETF-Amendments ein",
     "Japans SBI, Rakuten, Nomura starten Krypto-Investmentfonds",
     "Abu Dhabis Mubadala erhöht Bitcoin-Position um 90 Millionen Dollar",
     "Spot-Bitcoin-ETFs verlieren 1 Milliarde Dollar in einer Woche",
@@ -61,7 +56,12 @@
     "NUVA startet mit $19B tokenisierten Real-World Assets",
     "21Shares: Hyperliquid-ETF-Nachfrage zeigt 24/7-Handelsappetit",
     "Estland sperrt Zondacrypto-Betreiberlizenz teilweise",
-    "Japans Regierungspartei treibt On-Chain-Finance-Plan voran"
+    "Japans Regierungspartei treibt On-Chain-Finance-Plan voran",
+    "SEC plant größte Börsennotierungs-Reform seit über 20 Jahren",
+    "Clarity Act: Letzte Minute DeFi-Bestimmungen könnten Sektor treffen",
+    "Bank of England: Tokenisierung senkt Kosten, steigert Wettbewerb",
+    "Bitget Wallet integriert Kraken xStocks tokenisierte Aktien",
+    "Bitcoin-Miner Canaan meldet 88,7 Millionen Dollar Q1-Verlust"
   ],
   "b221b8f350020b40bcf2038ceec7c50d": "2026-05-17T07:29:13.768313",
   "e22a590f7afaa8293601c5f3bd494cb1": "2026-05-17T14:02:49.369895",
@@ -185,5 +185,15 @@
   "7d92429f32f1010dec0f60e8df583f61": "2026-05-19T15:56:30.697245",
   "ac3bc63cab8bf24b63e46d218e67ef2f": "2026-05-19T15:56:30.697245",
   "b0ea054a6fba7299bd7267773718daa6": "2026-05-19T15:56:30.697245",
-  "1b7d62c31d904ad5a2f86f3e49c22c5c": "2026-05-19T15:56:30.697245"
+  "1b7d62c31d904ad5a2f86f3e49c22c5c": "2026-05-19T15:56:30.697245",
+  "5048f5e938be0396bb1e03e7a5400929": "2026-05-19T17:35:23.732425",
+  "51a7bdc3b963718bab84b88851f30c31": "2026-05-19T17:35:23.732425",
+  "cbcc67e085f83781af5e2682c905437c": "2026-05-19T17:35:23.732425",
+  "b5cb5b95ffa894b077d1a13d9745fe82": "2026-05-19T17:35:23.732425",
+  "bbc79387b2e35bb0e0a16bbfb5592f90": "2026-05-19T17:35:23.732425",
+  "16f63099a0d2ec9da25d323fa1028554": "2026-05-19T17:35:23.732425",
+  "84b8063e22fc436eb87320dd5bab0292": "2026-05-19T17:35:23.732425",
+  "f55de28bbeac930ca24e81812bfeb004": "2026-05-19T17:35:23.732425",
+  "1f8371a1b6330ebe9dcd2db79333d991": "2026-05-19T17:35:23.732425",
+  "cd7ffcb18ae26202027bcf33d4d7f629": "2026-05-19T17:35:23.732425"
 }
