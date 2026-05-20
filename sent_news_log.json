@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-20",
   "__recent_titles__": [
-    "UK regulators unveil tokenization roadmap für Finanzabwicklung",
-    "Standard Chartered übernimmt Krypto-Verwahrung Zodia vollständig",
-    "SpaceX-Pre-IPO startet auf Hyperliquid, HYPE +7%",
-    "Verus Ethereum Bridge Exploit kostet $11,6 Millionen",
-    "Südkorea überprüft Hana Bank Stake in Dunamu",
     "HIVE kauft $58M Toronto-Grundstück für KI-Datenzentrum",
     "Ex-OpenAI-Chef wettet $13,6B auf Krypto-Miner statt Nvidia",
     "Citi warnt vor Quantencomputing-Bedrohung für Bitcoin",
@@ -61,7 +56,12 @@
     "Singapur entzieht Bsquared Krypto-Zahlungslizenz wegen Verstoße",
     "Südkarolina unterzeichnet Gesetz gegen CBDC und für Bitcoin-Miner",
     "Euro-Stablecoin Qivalis integriert 25 weitere Banken vor Launch",
-    "Fireblocks startet agenten-gestützte Zahlungen für KI-Systeme"
+    "Fireblocks startet agenten-gestützte Zahlungen für KI-Systeme",
+    "Senat verhört Prediction-Market-Firmen wegen Werbung an Kinder",
+    "Copper-Kryptoverwahrung sucht Verkauf für 500 Millionen",
+    "Trump Media zieht Bitcoin-ETF-Antrag zurück",
+    "Südkoreanisches Bestattungsunternehmen verliert 33 Millionen auf Ether-ETF",
+    "OpenAI eröffnet KI-Labor in Singapur mit 234 Millionen"
   ],
   "9954346648bf8ae149643eed41e74d89": "2026-05-17T19:18:22.012837",
   "8c1c33748a0faed3a8fa64d317b09306": "2026-05-17T19:18:22.012837",
@@ -203,5 +203,15 @@
   "d06345498064798f8bb75296ce344e4d": "2026-05-20T16:05:03.760621",
   "0061cf4b0b642366158a20e6fbcb87c2": "2026-05-20T16:05:03.760621",
   "224b618191e3e4c8d42b4d09ac8f755a": "2026-05-20T16:05:03.760621",
-  "cb2ed5712de5004843348e910927c358": "2026-05-20T16:05:03.760621"
+  "cb2ed5712de5004843348e910927c358": "2026-05-20T16:05:03.760621",
+  "717fb62ccecccf64bd0650d6f0bca069": "2026-05-20T17:51:29.428850",
+  "6e310ab37fd6ac4663711227fab07321": "2026-05-20T17:51:29.428850",
+  "15e1b12eb50bda53b49e046dbd566ca2": "2026-05-20T17:51:29.428850",
+  "9b9cdb2395e6f1764f380a91ffc23b2f": "2026-05-20T17:51:29.428850",
+  "e5ff66f2fdfed45fe58172a3a743430f": "2026-05-20T17:51:29.428850",
+  "08e3f7274116802ce5d0261000d80e96": "2026-05-20T17:51:29.428850",
+  "b3648db62d08eeb08f4b0300cb73180c": "2026-05-20T17:51:29.428850",
+  "69ae50ea059ad992c994a4b4979959c8": "2026-05-20T17:51:29.428850",
+  "bdfd62e434bf7d786c076f1150ec2167": "2026-05-20T17:51:29.428850",
+  "cd83d5733d0cae2d2ce13ed07ba8013f": "2026-05-20T17:51:29.428850"
 }
