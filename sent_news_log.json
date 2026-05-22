@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-05-21",
+  "__prices_date__": "2026-05-22",
   "__recent_titles__": [
-    "Japans Regierungspartei treibt On-Chain-Finance-Plan voran",
-    "SEC plant größte Börsennotierungs-Reform seit über 20 Jahren",
-    "Clarity Act: Letzte Minute DeFi-Bestimmungen könnten Sektor treffen",
-    "Bank of England: Tokenisierung senkt Kosten, steigert Wettbewerb",
-    "Bitget Wallet integriert Kraken xStocks tokenisierte Aktien",
     "Bitcoin-Miner Canaan meldet 88,7 Millionen Dollar Q1-Verlust",
     "Zerohash strebt 1,5-Milliarden-Bewertung an nach Mastercard-Rückzug",
     "Polymarket eröffnet 5-Billionen-Privatmarkt für Retailtrader",
@@ -61,7 +56,12 @@
     "USA investieren 2 Milliarden in Quantenchip-Entwicklung gegen Bitcoin-Risiko",
     "Kongress plant Gesetz für strategische Bitcoin-Reserve der USA",
     "Trump stoppt AI-Order wegen Sorgen um US-Wettbewerbsfähigkeit gegen China",
-    "Ehemaliger Ethereum-Foundation-Entwickler schlägt 1-Milliarde-Fundraising vor"
+    "Ehemaliger Ethereum-Foundation-Entwickler schlägt 1-Milliarde-Fundraising vor",
+    "Indien sperrt Polymarket, Kalshi könnte folgen",
+    "Galaxy-Chef Novogratz vor Gericht im BitGo-Deal-Streit",
+    "Harvard liquidiert gesamte Ethereum-Position nach einem Quartal",
+    "Experte: 1,1 Millionen Bitcoin vor Quantenangriff zu retten",
+    "NHL teilt Daten mit CFTC für Prognose-Markt-Integrität"
   ],
   "296749b4c2564594eca3a2b1ae4c3c4b": "2026-05-19T08:19:42.273013",
   "bfbb2bcd947bf1ec29525595c7b0d43b": "2026-05-19T08:19:42.273013",
@@ -206,5 +206,15 @@
   "ad41bda3639616e6f3df434bbaa8c10c": "2026-05-21T20:02:28.664315",
   "652ab3054ed9d265bb36f49494074932": "2026-05-21T20:02:28.664315",
   "95adff19b55205c70256c9d6a5dac6b2": "2026-05-21T20:02:28.664315",
-  "364aaef0a611a8f175e0ea4ee9b6b610": "2026-05-21T20:02:28.664315"
+  "364aaef0a611a8f175e0ea4ee9b6b610": "2026-05-21T20:02:28.664315",
+  "3415e9ddeed3cb67d2eb161a877ed6dd": "2026-05-22T08:16:16.957185",
+  "710689565608ca850f0e8456b07b1c73": "2026-05-22T08:16:16.957185",
+  "da20a89a028f6659906890a2e165d3a8": "2026-05-22T08:16:16.957185",
+  "7b5454d6272da0737900137dda0526ea": "2026-05-22T08:16:16.957185",
+  "cad86cf717ba77bddb41850a323a2742": "2026-05-22T08:16:16.957185",
+  "4477f60dd6f1d4e21f8748bde886c074": "2026-05-22T08:16:16.957185",
+  "e1789bedcee269c6825afcdeb3418051": "2026-05-22T08:16:16.957185",
+  "9062f626c6ce7a700f29bef53aeaef79": "2026-05-22T08:16:16.957185",
+  "64409d4ccb55c9e718d8b08f7e2d0dd6": "2026-05-22T08:16:16.957185",
+  "41096ac7a01eaa76c23295a2c4c50061": "2026-05-22T08:16:16.957185"
 }
