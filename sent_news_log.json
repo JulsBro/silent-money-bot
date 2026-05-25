@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-25",
   "__recent_titles__": [
-    "Kongress fordert Modernisierung des Bank-Secrecy-Act",
-    "Ripple und North Island finanzieren Cross-Chain-Plattform Squid",
-    "SEC genehmigt Nasdaq Bitcoin-Index-Optionen",
-    "Kalshi, Polymarket verlieren Berufung gegen Spielrecht-Vorwürfe",
-    "Ripple, North Island finanzieren Cross-Chain-Plattform Squid",
     "Kalshi startet Lobby-Gruppe für Prediction Markets",
     "Bitcoin-Spot-ETFs verlieren 2,26 Milliarden Dollar in zwei Wochen",
     "EZB lehnt Euro-Stablecoin-Vorschläge ab wegen Finanzstabilität",
@@ -61,7 +56,12 @@
     "Früher Bitcoin-Miner transferiert 203 Millionen Dollar zu OTC-Desks",
     "Indonesien blockiert Polymarket wegen Präsidentenwetten",
     "Squid-Exploit: Drittanbieter-Modul um 3,2 Millionen Dollar kompromittiert",
-    "Tether startet GELT-Stablecoin mit georgischer Regierungsunterstützung"
+    "Tether startet GELT-Stablecoin mit georgischer Regierungsunterstützung",
+    "US-Iran Friedensverhandlungen starten — Bitcoin über 77.000 Dollar",
+    "Ethereum Foundation verkleinert sich — Buterin reduziert Einfluss",
+    "Satoshi-Ära Miner transferiert 203 Millionen Dollar zu OTC-Desks",
+    "Squid-Exploit: 3,2 Millionen Dollar über Third-Party-Modul",
+    "Indonesien blockiert Polymarket — Glücksspiel-Regulierung"
   ],
   "712bf905a41d797df774b336d1f190ba": "2026-05-22T17:04:07.491859",
   "9038e52ee9dbc75c6a8fa0fb1747c5a1": "2026-05-22T17:04:07.491859",
@@ -190,10 +190,17 @@
   "ffa5d95ce02d2bf6ffd216a26a728f74": "2026-05-25T15:35:09.138241",
   "03929350ac71c87eb4080a6f48ce4605": "2026-05-25T15:35:09.138241",
   "c4baeb56862119c91ab30b9c2a6b4df4": "2026-05-25T15:35:09.138241",
-  "558eba47f82c27275be3b57e84a46041": "2026-05-25T15:35:09.138241",
+  "558eba47f82c27275be3b57e84a46041": "2026-05-25T17:02:56.064189",
   "6d308d83b7313e233bfc70e785f3630d": "2026-05-25T15:35:09.138241",
-  "322419337a1fc5525cd4701b0a2699e2": "2026-05-25T15:35:09.138241",
+  "322419337a1fc5525cd4701b0a2699e2": "2026-05-25T17:02:56.064189",
   "18ecb708e326182f3cb9a5e0f5921ff3": "2026-05-25T15:35:09.138241",
-  "4d0051fbc0ecd34672efda0653030dd2": "2026-05-25T15:35:09.138241",
-  "b752947c9a432a8315ec8a1d5f0465fb": "2026-05-25T15:35:09.138241"
+  "4d0051fbc0ecd34672efda0653030dd2": "2026-05-25T17:02:56.064189",
+  "b752947c9a432a8315ec8a1d5f0465fb": "2026-05-25T15:35:09.138241",
+  "92ac01503779e597c64e575890df3546": "2026-05-25T17:02:56.064189",
+  "82b9bc4294110f1e49ebbc9a799c62c1": "2026-05-25T17:02:56.064189",
+  "906e067d7feb74588eb42a9b1b8831b9": "2026-05-25T17:02:56.064189",
+  "d9b4eb1ec31cd5fefa22559782d3192a": "2026-05-25T17:02:56.064189",
+  "d7446cbaaff10ce444f7564f595a2aca": "2026-05-25T17:02:56.064189",
+  "c39147b182016495bd8c16dcaa1887d0": "2026-05-25T17:02:56.064189",
+  "b0a073047f234bf1e3d88728f1dfa088": "2026-05-25T17:02:56.064189"
 }
