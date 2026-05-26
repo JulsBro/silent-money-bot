@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-26",
   "__recent_titles__": [
-    "StablR-Exploit: Euro und USD-Stablecoins depegged",
-    "EZB warnt: Euro-Stablecoins schwächen Bankfinanzierung",
-    "FTX-Rechtsbeistand zahlt 66 Millionen Dollar Ausgleich",
-    "Bitcoin fällt unter 75.000 Dollar — 1 Milliarde Liquidationen",
-    "Kalshi und Polymarket verlieren Berufung gegen Nevada/Washington-Klagen",
     "Ripple und North Island finanzieren Squid mit 6 Millionen Dollar",
     "F2Pool-Gründer Wang leitet erste SpaceX-Mars-Mission",
     "EZB lehnt Euro-Stablecoin-Vorschläge wegen Finanzstabilität ab",
@@ -61,7 +56,12 @@
     "XRP Ledger AMM-Amendment könnte DeFi-Lücke schließen",
     "Strive kauft 1.109 Bitcoin — Holdings steigen auf 16.500 BTC",
     "StablR friert USDR und EURR nach 13,5-Millionen-Mint ein",
-    "Spanien blockiert Polymarket und Kalshi ohne Lizenz"
+    "Spanien blockiert Polymarket und Kalshi ohne Lizenz",
+    "UK sanktioniert Huobi und Ruble-Stablecoin-Emittent",
+    "Bermuda erklärt sich zur ersten vollständig On-Chain Wirtschaft",
+    "TeraWulf plant 1-Gigawatt-AI-Rechenzentrum in Kentucky",
+    "Bitmine kauft 111.942 Ether für 237 Millionen Dollar",
+    "Binance plant Rückkehr zu Philippinen über SEC-Sandbox"
   ],
   "d323aeaefc919284a18af951d64752fd": "2026-05-24T15:57:30.649963",
   "2c509521cb2a3946b576f5fc7151c994": "2026-05-24T19:25:31.970213",
@@ -186,5 +186,15 @@
   "ecef403ef17db0e914ed8376f308ed68": "2026-05-26T16:15:18.377461",
   "b6dce18a719d706f50ae9f4453d40a08": "2026-05-26T16:15:18.377461",
   "4806410323b5b349c51d2d8a3e61e3ba": "2026-05-26T16:15:18.377461",
-  "e612dcb00eb89c80b463f822df79d12f": "2026-05-26T16:15:18.377461"
+  "e612dcb00eb89c80b463f822df79d12f": "2026-05-26T16:15:18.377461",
+  "fcf474b79ae3900b6c293a29e42e50f4": "2026-05-26T17:54:08.974677",
+  "42f00870a2099c6a98ac858d5cc52b16": "2026-05-26T17:54:08.974677",
+  "0d5e35e41e137c461c6951214593cd11": "2026-05-26T17:54:08.974677",
+  "ac306234d0e951b040bec12758c6e2bf": "2026-05-26T17:54:08.974677",
+  "c25b34d825476955947875313b77391a": "2026-05-26T17:54:08.974677",
+  "dcc41861dfc454c97560238444b2724e": "2026-05-26T17:54:08.974677",
+  "017861e657b9cbbd1703f61f439decb1": "2026-05-26T17:54:08.974677",
+  "d2c3396086c4960577b49137df4a7119": "2026-05-26T17:54:08.974677",
+  "a5820ce99bd9cdc7c8dbcff7d0f7f328": "2026-05-26T17:54:08.974677",
+  "12770de018ded91a3355b6b68bf7e3d5": "2026-05-26T17:54:08.974677"
 }
