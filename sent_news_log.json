@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-27",
   "__recent_titles__": [
-    "Bitcoin-gestützter Kreditmarkt könnte auf 1 Billionen wachsen",
-    "Kalshi, Polymarket verlieren gegen Nevada- und Washington-Glücksspielklagen",
-    "StablR-Exploit: EURR und USDR depegged nach Multisig-Hack",
-    "Ripple, North Island finanzieren Squid mit $6 Millionen",
-    "Vitalik: Ethereum Foundation wird kleineres, fokussierteres Schiff",
     "Fenwick & West zahlt $54 Millionen FTX-Opfer-Ausgleich",
     "Microsoft Fara1.5 schlägt OpenAI und Google bei Web-Browsing",
     "Nasdaq-Rohstoffpreise sinken nach DeepSeek-Selloff",
@@ -61,7 +56,12 @@
     "DTCC plant Tokenisierung von Assets auf Stellar 2027",
     "Mastercard erhält New York BitLicense für Stablecoin-Infrastruktur",
     "40+ Krypto-Börsen fordern Standard für Token-Offenlegung",
-    "Chinas Oberster Gerichtshof etabliert Regeln für Krypto und AI"
+    "Chinas Oberster Gerichtshof etabliert Regeln für Krypto und AI",
+    "BIS-Projekt: Tokenisierung beschleunigt grenzüberschreitende Zahlungen",
+    "Banca Sella erste italienische Bank mit MiCA-Genehmigung",
+    "Robinhood aktiviert KI-Agenten für Aktienhandel und Ausgaben",
+    "SoFi launcht SoFiUSD Stablecoin auf Ethereum und Solana",
+    "Trump unterstützt CFTC-Monopol bei Vorhersagemärkten"
   ],
   "2c509521cb2a3946b576f5fc7151c994": "2026-05-24T19:25:31.970213",
   "06a3d6eb6ced34099079a3662aef44fc": "2026-05-24T19:25:31.970213",
@@ -177,5 +177,15 @@
   "612153a2f61d460eb108caf05cfd9786": "2026-05-27T16:23:43.577631",
   "4beaafb94a0913cbbee5d9070cd04657": "2026-05-27T16:23:43.577631",
   "2052509514b5d6eeb8fd8e09444f90d1": "2026-05-27T16:23:43.577631",
-  "7b16067514d775b6a15ebaecca5faa20": "2026-05-27T16:23:43.577631"
+  "7b16067514d775b6a15ebaecca5faa20": "2026-05-27T16:23:43.577631",
+  "db5e82a989880884b51c6abd2b8d8161": "2026-05-27T17:54:56.970150",
+  "25cf86b1ba16eb642c06e9fcff200b8a": "2026-05-27T17:54:56.970150",
+  "1a7294b965b9a0c35ae1c58634e1b913": "2026-05-27T17:54:56.970150",
+  "1bf6b397050fc6a8e94c5de3ea9b9ca8": "2026-05-27T17:54:56.970150",
+  "cd5a17962fc55759d1863e8e60fa09a1": "2026-05-27T17:54:56.970150",
+  "63faa5c604bcdf5062402a3d41ede31b": "2026-05-27T17:54:56.970150",
+  "937cc4bc3590f2a339457c2b96a61c5f": "2026-05-27T17:54:56.970150",
+  "24c7d9b19b50c5ab4b6e9476d9120649": "2026-05-27T17:54:56.970150",
+  "e8de6b73bb54d17cdbf6e6335da019e3": "2026-05-27T17:54:56.970150",
+  "80232f763a97c68355068c6f23fffc30": "2026-05-27T17:54:56.970150"
 }
