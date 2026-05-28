@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-05-27",
+  "__prices_date__": "2026-05-28",
   "__recent_titles__": [
-    "Hyperliquid greift traditionelle Börsen und Prediction Markets an",
-    "TrapDoor-Malware zielt auf Krypto-Entwicklertools ab",
-    "Bitcoin über 77.000 Dollar — Öl-Rückgang unterstützt Sentiment",
-    "Tether und Georgien starten Lari-Stablecoin GELT",
-    "Kalshi gründet Lobbygruppe für Prediction Markets",
     "KI-Agenten bauen Crypto-Ökosystem mit Stablecoins",
     "Ethereum-Proposal: Private Transfers für Hegota-Upgrade",
     "Bitcoin-ETF-Abflüsse deuten auf Rotation statt Exodus",
@@ -61,7 +56,12 @@
     "Musk plant Tesla-SpaceX-Fusion mit Bitcoin-Implikationen",
     "Jefferies: Krypto-IPOs könnten 1-Billionen-Markt schaffen",
     "StakeDAO-Exploit erzeugt 5,4 Billionen vsdCRV-Token",
-    "Robinhood aktiviert KI-Agenten für Aktien und Kreditkarten"
+    "Robinhood aktiviert KI-Agenten für Aktien und Kreditkarten",
+    "CFTC fordert Aufhebung von Gemini-Vergleich aus 2022",
+    "Google-Mitarbeiter wegen Insider-Trading auf Polymarket angeklagt",
+    "Polymarket prüft KYC-Anforderungen unter globalem Druck",
+    "BlackRock Bitcoin-ETF verliert 528 Millionen Dollar in einem Tag",
+    "Orca und Streamex starten Secondary-Trading für tokenisierte Wertpapiere"
   ],
   "ac044dbd0e2f235b8b7d9144eef85390": "2026-05-25T08:49:10.591549",
   "a8ab2da711443974830af592f7362751": "2026-05-25T08:49:10.591549",
@@ -183,5 +183,15 @@
   "6913c06ee2031626b5acc8a21d1f615b": "2026-05-27T20:25:56.797537",
   "50c9e944458617a3554fbb6258aef64f": "2026-05-27T20:25:56.797537",
   "1bbe15d87fa1302f3b374c076a9c7b34": "2026-05-27T20:25:56.797537",
-  "1aa7dcdedcd302e051e5e5c6cabed528": "2026-05-27T20:25:56.797537"
+  "1aa7dcdedcd302e051e5e5c6cabed528": "2026-05-27T20:25:56.797537",
+  "b016837446f19d7611c9b4c0f87e3dbf": "2026-05-28T08:37:06.161242",
+  "af2e0905fdb46f511a30b6c9f2523a42": "2026-05-28T08:37:06.161242",
+  "1013c0100cefc2d49f772445517a1b17": "2026-05-28T08:37:06.161242",
+  "10c0b905be87f41c1927af2b15a8e043": "2026-05-28T08:37:06.161242",
+  "aff1bdf231337123e0c2980f85f1b4f3": "2026-05-28T08:37:06.161242",
+  "46eb256a2858ca6c49f2c002a6172a99": "2026-05-28T08:37:06.161242",
+  "9bed156b6ab8f2aafea4c82bc7fceeff": "2026-05-28T08:37:06.161242",
+  "72250e186987fa8503b23e1a59c5aaa2": "2026-05-28T08:37:06.161242",
+  "1b6ada6e979fbc019f7ba5eadd443c45": "2026-05-28T08:37:06.161242",
+  "ae6c76bb3a2b6ac45b3dd5aa6453cdf0": "2026-05-28T08:37:06.161242"
 }
