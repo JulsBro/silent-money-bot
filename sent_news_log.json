@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-29",
   "__recent_titles__": [
-    "Spanien blockiert Polymarket und Kalshi ohne Lizenz",
-    "UK sanktioniert Huobi und Ruble-Stablecoin-Emittent",
-    "Bermuda erklärt sich zur ersten vollständig On-Chain Wirtschaft",
-    "TeraWulf plant 1-Gigawatt-AI-Rechenzentrum in Kentucky",
-    "Bitmine kauft 111.942 Ether für 237 Millionen Dollar",
     "Binance plant Rückkehr zu Philippinen über SEC-Sandbox",
     "UK sanktioniert HTX-Börse wegen Russland-Unterstützung",
     "MicroStrategy tilgt 1,5 Milliarden Dollar Wandelanleihen",
@@ -61,7 +56,12 @@
     "Vorhersagemärkte in Minnesota und Rhode Island unter juristischem Druck",
     "ICE führte mehrere Gespräche mit Hyperliquid über On-Chain Perps",
     "Bitcoin-ETF-Abflüsse erreichen Rekordsträhne von 9 Tagen",
-    "Sui-Netzwerk erleidet zweite kritische Störung 2026"
+    "Sui-Netzwerk erleidet zweite kritische Störung 2026",
+    "CFTC genehmigt erste regulierte Krypto-Perpetual-Futures in USA",
+    "Paxos wird erste Blockchain-native SEC-Clearing-Agentur",
+    "Bitcoin-ETFs verzeichnen Rekord-Abflusssträhne von 9 Tagen",
+    "CFTC-Chef: Krypto-Perpetuals sind Wendepunkt für Regulierung",
+    "Clarity Act gefährdet Regulierung ohne ausreichende CFTC-Kontrolle"
   ],
   "be7ac2af0956fc07a7dc85b65050e760": "2026-05-26T16:15:18.377461",
   "abdf66b1fcca32ad10d0387bea49b499": "2026-05-26T16:15:18.377461",
@@ -194,5 +194,15 @@
   "8e254127fd530e603c862772d9560bc3": "2026-05-29T12:09:51.328617",
   "c877e430951e308fe7a2644c30cf17a0": "2026-05-29T12:09:51.328617",
   "fec025975b721dc2a3889e31d0ca300c": "2026-05-29T12:09:51.328617",
-  "20e9088282f93ce200505f2497d5008b": "2026-05-29T12:09:51.328617"
+  "20e9088282f93ce200505f2497d5008b": "2026-05-29T12:09:51.328617",
+  "efb14103cd17976b58745b5870a7a4da": "2026-05-29T16:13:06.942175",
+  "1e9a39a5522b4df07c070ebfcffec028": "2026-05-29T16:13:06.942175",
+  "f0c141ea5a8cfb4ba8ea717b3d682657": "2026-05-29T16:13:06.942175",
+  "dc512b1fe1381e66920691e033b4dad2": "2026-05-29T16:13:06.942175",
+  "e0dc85ebbb70f99d87e0e17e39ec7091": "2026-05-29T16:13:06.942175",
+  "06f4089f55233ed4f6c49b88d00b8184": "2026-05-29T16:13:06.942175",
+  "1804f900b9a7ee566ed95e90c6d9d5f9": "2026-05-29T16:13:06.942175",
+  "35b64fbf6527290752b76b937653416a": "2026-05-29T16:13:06.942175",
+  "fb1549508cd58d053ac95e292ab14150": "2026-05-29T16:13:06.942175",
+  "bbe6609c246afb7b542bce9ba34c55c7": "2026-05-29T16:13:06.942175"
 }
