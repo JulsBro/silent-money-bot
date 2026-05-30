@@ -1,11 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-05-29",
+  "__prices_date__": "2026-05-30",
   "__recent_titles__": [
-    "Mastercard erhält New York BitLicense für Stablecoin-Infrastruktur",
-    "40+ Krypto-Börsen fordern Standard für Token-Offenlegung",
-    "Chinas Oberster Gerichtshof etabliert Regeln für Krypto und AI",
-    "BIS-Projekt: Tokenisierung beschleunigt grenzüberschreitende Zahlungen",
     "Banca Sella erste italienische Bank mit MiCA-Genehmigung",
     "Robinhood aktiviert KI-Agenten für Aktienhandel und Ausgaben",
     "SoFi launcht SoFiUSD Stablecoin auf Ethereum und Solana",
@@ -61,7 +57,11 @@
     "CFTC bestätigt 24/7-Trading ideal für Kryptomärkte",
     "Coinbase erste US-Börse mit globalen Krypto-Perpetuals",
     "Sui-Netzwerk erneut ausgefallen – zweiter Tag in Folge",
-    "USA beschlagnahmt fast 1 Milliarde Dollar iranisches Krypto"
+    "USA beschlagnahmt fast 1 Milliarde Dollar iranisches Krypto",
+    "Treasury: USA beschlagnahmte circa 1 Milliarde Dollar iranisches Krypto",
+    "CFTC genehmigt Krypto-Perpetual-Futures-Kontrakte in USA",
+    "Sui-Netzwerk erleidet zweite Störung innerhalb zwei Tage",
+    "Wintermute verbindet Kalshi und Polymarket mit Liquidität"
   ],
   "017861e657b9cbbd1703f61f439decb1": "2026-05-27T08:33:37.462903",
   "da4196ddf46c005a0e631b4f29a5a23c": "2026-05-27T08:33:37.462903",
@@ -172,8 +172,8 @@
   "1e9a39a5522b4df07c070ebfcffec028": "2026-05-29T16:13:06.942175",
   "f0c141ea5a8cfb4ba8ea717b3d682657": "2026-05-29T16:13:06.942175",
   "dc512b1fe1381e66920691e033b4dad2": "2026-05-29T16:13:06.942175",
-  "e0dc85ebbb70f99d87e0e17e39ec7091": "2026-05-29T16:13:06.942175",
-  "06f4089f55233ed4f6c49b88d00b8184": "2026-05-29T16:13:06.942175",
+  "e0dc85ebbb70f99d87e0e17e39ec7091": "2026-05-30T07:34:10.874344",
+  "06f4089f55233ed4f6c49b88d00b8184": "2026-05-30T07:34:10.874344",
   "1804f900b9a7ee566ed95e90c6d9d5f9": "2026-05-29T16:13:06.942175",
   "35b64fbf6527290752b76b937653416a": "2026-05-29T16:13:06.942175",
   "fb1549508cd58d053ac95e292ab14150": "2026-05-29T16:13:06.942175",
@@ -197,5 +197,13 @@
   "d6a0c7a7181a9f97eb86b77b0addd928": "2026-05-29T20:34:22.822184",
   "516d929659fa6795b9f0491a75e0e6be": "2026-05-29T20:34:22.822184",
   "16502e06c4f2fa3b768aef497db38f4b": "2026-05-29T20:34:22.822184",
-  "ebdfa3b6d21bc5c178b16bfdcd0cf43f": "2026-05-29T20:34:22.822184"
+  "ebdfa3b6d21bc5c178b16bfdcd0cf43f": "2026-05-29T20:34:22.822184",
+  "2e378908c84109793fe39ddfc60e697d": "2026-05-30T07:34:10.874344",
+  "041039ed31a73c82084cc6cde37b0a96": "2026-05-30T07:34:10.874344",
+  "a82b63c8d5ec277130122745f4b5eaf5": "2026-05-30T07:34:10.874344",
+  "ffb7cff9d38066e8ac43cae243fc1876": "2026-05-30T07:34:10.874344",
+  "373295d61df0b9244377033ee02d690d": "2026-05-30T07:34:10.874344",
+  "78e6216bf8b9bd06a5f34bd5ddc710c7": "2026-05-30T07:34:10.874344",
+  "77a8effb48e62ab0b43fa2f10035e48a": "2026-05-30T07:34:10.874344",
+  "fa781661d69b5f4314872c88bc6e9e2e": "2026-05-30T07:34:10.874344"
 }
