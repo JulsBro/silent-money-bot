@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-05-30",
   "__recent_titles__": [
-    "Musk plant Tesla-SpaceX-Fusion mit Bitcoin-Implikationen",
-    "Jefferies: Krypto-IPOs könnten 1-Billionen-Markt schaffen",
-    "StakeDAO-Exploit erzeugt 5,4 Billionen vsdCRV-Token",
-    "Robinhood aktiviert KI-Agenten für Aktien und Kreditkarten",
-    "CFTC fordert Aufhebung von Gemini-Vergleich aus 2022",
     "Google-Mitarbeiter wegen Insider-Trading auf Polymarket angeklagt",
     "Polymarket prüft KYC-Anforderungen unter globalem Druck",
     "BlackRock Bitcoin-ETF verliert 528 Millionen Dollar in einem Tag",
@@ -61,7 +56,12 @@
     "Quantum-Risiko für Bitcoin größer als Wallet-Keys",
     "CFTC-Umkehrung Gemini-Settlement \"außergewöhnlich ungewöhnlich\"",
     "Mass-Deployment von AI-Agenten ist Desaster-Risiko",
-    "Sui-Netzwerk erleidet zweite Ausfallserie"
+    "Sui-Netzwerk erleidet zweite Ausfallserie",
+    "SEC charges Texas man with $12.3M crypto fraud using fake AI trading bots",
+    "XRP ETFs erhalten $35 Millionen, Bitcoin/Ether-Fonds verlieren $2 Milliarden",
+    "Intercontinental Exchange lernt von Hyperliquid, nicht beunruhigt",
+    "Sui-Netzwerk erleidet zweite Ausfallserie innerhalb von 24 Stunden",
+    "Gerichtsbeschluss friert $12,6 Millionen cUSDC in Zama-Vertrag ein"
   ],
   "25697e8c9a94da0fcb4293cf12c28e4b": "2026-05-27T16:23:43.577631",
   "b05e34df43e59bf225ad5437099ebe08": "2026-05-27T16:23:43.577631",
@@ -204,5 +204,14 @@
   "2f28e188651aec3ec6ba6c4be91a818a": "2026-05-30T10:45:15.877180",
   "fd78c47495509f4168e533ad4d314c6b": "2026-05-30T10:45:15.877180",
   "2a71caaa31f92773543f1298219b6602": "2026-05-30T10:45:15.877180",
-  "1f0cf0eb69746b64fbba4069235956ad": "2026-05-30T10:45:15.877180"
+  "1f0cf0eb69746b64fbba4069235956ad": "2026-05-30T14:12:39.180384",
+  "35a0aa6572f7f8534aea68543df13987": "2026-05-30T14:12:39.180384",
+  "22c3f55ba5e7409ca9edac75c1235003": "2026-05-30T14:12:39.180384",
+  "b1b44acbca45d75f15c61872109862fe": "2026-05-30T14:12:39.180384",
+  "23d1e88e93bfc38dbd4a97b2178c99c6": "2026-05-30T14:12:39.180384",
+  "a482a7db9214082b5b4f1afef89bca01": "2026-05-30T14:12:39.180384",
+  "5e1017d04f2163229b66188373bbb543": "2026-05-30T14:12:39.180384",
+  "20e6abff233670fa03e48fae3ec5eeb4": "2026-05-30T14:12:39.180384",
+  "7b8ffa8036a883cd51b43f77cc3ec05f": "2026-05-30T14:12:39.180384",
+  "e7065e7ee2173b25a391970dc07aed8d": "2026-05-30T14:12:39.180384"
 }
