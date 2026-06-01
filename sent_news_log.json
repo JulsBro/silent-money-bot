@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-01",
   "__recent_titles__": [
-    "Quantum-Risiko für Bitcoin größer als Wallet-Keys",
-    "CFTC-Umkehrung Gemini-Settlement \"außergewöhnlich ungewöhnlich\"",
-    "Mass-Deployment von AI-Agenten ist Desaster-Risiko",
-    "Sui-Netzwerk erleidet zweite Ausfallserie",
-    "SEC charges Texas man with $12.3M crypto fraud using fake AI trading bots",
     "XRP ETFs erhalten $35 Millionen, Bitcoin/Ether-Fonds verlieren $2 Milliarden",
     "Intercontinental Exchange lernt von Hyperliquid, nicht beunruhigt",
     "Sui-Netzwerk erleidet zweite Ausfallserie innerhalb von 24 Stunden",
@@ -61,7 +56,12 @@
     "ECB warnt: Stablecoins importieren alte Marktfehler",
     "Binance startet Aktienhandel für 7.000 US-Aktien",
     "Anthropic reicht IPO-Antrag nach $1-Billionen-Bewertung ein",
-    "Sui nennt Ursachen: Gas- und Validator-Bugs führten zu Ausfällen"
+    "Sui nennt Ursachen: Gas- und Validator-Bugs führten zu Ausfällen",
+    "Krypto-Fonds erleiden 1,67 Milliarden Dollar Abflüsse in einer Woche",
+    "Vitalik Buterin schlägt DeFi-Redesign gegen Marktabstürze vor",
+    "Japans Regierungspartei fördert Krypto-ETFs und Yen-Stablecoins",
+    "Gnosis Pay-Exploit trifft Delay-Modul; Refunds zugesagt",
+    "Radiant Capital schließt nach 50-Millionen-Dollar-Hack"
   ],
   "e0dc85ebbb70f99d87e0e17e39ec7091": "2026-05-30T07:34:10.874344",
   "06f4089f55233ed4f6c49b88d00b8184": "2026-05-30T07:34:10.874344",
@@ -193,5 +193,15 @@
   "5e74ca941a7c8118bc80f297a208c533": "2026-06-01T18:22:47.265707",
   "f312b4369bdd14003e3f67f06f6fa210": "2026-06-01T18:22:47.265707",
   "085a5934353a8630811a405eaf93b346": "2026-06-01T18:22:47.265707",
-  "51c1bcfa42d7b8b13b2ac18241027dea": "2026-06-01T18:22:47.265707"
+  "51c1bcfa42d7b8b13b2ac18241027dea": "2026-06-01T18:22:47.265707",
+  "52d931e8e85887946d2c72b56c2b17d2": "2026-06-01T19:54:04.745023",
+  "4c37f7bfa0dbc535a83e1dd217b94e2f": "2026-06-01T19:54:04.745023",
+  "8559964d37624189d6dbdafa44f74be5": "2026-06-01T19:54:04.745023",
+  "448c1358e23873d92ff0f4d2af1f93a6": "2026-06-01T19:54:04.745023",
+  "3eb3e4df6530d5a3fdd3f7b0605b90ac": "2026-06-01T19:54:04.745023",
+  "0d4036b86b8058076dcfd1abea258388": "2026-06-01T19:54:04.745023",
+  "f14828073854f74b97d950c52b941faf": "2026-06-01T19:54:04.745023",
+  "5cb4b1c9d6cf9b363fd94f6b7e7907e0": "2026-06-01T19:54:04.745023",
+  "151c72c83f557e8e623db068a3b76914": "2026-06-01T19:54:04.745023",
+  "b75513a9b2d70df6678aa5893d8958fe": "2026-06-01T19:54:04.745023"
 }
