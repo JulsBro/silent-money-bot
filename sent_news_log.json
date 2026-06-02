@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-02",
   "__recent_titles__": [
-    "Trump gefährdet eigenes Krypto-Regulations-Gesetz CLARITY",
-    "Gravity Bridge stoppt nach 5,4-Millionen-Dollar-Exploit",
-    "Aave Labs erhält zwei britische FCA-Lizenzen für Zahlungen",
-    "Lummis warnt: China schreibt Finanzregeln ohne CLARITY-Gesetz",
-    "Base startet Azul-Mainnet für vollständige Dezentralisierung",
     "Vietnam erlaubt KMU digitale Vermögenswerte als Kreditbesicherung",
     "Grayscale: Hyperliquid könnte DeFi-Gigant werden",
     "AI-Modelle stimmen in 67% der Fakten nicht überein",
@@ -61,7 +56,12 @@
     "Hyperliquid prognostizierte 80% Ölbewegung vor traditionellen Märkten",
     "DTCC verbindet tokenisierte Securities mit Stellar-Netzwerk",
     "Titan Network spart Tech-Giganten 75% bei KI-Kosten",
-    "Capital B fordert $122 Milliarden für Bitcoin-Käufe an"
+    "Capital B fordert $122 Milliarden für Bitcoin-Käufe an",
+    "CFTC-Chef beantragt Umkehrung von 5-Millionen-Gemini-Vergleich",
+    "Hyperliquid überholt Ethereum in Handelsvolumen — Institutionelle Rotation",
+    "Movement startet Stablecoin-Zahlungen über US-, Kanada- und EU-Schienen",
+    "Trump unterzeichnet KI-Verordnung — Freiwilliges Prüfrahmen etabliert",
+    "HIVE verkauft 331 Bitcoin in Q1 — 298 Millionen Dollar Umsatzrekord"
   ],
   "544a094efc627af0ee9b34ffc666b0b6": "2026-05-31T19:26:52.943057",
   "b5217d5ebc1bc11253f5c5a13ab23606": "2026-05-31T16:02:04.204193",
@@ -199,5 +199,15 @@
   "76d842b230a1e90cbc937aeeb5718915": "2026-06-02T16:59:50.706893",
   "8a40974a930f5e5d6619f03c237aef1f": "2026-06-02T16:59:50.706893",
   "151c7190459434abb95dec34064e6d8c": "2026-06-02T16:59:50.706893",
-  "ba81deeeb2fc820858649773a7c73d90": "2026-06-02T16:59:50.706893"
+  "ba81deeeb2fc820858649773a7c73d90": "2026-06-02T16:59:50.706893",
+  "ffd1920e22b1e1c1ea3c857b6b1a2ce2": "2026-06-02T18:35:54.877066",
+  "7fa47edb252fb3c051b1ea2513e69683": "2026-06-02T18:35:54.877066",
+  "8b38f105ed522e6747833cb7adaaf8c5": "2026-06-02T18:35:54.877066",
+  "07324df82cbc5ce92543bf79db7278be": "2026-06-02T18:35:54.877066",
+  "8c8784fe312f59b12889e972ad9e7251": "2026-06-02T18:35:54.877066",
+  "2ff594a5bc7326d03a8f8b432c9643d5": "2026-06-02T18:35:54.877066",
+  "5afcfcba1c56041ca50ac792f13dbab5": "2026-06-02T18:35:54.877066",
+  "c81490162852da80796821bf0a454450": "2026-06-02T18:35:54.877066",
+  "d05c317d1fe521f0d0cb013b62295942": "2026-06-02T18:35:54.877066",
+  "653e2c941f3d13c89f44ff033bb97197": "2026-06-02T18:35:54.877066"
 }
