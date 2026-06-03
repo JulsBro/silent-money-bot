@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-03",
   "__recent_titles__": [
-    "Japans Regierungspartei unterstützt Krypto-ETF-Handel und Yen-Stablecoins",
-    "Strategy verkauft erstmals seit 2022 Bitcoin — 32 BTC für Dividenden",
-    "CFTC genehmigt Kalshi-Perpetuals; Hyperliquid explodiert",
-    "Coinbase startet Rupien-Bankverbindungen in Indien nach FIU-Genehmigung",
-    "Sui Foundation behebt Ausfallbugs durch Major Upgrade",
     "Kelp DAO Hacker launders fast – $220M Exploit-Gewinne verschwinden",
     "ECB warnt: Stablecoins importieren alte Marktfehler",
     "Binance startet Aktienhandel für 7.000 US-Aktien",
@@ -61,7 +56,12 @@
     "EU-MiCA: Frist für unlizenzierte Krypto-Börsen endet 1. Juli",
     "Zcash behebt kritische Orchard-Schwachstelle per Emergency-Update",
     "Binance schliesst NFT-Handel auf Exchange, verschiebt zu Wallet",
-    "Grayscale startet niedrigste Hyperliquid-ETF-Gebühren: 0,29%"
+    "Grayscale startet niedrigste Hyperliquid-ETF-Gebühren: 0,29%",
+    "CLARITY Act-Verabschiedung hängt von Senatszeitplan ab",
+    "Agentic Payment Activity überschreitet 100M Transaktionen auf Base",
+    "Binance schliesst NFT-Handel, verlagert zu Wallet-Diensten",
+    "Zcash behebt Orchard-Schwachstelle nach Emergency-Update",
+    "Bitcoin fällt unter $67.000 während MSTR-Aktie einbricht"
   ],
   "544a094efc627af0ee9b34ffc666b0b6": "2026-05-31T19:26:52.943057",
   "3686e1b83eaf9ce87b85c9cb4058f5bd": "2026-05-31T19:26:52.943057",
@@ -203,7 +203,16 @@
   "3941677386869e31e0feb2b401957029": "2026-06-03T17:25:21.935598",
   "10ba9669e1fab06cc1976ec32a4880a2": "2026-06-03T17:25:21.935598",
   "72a412fa9d76647fab20f5578e97ee67": "2026-06-03T17:25:21.935598",
-  "9cc064fa40960111d3713d6855c3e753": "2026-06-03T17:25:21.935598",
+  "9cc064fa40960111d3713d6855c3e753": "2026-06-03T18:41:05.838757",
   "15b1a3ab75f817151696234900650aaf": "2026-06-03T17:25:21.935598",
-  "75dea915296a82da0bf1c327f278d526": "2026-06-03T17:25:21.935598"
+  "75dea915296a82da0bf1c327f278d526": "2026-06-03T17:25:21.935598",
+  "3e38891097e8428652b1bb12e6761333": "2026-06-03T18:41:05.838757",
+  "ba166b12a2cd47182fa921eaed349704": "2026-06-03T18:41:05.838757",
+  "da9144ff2a95db50015d312d4cb953cd": "2026-06-03T18:41:05.838757",
+  "ac54f9048bd9404c385f5cb8f9a583ef": "2026-06-03T18:41:05.838757",
+  "5b7d96e21df3a6e6c891a45abcf0899d": "2026-06-03T18:41:05.838757",
+  "78c8f680d82b696b2480e5e42b9def33": "2026-06-03T18:41:05.838757",
+  "f7ec24e4f549b739ec048fc81473cc47": "2026-06-03T18:41:05.838757",
+  "da681c4b3a5e3a38d69d3ce48f2bedbb": "2026-06-03T18:41:05.838757",
+  "b58a0b6f3f61bf91918a128e5f324446": "2026-06-03T18:41:05.838757"
 }
