@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-04",
   "__recent_titles__": [
-    "US-Senat debattiert CLARITY Act diese Woche",
-    "MoneyGram startet Stablecoin auf Stellar für Zahlungsverkehr",
-    "Ripples RLUSD expandiert in Türkei über drei lokale Plattformen",
-    "Symbiotic baut Liquiditätsnetzwerk für tokenisierte Vermögenswerte",
-    "Strive kauft 2.500 Bitcoin nach Strategys Verkauf",
     "Bitcoin-Derivate zeigen Warnsignale bei Preisfall unter 70.000 Dollar",
     "Franklin Templeton integriert MoonPay für 24/7-Stablecoin-Swaps",
     "Hyperliquid prognostizierte 80% Ölbewegung vor traditionellen Märkten",
@@ -61,7 +56,12 @@
     "Russland sanktioniert britischen Teenager wegen A7A5-Recherche",
     "Erste Fannie-Mae-Hypothek mit Bitcoin-Collateral geschlossen",
     "US-Finanzminister signalisiert Bitcoin-Reserve in Deliberater Geschwindigkeit",
-    "Bitcoin-ETFs verlieren 4,4 Milliarden Dollar — 13-Tage-Serie"
+    "Bitcoin-ETFs verlieren 4,4 Milliarden Dollar — 13-Tage-Serie",
+    "Arthur Hayes verkauft HYPE/NEAR — warnt vor AI-IPO-Welle",
+    "Goldman Sachs startet tokenisierten Immobilienfonds mit Apex, Archax",
+    "Coinbase startet Pre-IPO-Märkte — SpaceX als Basis-Asset",
+    "DOJ-Task-Force friert $3,8M Krypto ein — Coinbase/Meta/SpaceX halfen",
+    "Bitcoin-ETFs verlieren $4,4B — 13. Handelstag in Folge"
   ],
   "69d027c8ce4274f0fea2515258c28577": "2026-06-01T18:22:47.265707",
   "eec2c5c60a5afc25ab422df73a1b623f": "2026-06-01T18:22:47.265707",
@@ -217,5 +217,14 @@
   "4befdafc122a9ec431b242296d19a7a6": "2026-06-04T15:56:13.620471",
   "8b4cdc54a2bd743717e071c610e31e5e": "2026-06-04T15:56:13.620471",
   "7396fc85ccd6c881b5b51685caf26b42": "2026-06-04T15:56:13.620471",
-  "40f6f468b4c25491641be5cc6c40877d": "2026-06-04T15:56:13.620471"
+  "40f6f468b4c25491641be5cc6c40877d": "2026-06-04T17:40:28.386768",
+  "a9cb816c090e2e0956d3dfcff2fac0da": "2026-06-04T17:40:28.386768",
+  "97207a3d102431c241f2b01a6846651f": "2026-06-04T17:40:28.386768",
+  "15c9b1d431f0fd97539c6433c0c50c0d": "2026-06-04T17:40:28.386768",
+  "e52dcf3638331a34c0030beb96c04057": "2026-06-04T17:40:28.386768",
+  "4386f8bc13fd845131ce2cf700ace34c": "2026-06-04T17:40:28.386768",
+  "cbed93ed2a28686eb550aa61da437d19": "2026-06-04T17:40:28.386768",
+  "edff6e431f423e75c5c2a5700934100e": "2026-06-04T17:40:28.386768",
+  "b550d5b4e9e98cdc929f5f70a1a1d64f": "2026-06-04T17:40:28.386768",
+  "b0a192a9b10a397d1cfa7cef9dacd209": "2026-06-04T17:40:28.386768"
 }
