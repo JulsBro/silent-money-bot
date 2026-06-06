@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-06",
   "__recent_titles__": [
-    "Coinbase friert 3 Millionen Dollar aus SE-Asia-Betrugsnetzwerk ein",
-    "Revolut US-Bank plant Stablecoins neben FDIC-versicherten Konten",
-    "JPMorgan warnt: Frist für Crypto Market Structure Bill läuft ab",
-    "US House Democrats fordern FTC-Untersuchung von Prediction Markets",
-    "Coinbase startet Pre-IPO-Perpetuals mit SpaceX als Basis-Asset",
     "67% der gesperrten Anthropic-Accounts nutzten KI für Cyberangriffe",
     "Moomoo erweitert in CFTC-regulierte Vorhersagemärkte mit Kalshi",
     "Russland sanktioniert britischen Teenager wegen A7A5-Recherche",
@@ -61,7 +56,12 @@
     "284-Milliarden-Dollar Klage über 14 Jahre alte Satoshi-Bitcoin bewegt sich",
     "Quantitative Firms begreifen Polymarket nicht mehr als Nischen-Wettplattform",
     "BitMEX-Gründer Hayes verkauft Worldcoin einen Tag nach Hold-Versprechen",
-    "Sieben Krypto-Steuerbills vor House Ways and Means Anhörung nächste Woche"
+    "Sieben Krypto-Steuerbills vor House Ways and Means Anhörung nächste Woche",
+    "US-Großbanken starten tokenisiertes Depositen-Netzwerk",
+    "Bitcoin-Shorts stehen vor 2,6-Mrd-Dollar-Liquidierungsfalle",
+    "House Ways and Means hält Krypto-Steuerhörungs am Dienstag",
+    "Securitize erhält SEC-Zustimmung für NYSE-Listing",
+    "Visa testet private Stablecoin-Abwicklung live"
   ],
   "ae6ca1c786d07816407f7e3199a0b3fc": "2026-06-03T17:25:21.935598",
   "5c25c32fa7233cb03e5feb745d19669a": "2026-06-03T17:25:21.935598",
@@ -161,7 +161,7 @@
   "e678ea6b2820ba028f89d9a769592dbf": "2026-06-05T15:33:32.985024",
   "11e1038b7cc680964215683b4a573dc8": "2026-06-05T15:33:32.985024",
   "4783804db877c03cdbd1521e87b888a1": "2026-06-05T15:33:32.985024",
-  "230c43ebfb611995131394670f8abbf4": "2026-06-06T14:15:40.345978",
+  "230c43ebfb611995131394670f8abbf4": "2026-06-06T16:03:31.712898",
   "e690ae58fc09b4838f99861761e7c01e": "2026-06-05T15:33:32.985024",
   "d1b0aac9b043055c0232160c96b787d5": "2026-06-05T20:02:57.780176",
   "3addb290bb57aa39344fc5c9ab52f48b": "2026-06-05T15:33:32.985024",
@@ -211,5 +211,14 @@
   "82c0b2b615480742d2b22a2ffc87fafb": "2026-06-06T14:15:40.345978",
   "b99ebc2f22aaf9bc9a720d1b8a5bdad9": "2026-06-06T14:15:40.345978",
   "f56a1b3f11a35664244cc1bb8f121606": "2026-06-06T14:15:40.345978",
-  "a83f70a85cefc5605cd1ff285fc9d5da": "2026-06-06T14:15:40.345978"
+  "a83f70a85cefc5605cd1ff285fc9d5da": "2026-06-06T14:15:40.345978",
+  "55e4660c551d0c6fa0b738387e1f0d70": "2026-06-06T16:03:31.712898",
+  "c5904c5f822ef77b4701923ee7a90668": "2026-06-06T16:03:31.712898",
+  "7d6b3b7dac15494d19b9f8ce8d19fca5": "2026-06-06T16:03:31.712898",
+  "0e8e048fae6e01db5c6ee5f25503a150": "2026-06-06T16:03:31.712898",
+  "e6229b543f6ec90e71b89166fc92df4b": "2026-06-06T16:03:31.712898",
+  "6626b2e2ae935d5469b1f6aef6424fc3": "2026-06-06T16:03:31.712898",
+  "a502f37975b066d28c721ddbe9d70760": "2026-06-06T16:03:31.712898",
+  "e212b876f9b9505e111b047522ad343d": "2026-06-06T16:03:31.712898",
+  "be83d81fbe70b4dce3e08cf08e3e0b4a": "2026-06-06T16:03:31.712898"
 }
