@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-10",
   "__recent_titles__": [
-    "Bitcoin-Short-Liquidierungen bei $504M in 24 Stunden",
-    "Iran-Israel Spannungen treiben Öl hoch — Bitcoin fällt unter $63K",
-    "Galaxy senkt CLARITY-Act-Chancen auf 60% — Zeit läuft ab",
-    "Strategy kauft 1.550 Bitcoin nach Kapitalerhöhung",
-    "Bybit startet tokenisierte US-IPO-Plattform — SpaceX first",
     "Chinesisches Gericht anerkennt Bitcoin als Eigentum",
     "200+ Organisationen fordern Senate-Abstimmung zu Clarity Act",
     "Bitmine kauft 126.971 ETH — größter Kauf seit 2026",
@@ -61,7 +56,12 @@
     "Mastercard entwickelt Zahlungssystem für KI-Agenten",
     "Pyth startet kontinuierliche Preisindizes für US-Aktien",
     "Delaware treibt Verbot von Krypto-Geldautomaten voran",
-    "Chainalysis partnert mit südkoreanischer Polizei"
+    "Chainalysis partnert mit südkoreanischer Polizei",
+    "World Series of Poker akzeptiert Solana-Zahlungen für Turniergebühren",
+    "Robinhood erhält Underwriter-Status — Vor Mega-IPO-Ankündigung",
+    "Mastercard aktiviert AI-Agent-Zahlungen mit Stablecoins",
+    "CFTC erlässt Prediction-Market-Regeln — Verbietet Kriegswetten",
+    "SpaceX-IPO 4x überzeichnet — Entzieht Kapital aus Krypto-Tech"
   ],
   "e330177a2a90e8280988819c69e8e08d": "2026-06-07T19:41:53.378569",
   "dd694bdd9a1e9de8b64510d4290fa23f": "2026-06-07T19:41:53.378569",
@@ -196,5 +196,15 @@
   "39142b9e63e89cfabeec92e49c09a008": "2026-06-10T16:13:15.392778",
   "a97cda4db81c3b833fd6d32aceec07bf": "2026-06-10T16:13:15.392778",
   "682b2e5a082a5132648b5478c23a71b2": "2026-06-10T16:13:15.392778",
-  "055c9069379dc94320063562215eb5d9": "2026-06-10T16:13:15.392778"
+  "055c9069379dc94320063562215eb5d9": "2026-06-10T16:13:15.392778",
+  "67443c33a2e3dd4c384a64cf73ea4a56": "2026-06-10T17:53:54.946267",
+  "571c70d04851436f426387712ced93f1": "2026-06-10T17:53:54.946267",
+  "812da6be95dcd17d08142d1cba19b6ea": "2026-06-10T17:53:54.946267",
+  "23104a351314e76533f9c5c8750018ac": "2026-06-10T17:53:54.946267",
+  "86d57a38da899b328c7035b221341d9d": "2026-06-10T17:53:54.946267",
+  "c78a3637f5643a02491a92060469fe00": "2026-06-10T17:53:54.946267",
+  "1c860bf17e4498bb1d6bcce740222800": "2026-06-10T17:53:54.946267",
+  "082f9cdb18bdf8698dbb4010b64f91a3": "2026-06-10T17:53:54.946267",
+  "bfc017ba6fc40cba427dd7de931ca8e8": "2026-06-10T17:53:54.946267",
+  "cd467a9d78d4e1c84005865ac59026cb": "2026-06-10T17:53:54.946267"
 }
