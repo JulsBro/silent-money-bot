@@ -107,12 +107,17 @@ def filter_sent(news: list, log: dict) -> list:
 def mark_sent(items: list, log: dict) -> dict:
     now = datetime.utcnow().isoformat()
     for item in items:
-        title = item.get("headline") or item.get("title", "")
-        url   = item.get("url", "")
-        if title:
-            log[news_key(title)] = now
-        if url:
-            log[url_key(url)] = now
+        # Deutsche Überschrift
+        if item.get("headline"):
+            log[news_key(item["headline"])] = now
+        # Original-Titel (englisch/russisch) — DAS ist der Schlüssel für nächsten Tag
+        if item.get("_raw_title"):
+            log[news_key(item["_raw_title"])] = now
+        # URLs
+        if item.get("url"):
+            log[url_key(item["url"])] = now
+        if item.get("_raw_url"):
+            log[url_key(item["_raw_url"])] = now
     return log
 
 
@@ -398,10 +403,12 @@ TWITTER-FILTER (sehr streng):
 ✓ Nur aufnehmen wenn: konkrete Ankündigung, Gesetzesvorhaben, Unternehmungsentscheidung
 ✗ Nicht aufnehmen: Meinungen, Witze, Retweets ohne neue Info, allgemeine Kommentare
 
-STRENGE DEDUPLIZIERUNG:
-- Bereits gesendete Themen: NICHT nochmal senden
+STRENGE DEDUPLIZIERUNG (3-Tage-Regel):
+- Bereits gesendete Ereignisse (siehe Liste oben): NICHT wiederholen
+- AUSNAHME: Es gibt eine echte neue Entwicklung in genau dieser Sache (neue Zahlen, neue Maßnahme, neue Reaktion) → dann erlaubt, aber mache klar was NEU ist
 - Pro Ereignis NUR EINE Quelle
 - Gleicher Inhalt mit anderer Überschrift = Duplikat = weglassen
+- Reines Update oder Zusammenfassung ohne neue Substanz = weglassen
 
 FORMAT pro Post (Deutsch):
 Emoji + fette Schlagzeile (max 10 Wörter, reiner Fakt)
@@ -409,8 +416,8 @@ Emoji + fette Schlagzeile (max 10 Wörter, reiner Fakt)
 Bei Twitter-Posts: Wer hat was gesagt/angekündigt → Marktbedeutung
 Ton: Reuters, nicht Krypto-Blog
 
-JSON-Array (keine Codeblöcke):
-[{{"emoji":"🏛","headline":"...","body":"...","source_name":"...","url":"..."}}]
+JSON-Array (keine Codeblöcke). "index" = die Nummer (i) der Nachricht aus der Liste unten:
+[{{"index":3,"emoji":"🏛","headline":"...","body":"...","source_name":"...","url":"..."}}]
 
 NACHRICHTEN:
 {news_json[:13000]}
@@ -430,6 +437,12 @@ NACHRICHTEN:
 
     try:
         result = json.loads(text)
+        # Original-Titel und URL aus der Rohliste anhängen (für zuverlässige Deduplizierung)
+        for item in result:
+            idx = item.get("index")
+            if isinstance(idx, int) and 0 <= idx < len(news):
+                item["_raw_title"] = news[idx]["title"]
+                item["_raw_url"]   = news[idx]["url"]
         print(f"✅ {len(result)} ausgewählt")
         return result[:count]
     except Exception as e:
@@ -438,26 +451,38 @@ NACHRICHTEN:
 
 
 def self_check_duplicates(selected: list, recent_titles: list) -> list:
-    """Claude prüft seine eigene Auswahl nochmal auf inhaltliche Duplikate"""
-    if not recent_titles or not selected:
+    """Claude prüft die Auswahl auf Duplikate — gegen Vergangenheit UND untereinander"""
+    if not selected:
         return selected
 
-    selected_json  = json.dumps([{"i": i, "h": s.get("headline","")} for i, s in enumerate(selected)], ensure_ascii=False)
-    recent_str     = "\n".join(f"- {t}" for t in recent_titles[-50:])
+    selected_json = json.dumps([{"i": i, "h": s.get("headline","")} for i, s in enumerate(selected)], ensure_ascii=False)
+    recent_str    = "\n".join(f"- {t}" for t in recent_titles[-50:]) if recent_titles else "keine"
 
-    prompt = f"""Du hast diese Nachrichten ausgewählt:
+    prompt = f"""Ausgewählte Nachrichten für den nächsten Post:
 {selected_json}
 
-Bereits in den letzten 72h gesendet:
+Bereits in den letzten 72h (3 Tage) gesendet:
 {recent_str}
 
-Prüfe: Welche der ausgewählten Nachrichten sind inhaltlich GLEICH oder SEHR ÄHNLICH zu bereits gesendeten?
-Gleich = dasselbe Ereignis, auch wenn anders formuliert.
+REGEL — sehr genau anwenden:
+Eine ausgewählte Nachricht wird ENTFERNT, wenn sie dasselbe Ereignis behandelt das bereits gesendet wurde.
+Eine ausgewählte Nachricht BLEIBT nur dann, wenn sie eine ECHTE NEUE ENTWICKLUNG in der Sache enthält.
 
-Antworte NUR mit JSON-Array der Indizes die BEHALTEN werden sollen (nicht die Duplikate):
-[0, 1, 2, 3, 4]
+Was zählt als neue Entwicklung (BLEIBT):
+- "Protokoll gehackt" → später "Protokoll friert Gelder ein" → später "Täter identifiziert" = jeweils neu
+- Neue konkrete Zahlen, neue Maßnahme, neue Reaktion einer Behörde
+- Eine Klage wird eingereicht → Urteil fällt = neu
 
-Wenn alle ok: alle Indizes zurückgeben. Wenn ein Duplikat: diesen Index weglassen."""
+Was zählt als Wiederholung (ENTFERNEN):
+- Dasselbe Ereignis nur anders formuliert
+- "X passierte" heute und morgen wieder "X passierte" ohne neue Fakten
+- Eine andere Quelle berichtet über dasselbe bereits gesendete Ereignis
+- Zusammenfassung oder Update ohne neue Substanz
+
+Prüfe auch: Sind ausgewählte Nachrichten untereinander Duplikate? Dann nur die erste behalten.
+
+Antworte NUR mit JSON-Array der Indizes die BLEIBEN:
+[0, 1, 2, 3, 4]"""
 
     try:
         resp = client.messages.create(
@@ -467,11 +492,11 @@ Wenn alle ok: alle Indizes zurückgeben. Wenn ein Duplikat: diesen Index weglass
         )
         text = resp.content[0].text.strip().replace("```json","").replace("```","").strip()
         keep = json.loads(text)
-        result = [selected[i] for i in keep if i < len(selected)]
+        result = [selected[i] for i in keep if isinstance(i, int) and i < len(selected)]
         removed = len(selected) - len(result)
         if removed > 0:
             print(f"🔍 Selbstprüfung: {removed} Duplikat(e) entfernt")
-        return result
+        return result if result else selected
     except Exception as e:
         print(f"[Selbstprüfung] Fehler: {e}")
         return selected
