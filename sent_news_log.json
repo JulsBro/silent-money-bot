@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-06-10",
+  "__prices_date__": "2026-06-11",
   "__recent_titles__": [
-    "Aave nach 8,45-Milliarden-Dollar-Bank-Run unter Beschuss",
-    "MiCA-Compliance erstickt europäische Krypto-Startups",
-    "MetaMask launcht KI-Agent-Wallet mit Sicherheitskontrollen",
-    "Südkorea durchsucht Bithumb wegen Nepotismus-Vorwürfen",
-    "BitMine kauft 126.971 ETH — größter Wochenkauf 2026",
     "Sam Bankman-Fried reicht Trump-Begnadigungsantrag ein",
     "MetaMask startet KI-Agent-Wallet mit Sicherheitskontrollen",
     "Bitcoin-Short-Liquidierungen bei 540 Millionen in 7 Wochen",
@@ -61,7 +56,12 @@
     "BlackRock und Fidelity dominieren Bitcoin-ETF-Markt",
     "Raydium-Exploit kostet Solana-DEX 1,34 Millionen Dollar",
     "Kalshi zwingt Nutzer zur Arbeitgeber-Offenlegung",
-    "Tether, Nvidia und Amazon finanzieren Robotik-Startup NEURA"
+    "Tether, Nvidia und Amazon finanzieren Robotik-Startup NEURA",
+    "BlackRock startet Income-Bitcoin-ETF mit Gebührenunterschnitt",
+    "Philippinen: Binance fehlt Lizenz zum Betrieb",
+    "DBS bietet tokenisiertes Gold für Einzelkunden an",
+    "Unternehmenskäufe von Bitcoin versiegen",
+    "CFTC bevorzugt Sportkontrakte gegenüber Glücksspiel"
   ],
   "f92b4965bee93589a8abcde87f662409": "2026-06-08T09:16:18.739856",
   "e5f6b6da74a52cbe753e8ed922b47bde": "2026-06-08T09:16:18.739856",
@@ -200,5 +200,15 @@
   "5711f0c414f89dfe5bf7587a7817f7df": "2026-06-10T20:39:13.108590",
   "a4916b0ae4a0ba152019ef3d3b0fc870": "2026-06-10T20:39:13.108590",
   "7d5c8ab176d0c85733660d7d6df6be3b": "2026-06-10T20:39:13.108590",
-  "5ad78367f7bbaea978ccbb9af81f1f7e": "2026-06-10T20:39:13.108590"
+  "5ad78367f7bbaea978ccbb9af81f1f7e": "2026-06-10T20:39:13.108590",
+  "af131c6fda50cf046bd503bad3f5e30b": "2026-06-11T09:06:58.955114",
+  "dd6b34977aaf97ce4cbf30df636df357": "2026-06-11T09:06:58.955114",
+  "6b92ec72969a923213ba3519b96bdefc": "2026-06-11T09:06:58.955114",
+  "9cc13325b289eab37b3721b41531e41f": "2026-06-11T09:06:58.955114",
+  "d964ba64b5407763ec6738ec2903d7a7": "2026-06-11T09:06:58.955114",
+  "ceea541f438da77b19c80ecb2be1ad9b": "2026-06-11T09:06:58.955114",
+  "a34fb242281d7c4db4840866efac55f6": "2026-06-11T09:06:58.955114",
+  "816b1017c1ae4cb137196e78c77c1899": "2026-06-11T09:06:58.955114",
+  "d8f9d668a76c37b5bf0816019ffeacf7": "2026-06-11T09:06:58.955114",
+  "e94cf31016f0d1b3764da77215df51cf": "2026-06-11T09:06:58.955114"
 }
