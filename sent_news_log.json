@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-06-12",
+  "__prices_date__": "2026-06-13",
   "__recent_titles__": [
-    "Delaware treibt Verbot von Krypto-Geldautomaten voran",
-    "Chainalysis partnert mit südkoreanischer Polizei",
-    "World Series of Poker akzeptiert Solana-Zahlungen für Turniergebühren",
-    "Robinhood erhält Underwriter-Status — Vor Mega-IPO-Ankündigung",
-    "Mastercard aktiviert AI-Agent-Zahlungen mit Stablecoins",
     "CFTC erlässt Prediction-Market-Regeln — Verbietet Kriegswetten",
     "SpaceX-IPO 4x überzeichnet — Entzieht Kapital aus Krypto-Tech",
     "BlackRock und Fidelity dominieren Bitcoin-ETF-Markt",
@@ -61,7 +56,12 @@
     "Exodus und Ondo starten tokenisierte Aktienmärkte auf Solana",
     "Gensler lehnt CFTC-Jurisdiktion über Prediction Markets ab",
     "Metaplanet kauft japanische Wertpapierfirma für Bitcoin-Produkte",
-    "SBF verliert Berufung — 25-Jahre-Strafe bestätigt"
+    "SBF verliert Berufung — 25-Jahre-Strafe bestätigt",
+    "US-Regierung zwingt Anthropic zur Abschaltung von Fable 5 und Mythos 5",
+    "Tokenisierte SpaceX-Shares scheitern an echter Aktienbeschaffung",
+    "Kryptographen uneinig über Bitcoins Quanten-Sicherheit",
+    "CFTC verklagt New Mexico über Sports-Betting-Regulierung",
+    "Y Combinator: Clarity Act bringt Krypto in jeden Portfolio-Konzern"
   ],
   "0ccce06fdbaeedbb876d407bf5f941a0": "2026-06-10T08:41:18.553011",
   "fcd7961c38110378e6a05b2636ff0379": "2026-06-10T08:41:18.553011",
@@ -246,5 +246,22 @@
   "4f518f3584d189248c667e7ea9c45650": "2026-06-12T20:19:49.311105",
   "1bece6875b877c41639c249f0957472a": "2026-06-12T20:19:49.311105",
   "87c23c37e91fc675719579337908b310": "2026-06-12T20:19:49.311105",
-  "d21655c51f142960c7a808564b3fd5b7": "2026-06-12T20:19:49.311105"
+  "d21655c51f142960c7a808564b3fd5b7": "2026-06-12T20:19:49.311105",
+  "32c0baa008720b81f3c2cded93bda2c0": "2026-06-13T08:14:59.447959",
+  "ac05f690cc97b11010803ad89e6ac14a": "2026-06-13T08:14:59.447959",
+  "3c21534393b33ecd631ba83868b5afb4": "2026-06-13T08:14:59.447959",
+  "645a80cbc27146b234badffca7657515": "2026-06-13T08:14:59.447959",
+  "8e6be869d59c2d7d6b2544d5fc8699d6": "2026-06-13T08:14:59.447959",
+  "f4eb2541159040f93f4d5f9ba8d52109": "2026-06-13T08:14:59.447959",
+  "fe5e92e049654e4f2e8516b295e52ba7": "2026-06-13T08:14:59.447959",
+  "e2daa92b19556822664a19bc0362c67d": "2026-06-13T08:14:59.447959",
+  "219ebdbbf43ccd2ced61f4020283689e": "2026-06-13T08:14:59.447959",
+  "b823d531d999350b9157345128bd0edf": "2026-06-13T08:14:59.447959",
+  "d37a5a351151c2baf29d80fbbbbaaaf2": "2026-06-13T08:14:59.447959",
+  "d40428d4bcee9dcc9c74f8905ff5e9b1": "2026-06-13T08:14:59.447959",
+  "24b23a5fe044586c0603b34122ad1abf": "2026-06-13T08:14:59.447959",
+  "bd28460934aac999d017f15f142b114f": "2026-06-13T08:14:59.447959",
+  "777cca63c3cf13c2ba33177ada7edb15": "2026-06-13T08:14:59.447959",
+  "46f12ac66fc6eb844473b60ba40bc746": "2026-06-13T08:14:59.447959",
+  "a127b6927f3f2b1bd263c66f83d30e99": "2026-06-13T08:14:59.447959"
 }
