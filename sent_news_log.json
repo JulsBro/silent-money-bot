@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-16",
   "__recent_titles__": [
-    "Arabica-Kaffee erreicht Rekordhoch — Trump-Zölle gelöst",
-    "Tokenisierte Treasury-Märkte erreichen $14,6 Mrd., CEX-Volumen fällt 11%",
-    "Humanity Protocol Hack: $36M von nordkoreanischen Hackern gestohlen",
-    "Ethereum-Konten quantensicher für 7 Cent umrüstbar",
-    "SEC-Tokenisierungsbefreiung schwächer als vollständige Regulierung",
     "SpaceX IPO sammelt $75 Milliarden — größtes Börsengang-Angebot aller Zeiten",
     "Trump-Stablecoin USD1 sponsert UFC-Boni im Weißen Haus",
     "CFTC: Prediction-Markets-Regeln verbieten Terror- und Attentats-Wetten",
@@ -61,7 +56,12 @@
     "Coinbase startet On-Chain Tokenisierte Aktien mit Dividenden",
     "Ethereum Glamsterdam-Upgrade tritt Finaltestphase ein",
     "State Street lanciert Stablecoin-Reserve-Geldmarktfonds",
-    "SpaceX akquiriert AI-Startup Cursor für $60 Milliarden"
+    "SpaceX akquiriert AI-Startup Cursor für $60 Milliarden",
+    "Binance EU-Lizenz-Antrag: Griechenland lehnt ab, Austausch weist zurück",
+    "State Street startet Stablecoin-Reserve-Geldmarktfonds",
+    "Y Combinator: AI-Agent baut vollständiges Business aus Text",
+    "Coinbase tokenisiert US-Aktien mit 1:1-Backing und Dividenden",
+    "Robinhood streicht 10% der Belegschaft trotz CEO-Zuversicht"
   ],
   "04ee0f5017af45c80cce2ad6f060cff5": "2026-06-13T19:45:14.541786",
   "7600447452bb42df76d7b3d720f86e50": "2026-06-13T19:45:14.541786",
@@ -312,5 +312,20 @@
   "1abc92e2e49a5a84fbf416a70c7f98b7": "2026-06-16T17:29:29.049957",
   "71e21f287ce69ede0918896ddaabfbd7": "2026-06-16T17:29:29.049957",
   "edfebd54c579a601d8492b7a9e743801": "2026-06-16T17:29:29.049957",
-  "1476164898f3cf0bdc9b0853467aa816": "2026-06-16T17:29:29.049957"
+  "1476164898f3cf0bdc9b0853467aa816": "2026-06-16T17:29:29.049957",
+  "025b28def1ed2bcb19506d5d6c239016": "2026-06-16T18:53:26.593616",
+  "55bb2f17a8e309960fc61ee256b31aea": "2026-06-16T18:53:26.593616",
+  "37147507446c8ceaf7679f7a721982de": "2026-06-16T18:53:26.593616",
+  "ae5cb041a81bead19b05dcf34a48b9b5": "2026-06-16T18:53:26.593616",
+  "ba8879e173ca300845e57f58fb24f45d": "2026-06-16T18:53:26.593616",
+  "9300f4d91fb33a8160d671ce72399f62": "2026-06-16T18:53:26.593616",
+  "e1f6ea25bfe419e0392b2461502c62fb": "2026-06-16T18:53:26.593616",
+  "8f6bbdde05a7ce6507ee21fddefa1a4f": "2026-06-16T18:53:26.593616",
+  "83c82e52a45c6d850c1284e2e0e5e0e7": "2026-06-16T18:53:26.593616",
+  "c715e09e285cdd9d3378c0cf7c79b29e": "2026-06-16T18:53:26.593616",
+  "cd3a67524e9056734dd06dd78824b316": "2026-06-16T18:53:26.593616",
+  "b002da421aab06f2f9b092e0ab42be4e": "2026-06-16T18:53:26.593616",
+  "1b30c3199c752c875aedb10d2cd736a1": "2026-06-16T18:53:26.593616",
+  "e3e6ca6d332aba95a7e4c9506ee54484": "2026-06-16T18:53:26.593616",
+  "b34c5bd01238624beecc779e6793076b": "2026-06-16T18:53:26.593616"
 }
