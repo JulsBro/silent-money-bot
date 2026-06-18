@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-06-17",
+  "__prices_date__": "2026-06-18",
   "__recent_titles__": [
-    "Hyperliquid verliert Anthropic- und OpenAI-Märkte nach Projektschließung",
-    "Coinbase-Chef Armstrong: Bitcoin hat bei $60.000 Boden gefunden",
-    "US-Iran-Deal hebt Aktien, senkt Öl – Krypto bleibt vorsichtig",
-    "Strategy erhöht Bitcoin-Reserven auf 846.800 BTC, expandiert USD-Puffer",
-    "IREN akquiriert spanischen AI-Rechenzentrum-Entwickler Nostrum",
     "CFTC hires SEC-Krypto-Berater mit Blockchain-Forensik",
     "Nvidias $20-Mrd-Schuldaufnahme verstärkt Bitcoin-Miner AI-Pivot",
     "Bybit erweitert RWA-Plattform mit PIMCO- und CMBI-Anleihen",
@@ -61,7 +56,12 @@
     "Illinois unterzeichnet 0,2%-Steuer auf Krypto-Transaktionen",
     "Blockchain.com erweitert tokenisierte Aktien und ETFs",
     "Kalshi erweitert Überwachung von Prediction Markets",
-    "Coinbase diversifiziert über Derivate und Zahlungsinfrastruktur"
+    "Coinbase diversifiziert über Derivate und Zahlungsinfrastruktur",
+    "CME klagt gegen CFTC nach Genehmigung von Perpetual Futures",
+    "Fidelity tritt ins Rennen um Stablecoin-Reserven ein",
+    "Frankreich stoppt Zertifizierung von Produkten ohne Quantenverschlüsselung",
+    "Kentucky verklagt Kalshi und Polymarket über Prediction Markets",
+    "Tether beendet goldhinterlegten Stablecoin aUSDT"
   ],
   "0ba063aa30cb7a5f70a7858c116c1fd7": "2026-06-15T10:48:10.390552",
   "05d44a922eb038e41874d9064c4f9cdb": "2026-06-15T10:48:10.390552",
@@ -316,5 +316,23 @@
   "045f5405813b695ab64df4b8fcecac75": "2026-06-17T20:22:29.105350",
   "98c5b8cfb350b4c4e444e22ef9dd67fe": "2026-06-17T20:22:29.105350",
   "e254ae0fdc99340d7d95380aa51d5bd3": "2026-06-17T20:22:29.105350",
-  "c8b786e5d6b06c20f2d216dc8fad743c": "2026-06-17T20:22:29.105350"
+  "c8b786e5d6b06c20f2d216dc8fad743c": "2026-06-17T20:22:29.105350",
+  "6932fbae71f0c5218e1a0d09b7660669": "2026-06-18T09:08:20.905743",
+  "a4a7c16657b7a2df5a0b90df524eb4a5": "2026-06-18T09:08:20.905743",
+  "7f6fc1a03f285c8b3fc93a53bfb06e93": "2026-06-18T09:08:20.905743",
+  "dd101ac3894f837ca499c80b303598d5": "2026-06-18T09:08:20.905743",
+  "902c10ab87506cc433a162eb8289d65c": "2026-06-18T09:08:20.905743",
+  "b1cea0f9ae55893a44ac082c9c266733": "2026-06-18T09:08:20.905743",
+  "8443dd61d50d97176c8ef50a3141730e": "2026-06-18T09:08:20.905743",
+  "516a08cd9d0b27146f4f38c6be49872c": "2026-06-18T09:08:20.905743",
+  "1f0e691fdf4b6564b2801c8aa222bcf3": "2026-06-18T09:08:20.905743",
+  "ac492099bf32676286610a73925b0730": "2026-06-18T09:08:20.905743",
+  "877c1ca91537f21f582df9dc8766fdb3": "2026-06-18T09:08:20.905743",
+  "c54c17e105d19b201f6612238f82150e": "2026-06-18T09:08:20.905743",
+  "4ee0e435dbb8727dc61832b3b17e1db2": "2026-06-18T09:08:20.905743",
+  "182ab4c2e7e3ae46f6e876ff251ddd40": "2026-06-18T09:08:20.905743",
+  "cb49bb6e32c603c3018f2dfdece73ce6": "2026-06-18T09:08:20.905743",
+  "e5698d111efe59ac463b9730bfd07ed8": "2026-06-18T09:08:20.905743",
+  "052623c95575a3d64fd51946d0fce250": "2026-06-18T09:08:20.905743",
+  "78916ce33389580c7be8330b93bddc14": "2026-06-18T09:08:20.905743"
 }
