@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-06-23",
+  "__prices_date__": "2026-06-24",
   "__recent_titles__": [
-    "OpenRouter's Fusion schlägt GPT-5.5 und Claude Opus in Benchmarks",
-    "MEV-Bot 'jaredfromsubway' für $7,5 Mio. in Honeypot geleert",
-    "Charles Schwab startet binäre S&P-500-Optionen mit Cboe",
-    "CME Group verklagt CFTC über Kalshi-Perpetuals-Genehmigung",
-    "Inception Labs Mercury 2 schlägt Googles DiffusionGemma",
     "Strive sieht Leverage-Liquidationen hinter STRC-Kollaps",
     "CME-Chef Duffy tritt 2027 zurück — Fitzpatrick neue CEO",
     "Iran-Friedensabkommen könnte Öl- und Gaspreise senken",
@@ -61,7 +56,12 @@
     "Chainlink entwickelt mit EU- und südkoreanischen Banken FX-Netzwerk",
     "Ex-Robinhood-Crypto-COO führt Stablecoin-Issuer Agora",
     "CFTC verklagt Kentucky über Prediction-Markets-Gerichtsbarkeit",
-    "Zcash-Miner Fortitude erhält Nasdaq-Listing via Fusion"
+    "Zcash-Miner Fortitude erhält Nasdaq-Listing via Fusion",
+    "Senate Dems fordern Untersuchung Trump-UAE-Krypto-Deal",
+    "OpenPayd erhält MiCA-Lizenz — europäische Stablecoin-Adoption wächst",
+    "US-Senat verabschiedet CBDC-Verbot bis 2030 endgültig",
+    "Katholische Führungskräfte und Behörden warnen vor CLARITY Act",
+    "Meta entwickelt Points-basiertes Prediction-Market-App 'Arena'"
   ],
   "fa7cb53c7e27ce97616c68025204286a": "2026-06-21T08:52:58.858334",
   "3a5edac9634b69fb1294b8eca53e6f7c": "2026-06-21T08:52:58.858334",
@@ -329,5 +329,23 @@
   "b3313f7efcc093700d81ec7f2ad47ae2": "2026-06-23T20:14:17.199144",
   "86a223d9934c94310dcfb3b01363c0ff": "2026-06-23T20:14:17.199144",
   "819a207a4a8bd5c361a72cffa30378eb": "2026-06-23T20:14:17.199144",
-  "e7937f84d7b3539cf8b099169c81c624": "2026-06-23T20:14:17.199144"
+  "e7937f84d7b3539cf8b099169c81c624": "2026-06-23T20:14:17.199144",
+  "ccfa4f1e0a41075ec12c68c67eefeea8": "2026-06-24T08:17:06.781759",
+  "e16746e5495a82d1ae8150119551cd34": "2026-06-24T08:17:06.781759",
+  "0a37e7f04de5bd1c662ed6d3870b9dc5": "2026-06-24T08:17:06.781759",
+  "5f80fecca9b2951fa5dd5b2eb753403f": "2026-06-24T08:17:06.781759",
+  "25e7e5e43668be4c06b5b1f44fbec884": "2026-06-24T08:17:06.781759",
+  "bcdd6fba6c5c43f93cda7665924b4a57": "2026-06-24T08:17:06.781759",
+  "f8a37537932bd29dc8c4cdda9d3cf8b0": "2026-06-24T08:17:06.781759",
+  "7f44ca2ff4fd493a69cb009d4b3dc483": "2026-06-24T08:17:06.781759",
+  "401bd5c63e16e96114ea9403f3bf7bdc": "2026-06-24T08:17:06.781759",
+  "040790fb834b810b2636106a83db5823": "2026-06-24T08:17:06.781759",
+  "b2155227e524d997d7a06bdf0ad325ca": "2026-06-24T08:17:06.781759",
+  "f2286a8d5a0a77b3a761226cdfbb43da": "2026-06-24T08:17:06.781759",
+  "45088b1de7f105614a3b6a948f4b16dd": "2026-06-24T08:17:06.781759",
+  "db48e5464a6301447f606a3e3ed2badb": "2026-06-24T08:17:06.781759",
+  "cfe7007e222217999464ae4c8c2964bb": "2026-06-24T08:17:06.781759",
+  "77ff010a2db6b64b130e3dd78b994c59": "2026-06-24T08:17:06.781759",
+  "34f2510ae73179e879177f7a79b37a77": "2026-06-24T08:17:06.781759",
+  "0cde75194812bbbe94394d53a7c6a5c2": "2026-06-24T08:17:06.781759"
 }
