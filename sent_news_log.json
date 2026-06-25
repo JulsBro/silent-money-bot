@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-06-24",
+  "__prices_date__": "2026-06-25",
   "__recent_titles__": [
-    "Enso startet Handelsfonds für 500 tokenisierte Assets",
-    "Q2 2026: Rekord-Hacking-Quartal mit 83 Exploits",
-    "Anchorage bringt Banken mit tokenisierten Einlagen onchain",
-    "Baillie Gifford startet tokenisierten Solana-Ethereum-Fonds mit BNY",
-    "Strategy erhöht Bargeldreserven auf 1,4 Mrd. Dollar, kauft 520 BTC",
     "Bank of England lockert Stablecoin-Regeln – £40-Mrd-Obergrenze",
     "ICE und OKX gründen Joint Venture für tokenisierte Wertpapiere",
     "Franklin Templeton startet Krypto-Division nach 250Digital-Übernahme",
@@ -61,7 +56,12 @@
     "Wähler bevorzugen föderale statt dezentralisierte Prediction-Market-Regeln",
     "Kalshi strebt 40-Milliarden-Dollar-Bewertung an",
     "Gold, Silber und Bitcoin fallen – \"Geldentwertungs\"-Handel bricht ein",
-    "Kongress prüft Fed-Direktzugang für Fintech und Krypto"
+    "Kongress prüft Fed-Direktzugang für Fintech und Krypto",
+    "Ripple's RLUSD Stablecoin startet in Japan nach Genehmigung",
+    "House Democrats fordern SEC-Antworten zu AI-Investment-Advisern",
+    "Abracadabra erhöht Zinsen gegen MIM-Stablecoin-Depeg",
+    "FTX-Executive-Ehefrau für November-Prozess zu Wahlkampffinanzierung angesetzt",
+    "Fake-Krypto-Influencer erhält 15 Monate für 1,4-Million-Telegram-Staking-Betrug"
   ],
   "6f6aaaf76d2c3d471a49e8d4496d508d": "2026-06-22T10:31:07.106444",
   "bbf265fd52880410c388f8fc005b980a": "2026-06-22T10:31:07.106444",
@@ -313,5 +313,20 @@
   "3fbabe7a01afbd3488b30837adf00362": "2026-06-24T19:55:09.621057",
   "f25244235931a4b0dc4e6eb6a8588123": "2026-06-24T19:55:09.621057",
   "984c005ea5b36c01a2f3a9a522aa0a3e": "2026-06-24T19:55:09.621057",
-  "73f38c4fdfe7c93e8a9641a0d132818f": "2026-06-24T19:55:09.621057"
+  "73f38c4fdfe7c93e8a9641a0d132818f": "2026-06-24T19:55:09.621057",
+  "97255847009929a00b62b29082a69b23": "2026-06-25T08:16:06.053749",
+  "180d40a92d2f3e10353faee830d44195": "2026-06-25T08:16:06.053749",
+  "ceb950a941efe1e7d5222323d67de28f": "2026-06-25T08:16:06.053749",
+  "19ebce9fe13eabe8ceb6cb50f05f7957": "2026-06-25T08:16:06.053749",
+  "cd0a3939ae66c10ef9d8fb7cd4064ae3": "2026-06-25T08:16:06.053749",
+  "91fafba3bc20e7ae2f7eb21815cac729": "2026-06-25T08:16:06.053749",
+  "70bc7f67b1a1c2087ad20e36fa947862": "2026-06-25T08:16:06.053749",
+  "33d1847c3f96288e6290d7a6fa105945": "2026-06-25T08:16:06.053749",
+  "8eedaae0a1d91e67da01b448a988b0b7": "2026-06-25T08:16:06.053749",
+  "5b8ac8fd452f1d7c411c1c4ce20e68c2": "2026-06-25T08:16:06.053749",
+  "5a3e306bf5605ffee349af3b1c34ff4b": "2026-06-25T08:16:06.053749",
+  "6e29b8cb2ec737feea267ac80540cf6c": "2026-06-25T08:16:06.053749",
+  "979ec0cd7e656f861bd0dde477bad3bb": "2026-06-25T08:16:06.053749",
+  "4ca09b780546149206fba33305459eae": "2026-06-25T08:16:06.053749",
+  "30235d01392c0be3c4a84d7ed768e778": "2026-06-25T08:16:06.053749"
 }
