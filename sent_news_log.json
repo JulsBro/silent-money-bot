@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-06-26",
   "__recent_titles__": [
-    "EU-Ausschuss billigt Digital-Euro-Gesetzesvorhaben",
-    "Thailand deckt 300-Millionen-Dollar-Krypto-Geldwäschernetz auf",
-    "CBOE prüft Umwandlung von BTC/ETH-Futures in Perpetuals",
-    "Chainlink entwickelt mit EU- und südkoreanischen Banken FX-Netzwerk",
-    "Ex-Robinhood-Crypto-COO führt Stablecoin-Issuer Agora",
     "CFTC verklagt Kentucky über Prediction-Markets-Gerichtsbarkeit",
     "Zcash-Miner Fortitude erhält Nasdaq-Listing via Fusion",
     "Senate Dems fordern Untersuchung Trump-UAE-Krypto-Deal",
@@ -61,7 +56,12 @@
     "Base-Blockchain nach zweistündigem Ausfall wiederhergestellt",
     "BitGo streicht 15% der Belegschaft, fokussiert auf KI und Stablecoins",
     "Anthropic fordert Kongress auf: Chinesische KI-Distillation blockieren",
-    "Polymarket erstattet Millionen nach Website-Exploit durch Hacker"
+    "Polymarket erstattet Millionen nach Website-Exploit durch Hacker",
+    "Binance beendet EU-Services nach fehlender MiCA-Lizenz",
+    "SBI Holdings kauft japanische Börse Bitbank für 289 Millionen",
+    "Sharplink kauft Ether erstmals seit acht Monaten",
+    "StablecoinX startet an der Nasdaq nach Fusion",
+    "Bitcoin erholt sich von 58.000 Dollar – Derivate deuten Schmerzen an"
   ],
   "b8b599d1be4cb1b37be4f9148194b76d": "2026-06-23T11:53:44.365458",
   "9cd5f5100c7fd476f7f1102e0f7579b0": "2026-06-23T11:53:44.365458",
@@ -311,5 +311,21 @@
   "6012f2777cd84a9ed66c6a19afbb1b70": "2026-06-26T08:24:21.839885",
   "184fd2824f94120790408f6c95589c07": "2026-06-26T08:24:21.839885",
   "522ffd22f21429eea8fc8498785e059f": "2026-06-26T08:24:21.839885",
-  "eedf75659c82762b9bb00bc40d70306a": "2026-06-26T08:24:21.839885"
+  "eedf75659c82762b9bb00bc40d70306a": "2026-06-26T08:24:21.839885",
+  "12408b53c97aca2085b8e7823b31c638": "2026-06-26T11:39:49.920672",
+  "a5a9b69c6684d04e8bc8d4df54126b0b": "2026-06-26T11:39:49.920672",
+  "1922aafccdc7021e8d07f25f4a372fd5": "2026-06-26T11:39:49.920672",
+  "d5a49590eb25c9dfa1e4ab7021ac79b1": "2026-06-26T11:39:49.920672",
+  "f220a330c6f68919cab63863d58af241": "2026-06-26T11:39:49.920672",
+  "e285e648488c848fc193411ce95c94a7": "2026-06-26T11:39:49.920672",
+  "13b7a76a88d4b59d77eaa34c57575faf": "2026-06-26T11:39:49.920672",
+  "8bbfdb9d158248199dfc5172f91d8c67": "2026-06-26T11:39:49.920672",
+  "3a60914380467d6be4c780bec19984bd": "2026-06-26T11:39:49.920672",
+  "78eb5125d6b6cc4a96ece9fbcdf50516": "2026-06-26T11:39:49.920672",
+  "f511bf83809b83d5fa103401ee9d0948": "2026-06-26T11:39:49.920672",
+  "8f86d2422aa0e52bac71798e9a5566bd": "2026-06-26T11:39:49.920672",
+  "b53e00378b3ac9a32505622cb404bfed": "2026-06-26T11:39:49.920672",
+  "3585b634242e189c3dfb933dbaa762d3": "2026-06-26T11:39:49.920672",
+  "dec0521e7da1688bfaf892d9ae37b903": "2026-06-26T11:39:49.920672",
+  "828218a0b2b1b52ee82cdf273103bcfa": "2026-06-26T11:39:49.920672"
 }
