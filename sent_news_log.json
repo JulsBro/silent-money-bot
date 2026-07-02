@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-07-01",
+  "__prices_date__": "2026-07-02",
   "__recent_titles__": [
-    "Chainalysis schlägt Standards für Blockchain-Tracing vor",
-    "Ripple aktiviert Kreditvergabe gegen tokenisierte Assets auf XRPL",
-    "BNY Mellon erweitert USDC-Dienste auf Custody-Plattform",
-    "CZ: Binance-MiCA-Antrag war fertig, politische Kräfte blockierten",
-    "BlackRock integriert Ethena-Stablecoin-Produkte in Aladdin-Plattform",
     "JPMorgan unterstützt US-Kryptobill, warnt vor Risiken",
     "Senatoren drängen auf Juli-Passage des Clarity Act",
     "Oberster Gerichtshof: Trump kann SEC- und CFTC-Chefs feuern",
@@ -61,7 +56,12 @@
     "Ethereum Foundation veröffentlicht Policy-Guide für Regierungen",
     "Tennessee und Georgia verbieten Krypto-Geldautomaten",
     "Taiwan verabschiedet umfassendes Krypto-Regelwerk",
-    "Trumps Finanzoffenbarung intensiviert Krypto-Gesetzgebungsdruck"
+    "Trumps Finanzoffenbarung intensiviert Krypto-Gesetzgebungsdruck",
+    "FBI-Chef Patel versäumt Offenlegung von Millionen-MSTR-Investment",
+    "Tradeweb führt tokenisierte US-Treasury-Transaktionen live aus",
+    "Ripple-PAC unterstützter Demokrat gewinnt Colorado-Primary",
+    "Bitcoin-Langzeithalter kehren zur Akkumulation zurück",
+    "Forward Industries kauft 500.000 SOL – Solana-Treasury-Offensive"
   ],
   "c38f55e8cf3def1967dea65cf5d20a61": "2026-06-29T09:20:13.709415",
   "f5e2aa7c41998cbbaffefe8703450cd3": "2026-06-29T09:20:13.709415",
@@ -309,5 +309,22 @@
   "e2a19fc7f9380bed3ddef0ae49aadb4b": "2026-07-01T20:04:10.276124",
   "5357ecf6f4ef70826583dac35502386e": "2026-07-01T20:04:10.276124",
   "c0622d6819e654a38ad52a5b39848d30": "2026-07-01T20:04:10.276124",
-  "70130a7d64e5105636f95738eb43c907": "2026-07-01T20:04:10.276124"
+  "70130a7d64e5105636f95738eb43c907": "2026-07-01T20:04:10.276124",
+  "5ab9befbeecf739b1b67aa171fd806ab": "2026-07-02T07:58:20.781207",
+  "8a23aa6622456d51efe96fd2a8c0793c": "2026-07-02T07:58:20.781207",
+  "2736c7692e8a563b4c0cff875b12cb89": "2026-07-02T07:58:20.781207",
+  "71879a0c09284f6c63685b5eafcfd083": "2026-07-02T07:58:20.781207",
+  "7ac5bdc7efaae22136a92c4f39e8f25d": "2026-07-02T07:58:20.781207",
+  "d78dbfc65390e1c5eef8a96997198041": "2026-07-02T07:58:20.781207",
+  "62f91ce763e006726015b755bd9c5ba1": "2026-07-02T07:58:20.781207",
+  "d91add85e6fbb3b4a78a10ff8ba800bc": "2026-07-02T07:58:20.781207",
+  "d0ecf23ecfd44e7909a2eed30f88de66": "2026-07-02T07:58:20.781207",
+  "1c57075299fd5b71961399e46ecfc3f8": "2026-07-02T07:58:20.781207",
+  "52c08dd0fad44b0a213060e19adbd1cd": "2026-07-02T07:58:20.781207",
+  "4e24e82ec5615d57b52062a05623491a": "2026-07-02T07:58:20.781207",
+  "d9a9893ae4a4963a1397de94a536a320": "2026-07-02T07:58:20.781207",
+  "a6113f74a388164630120d7d67cd197c": "2026-07-02T07:58:20.781207",
+  "00e98d2969cc515736ddfd6fc9260228": "2026-07-02T07:58:20.781207",
+  "882d43e8d7403eaf4cbe9ae0525f7ac1": "2026-07-02T07:58:20.781207",
+  "180a52d31d64729d755aa4b9cab5b309": "2026-07-02T07:58:20.781207"
 }
