@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-07-07",
+  "__prices_date__": "2026-07-08",
   "__recent_titles__": [
-    "Stablecoin-Wettbewerb: Collateral schlägt Rendite",
-    "China intensiviert Cyber-Spionage gegen US-AI-Sektor",
-    "PamStealer: Trojaner versteckt sich in Mac-Clipboard-App",
-    "Clarity-Gesetz vor Sommerpause: Kongress ringt um Frist",
-    "Bitcoin-ETFs: 222-Millionen-Dollar-Zufluss bricht Negativtrend",
     "Trump-Token: 1 Million Wallets mit 3,81 Milliarden Dollar Verlust",
     "Cleveland Fed: KI könnte Inflation anheizen, Zinserhöhungen nötig",
     "Perplexity-Gründer: AI-Safety-Regulierung als Marktabschottung",
@@ -61,7 +56,12 @@
     "Kraken gewinnt 22-Millionen-Schiedsverfahren gegen Mazars",
     "China folgt USA mit Kontrollmaßnahmen für KI-Exporte",
     "Kenias Behörde entwickelt Blockchain-Überwachungstool",
-    "SEC plant Regeländerungen für Krypto-Börsen 2026"
+    "SEC plant Regeländerungen für Krypto-Börsen 2026",
+    "SEC bringt Crypto Safe Harbor noch im Juli",
+    "US-Iran-Eskalation treibt Öl und belastet Bitcoin",
+    "Yen-Kollaps treibt japanische Konzerne zu Bitcoin",
+    "Swyftx erhält australische Lizenz für Krypto-Zahlungen",
+    "CFTC verfolgt Krypto-Pool-Betreiber wegen 14-Millionen-Betrug"
   ],
   "990b8fda8db5be9ae670990b8893d51f": "2026-07-05T07:51:18.543440",
   "6a403b1504179a2a815ab6f53f472154": "2026-07-05T07:51:18.543440",
@@ -329,5 +329,22 @@
   "af41ef60a6ed824db64d86156f53c0ab": "2026-07-07T20:05:06.736434",
   "001a8619334f3fe73bf8b1b1e68ce52f": "2026-07-07T20:05:06.736434",
   "e87644c97b53d7bcc6b87e3d6a4fff02": "2026-07-07T20:05:06.736434",
-  "4ded8c88c0a07826eeff1365b4ec7145": "2026-07-07T20:05:06.736434"
+  "4ded8c88c0a07826eeff1365b4ec7145": "2026-07-07T20:05:06.736434",
+  "c798cafce0e4ddd476fbf6ab4a3952dd": "2026-07-08T07:19:18.504990",
+  "ee95a30a7341df69a278a0f9d1ccdfe9": "2026-07-08T07:19:18.504990",
+  "0b75468068d1debced83318dcf36dab6": "2026-07-08T07:19:18.504990",
+  "d70fc3c09ae718fa71ec7e47598885f8": "2026-07-08T07:19:18.504990",
+  "fa3cee9994d0739cab0b613b2774807c": "2026-07-08T07:19:18.504990",
+  "4fbbebaa3fe3e2b976d948d5b8a825cf": "2026-07-08T07:19:18.504990",
+  "dcc64bb23bf9faceb80356ae4761733d": "2026-07-08T07:19:18.504990",
+  "9552f3aaa09b029628b7a7cfa1005eae": "2026-07-08T07:19:18.504990",
+  "599dbd42f11fec8a27e235cb6ded0e19": "2026-07-08T07:19:18.504990",
+  "cb7077489506d912abf1fb7962a8e062": "2026-07-08T07:19:18.504990",
+  "69ea098f77506bf063727328046c09cd": "2026-07-08T07:19:18.504990",
+  "41f31d3723509a4fea9821876585889d": "2026-07-08T07:19:18.504990",
+  "a327e543cacf7701d80acf7b7a987241": "2026-07-08T07:19:18.504990",
+  "5bf239598da40f00dc14de73373c7ae7": "2026-07-08T07:19:18.504990",
+  "d122177d1f39e2d9fbb03ac75d0462ff": "2026-07-08T07:19:18.504990",
+  "68f36546668087a68563b9779d7911f6": "2026-07-08T07:19:18.504990",
+  "0a12d1cdb493468828c92f6d4daa4a9f": "2026-07-08T07:19:18.504990"
 }
