@@ -1,0 +1,39 @@
+name: 🏠 Wohnungssuche Berlin-Schöneweide
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run scraper
+        env:
+          TELEGRAM_BOT_TOKEN:   ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          APARTMENT_CHANNEL_ID: ${{ secrets.APARTMENT_CHANNEL_ID }}
+        run: python apartment_scraper_bot.py
+
+      - name: Backup seen-list to repo
+        run: |
+          git config user.name "Silent Money Bot"
+          git config user.email "bot@silentmoney.de"
+          git add seen_apartments.json || true
+          git diff --staged --quiet || git commit -m "log update [skip ci]"
+          git push || true
