@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-07-12",
   "__recent_titles__": [
-    "Crypto Clarity Act-Entwurf könnte nächste Woche vorliegen",
-    "Bitcoin ETF und Private-Credit-Fonds verlieren Milliarden",
-    "Swift aktiviert Ledger für Token-Transfers rund um die Uhr",
-    "Ethereum Foundation nutzt KI-Agenten zur Schwachstellenerkennung",
-    "CFTC-Vakanzen erschweren Fortschritt bei Krypto-Gesetzgebung",
     "New Hampshire bricht Bitcoin-Anleihe-Projekt ab",
     "EU-Parlament verabschiedet Chat-Control bis 2028",
     "Hacker versuchen Backdoor in Injective npm-Paket",
@@ -61,7 +56,12 @@
     "Bitcoin BIP-110 Fork-Deadline rückt näher — Miner-Support bei Null",
     "Standard Chartered hält $100K-Bitcoin-Prognose trotz Treasury-Verkäufen",
     "Bonzo Lend verliert $9 Millionen — Supra Oracle akzeptiert manipulierte Preise",
-    "Yen und Schweizer Franken steigen — Safe-Haven-Flucht wegen DeepSeek"
+    "Yen und Schweizer Franken steigen — Safe-Haven-Flucht wegen DeepSeek",
+    "Ripple erwog Abwicklung und XRP-Verteilung an Aktionäre",
+    "Cambridge-Studie: Ethereum PoS unter Durchschnitt bei Energieintensität",
+    "Saylor und Back lehnen BIP-110 Ordinals-Vorschlag ab",
+    "Prediction Markets sorgen für Insider-Trading-Bedenken",
+    "Michael Burry wettet auf Sportsbooks, erwartet Prediction-Market-Regulierung"
   ],
   "c3f702ea2342a14474e338843d606870": "2026-07-09T11:51:48.426874",
   "45b5645554533fb23feb81dabd58749e": "2026-07-09T11:51:48.426874",
@@ -317,5 +317,20 @@
   "02d3ecc788bbd85983f8e267b357ed55": "2026-07-12T07:23:24.137965",
   "046fe99a50a63f9c4604fb051ffc3488": "2026-07-12T07:23:24.137965",
   "072484f07073095ffc0cdaa740556d10": "2026-07-12T07:23:24.137965",
-  "c5e811318f0326c916d1ae02ad70c34f": "2026-07-12T07:23:24.137965"
+  "c5e811318f0326c916d1ae02ad70c34f": "2026-07-12T07:23:24.137965",
+  "697f5c4ecbf40e5f1ef44fd7b485e6fe": "2026-07-12T10:19:21.948710",
+  "dfdfbbaee6b745a62dbbc36627064020": "2026-07-12T10:19:21.948710",
+  "ddbdb5387fa60cc86303eb79279bc195": "2026-07-12T10:19:21.948710",
+  "7d7bd64d62f1914b039d18c79425af17": "2026-07-12T10:19:21.948710",
+  "0d3ba73bb18da41bd02ca02726013df2": "2026-07-12T10:19:21.948710",
+  "b4c4fcf498300aedddbad945c062e6a5": "2026-07-12T10:19:21.948710",
+  "265a1218d0ec4d931a090a36e40e3325": "2026-07-12T10:19:21.948710",
+  "35f73b961d494949a9d9c5619dbaabbe": "2026-07-12T10:19:21.948710",
+  "c3e39645c5a873db51fd5a32d036b548": "2026-07-12T10:19:21.948710",
+  "3f64cc8bca14cb5f8a0cab781fbb1d4c": "2026-07-12T10:19:21.948710",
+  "fa70f0c88ac1669c3265e2d1ce938ab7": "2026-07-12T10:19:21.948710",
+  "3c812188a91d3ef84da8f73c8714f42e": "2026-07-12T10:19:21.948710",
+  "35bd8fb4b5ee2867d20f69c26e2eb35e": "2026-07-12T10:19:21.948710",
+  "f2f2f4194d4b4ef2c42bc37fe7290be0": "2026-07-12T10:19:21.948710",
+  "790274b8e654a1ad86ec14c8c6eb5973": "2026-07-12T10:19:21.948710"
 }
