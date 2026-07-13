@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-07-13",
   "__recent_titles__": [
-    "IWF warnt: Dollar-Stablecoins verschärfen Währungskrisen-Risiko",
-    "Apple verklagt OpenAI wegen Diebstahl von Betriebsgeheimnissen",
-    "CBDC-Verbot wird ohne Trumps Unterschrift Gesetz — bis 2031",
-    "KI-Agenten könnten über Halluzinationen zu Botnets werden",
-    "Ledger-Forscher finden Laser-Angriff auf Tangem-Hardware-Wallets",
     "KI-Agenten finden kritischen Ethereum-Bug in Validator-Software",
     "Bonzo Lend verliert 9 Millionen Dollar in Oracle-Exploit",
     "DOJ beantragt Falleinstellung gegen BitClub-Angeklagten",
@@ -61,7 +56,12 @@
     "Trump drückt Clarity Act durch Senat — Abstimmung unmittelbar",
     "BitMine erhöht ETH-Bestände auf 5,77 Millionen Token",
     "Robinhood Chain: $135M TVL in 2 Wochen — Memes dominieren",
-    "UK Tokenisierungs-Roadmap: £33 Milliarden jährlicher Gewinn projiziert"
+    "UK Tokenisierungs-Roadmap: £33 Milliarden jährlicher Gewinn projiziert",
+    "Clarity Act: Trump-Vermögen wirft Interessenskonflikte auf",
+    "Circle: OCC-Genehmigung stoppt USDC-Wachstum nicht",
+    "Strategy baut Liquiditätskissen auf $3 Milliarden aus",
+    "Robinhood Chain durchbricht Top-5 DEX-Volumen",
+    "Thailand-Zentralbank deckt verdächtige Stablecoin-Flüsse auf"
   ],
   "cd9a499434ffd22286b021824263e628": "2026-07-10T19:41:35.941817",
   "16d2fede0b083e11a29d2fc65c003e83": "2026-07-10T19:41:35.941817",
@@ -301,5 +301,21 @@
   "c6a037a84572e7c1d76445aa1ca00f88": "2026-07-13T17:09:43.606568",
   "a132f50d324b479303053ec0e176c7ec": "2026-07-13T17:09:43.606568",
   "0788644f8e8d93ce4a2204735a937611": "2026-07-13T17:09:43.606568",
-  "822537ea4baba5dec53e3ae0ec9cd030": "2026-07-13T17:09:43.606568"
+  "822537ea4baba5dec53e3ae0ec9cd030": "2026-07-13T17:09:43.606568",
+  "ae1d1765ac7bb7779eaea19140cc6df4": "2026-07-13T19:37:38.367082",
+  "e4e0010ea54ec1482d60ca579f512bf5": "2026-07-13T19:37:38.367082",
+  "68e304b04f440ef98bc98f9b1428d5ca": "2026-07-13T19:37:38.367082",
+  "0f487701d1fc80e7c42a1d388d03e64d": "2026-07-13T19:37:38.367082",
+  "1c424b69a0fe00032111c4339d0d0806": "2026-07-13T19:37:38.367082",
+  "39e64919b02af4a06becf7b05c2425fb": "2026-07-13T19:37:38.367082",
+  "659c0548213f335c1cd48fdc9c636ddc": "2026-07-13T19:37:38.367082",
+  "bff5452b27fd3a32c6c69b5f7662b6a3": "2026-07-13T19:37:38.367082",
+  "4c988c83d290ec11dbacc7619a100282": "2026-07-13T19:37:38.367082",
+  "28bdd832a7d36fb5ea44eee9ada2d570": "2026-07-13T19:37:38.367082",
+  "f8329e5bf2e7e851634ccde46c823150": "2026-07-13T19:37:38.367082",
+  "ad157f11ad29d6b9b3807c0528041aab": "2026-07-13T19:37:38.367082",
+  "4901653f4d27098a15f214af7e25d6ff": "2026-07-13T19:37:38.367082",
+  "ae6e37ea40d2573fbf13338b0c31d241": "2026-07-13T19:37:38.367082",
+  "c08d21ca8bcc57a1b18b1be40049847f": "2026-07-13T19:37:38.367082",
+  "66b1250edbdc26e97ba7584f5c952b01": "2026-07-13T19:37:38.367082"
 }
