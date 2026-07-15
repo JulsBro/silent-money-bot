@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-07-14",
+  "__prices_date__": "2026-07-15",
   "__recent_titles__": [
-    "Pakistan-Religionsgelehrter erklärt Krypto-Zahlungen für unzulässig",
-    "Robinhood Chain: Ethereum Layer-2 für tokenisierte Aktien live",
-    "Kalshi-Trader: Gaspreise bleiben über 3,50 Dollar bis Wahltag",
-    "Fed-Ratsprotokolle zeigen Uneinigkeit über Zinsrichtung",
-    "Hormuz-Normalverkehr nicht vor 2027 erwartet — Trader-Konsens",
     "Stablecoin-Markt schrumpft um $10 Mrd. seit Mai",
     "Robinhood Chain live — Tokenisierte Aktien auf Layer-2",
     "China warnt vor Claude-Code-Backdoor-Risiken",
@@ -61,7 +56,12 @@
     "US-Demokraten verschärfen Kritik am Clarity Act als korrupt",
     "USA und UK einigen sich auf Tokenisierungs-Regulierung",
     "CleanSpark-Aktien springen nach $6,6B-Rechenzentrum-Deal",
-    "CFTC zwingt Kalshi zur Anerkennung von Michigan-Trades"
+    "CFTC zwingt Kalshi zur Anerkennung von Michigan-Trades",
+    "Bitcoin steigt auf $65.000 — Fed-Zinserhöhungs-Chancen kollabieren",
+    "Visa, Mastercard, Ripple stützen x402-Stablecoin-Zahlungsprotokoll",
+    "USA frieren $131 Millionen Iran-gekoppelter Krypto-Vermögen ein",
+    "Binance pivotiert zu Super-App — Zahlungen verdrängen reinen Handel",
+    "Coinbase: 95% des Codes jetzt KI-generiert"
   ],
   "4ba3185e07934dd1a601dddba0a67f24": "2026-07-12T07:23:24.137965",
   "707e842dcb9b8925675875931b2aeb6c": "2026-07-12T07:23:24.137965",
@@ -293,5 +293,22 @@
   "8f4d6d6aad5eb2d7aa00f579d22670bd": "2026-07-14T19:35:11.965111",
   "cfd6a2194a790c8b2f9988ca1824da58": "2026-07-14T19:35:11.965111",
   "136e24a5f2c715e7a05139a6a2aec948": "2026-07-14T19:35:11.965111",
-  "82b6c7d65865b8999f7806e948a8dd9f": "2026-07-14T19:35:11.965111"
+  "82b6c7d65865b8999f7806e948a8dd9f": "2026-07-14T19:35:11.965111",
+  "7f3b32b8dd0b8deb32f19285cc4cc969": "2026-07-15T07:03:30.814010",
+  "0a3171b1536f8d202f6f0c690c224057": "2026-07-15T07:03:30.814010",
+  "81f1b244ad1440abf218cfd635dcf347": "2026-07-15T07:03:30.814010",
+  "76a4ea8d7bcc10ff05c8d0b9c5f6f47d": "2026-07-15T07:03:30.814010",
+  "a07c800bc0838338a56ea7a57fb0df5c": "2026-07-15T07:03:30.814010",
+  "b05a40d069bd9bd1770e082966b692c6": "2026-07-15T07:03:30.814010",
+  "01876337d0009ba96c9f886cb3503f59": "2026-07-15T07:03:30.814010",
+  "b1ef3afdcb4cd498f81a5b3764cd351f": "2026-07-15T07:03:30.814010",
+  "dcf72ba1606b4c683d9949d6a01a8165": "2026-07-15T07:03:30.814010",
+  "22af75aa79df0dd6f0a4787373204c63": "2026-07-15T07:03:30.814010",
+  "9fd0e6641baef4a7615bc96cfff552cf": "2026-07-15T07:03:30.814010",
+  "66be9c8cc44bbb48081311ab5fa6d6e4": "2026-07-15T07:03:30.814010",
+  "6d8eab41f59467ceb8f4bec578b879c3": "2026-07-15T07:03:30.814010",
+  "08149c8f05a876688fa02e258eb1b370": "2026-07-15T07:03:30.814010",
+  "b8ff3bae8e60d6a59504bbf23cc7eadb": "2026-07-15T07:03:30.814010",
+  "9affb987b0e0b80575940d6d36a6aa7f": "2026-07-15T07:03:30.814010",
+  "3f102cab59891c5829379b8651d4b072": "2026-07-15T07:03:30.814010"
 }
