@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-07-15",
+  "__prices_date__": "2026-07-16",
   "__recent_titles__": [
-    "Hyundai schließt USDT-Zahlungspilot USA-Mexiko ab",
-    "Trump drückt Clarity Act durch Senat — Abstimmung unmittelbar",
-    "BitMine erhöht ETH-Bestände auf 5,77 Millionen Token",
-    "Robinhood Chain: $135M TVL in 2 Wochen — Memes dominieren",
-    "UK Tokenisierungs-Roadmap: £33 Milliarden jährlicher Gewinn projiziert",
     "Clarity Act: Trump-Vermögen wirft Interessenskonflikte auf",
     "Circle: OCC-Genehmigung stoppt USDC-Wachstum nicht",
     "Strategy baut Liquiditätskissen auf $3 Milliarden aus",
@@ -61,7 +56,12 @@
     "BlackRock Krypto-Assets fallen 39% trotz 15-Milliarden-Inflow",
     "US-Senator kritisiert Justiz-AG: Krypto-Unit wird abgebaut",
     "Aave V4 auf Avalanche startet tokenisierte Kreditmärkte",
-    "US Treasury sperrt 131 Millionen Dollar Iran-Krypto"
+    "US Treasury sperrt 131 Millionen Dollar Iran-Krypto",
+    "US-Senat lehnt Begnadigung für FTX-Gründer Bankman-Fried ab",
+    "Bitcoin-Wal bewegt 383 Millionen Dollar nach 9 Jahren Inaktivität",
+    "Ether überholt Bitcoin — ETF-Geld zurück, fast nur BlackRock",
+    "Revolut erhält Genehmigung der VAE für Krypto-Dienste",
+    "BlackRock, Goldman, JPMorgan testen tokenisierte Aktien live"
   ],
   "a9cdef2e68d4ab878e084e7e74f71723": "2026-07-13T07:59:38.095767",
   "10e3c36d72ac8d5e97fba769a65e58ee": "2026-07-13T07:59:38.095767",
@@ -311,5 +311,21 @@
   "0bc7311244d79ed5c41d8e1eef0da136": "2026-07-15T19:20:59.467397",
   "01915f9575e9d239fdc26e23463d3ccf": "2026-07-15T19:20:59.467397",
   "d567195305624867597a2e6c85862ebb": "2026-07-15T19:20:59.467397",
-  "c7c8aefc3e0e018b2316e39a3b787d38": "2026-07-15T19:20:59.467397"
+  "c7c8aefc3e0e018b2316e39a3b787d38": "2026-07-15T19:20:59.467397",
+  "bbe30a7349924a067806d4a443b7b9bf": "2026-07-16T07:12:30.748765",
+  "63ae377e3edae9efbf38f4572cdbdc13": "2026-07-16T07:12:30.748765",
+  "02d7030d85fec5ab202a468e2fe22cac": "2026-07-16T07:12:30.748765",
+  "ebb62adf97615dab3d2b309c5108db24": "2026-07-16T07:12:30.748765",
+  "a62a8e7e8298e1402f77c0bb1427f7cc": "2026-07-16T07:12:30.748765",
+  "0bc55bcb1b528605b95d2ba3f910fe97": "2026-07-16T07:12:30.748765",
+  "875ea2e07847e61f8acb6c5a42af40fc": "2026-07-16T07:12:30.748765",
+  "5a2c3468cce6f21acd2d0bf11041aff6": "2026-07-16T07:12:30.748765",
+  "abc10adff12d627e4bd8534d51b3b6d9": "2026-07-16T07:12:30.748765",
+  "6080b33175fa7b443bffc758095f89a9": "2026-07-16T07:12:30.748765",
+  "2eaeaeccea33c6e13d4ab8cd9db5829d": "2026-07-16T07:12:30.748765",
+  "4f7db10c12b70049467d8cdd86bdad6d": "2026-07-16T07:12:30.748765",
+  "6f59c64b98e275e1c2f24e9996bcf7d9": "2026-07-16T07:12:30.748765",
+  "903ead42ad04d958aeb5c6c571873818": "2026-07-16T07:12:30.748765",
+  "40ae042a7fb812dd66412b265aaf18b5": "2026-07-16T07:12:30.748765",
+  "217470ead51ecddfed837894b6af9f1d": "2026-07-16T07:12:30.748765"
 }
