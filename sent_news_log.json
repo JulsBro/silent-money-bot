@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-07-22",
+  "__prices_date__": "2026-07-23",
   "__recent_titles__": [
-    "Hut 8 und IREN sichern sich Milliarden-Verträge für AI-Rechenzentren",
-    "Strategy erhöht Cash-Reserven auf 3,2 Milliarden — Bitcoin unverändert",
-    "Hyperliquid öffnet dezentralisierte Vorhersagemärkte für alle",
-    "Allbridge pausiert nach Flash-Loan-Exploit für 1,65 Millionen Dollar",
-    "Exodus kürzt 25% der Arbeitskräfte — Pivot zu Stablecoin-Zahlungen",
     "Nigerias Präsident unterzeichnet Krypto-Regulierungsrahmen",
     "Hut 8 und IREN sichern Milliarden-AI-Rechenzentrum-Verträge",
     "Ex-Gouverneur Cuomo tritt OKX-Vorstand bei",
@@ -61,7 +56,12 @@
     "Revolut erreicht 115 Milliarden Dollar Bewertung",
     "Clarity Act: Neue Fassung limitiert Trumps Krypto-Aktivitäten bis 2029",
     "Krakenx Stocks expandiert international über US-Aktien hinaus",
-    "Zilliqa Ledger-App-Lücke enthüllt Private-Key-Verletzung"
+    "Zilliqa Ledger-App-Lücke enthüllt Private-Key-Verletzung",
+    "Mirae Asset übernimmt Südkoreas älteste Krypto-Börse Korbit",
+    "Bitcoin- und Ethereum-Protokolle verlieren $35 Millionen in Hacks",
+    "Kakao kooperiert mit Circle für Won-Stablecoin-Infrastruktur",
+    "Schweizer Bank BancaStato startet regulierten Kryptohandel",
+    "Clarity Act Erfolgswahrscheinlichkeit fällt auf 38%"
   ],
   "6b68f4323091acd8181af2b327cb5f62": "2026-07-20T07:49:21.947764",
   "0cad540949c47fadee484ba3eddce6ad": "2026-07-20T07:49:21.947764",
@@ -312,5 +312,22 @@
   "bbbfc13be331d7a7de2dda23859aeb0d": "2026-07-22T19:35:16.712027",
   "88194d29c2cc9abeec16c2fe511a884a": "2026-07-22T19:35:16.712027",
   "6edf69033983edce8e227a570e1a0cee": "2026-07-22T19:35:16.712027",
-  "d51ca38331799928a76d23cd638dde15": "2026-07-22T19:35:16.712027"
+  "d51ca38331799928a76d23cd638dde15": "2026-07-22T19:35:16.712027",
+  "0496d89fcb5c4cdc89556c6aabee3511": "2026-07-23T07:25:29.683860",
+  "40f592314aec7aba0ebaffc9b9962b51": "2026-07-23T07:25:29.683860",
+  "743a82de57ef671a1ac39246cb6b06af": "2026-07-23T07:25:29.683860",
+  "0d6d54275d0ecc64c0755f93e7b5cd87": "2026-07-23T07:25:29.683860",
+  "67bfd61a0302ce188ec529579c9f8462": "2026-07-23T07:25:29.683860",
+  "9335ad855f79e070ca5c0a2244adf7db": "2026-07-23T07:25:29.683860",
+  "e8a72acf68723de80e2a5ca18c4c965e": "2026-07-23T07:25:29.683860",
+  "d4c573ea57fcc39aa3fb8292f0cd4189": "2026-07-23T07:25:29.683860",
+  "ead0eb63e261a86f68d12621919c76f6": "2026-07-23T07:25:29.683860",
+  "8aea5f60c841d89bb1962a39d29f2e98": "2026-07-23T07:25:29.683860",
+  "110ddc25b32f62f3fa4e238e0a20ee40": "2026-07-23T07:25:29.683860",
+  "c6702565cd06f0aa2d95d81a50734e93": "2026-07-23T07:25:29.683860",
+  "b106ef67d37f1c3c2841190b81e7482c": "2026-07-23T07:25:29.683860",
+  "0877eed3c221a1baba1581d033eafbf8": "2026-07-23T07:25:29.683860",
+  "4e889824f8bdb9c0a05502e9acda018a": "2026-07-23T07:25:29.683860",
+  "7628702f31686ac95a3d77cb5b83a082": "2026-07-23T07:25:29.683860",
+  "5d3a7a653b314d4c9b97a8fbdaa0d8cd": "2026-07-23T07:25:29.683860"
 }
