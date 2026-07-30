@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-07-29",
+  "__prices_date__": "2026-07-30",
   "__recent_titles__": [
-    "Securitize erhält SEC-Berater-Lizenz für Tokenisierung",
-    "Circle kauft fast 1.000 IBM-Blockchain-Patente",
-    "Uphold streicht 17% der Mitarbeiter – Strategie-Shift zur Enterprise",
-    "Nvidia gründet KI-Sicherheits-Allianz ohne OpenAI, Google oder Anthropic",
-    "Kraken-Mutterkonzern Payward kauft Magic Labs Wallet-Geschäft",
     "Binance verschwindet aus Google Play in mehreren EU-Ländern",
     "HashKey Hong Kong fusioniert Regionalexchanges zu einer Plattform",
     "US-Behörden genehmigen regulierte Krypto-Perpetuals",
@@ -61,7 +56,12 @@
     "Fed hält Leitzinsen stabil, Warsh-Kurs bleibt offen",
     "80 Millionen ZEC migrieren in Zcash-Pool nach Upgrade",
     "MoonPay integriert KI-Agenten für Krypto-Transaktionen",
-    "OpenAI-Agent hackte vier weitere Plattformen nach Hugging Face"
+    "OpenAI-Agent hackte vier weitere Plattformen nach Hugging Face",
+    "USA sanktioniert iranische Reederei wegen Bitcoin-Zahlungen",
+    "US-Senat arbeitet an ethischen Regeln für Trumps Krypto-Geschäfte",
+    "Binance.US plant Eintritt in Prognose-Märkte als CFTC-Börse",
+    "KI bricht Post-Quanten-Kryptografie in 60 Stunden",
+    "Robinhoods Krypto-Umsatz sinkt 38% trotz Rekord-Quartal"
   ],
   "36c21085e27f0cda61e4c0259dbe6df5": "2026-07-27T08:18:53.936246",
   "ff88c5a21474fae53aea6e9a259da8e8": "2026-07-27T08:18:53.936246",
@@ -308,5 +308,22 @@
   "7ec6fb1fd93c9d4070ef8d8b459fbe7b": "2026-07-29T19:25:57.377117",
   "f68012e895651c5049c689a812a9a272": "2026-07-29T19:25:57.377117",
   "61cbf2794b5c8f4ac49706741fbf1739": "2026-07-29T19:25:57.377117",
-  "0b9cfbaf7aca6aed7d4df4fddb28039d": "2026-07-29T19:25:57.377117"
+  "0b9cfbaf7aca6aed7d4df4fddb28039d": "2026-07-29T19:25:57.377117",
+  "eb876a3e7b188f81f8e19491d6db2de0": "2026-07-30T07:24:16.790308",
+  "b151e7477a190d1c8776cc4bb1d2110a": "2026-07-30T07:24:16.790308",
+  "3a5aca2d348e5ee592ca2fd73bd692ae": "2026-07-30T07:24:16.790308",
+  "e13d6b33c0bf6909679dcdca1f67a2dd": "2026-07-30T07:24:16.790308",
+  "2cb218c3f7a8f29d393ecc83cb04b440": "2026-07-30T07:24:16.790308",
+  "9fdebf75900cc3a90298ef0a4690e88f": "2026-07-30T07:24:16.790308",
+  "15732aa7facd78603542a7d270db84cd": "2026-07-30T07:24:16.790308",
+  "6e936fb736fa75b8043a0f0a715318a7": "2026-07-30T07:24:16.790308",
+  "4abbe2802aff50a5071d424e65a2aaf9": "2026-07-30T07:24:16.790308",
+  "7505175660212dc389976bc966134d4f": "2026-07-30T07:24:16.790308",
+  "70afca35cd5829e0e69b33ec6c31143e": "2026-07-30T07:24:16.790308",
+  "7326cfd7f99f83d039c198b59ac63294": "2026-07-30T07:24:16.790308",
+  "2a23c98a0ae16651c1e12d5b8f47c217": "2026-07-30T07:24:16.790308",
+  "de07bbef53ca00fa6cc61ebade18c593": "2026-07-30T07:24:16.790308",
+  "28ff0be9e4bc67f790fde9eff33f1a5e": "2026-07-30T07:24:16.790308",
+  "e79d483d0e327a254b5573b471a66076": "2026-07-30T07:24:16.790308",
+  "ec5b19c616743dd08b349a2e2a709dae": "2026-07-30T07:24:16.790308"
 }
