@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-07-31",
   "__recent_titles__": [
-    "Galaxy Digital kauft 500 Acres für zweites Texas-Rechenzentrum",
-    "Zcash aktiviert Ironwood-Upgrade nach Orchard-Schwachstelle",
-    "Fed entscheidet heute über Zinssätze — Bitcoin bei $64.000",
-    "Trade.xyz deckt SK-Hynix-Liquidationen nach Preis-Anomalie ab",
-    "Coinbase fordert klare kanadische Krypto-Regeln ein",
     "Südkorea plant Stablecoin-Regeln — Krypto-Steuer unter Druck",
     "Tether unterzeichnet Tokenisierungs-Vertrag mit Nairobi-Börse",
     "Ungarn hebt Krypto-Kontrollen auf, erste MiCA-Lizenz vergeben",
@@ -61,7 +56,12 @@
     "Quantum Solutions und Hyperscale Data verkaufen Krypto-Vermögen",
     "Bank of Japan hält Leitzinsen bei 1 Prozent",
     "BIS-Projekt Agorá vergleicht 1 Million Dollar in Testlauf",
-    "594 Bitcoin aus Coldcard-Wallets geleert — AI möglich"
+    "594 Bitcoin aus Coldcard-Wallets geleert — AI möglich",
+    "Circle erhält New York Trust Charter für USDC-Treuhänder",
+    "Dubai-Kryptobörse in 4-Milliarden-Dollar Iran-Sanktionsumgehung verwickelt",
+    "USA sanktioniert Iran-Bitcoin-Versicherung für Hormuzsee-Schiffe",
+    "EZB: Digitaler Euro übertrifft EU-Barrierefreiheits-Standards",
+    "Claude hackte in Anthropic-Tests drei Unternehmen"
   ],
   "b28911954a9626835e352fde4011144d": "2026-07-28T14:57:48.182067",
   "8b4e311bfde7e8cc26d2ea9252987435": "2026-07-28T14:57:48.182067",
@@ -305,5 +305,20 @@
   "25140122986a781653b7804f3c627b0b": "2026-07-31T11:21:54.276539",
   "533e3a72a064f0bc66094de4199f58a1": "2026-07-31T11:21:54.276539",
   "83d782bd7af60aa1775d25bf49358701": "2026-07-31T11:21:54.276539",
-  "18f2d742332580fdd953e140e32cc7fc": "2026-07-31T11:21:54.276539"
+  "18f2d742332580fdd953e140e32cc7fc": "2026-07-31T11:21:54.276539",
+  "0308abbc33daf1a7d2159acd0aa4dfa6": "2026-07-31T14:55:31.866216",
+  "539f7ca83129b08c6b67ebbb1fb751b3": "2026-07-31T14:55:31.866216",
+  "caeaa4d37dbe921de1d69d3b803f6efd": "2026-07-31T14:55:31.866216",
+  "3f5d86429ce52e2c332caf06fb27cfe5": "2026-07-31T14:55:31.866216",
+  "061a4f95b1439f36a2d224c7aea3a8b0": "2026-07-31T14:55:31.866216",
+  "5e0f8a897b0fcd28c982211ef791c980": "2026-07-31T14:55:31.866216",
+  "16d1d0153df7e12ea152e052655c5219": "2026-07-31T14:55:31.866216",
+  "299d3fde6cd5f4205f7dda506bd3474c": "2026-07-31T14:55:31.866216",
+  "155e4b4409847a578849bc30905dc69e": "2026-07-31T14:55:31.866216",
+  "7b8cb3e59bedce45b60f780055464e1c": "2026-07-31T14:55:31.866216",
+  "a1c123f36243496ddea0fdc2f1d20470": "2026-07-31T14:55:31.866216",
+  "32c9fe1d586c7dd3f62e00b2dc7460c9": "2026-07-31T14:55:31.866216",
+  "a12f419b64233c4d13175b4436f77d77": "2026-07-31T14:55:31.866216",
+  "18a3fcea65162977683b398d98e20ec3": "2026-07-31T14:55:31.866216",
+  "0c828f358c8beea963731102b6d04020": "2026-07-31T14:55:31.866216"
 }
