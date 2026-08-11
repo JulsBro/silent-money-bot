@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-08-11",
   "__recent_titles__": [
-    "Trump Media beendet Crypto.com-Partnerschaften komplett",
-    "Hacker missbrauchen BNB Chain für Malware-Verbreitung",
-    "Schweizer Franken und Yen stärken sich nach DeepSeek-Schock",
-    "Brasilien führt bis zu 24-Stunden-Sperrfrist für Krypto-Transfers ein",
-    "BTCPay beschränkt Remote-Lightning-Zugang nach Exploit",
     "US-Senat plant Abstimmung über CLARITY Act im September",
     "Trump Media beendet Crypto.com-Treasury- und Wettmarkt-Deals",
     "DeepSeek-Schock löst breite KI-Infrastruktur-Rout aus",
@@ -61,7 +56,12 @@
     "$680-Mrd.-Schiffsindustrie tokenisiert auf Blockchain",
     "BTCPay-Exploit: 190.000-Dollar-Bounty nach LND-Hack",
     "Südkorea senkt Travel-Rule-Schwelle für Krypto-Transfers",
-    "Coinbase startet Derivate für UK-Profi-Investoren"
+    "Coinbase startet Derivate für UK-Profi-Investoren",
+    "Coinbase erhält Regulierungsgenehmigung für tokenisierte Wertpapiere aus Abu Dhabi",
+    "Russland plant Börsenhandel für Bitcoin, Ether und USDT",
+    "MoneyGram startet globalen Crypto-to-Cash-Service auf Solana",
+    "Ravencoin könnte vier Tage Transaktionen rollback durchführen",
+    "Bitcoin-gestützte Kreditvergabe tritt in institutionelle Ära ein"
   ],
   "b0d53700b94725b2458f4d0a71988e87": "2026-08-08T15:22:16.476567",
   "4a512d67512923b649cb47b9a1800574": "2026-08-08T15:22:16.476567",
@@ -304,5 +304,21 @@
   "cfedca49fdd5a211258d7ae3c41b2938": "2026-08-11T09:52:29.956193",
   "ee4567ef902deb304422f676429a20d6": "2026-08-11T09:52:29.956193",
   "ca0e940048288c4e7a61c1e6dbe9a7f3": "2026-08-11T09:52:29.956193",
-  "656d958b7da6aa4dcb875efc84d11090": "2026-08-11T09:52:29.956193"
+  "656d958b7da6aa4dcb875efc84d11090": "2026-08-11T09:52:29.956193",
+  "afe17e4b6871141c5df61553cf821d1f": "2026-08-11T13:51:07.171816",
+  "68080a24ec481ed3b3da9131fb1ed9ec": "2026-08-11T13:51:07.171816",
+  "278cbbbe0e6831b96fdea656e0fd0771": "2026-08-11T13:51:07.171816",
+  "9aa5f622de10cfa1f565fe167deffb16": "2026-08-11T13:51:07.171816",
+  "73bed4352d848040273acbf2a9f2c9d2": "2026-08-11T13:51:07.171816",
+  "3709be4cd84b51303fb46c0cfc21a940": "2026-08-11T13:51:07.171816",
+  "e42535dba86ef71f63cc66e463bc7555": "2026-08-11T13:51:07.171816",
+  "f290c6c941475e00c1e73324d0c3529b": "2026-08-11T13:51:07.171816",
+  "10e47adb47b7f020023020749d51eba1": "2026-08-11T13:51:07.171816",
+  "c92aacb230944dd4e66d1df9e631f97e": "2026-08-11T13:51:07.171816",
+  "293b297850cf6115c4f8f82af9e676dc": "2026-08-11T13:51:07.171816",
+  "cfc8906541bdde06ef5df5a0b45369fe": "2026-08-11T13:51:07.171816",
+  "4d301b921aa1c35501103edb5c732a38": "2026-08-11T13:51:07.171816",
+  "f77df9e062cb934161e227639cd0b908": "2026-08-11T13:51:07.171816",
+  "42f16940d44151d7152c10de05e0df67": "2026-08-11T13:51:07.171816",
+  "97b5f56af8fc8e8641c8c60f020ce95a": "2026-08-11T13:51:07.171816"
 }
