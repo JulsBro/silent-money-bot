@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-08-13",
   "__recent_titles__": [
-    "Grayscale stoppt Cardano-, Polkadot- und Hedera-ETF-Pläne",
-    "BlackRock startet kanadische ETFs, eines mit 3% Bitcoin",
-    "Brasilien setzt Krypto-Lizenzierungsfrist auf Oktober 30",
-    "Keel-Bitcoin-Mining stoppt, fokussiert auf KI-Infrastruktur",
-    "Vitalik stellt Datenschutz und Quantenresistenz in Roadmap voran",
     "SEC stimmt Abstimmung über Reg Crypto – erste große Kryptoverordnung",
     "Weißes Haus verspricht CLARITY Act im September über die Ziellinie",
     "Bitcoin-Großwale häufen an – Elite-Wallets auf 6-Monats-Hoch",
@@ -61,7 +56,12 @@
     "Securitize fällt 20% nach Gewinnwarnung",
     "Zerohash scheitert bei US-Treubank-Lizenzantrag",
     "Hawaii verbietet Krypto-Geldautomaten ab Oktober",
-    "BitGo meldet 80% Umsatzwachstum trotz Nettoverlust"
+    "BitGo meldet 80% Umsatzwachstum trotz Nettoverlust",
+    "Copper US wird SEC-registrierter Broker-Dealer",
+    "Metaplanet startet BitBonds mit 1,3 Mio. Dollar Emission",
+    "Krypto-Firmen fordern AI-Sicherheitstools von Labs ein",
+    "Brasiliens größtes Bitcoin-Tresorunternehmen plant ETF",
+    "Südkorea verurteilt Delio-CEO zu 15 Jahren Haft"
   ],
   "fb37ad991ebfad26f7fa5f5232b8795a": "2026-08-10T10:09:38.038302",
   "c79309a2682c7b63e917667fc754024b": "2026-08-10T10:09:38.038302",
@@ -306,5 +306,21 @@
   "c9fe599932af546d43750358d75b86c8": "2026-08-13T06:08:48.680395",
   "e81df4cb50018db88e4cc8da3f20dbe1": "2026-08-13T06:08:48.680395",
   "63a2d10d6bbc13066a9b5d735e60d14a": "2026-08-13T06:08:48.680395",
-  "0b5a09e063fb6670b57c92b9a7f8c387": "2026-08-13T06:08:48.680395"
+  "0b5a09e063fb6670b57c92b9a7f8c387": "2026-08-13T06:08:48.680395",
+  "377c325ccaf8b845df6784ac35888abc": "2026-08-13T09:54:27.981271",
+  "420a3c09143fb798fac9164260d775eb": "2026-08-13T09:54:27.981271",
+  "afd771364484c0769837aa94be86a8d3": "2026-08-13T09:54:27.981271",
+  "9325c5df0739c1125531d067381d7320": "2026-08-13T09:54:27.981271",
+  "fa882ff5c556a4e0fed9097b55928cca": "2026-08-13T09:54:27.981271",
+  "ca93501d3b6f8fb8bcba8f01b9b0e6e4": "2026-08-13T09:54:27.981271",
+  "2f64a87c834b3291830eaa7376b88206": "2026-08-13T09:54:27.981271",
+  "93a9c8fca18e846b29be48466b48b149": "2026-08-13T09:54:27.981271",
+  "c4bac45b7b28f581a1929cdae894fbfd": "2026-08-13T09:54:27.981271",
+  "88333ec6fe1e6e7c9596e20146558fd1": "2026-08-13T09:54:27.981271",
+  "68105d4ef523b6f2185fe23dcbe83ae6": "2026-08-13T09:54:27.981271",
+  "8c4c79569aaee5f3f3a85ca5cf42b35a": "2026-08-13T09:54:27.981271",
+  "d3d8d54e5b292ffd00a1f6d16c505155": "2026-08-13T09:54:27.981271",
+  "86b89773912fde9905102967bbebf25a": "2026-08-13T09:54:27.981271",
+  "d1c164b2459d822c2211928b3ec2b6bd": "2026-08-13T09:54:27.981271",
+  "b0b5db7a0c86bab3a0b1940716b7469d": "2026-08-13T09:54:27.981271"
 }
