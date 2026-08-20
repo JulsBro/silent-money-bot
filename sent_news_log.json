@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-08-19",
+  "__prices_date__": "2026-08-20",
   "__recent_titles__": [
-    "US Treasury konkretisiert GENIUS Act mit Stablecoin-Regeln",
-    "Tom Lees Bitmine hält nun 4,8% aller Ethereum",
-    "Coldcard-Bug verursachte 100 Millionen Dollar Hack",
-    "Harmony plant Rollback nach 3-Billionen-ONE-Exploit",
-    "Österreich verhängt erste veröffentlichte MiCA-Strafe",
     "CFTC akzeptiert öffentliche Eingaben zu AI-Compute-Futures",
     "Compound investiert 52 Millionen Dollar in Institutionalisierung",
     "BitMart-Gründer lehnt Audit ab, Nutzer berichten gesperrte Mittel",
@@ -61,7 +56,12 @@
     "Clarity Act treibt Krypto-Aktien vor September-Abstimmung",
     "CFTC verhängt 5-Jahres-Handelsverbot gegen FTX-Führungskräfte",
     "Injective SEC-registriert als Transfer Agent",
-    "Bitcoin über $68.000 — Treasury-Ankäufe liquidieren Shorts"
+    "Bitcoin über $68.000 — Treasury-Ankäufe liquidieren Shorts",
+    "Trump: CFTC arbeitet an Hyperliquid-Zulassung in USA",
+    "Trump drängt Kongress zu Clarity-Act-Abstimmung",
+    "Bitcoin durchbricht $70.000 erstmals seit Juni",
+    "Bearische Positionen verlieren Rekord 2,7 Milliarden Dollar",
+    "Bitcoin.com integriert UAE-registrierten US-Dollar-Stablecoin"
   ],
   "cc86c24396a2f70c957306f1e1413429": "2026-08-17T05:24:02.467094",
   "02053daad965abc850482bb7ea8895d7": "2026-08-17T05:24:02.467094",
@@ -303,5 +303,21 @@
   "274605b1f9f863adf6e6340e6ad7b6f1": "2026-08-19T18:42:20.190351",
   "23a98819215c5c6cbd4e07381fe3d9c7": "2026-08-19T18:42:20.190351",
   "a2d35d57a695b182f087eb80cebb295d": "2026-08-19T18:42:20.190351",
-  "c234dc889b3091e55a1acbe032a9f565": "2026-08-19T18:42:20.190351"
+  "c234dc889b3091e55a1acbe032a9f565": "2026-08-19T18:42:20.190351",
+  "6236efa6596ede23071945df6fc32f55": "2026-08-20T05:19:49.290168",
+  "cac2c243f89589ad747eee49c7dc29a8": "2026-08-20T05:19:49.290168",
+  "be4a14d4ab312a072bfd6ccf285d7bd7": "2026-08-20T05:19:49.290168",
+  "016a44e79775245640f1e7cd380e88b9": "2026-08-20T05:19:49.290168",
+  "da9be4477eaaf0043be29d3baaae789d": "2026-08-20T05:19:49.290168",
+  "b10abe90472a44149385846c86348dcc": "2026-08-20T05:19:49.290168",
+  "124a1d1f79dcab1eea760076737af936": "2026-08-20T05:19:49.290168",
+  "667b8ab4f0723f6584ffb692341ca38a": "2026-08-20T05:19:49.290168",
+  "db9053c9fed3c2c29ed8e131bbccbcc3": "2026-08-20T05:19:49.290168",
+  "38aaf2a2c867409aafd9ac6f90ee6695": "2026-08-20T05:19:49.290168",
+  "7dbdee5425fce6d06088dac06f95fcc9": "2026-08-20T05:19:49.290168",
+  "9b261e43f7627ae223e8ac893b7c762f": "2026-08-20T05:19:49.290168",
+  "c984dea595e038da52ed879612d392e1": "2026-08-20T05:19:49.290168",
+  "bdd7de3f913061903caf1c6f32db8b45": "2026-08-20T05:19:49.290168",
+  "abeaf5fca91233fe5697cb90045ea4ef": "2026-08-20T05:19:49.290168",
+  "84fab5bb7bb0347c6cbe2b597195a63a": "2026-08-20T05:19:49.290168"
 }
