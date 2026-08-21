@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-08-21",
   "__recent_titles__": [
-    "Trump-Crypto-Firma nutzt von US als Sicherheitsrisiko klassifizierte KI-Modelle",
-    "China verdreifacht Digital-Yuan-Bankennetz 2026",
-    "Ripple erhöht 275 Millionen Dollar für Prime-Brokerage",
-    "Ethena diversifiziert USDe-Deckung mit 1-Milliarde-Fazilität",
-    "US-Treasury verdoppelt Long-Bond-Rückkäufe, Bitcoin zielt auf 65.000 Dollar",
     "Bybit spart 700 Millionen Dollar durch KI-Sicherheit",
     "HSBC und Standard Chartered führen erste Live-Transaktion auf Swifts 24/7-Ledger durch",
     "Cantor öffnet Kalshi-Prognosemärkte für institutionelle Kunden",
@@ -61,7 +56,12 @@
     "Solana reduziert Slot-Zeit auf 350 Millisekunden",
     "Binance-Mitarbeiter in UAE befragt und freigegeben",
     "Binance Agent OS verbindet KI-Agenten mit Krypto-Handel",
-    "17 iranische Hacker wegen 6-Millionen-Bitcoin-Erpressung angeklagt"
+    "17 iranische Hacker wegen 6-Millionen-Bitcoin-Erpressung angeklagt",
+    "Digital Asset und Paul-Ryan-Stiftung starten Blockchain-Pilotprojekt für US-Sozialleistungen",
+    "BounceBit stellt Blockchain ein, migriert nach $3-Millionen-Exploit zu BNB",
+    "Bitcoin-ETFs verzeichnen größten Tag seit Mai — BlackRock dominiert mit 83%",
+    "Südkoreanisches Upbit-Volumen springt 273% — Kapital strömt zurück",
+    "Trump drängt auf Clarity Act, CFTC droht mit eigenen Krypto-Regeln"
   ],
   "4229c438cc910c7da1693cde5af06a87": "2026-08-18T18:46:34.419044",
   "2f689233b883856b1da4f141d56691cb": "2026-08-18T18:46:34.419044",
@@ -305,5 +305,21 @@
   "dbb73806bffa9eff74fd4a69286643f3": "2026-08-21T15:26:03.105931",
   "4aa75b37b5fe8bf9c7af39f2551b026a": "2026-08-21T15:26:03.105931",
   "4707864487ceada0886f2c1290ce8704": "2026-08-21T15:26:03.105931",
-  "37c4a4827f7b0a56f3e3838e67a50df1": "2026-08-21T15:26:03.105931"
+  "37c4a4827f7b0a56f3e3838e67a50df1": "2026-08-21T15:26:03.105931",
+  "beb76a50fccf816412c40aa0a2e511bf": "2026-08-21T18:44:35.540921",
+  "8dffb5f81a76bc4bceadc23a9e4ef6ff": "2026-08-21T18:44:35.540921",
+  "80ea6669abd18f3620dc01fbf31745df": "2026-08-21T18:44:35.540921",
+  "10d6447ef0c545be0cfe1052f4748ae6": "2026-08-21T18:44:35.540921",
+  "6d6c670373ea591dea8cf8f07750fbdb": "2026-08-21T18:44:35.540921",
+  "2e1af33cf9fd65479ec3338a3918955e": "2026-08-21T18:44:35.540921",
+  "c8dce4d00f1705af7f4fe7c233a2da76": "2026-08-21T18:44:35.540921",
+  "2b992baac561c6c82be86309bdc576e4": "2026-08-21T18:44:35.540921",
+  "9959c3505a7c0070b94cee4a92bc757d": "2026-08-21T18:44:35.540921",
+  "b77cbf210ac30d1a8f16438f406f30dc": "2026-08-21T18:44:35.540921",
+  "fde38ae3fa7fdbe02c48f967f918419f": "2026-08-21T18:44:35.540921",
+  "2a6c7bce1b9c7f65cd516e69c2d0e3d4": "2026-08-21T18:44:35.540921",
+  "dd90723da6c078c00ff1f184c044ad8e": "2026-08-21T18:44:35.540921",
+  "1ae1a1bc3d5a33b275237a3487fa65f5": "2026-08-21T18:44:35.540921",
+  "276e487c4650749c24fe51f1bcd1c81b": "2026-08-21T18:44:35.540921",
+  "fe0f01cbe3e121dc3a0090cf8b84d0bc": "2026-08-21T18:44:35.540921"
 }
