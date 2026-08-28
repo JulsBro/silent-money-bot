@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-08-29",
   "__recent_titles__": [
-    "Solana-Transaktionen erreichen Rekord 4,2 Milliarden",
-    "Japan plant Blockchain-Settlement für Aktien bis Anfang 2030er",
-    "BlackRock senkt Bitcoin-ETF Swap-Minimum auf 1 Million Dollar",
-    "6,4 Milliarden Dollar Bitcoin-Optionen verfallen Freitag",
-    "Südkoreas Shinhan nutzt Visas Stablecoin-Plattform",
     "Revolut startet EURR-Stablecoin in drei europäischen Märkten",
     "Dallas Fed warnt: Tokenisierte Einlagen gefährden 700-Mrd-Dollar-Kreditvergabe",
     "EZB verspricht maximale Privatsphäre für digitalen Euro",
@@ -61,7 +56,12 @@
     "BitGo kauft NYDIG-Handelsarm für 57,5 Millionen Dollar",
     "Circle's USDC wird erstes Premier-League-Trikot-Sponsor",
     "Capital B sammelt 24,5 Millionen für Bitcoin-Treasury ein",
-    "SBI investiert 270 Millionen Dollar in Indonesiens Ajaib"
+    "SBI investiert 270 Millionen Dollar in Indonesiens Ajaib",
+    "XRP-Schatzkammer Evernorth erhält SEC-Freigabe für Nasdaq-Listing",
+    "Bybit startet 24/7-Optionen auf Aktien-Perpetuals",
+    "Dunamu und Visa starten Stablecoin-Partnerschaft",
+    "Bitwise Solana ETF überschreitet 1 Milliarde Dollar AUM",
+    "Fed Chair Warsh nennt AI 'Wendepunkt der Geschichte'"
   ],
   "1d697f942f51c5ed83457108e5b42c72": "2026-08-26T05:20:43.873075",
   "857c4ef2856ecfe9346ff85c595be8f0": "2026-08-26T05:20:43.873075",
@@ -275,5 +275,20 @@
   "30aeab2f3ac634b96e9a3c2fa0cd4da9": "2026-08-28T22:31:08.548656",
   "d045b3e8811b8fc905785add9e5af035": "2026-08-28T22:31:08.548656",
   "23637f873574d22c320d720b26af1bc3": "2026-08-28T22:31:08.548656",
-  "bb725e1a71826b37ba372d1fe5505fd5": "2026-08-28T22:31:08.548656"
+  "bb725e1a71826b37ba372d1fe5505fd5": "2026-08-28T22:31:08.548656",
+  "d54d6275d691c0d847a0e9aafc7757b3": "2026-08-28T23:48:20.741808",
+  "eb8505cc1f358961f4e9c058f0b43af2": "2026-08-28T23:48:20.741808",
+  "6e6186ae6fff3a1e95f8026181111363": "2026-08-28T23:48:20.741808",
+  "4d08593ab0765944c8973c326ba41151": "2026-08-28T23:48:20.741808",
+  "6ad6a3145def86bc4f6f39bacc6194f0": "2026-08-28T23:48:20.741808",
+  "bb28fc0a158ebcae7fcbfa26403f91ff": "2026-08-28T23:48:20.741808",
+  "6177b3ffaf20b6a667a482934af200a2": "2026-08-28T23:48:20.741808",
+  "8468006336e5cb8a4ddabafde6636d11": "2026-08-28T23:48:20.741808",
+  "7f3cd8897d7d64268126a9848d89dd97": "2026-08-28T23:48:20.741808",
+  "3ec97f62807031f1aeb55199730d006a": "2026-08-28T23:48:20.741808",
+  "830d4a400c68605186b6d0ba4be01fe3": "2026-08-28T23:48:20.741808",
+  "6de199a479eaa9bff981e0e9a6494e93": "2026-08-28T23:48:20.741808",
+  "9f222af672d1f7ddfca48a47497a5e00": "2026-08-28T23:48:20.741808",
+  "3563f8790845335d8841e3e25d03d15a": "2026-08-28T23:48:20.741808",
+  "cad67ab3a8add5409832a260d0fdde3e": "2026-08-28T23:48:20.741808"
 }
