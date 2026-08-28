@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-08-28",
+  "__prices_date__": "2026-08-29",
   "__recent_titles__": [
-    "Hugging Face erkundet Verkauf mit 13-Milliarden-Dollar-Bewertung",
-    "US-Bankenverbände planen nationale Blockchain-Infrastruktur",
-    "Zerohash erneuert Antrag auf OCC-Bankcharter",
-    "POSCO tokenisiert Handelsschuldscheine auf Avalanche",
-    "World Liberty Financial startet USD1 auf Canton Network",
     "Solana-Transaktionen erreichen Rekord 4,2 Milliarden",
     "Japan plant Blockchain-Settlement für Aktien bis Anfang 2030er",
     "BlackRock senkt Bitcoin-ETF Swap-Minimum auf 1 Million Dollar",
@@ -61,7 +56,12 @@
     "Kraken sperrt Nutzer nach Sanktions-Transaktionsflut",
     "Ethena diversifiziert in Aktien-Perpetuals jenseits Krypto",
     "XRP-Treasury-Unternehmen Evernorth erhält SEC-Freigabe",
-    "Neunter Circuit setzt Kalshi in Nevada-Wettkampf zu"
+    "Neunter Circuit setzt Kalshi in Nevada-Wettkampf zu",
+    "Kalshi erleidet Gerichtsschlag — Bundesstaaten bestätigen Regulierungsmacht",
+    "BitGo kauft NYDIG-Handelsarm für 57,5 Millionen Dollar",
+    "Circle's USDC wird erstes Premier-League-Trikot-Sponsor",
+    "Capital B sammelt 24,5 Millionen für Bitcoin-Treasury ein",
+    "SBI investiert 270 Millionen Dollar in Indonesiens Ajaib"
   ],
   "1d697f942f51c5ed83457108e5b42c72": "2026-08-26T05:20:43.873075",
   "857c4ef2856ecfe9346ff85c595be8f0": "2026-08-26T05:20:43.873075",
@@ -258,5 +258,22 @@
   "e7d33d06b8df0f08cff748fa65c330df": "2026-08-28T20:31:14.436839",
   "63faa360815a28198469f28149e55d72": "2026-08-28T20:31:14.436839",
   "1140af4c822e03a64ab87ea56a5a0e4f": "2026-08-28T20:31:14.436839",
-  "91aaeca3a8d127a89d77b3634f7171f9": "2026-08-28T20:31:14.436839"
+  "91aaeca3a8d127a89d77b3634f7171f9": "2026-08-28T20:31:14.436839",
+  "fca187e0f05cf8f94ac94cd8cd3891c9": "2026-08-28T22:31:08.548656",
+  "37477a922a2b8bb4b83396ae9c40de91": "2026-08-28T22:31:08.548656",
+  "bf6b06dbc9debc0560ab448ca0bff457": "2026-08-28T22:31:08.548656",
+  "635fbdf99cd3c2c3d2fba80a2bd03170": "2026-08-28T22:31:08.548656",
+  "31f79d18393b02385b422ae3aa27b27b": "2026-08-28T22:31:08.548656",
+  "63e6c5ee5878661806fc34a82d04e136": "2026-08-28T22:31:08.548656",
+  "9dffeee071c3834b109f077eeb385115": "2026-08-28T22:31:08.548656",
+  "35bded695746a31084d1f56e1de23925": "2026-08-28T22:31:08.548656",
+  "4dcfa24756ccdd435ce7757c7a586061": "2026-08-28T22:31:08.548656",
+  "b5c6f4a72f12da160bc1a04a970907d6": "2026-08-28T22:31:08.548656",
+  "29fa8fbfa004b8194939a68965cac2f0": "2026-08-28T22:31:08.548656",
+  "a3a8f150c0c2759d0b6969a7457ae343": "2026-08-28T22:31:08.548656",
+  "149b0a1bf39e7ee886c8540acb951354": "2026-08-28T22:31:08.548656",
+  "30aeab2f3ac634b96e9a3c2fa0cd4da9": "2026-08-28T22:31:08.548656",
+  "d045b3e8811b8fc905785add9e5af035": "2026-08-28T22:31:08.548656",
+  "23637f873574d22c320d720b26af1bc3": "2026-08-28T22:31:08.548656",
+  "bb725e1a71826b37ba372d1fe5505fd5": "2026-08-28T22:31:08.548656"
 }
