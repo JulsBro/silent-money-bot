@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-08-28",
   "__recent_titles__": [
-    "Bitmine setzt Ethereum-Kaufspree fort: 32.447 ETH hinzugefügt",
-    "USA verhängt erweiterte Sanktionen gegen Iran — Krypto im Fokus",
-    "Franklin Templeton startet tokenisierten Geldmarktfonds in Asien",
-    "Monad schlägt Wallet-Update gegen Quantum-Angriffe vor",
-    "Galaxy beziffert Coldcard-Hack-Verluste auf 1.789 Bitcoin",
     "Coinbase bringt tokenisierte Aktien auf Base-Netzwerk",
     "Indien plant erste tokenisierte Anleihen mit digitalem Rupee",
     "Thailand genehmigt Entwurfsregeln für Bitcoin- und Ether-ETFs",
@@ -61,7 +56,12 @@
     "Ethena startet Buyback-Abstimmung und ändert VC-Unlock-Struktur",
     "MoonPay integriert KI-Agenten für Krypto-Lending auf Solana",
     "Polnischer Olympia-Chef wegen Krypto-Bestechung verhaftet",
-    "Connecticut verklagt Kalshi — Prediction-Market-Rechtsstreit intensiviert sich"
+    "Connecticut verklagt Kalshi — Prediction-Market-Rechtsstreit intensiviert sich",
+    "VAE-Sicherheitschef übernimmt 49-Prozent-Anteil an Trumps Bankvorhaben",
+    "Globale steuerpflichtige Krypto-Aktivität 2025 bei 457 Milliarden Dollar",
+    "UK meldet 240 Krypto-Millionäre in Steuerjahr 2025",
+    "Moonwell-Exploit auf Base kostet 8,7 Millionen Dollar",
+    "KI-Audit entdeckt kritische Bitcoin-Lightning-Sicherheitslücke"
   ],
   "57d285b82be107b252492764cef277df": "2026-08-25T05:21:11.798010",
   "ba2f7e4bcafec44b6e51812addca874b": "2026-08-25T05:21:11.798010",
@@ -273,5 +273,20 @@
   "dea8d776edccb0d47d5d605b1bd5fa82": "2026-08-27T22:28:08.595908",
   "0c9487fee3d1792cd6452230c06db9d7": "2026-08-27T22:28:08.595908",
   "99bbbdd41d0cffc65e16d475d0286ee4": "2026-08-27T22:28:08.595908",
-  "98c2cd0718f26a39941b9a7650529c45": "2026-08-27T22:28:08.595908"
+  "98c2cd0718f26a39941b9a7650529c45": "2026-08-27T22:28:08.595908",
+  "3de37710abe9a19299b8b9dc49705080": "2026-08-28T00:11:32.995415",
+  "4e711f43c71315ae3d262526c61459b6": "2026-08-28T00:11:32.995415",
+  "8386a18323e22916297fce6608e015da": "2026-08-28T00:11:32.995415",
+  "8e3956f4eeaddde26b87d5220a406950": "2026-08-28T00:11:32.995415",
+  "ed11415d8fb1440eb7281f4c6aded778": "2026-08-28T00:11:32.995415",
+  "30637a3292b3de58c4ca960f63ca2b33": "2026-08-28T00:11:32.995415",
+  "5e574c8430fccb483b361b3491ce15ab": "2026-08-28T00:11:32.995415",
+  "e67514e862466c8726609b3de4e14e5a": "2026-08-28T00:11:32.995415",
+  "8097396fc9a539627fdd535a30f8dd75": "2026-08-28T00:11:32.995415",
+  "f517387a033f56b367f8d7f9e9deacba": "2026-08-28T00:11:32.995415",
+  "740814e1dea8683b74ce0d612a10c657": "2026-08-28T00:11:32.995415",
+  "194889a0d9e13b080d96aeed9d2a140b": "2026-08-28T00:11:32.995415",
+  "715c5af033f77c47df9cfb24267b4346": "2026-08-28T00:11:32.995415",
+  "b66754efdce07db23d1f516f332d433c": "2026-08-28T00:11:32.995415",
+  "40f35c2366045e35d70005e10d4839c6": "2026-08-28T00:11:32.995415"
 }
