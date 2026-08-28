@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-08-28",
   "__recent_titles__": [
-    "Coinbase bringt tokenisierte Aktien auf Base-Netzwerk",
-    "Indien plant erste tokenisierte Anleihen mit digitalem Rupee",
-    "Thailand genehmigt Entwurfsregeln für Bitcoin- und Ether-ETFs",
-    "USA sanktioniert Irans gesamten Krypto-Sektor mit Zahlungen",
-    "Las-Vegas-Geschäftsmann wegen 24-Millionen-Dollar-Crypto-Ponzi verurteilt",
     "Operation Lighthouse deckt Kindesmissbrauchsnetzwerke mit Krypto auf",
     "Copper-Übernahme scheitert — Bewertung kollabiert von 2,5 auf unter 0,5 Mrd Dollar",
     "Bitwise tokenisiert Aktienportfolios auf Coinbase-Base-Netzwerk",
@@ -61,7 +56,12 @@
     "Globale steuerpflichtige Krypto-Aktivität 2025 bei 457 Milliarden Dollar",
     "UK meldet 240 Krypto-Millionäre in Steuerjahr 2025",
     "Moonwell-Exploit auf Base kostet 8,7 Millionen Dollar",
-    "KI-Audit entdeckt kritische Bitcoin-Lightning-Sicherheitslücke"
+    "KI-Audit entdeckt kritische Bitcoin-Lightning-Sicherheitslücke",
+    "BitGo kauft NYDIG-Handelsgeschäft — 30 Mitarbeiter wechseln über",
+    "Südkoreanische Bithumb gewinnt Prozess um 620.000 Bitcoin",
+    "Trump-Krypto-Vorhaben kosteten Investoren 4,7 Milliarden Dollar",
+    "Clarity Act: Gemeindebanken könnten bei Stablecoin-Regeln benachteiligt sein",
+    "Bitcoin vollendet erste quantensichere Transaktion auf Mainnet"
   ],
   "57d285b82be107b252492764cef277df": "2026-08-25T05:21:11.798010",
   "ba2f7e4bcafec44b6e51812addca874b": "2026-08-25T05:21:11.798010",
@@ -288,5 +288,21 @@
   "194889a0d9e13b080d96aeed9d2a140b": "2026-08-28T00:11:32.995415",
   "715c5af033f77c47df9cfb24267b4346": "2026-08-28T00:11:32.995415",
   "b66754efdce07db23d1f516f332d433c": "2026-08-28T00:11:32.995415",
-  "40f35c2366045e35d70005e10d4839c6": "2026-08-28T00:11:32.995415"
+  "40f35c2366045e35d70005e10d4839c6": "2026-08-28T00:11:32.995415",
+  "c454c277ec485c91f06dbaa30eebcf47": "2026-08-28T02:07:24.470771",
+  "b717d877df176bde2db6758334039ac1": "2026-08-28T02:07:24.470771",
+  "f8b9d8be65f849f98efe49c4d95967aa": "2026-08-28T02:07:24.470771",
+  "4ede8cf50b4be8d5663874fdec4fb243": "2026-08-28T02:07:24.470771",
+  "a4a55e1912bdb63b97c4139461658d29": "2026-08-28T02:07:24.470771",
+  "8e1eda8f1cd2dc74c8de17cd2c7456d2": "2026-08-28T02:07:24.470771",
+  "2ebbd860c306497a919f0624885cab68": "2026-08-28T02:07:24.470771",
+  "391e17dfd5b12eb8e068ee7a350c2755": "2026-08-28T02:07:24.470771",
+  "4ed52254dd78983956ff0c53bf35fe4b": "2026-08-28T02:07:24.470771",
+  "49290bdaca12e45eb9543ff85bc8ec7d": "2026-08-28T02:07:24.470771",
+  "ab84d913df8316a90b55f8effeb27f4c": "2026-08-28T02:07:24.470771",
+  "a407e9e9d2aaa4fd496203074999eb8f": "2026-08-28T02:07:24.470771",
+  "5d0406cf0edb6f81e1a84eb7e815d73c": "2026-08-28T02:07:24.470771",
+  "28e8cda8c790bee5354623e2681b7829": "2026-08-28T02:07:24.470771",
+  "99c035d32ba27fa673c38746f554ef8f": "2026-08-28T02:07:24.470771",
+  "6d6bf5cc78c8635878635c9742216b72": "2026-08-28T02:07:24.470771"
 }
