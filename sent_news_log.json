@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-08-29",
+  "__prices_date__": "2026-08-30",
   "__recent_titles__": [
-    "VAE-Sicherheitschef übernimmt 49-Prozent-Anteil an Trumps Bankvorhaben",
-    "Globale steuerpflichtige Krypto-Aktivität 2025 bei 457 Milliarden Dollar",
-    "UK meldet 240 Krypto-Millionäre in Steuerjahr 2025",
-    "Moonwell-Exploit auf Base kostet 8,7 Millionen Dollar",
-    "KI-Audit entdeckt kritische Bitcoin-Lightning-Sicherheitslücke",
     "BitGo kauft NYDIG-Handelsgeschäft — 30 Mitarbeiter wechseln über",
     "Südkoreanische Bithumb gewinnt Prozess um 620.000 Bitcoin",
     "Trump-Krypto-Vorhaben kosteten Investoren 4,7 Milliarden Dollar",
@@ -61,7 +56,12 @@
     "Solana-Validatoren genehmigen beschleunigte SOL-Disinflation",
     "Cosmos Labs: Fehler hinter 5,7-Millionen-Dollar-Hack hätte identifiziert sein müssen",
     "Bitcoin-ETF-Zuflüsse enden nach 9-Tage-Serie bei BTC unter 78.000 Dollar",
-    "Polygon offenbart Sicherheitsmängel in jüngsten Hard-Forks behoben"
+    "Polygon offenbart Sicherheitsmängel in jüngsten Hard-Forks behoben",
+    "Russlands Sber Bank prüft USDT-Kredite, stellt digitalen Rubel in Frage",
+    "Layer-1-Blockchain Fogo deaktiviert Mainnet nach Token-Exploit",
+    "Neobank-Hack: 1,1-Millionen-Dollar-Exploit stürzt Token 49% ab",
+    "Mais und Weizen erreichen 3-Jahres-Höchststände",
+    "Z.ai-Aktien springen 8% nach KI-Modell auf chinesischen Chips"
   ],
   "bfef357b169ce5ecbf49f62ab7f88c2b": "2026-08-27T15:56:12.972040",
   "c585b97ed72edf3b1aba3a4b14140c4a": "2026-08-27T15:56:12.972040",
@@ -309,5 +309,21 @@
   "8cc253bc784764b6a31766da9de1077b": "2026-08-29T20:47:05.324887",
   "4610f391136fc039b38748ec8d8e3565": "2026-08-29T20:47:05.324887",
   "819f75a36670a594356d18d4f3aebbe7": "2026-08-29T20:47:05.324887",
-  "c5431a4ab73cf0987c92ed2e367f84f7": "2026-08-29T20:47:05.324887"
+  "c5431a4ab73cf0987c92ed2e367f84f7": "2026-08-29T20:47:05.324887",
+  "494cbc08a7c0c985d04669fd6976679a": "2026-08-30T10:09:31.857956",
+  "85c82909c8d0921221c7e96826fd37e5": "2026-08-30T10:09:31.857956",
+  "8edf1a04eacb594ed2b8cdbf714b4320": "2026-08-30T10:09:31.857956",
+  "89b517bb499d7e6bb2f3e3c15c9cf05f": "2026-08-30T10:09:31.857956",
+  "aeda350ae879e9a030a6f6022be8aa1f": "2026-08-30T10:09:31.857956",
+  "2490d1ba3df8292aec574128cff77da7": "2026-08-30T10:09:31.857956",
+  "6762244c269cb443a9b0c90aedad0ccc": "2026-08-30T10:09:31.857956",
+  "b15f996b99bcc92ba140352ef685720e": "2026-08-30T10:09:31.857956",
+  "cf2223665c0e3e62df068ce886458a04": "2026-08-30T10:09:31.857956",
+  "b72546ba4441ddb106e8cdd3b9feba80": "2026-08-30T10:09:31.857956",
+  "45b4d9a7ca3620e9df4a70c139e6b625": "2026-08-30T10:09:31.857956",
+  "e891b8d2f96bb0bf29b3a0449d959197": "2026-08-30T10:09:31.857956",
+  "8b978b02e12317e2e69417fb0677457e": "2026-08-30T10:09:31.857956",
+  "991edc836f93c43781b20206359cd989": "2026-08-30T10:09:31.857956",
+  "6ec1532bc8a1a28ee27a4e3927056911": "2026-08-30T10:09:31.857956",
+  "0725e721ea8d28f37eec088dcc2105c7": "2026-08-30T10:09:31.857956"
 }
