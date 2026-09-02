@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-09-01",
+  "__prices_date__": "2026-09-02",
   "__recent_titles__": [
-    "Arabica-Kaffee auf Rekordhoch nach Trump-Zolldiskussionen",
-    "Gold und Silber fallen — Schwermetalle schwächeln in zwei von drei Sessions",
-    "US-Erdgas fällt bei Umstellung der Wetter-Vorhersagen",
-    "Crypto.com-Cronos-Netzwerk nach 75-Millionen-Exploit stillgelegt",
-    "Kalshi wird offizieller Prediction-Market-Partner der US Open",
     "Älteste Bitcoin-Wallets wachen 2026 in ungewöhnlichem Tempo auf",
     "MicroStrategy Bitcoin-Position: 2,8 Mrd. Dollar unrealisierter Gewinn",
     "Big Tech kassierten 160 Mrd. Dollar aus KI-Unternehmensbeteiligungen",
@@ -61,7 +56,12 @@
     "Robinhood und Fomo umgehen Kreditkarten-Krypto-Regeln",
     "Ark Invest kauft 37 Millionen Dollar Bitcoin und Block",
     "Silhouette startet RFQ-Handel für tokenisierte Aktien",
-    "Solana Treasury Corp sammelt 20 Millionen für SOL-Käufe"
+    "Solana Treasury Corp sammelt 20 Millionen für SOL-Käufe",
+    "Iran-Streik löst breiten Risk-Off aus — Krypto folgt",
+    "Hyperliquid hebt Kapitalfazilität auf 2,5 Milliarden Dollar",
+    "Robinhood Chain DEX-Volumen springt auf 1,6 Milliarden Dollar",
+    "G20-Finanzchefs signalisieren klare Digital-Asset-Regulierungswege",
+    "Core DAO plant Emergency-Hardfork nach Validator-Fehler"
   ],
   "494cbc08a7c0c985d04669fd6976679a": "2026-08-30T10:09:31.857956",
   "85c82909c8d0921221c7e96826fd37e5": "2026-08-30T10:09:31.857956",
@@ -324,5 +324,22 @@
   "f2d496e9ec907da95033908e9d376a31": "2026-09-01T20:53:52.893256",
   "13dc5cb963fa41ebeb481111131108f5": "2026-09-01T20:53:52.893256",
   "c48178c36518bfef877461b30cfae3f6": "2026-09-01T20:53:52.893256",
-  "510553cc551753a6e524e9f530c2d5c4": "2026-09-01T20:53:52.893256"
+  "510553cc551753a6e524e9f530c2d5c4": "2026-09-01T20:53:52.893256",
+  "51846dc0d4162a800bf4be03ec468d4a": "2026-09-02T09:08:43.586641",
+  "c1f746a5a3f15e536dc8087ddce79c8e": "2026-09-02T09:08:43.586641",
+  "3815c132395b247dbd14f85d029b69a3": "2026-09-02T09:08:43.586641",
+  "e26b1f6e8c7af96b51a0658fa3b12776": "2026-09-02T09:08:43.586641",
+  "d6728ea113d6f52a615d49bab5267fc2": "2026-09-02T09:08:43.586641",
+  "9f139514b50b0edf9a9c41a988c42c2d": "2026-09-02T09:08:43.586641",
+  "0707fc9f551665ebde01ca75c70b52c2": "2026-09-02T09:08:43.586641",
+  "ed8a0af11b8fa2772550de3ccf995ddf": "2026-09-02T09:08:43.586641",
+  "dea733b4b284a62b1d8220057ceb5822": "2026-09-02T09:08:43.586641",
+  "eeff02c3d975a7f7ff63e7b61d6d5835": "2026-09-02T09:08:43.586641",
+  "95a3e58d1824967da9b3891adc6d4c75": "2026-09-02T09:08:43.586641",
+  "04a75664ae7ebb6e3023d05be3345d3e": "2026-09-02T09:08:43.586641",
+  "2aac1282f82592e392a12ed281aa6bb0": "2026-09-02T09:08:43.586641",
+  "34d651e3d9d15d3fdf71f610774055ca": "2026-09-02T09:08:43.586641",
+  "9be7ceca92b8e666045e0912c580d3e8": "2026-09-02T09:08:43.586641",
+  "44c9a77815972d08bfb5ff718319e8d7": "2026-09-02T09:08:43.586641",
+  "c1b1e6de6e4328555eeabd79772908eb": "2026-09-02T09:08:43.586641"
 }
