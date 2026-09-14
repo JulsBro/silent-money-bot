@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-09-14",
   "__recent_titles__": [
-    "Liquid Network stoppt nach $320M Bitcoin-Exploit",
-    "Harmony-Blockchain fahrt herunter wegen AI-Bedrohungen",
-    "Capital B kauft $29 Millionen Bitcoin nach Fundraising",
-    "Südkoreas Hanwha startet Tokenisierungs-Plattform auf Avalanche",
-    "Ethereum ermöglicht Gas-Gebühren ohne ETH-Besitz",
     "Solana verdreifacht Transaktionsgröße für komplexe Trades",
     "DBS und Citi senden erstmals USD-Transfer am Wochenende via Swift-Blockchain",
     "Tether-Sicherheitslücke gefährdet $91 Milliarden USDT",
@@ -61,7 +56,12 @@
     "Fed, BOE, BOJ treffen Zinsentscheidungen diese Woche",
     "UK-FCA erwägt spezielle Regeln für tokenisiertes Gold",
     "Robinhood-CEO: Emittenten dürfen tokenisierte Aktien nicht blockieren",
-    "OpenAI fragt Kongress nach Rechtmäßigkeit von KI-Verlangsamung"
+    "OpenAI fragt Kongress nach Rechtmäßigkeit von KI-Verlangsamung",
+    "Trump vereinbart strengere Ethik-Regeln für Clarity Act",
+    "Kaiko erhält $110M Serie-B mit S&P Global und BNP Paribas",
+    "UK-FCA plant Ausnahmeregelung für tokenisiertes Gold",
+    "EU-Cyberregeln: Krypto-Wallets müssen 24 Stunden melden",
+    "Indien tokenisiert $620-Milliarden-Unternehmensanleihe-Markt"
   ],
   "a1c734c6143ee118cb81fc53c1c7f09f": "2026-09-13T20:36:10.423829",
   "c7f4aecf1396da36410ec82555759de8": "2026-09-13T20:36:10.423829",
@@ -101,5 +101,21 @@
   "806ebef48294b6ae1b2f60f810afb188": "2026-09-14T10:09:28.545851",
   "9381edef799c948544c2c8f7d427580c": "2026-09-14T10:09:28.545851",
   "5d8dee6002002c7ec3580360614fd72e": "2026-09-14T10:09:28.545851",
-  "aba6b759e010cd46d39e3774144fd598": "2026-09-14T10:09:28.545851"
+  "aba6b759e010cd46d39e3774144fd598": "2026-09-14T10:09:28.545851",
+  "515e1fa2533f4aeb027f87f74455175f": "2026-09-14T15:28:35.052769",
+  "4bd426d6902ef91479fe9eb2c9329471": "2026-09-14T15:28:35.052769",
+  "bdbd7415539562ecdfa1cadd6c94a4e9": "2026-09-14T15:28:35.052769",
+  "315a3cc9e57197b9b7fd40ec1ad0c797": "2026-09-14T15:28:35.052769",
+  "7fe32821c9b7f39313ce7d9e7a33ae6c": "2026-09-14T15:28:35.052769",
+  "065902da2ed3029cbaf9720f1bf28e93": "2026-09-14T15:28:35.052769",
+  "e9390886105ea572428668d405bb142a": "2026-09-14T15:28:35.052769",
+  "49f577f85cbdfdc83ef78bb74d110325": "2026-09-14T15:28:35.052769",
+  "c099813e0754ec9a04eb575ff038f98f": "2026-09-14T15:28:35.052769",
+  "4cba626de6fb0fed2144149be3fd3a27": "2026-09-14T15:28:35.052769",
+  "89e05ea5f44fe56ae2ca4a2d80ffe241": "2026-09-14T15:28:35.052769",
+  "5098e4f26cd9c2dcd94202e28e874871": "2026-09-14T15:28:35.052769",
+  "d4a85c04e5c3108fd9e7d0eabbbe7575": "2026-09-14T15:28:35.052769",
+  "09e1f42bfb442b7aba8989fd5ab59c77": "2026-09-14T15:28:35.052769",
+  "bc07470d53be0d5deb10eecd1f813d02": "2026-09-14T15:28:35.052769",
+  "55f6f4143b38f385255ed369de204317": "2026-09-14T15:28:35.052769"
 }
