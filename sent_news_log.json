@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-09-14",
+  "__prices_date__": "2026-09-15",
   "__recent_titles__": [
-    "Yen-Rally und steigende Renditen drücken Bitcoin und Risikoaktiva",
-    "Schweizer Stablecoin-Sandbox startet Testphase mit neuen Partnern",
-    "Australien entzieht 45 Krypto- und Geldtransfer-Registrierungen",
-    "Ethereum Foundation definiert zwei erforderliche EIPs für Hegotá-Upgrade",
-    "Cronos führt umstrittene Blockchain-Rollback durch — $111M wiederhergestellt",
     "Circle erwirbt Tazapay — USDC Grenzüberschreitungszahlungen expandieren",
     "Usbekistan startet Stablecoin-Pilotprojekt mit Staatsanleihen-Backing",
     "Südkoreas Budget-Amt: Stablecoins sparen $3,8 Milliarden jährlich",
@@ -61,7 +56,12 @@
     "Trumps 800-Millionen-Dollar-Stake erhält Verkaufsfrist",
     "Clarity Act: 17 US-Generalstaatsanwälte fordern Blockade vor Senatsvoting",
     "Bitmine projiziert 334 Millionen Dollar jährliche Staking-Einnahmen",
-    "Trump akzeptiert schärfere Ethik-Regeln in Clarity-Act-Kompromiss"
+    "Trump akzeptiert schärfere Ethik-Regeln in Clarity-Act-Kompromiss",
+    "DOJ fordert $61M Vermögenseinzug für iranische Krypto-Ölverkäufe",
+    "Senat stimmt über Clarity Act ab – Bitcoin fällt von $79.530",
+    "Solana erhöht Transaktionsgröße um über 300%",
+    "XRP Ledger vor Payments-Upgrade mit 77% Validator-Zustimmung",
+    "CoinEx stellt nach 9 Jahren Betrieb ein"
   ],
   "a1c734c6143ee118cb81fc53c1c7f09f": "2026-09-13T20:36:10.423829",
   "c7f4aecf1396da36410ec82555759de8": "2026-09-13T20:36:10.423829",
@@ -167,5 +167,20 @@
   "8d78861ae650f45d5d8da07beb6f12da": "2026-09-14T21:42:22.310031",
   "cbefe5e0cb152ca5a2c824e2d47aaaa4": "2026-09-14T21:42:22.310031",
   "f887c29f965e3a3cbcfef511da4ee8ee": "2026-09-14T21:42:22.310031",
-  "043a885c96c39842cad169093b7ab2e7": "2026-09-14T21:42:22.310031"
+  "043a885c96c39842cad169093b7ab2e7": "2026-09-14T21:42:22.310031",
+  "4a6cac40951b8278029a049ad2554dc8": "2026-09-15T09:39:46.083155",
+  "7b457f4deeafa58330f65770d75c8c9e": "2026-09-15T09:39:46.083155",
+  "94daa957dbf993bd6f0a09670d756a44": "2026-09-15T09:39:46.083155",
+  "0b0a657f5d0f1b58915f8c538c7b55af": "2026-09-15T09:39:46.083155",
+  "9a905c4a3af2d28a1c6ce53c1c5e1299": "2026-09-15T09:39:46.083155",
+  "b5f6d9e7bf123bdcb7066e835dd2430e": "2026-09-15T09:39:46.083155",
+  "4d707e51751975280d0d2762e7ce0dd3": "2026-09-15T09:39:46.083155",
+  "7a38ac1c6af7730a688a22332c163b03": "2026-09-15T09:39:46.083155",
+  "e39f549ad2444e9d2f4ed814978b3ce1": "2026-09-15T09:39:46.083155",
+  "5754836a0164e41a624c57c47a83c573": "2026-09-15T09:39:46.083155",
+  "0c4435d14456b8c076baf6d138e67e81": "2026-09-15T09:39:46.083155",
+  "bf75969b844633b3d720d1abc83083f3": "2026-09-15T09:39:46.083155",
+  "e4b1c79740162e05e7a77df1698857b7": "2026-09-15T09:39:46.083155",
+  "2b90d10f66dc7456b186a494469ab898": "2026-09-15T09:39:46.083155",
+  "4883d0badcbae6c8b4554355112d3c1a": "2026-09-15T09:39:46.083155"
 }
