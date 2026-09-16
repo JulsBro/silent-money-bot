@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-09-15",
+  "__prices_date__": "2026-09-16",
   "__recent_titles__": [
-    "Block beantragt Banklizenz für Bitcoin- und Stablecoin-Verwahrung",
-    "Iran lockert Währungsregeln: Krypto als Sanktionsumgehung",
-    "Gemini erhält Singapurs Zahlungsdienstlizenz",
-    "Erste Tron-Staking-ETF startet in USA",
-    "Fed bereitet Zinserhöhung vor — Goldman Sachs zieht Prognose zurück",
     "US Senate: Clarity Act Abstimmung am 15. September unklar",
     "Zwei Krypto-Milliardäre spenden 97 Millionen Dollar an Farage",
     "Bitcoin Suisse lagert bis 50% Schweizer Jobs aus",
@@ -61,7 +56,12 @@
     "Bitcoin fällt auf $75.600 — globale Anleihen auf Mehrjahreshoch",
     "MEV-Bot erbeutet $7,7 Mio. aus Ethereum-Wallet-Exploit",
     "USA fordern Einzug von $61 Mio. Krypto aus iranischem Ölschema",
-    "Solana-Fonds startet $300-Mio-Programm zum SOL-Kauf"
+    "Solana-Fonds startet $300-Mio-Programm zum SOL-Kauf",
+    "Zcash-Inhaber votieren für schnellere Blöcke und Bitcoin-Halbierungen",
+    "EZB sucht Online-Händler für digitalen Euro 2027",
+    "Bitcoin-ETFs verlieren 450 Millionen Dollar in Tagesabfluss",
+    "BIS findet massive Lücke in Bitcoin-Transferdaten",
+    "Underdog verklagt Connecticut gegen Prediction-Market-Verbot"
   ],
   "a1c734c6143ee118cb81fc53c1c7f09f": "2026-09-13T20:36:10.423829",
   "c7f4aecf1396da36410ec82555759de8": "2026-09-13T20:36:10.423829",
@@ -251,5 +251,20 @@
   "43e1fec52508cc682523fc7f33bff9eb": "2026-09-15T21:06:54.556154",
   "bfa5f3d7b99a044cbd4ac7a991daf714": "2026-09-15T21:06:54.556154",
   "05a262ef68e60c60639be3a7f0644aa7": "2026-09-15T21:06:54.556154",
-  "f0890e3372963009eba1d2bfbd5a38b2": "2026-09-15T21:06:54.556154"
+  "f0890e3372963009eba1d2bfbd5a38b2": "2026-09-15T21:06:54.556154",
+  "99093dede3c381ddc47ed854eb74f203": "2026-09-16T09:34:04.440465",
+  "38956e5f24bc343c0817a4f45e760c97": "2026-09-16T09:34:04.440465",
+  "051f962cbbb5aaa42366bc84479ad5fb": "2026-09-16T09:34:04.440465",
+  "0a12699f4129cfc0851414f27b5521d5": "2026-09-16T09:34:04.440465",
+  "0d0b718aa39f8eb2e0b300dc27f72d49": "2026-09-16T09:34:04.440465",
+  "7f18b538431c320a4b87fe8e1c0f8128": "2026-09-16T09:34:04.440465",
+  "82b5119a04c7bfba0d727bc65d5a532a": "2026-09-16T09:34:04.440465",
+  "7feb6c3f4c8d0cd0b497f05525bc7119": "2026-09-16T09:34:04.440465",
+  "3576d63bb6efefa5777c90611496b40b": "2026-09-16T09:34:04.440465",
+  "b61e7d92d96470f815be2e49a2977579": "2026-09-16T09:34:04.440465",
+  "661e6936dc112927b8b4e94d4a7d28ae": "2026-09-16T09:34:04.440465",
+  "b6f044952b3935604643deedc9b96cd6": "2026-09-16T09:34:04.440465",
+  "96e9eb1a4ad4301ad5d4a8f0df6e8597": "2026-09-16T09:34:04.440465",
+  "b70d2f8396e493170f34f5d01728073e": "2026-09-16T09:34:04.440465",
+  "907be8362bf8efda404ea4aeef5000c8": "2026-09-16T09:34:04.440465"
 }
