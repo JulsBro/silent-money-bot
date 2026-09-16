@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-09-16",
   "__recent_titles__": [
-    "Republicans senden Final-Angebot zu CLARITY Act an Demokraten",
-    "Fed, BOE, BOJ treffen Zinsentscheidungen diese Woche",
-    "UK-FCA erwägt spezielle Regeln für tokenisiertes Gold",
-    "Robinhood-CEO: Emittenten dürfen tokenisierte Aktien nicht blockieren",
-    "OpenAI fragt Kongress nach Rechtmäßigkeit von KI-Verlangsamung",
     "Trump vereinbart strengere Ethik-Regeln für Clarity Act",
     "Kaiko erhält $110M Serie-B mit S&P Global und BNP Paribas",
     "UK-FCA plant Ausnahmeregelung für tokenisiertes Gold",
@@ -61,7 +56,12 @@
     "Deutsche Bank startet institutionelle Krypto-Verwahrung",
     "Circle debütiert Arc-Blockchain für Payments",
     "Zwei Robinhood-Ingenieure wegen Front-Running angeklagt",
-    "Bernstein: SEC und CFTC starten aggressive Regelgebung"
+    "Bernstein: SEC und CFTC starten aggressive Regelgebung",
+    "House-Steuerausschuss bringt Krypto-Steuerbill nach Clarity-Act-Niederlage voran",
+    "Hamas-Militärflügel lenkt Geldgeber zu Bybit, OKX statt Binance",
+    "Payward bietet US-Kunden Onchain-Perpetual-Futures auf Hyperliquid",
+    "Theo tokenisiert Silber mit 40 Millionen Dollar aktiver Leasingbestände",
+    "Circle startet Arc-Mainnet mit BlackRock, DTCC und Visa als Validatoren"
   ],
   "a1c734c6143ee118cb81fc53c1c7f09f": "2026-09-13T20:36:10.423829",
   "c7f4aecf1396da36410ec82555759de8": "2026-09-13T20:36:10.423829",
@@ -282,5 +282,20 @@
   "033e4015edbdeef0c3a83b408e5ecb97": "2026-09-16T13:54:43.560646",
   "b7b032b7c0ab9bdc536100f24bd77ed7": "2026-09-16T13:54:43.560646",
   "ef83654e8ccae4aa5afad64774e01bf8": "2026-09-16T13:54:43.560646",
-  "333237aeef34ed287bec88309e1439c3": "2026-09-16T13:54:43.560646"
+  "333237aeef34ed287bec88309e1439c3": "2026-09-16T13:54:43.560646",
+  "527069f4fe54c16b0898a454d45682fd": "2026-09-16T17:11:20.211001",
+  "7e73fec49dd08c2aef7b65fe0fc62951": "2026-09-16T17:11:20.211001",
+  "84702ca1739fd006bf5e96bb272b674a": "2026-09-16T17:11:20.211001",
+  "fa34864f09fe9610bae72ea78cd5d601": "2026-09-16T17:11:20.211001",
+  "a1794d63788fcc951428caa12228bba4": "2026-09-16T17:11:20.211001",
+  "b5e308e724985d8a1c6ca33100274001": "2026-09-16T17:11:20.211001",
+  "773f156ecbc159fabb6102062924a1fc": "2026-09-16T17:11:20.211001",
+  "929cbdee7e86558a772589f2d516764a": "2026-09-16T17:11:20.211001",
+  "b02593acda777351b421dc81e87153dc": "2026-09-16T17:11:20.211001",
+  "128471686a1787a5b71575f7edd58462": "2026-09-16T17:11:20.211001",
+  "49c3f001429e730f9fb27861ec3c0e5d": "2026-09-16T17:11:20.211001",
+  "7f1a55b0f078739a550852b4aa2698f8": "2026-09-16T17:11:20.211001",
+  "ff822d4f05b852f01576a7bd713fb805": "2026-09-16T17:11:20.211001",
+  "c73adb34c421b5bf327f3b0b020e0708": "2026-09-16T17:11:20.211001",
+  "9d88559a0c90d594d696ab092855535d": "2026-09-16T17:11:20.211001"
 }
