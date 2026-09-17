@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-09-16",
+  "__prices_date__": "2026-09-17",
   "__recent_titles__": [
-    "Clarity Act: Prediction Markets heben Chancen massiv an",
-    "Bitmine kauft für 68 Millionen Dollar ETH-Zusatz",
-    "Dogecoin-ETF scheitert: XRP und Solana pullen 3 Milliarden",
-    "WTO-Chef: Fragmentierte Regeln bremsen Stablecoin-Adoption",
-    "Microsoft startet öffentliche Konsultation für AI-Richtlinien",
     "Robinhood fügt Aktientoken Rücknahmefunktion und Stimmrechte hinzu",
     "Trumps 800-Millionen-Dollar-Stake erhält Verkaufsfrist",
     "Clarity Act: 17 US-Generalstaatsanwälte fordern Blockade vor Senatsvoting",
@@ -61,7 +56,12 @@
     "UK FCA veröffentlicht Crypto-Lizenzierungsrichtlinien vor Bewerbungsfrist",
     "Fed erhöht Leitzins erstmals seit 2023 um 25 Basispunkte",
     "House-Ausschuss verabschiedet erste föderale Krypto-Steuerregelung",
-    "Circle startet Arc-Mainnet mit BlackRock und Visa als Validatoren"
+    "Circle startet Arc-Mainnet mit BlackRock und Visa als Validatoren",
+    "Goldman prognostiziert Fed-Zinserhöhung im Oktober",
+    "US-Ausschuss verabschiedet Bill für Trumps Bitcoin-Reserve",
+    "Ripple integriert XRP-Zahlungen in Stripe und Tempo",
+    "OpenAI-KI-Agenten hackten Hugging Face zwei Monate vor Attacke",
+    "Südkorea verklagt 26 Polymarket-Nutzer wegen illegalen Glücksspiels"
   ],
   "902025539db841507c232ef435fb2374": "2026-09-14T10:09:28.545851",
   "eac7a00253ab901fc8fe867adc76a782": "2026-09-14T10:09:28.545851",
@@ -306,5 +306,21 @@
   "e7eba9aa2d8b342e8ce48e6b28aa8388": "2026-09-16T21:08:40.230519",
   "5bd5a556b92b519355b9a4c6c49dcf3f": "2026-09-16T21:08:40.230519",
   "05348d2bca4da9cd842c66e9cf9938e7": "2026-09-16T21:08:40.230519",
-  "bf55ec09aed11e3c37956783209df3b8": "2026-09-16T21:08:40.230519"
+  "bf55ec09aed11e3c37956783209df3b8": "2026-09-16T21:08:40.230519",
+  "5442a8aba7bd9f8b6160dd718fac5df4": "2026-09-17T09:42:05.152379",
+  "ef8a2867963f7926d7cf946f27c79dc1": "2026-09-17T09:42:05.152379",
+  "909a04a6c5dd360e7ca71734b46fb96b": "2026-09-17T09:42:05.152379",
+  "342661280a4888aebc113d85838e4059": "2026-09-17T09:42:05.152379",
+  "3ef1f3dede768c2236ee351710d40535": "2026-09-17T09:42:05.152379",
+  "2bd9cdd455bc4b979494d0ebc7c5c1d2": "2026-09-17T09:42:05.152379",
+  "e7cb83a9b2d05b609d0401935e05f1fe": "2026-09-17T09:42:05.152379",
+  "4d996506a793f41a56214a688b6bdf84": "2026-09-17T09:42:05.152379",
+  "1cfcfa1a396d37149be7537312c58b0e": "2026-09-17T09:42:05.152379",
+  "e26f19b0091a0fada3c4130888987d30": "2026-09-17T09:42:05.152379",
+  "5b810658297d91d82c283bedf889ba1a": "2026-09-17T09:42:05.152379",
+  "bc9b897b9d2b93930798b5b2a86e5645": "2026-09-17T09:42:05.152379",
+  "68fcae09b29fd09ada0201af6049b8b2": "2026-09-17T09:42:05.152379",
+  "20b0484f5ec3e27c4f41a0ac5e3dc9d7": "2026-09-17T09:42:05.152379",
+  "ef5d4aa3db0c666c5ef7c93451732088": "2026-09-17T09:42:05.152379",
+  "270623b0787140e28b7fc06d735d5705": "2026-09-17T09:42:05.152379"
 }
