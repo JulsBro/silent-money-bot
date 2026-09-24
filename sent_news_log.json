@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-09-23",
+  "__prices_date__": "2026-09-24",
   "__recent_titles__": [
-    "X verklagt Nutzer wegen gefälschter Bitcoin-Bot-Farm",
-    "Bitmine kauft 75 Millionen Dollar Ether — Institutionen noch untergewichtet",
-    "Strategy kauft 950 Bitcoin für 76 Millionen Dollar zurück",
-    "Ondo ermöglicht direkten Umtausch von Aktien in tokenisierte Anteile",
-    "Apple und Google rekrutieren Krypto-Experten für Stablecoin-Push",
     "Saudi-Arabien verlässt China-geführtes mBridge-CBDC-Projekt",
     "TD Cowen: Tokenisierte Aktien bleiben trotz SEC-Regeln marginal",
     "EZB investiert eigene Mittel in tokenisierte Wertpapiere",
@@ -61,7 +56,12 @@
     "Kongressabgeordnete aus Glücksspiel-Staaten fordern Supreme Court auf",
     "Trump offenbart Kauf von Strategy-Aktien bis $100.000",
     "NYSE kooperiert mit Blockchain.com für tokenisierte US-Aktien",
-    "Stablecoin-Adoptionsbereitschaft springt auf 56% mit Bankschutz"
+    "Stablecoin-Adoptionsbereitschaft springt auf 56% mit Bankschutz",
+    "Trump-Administration plant globale Dollar-Stablecoin-Strategie",
+    "EU warnt: Quantencomputer bedroht Blockchain-Verschlüsselung akut",
+    "Quantum-sichere Bitcoin-Lösung wird 79 Prozent günstiger",
+    "Ex-SEC-Chef: Agentur stoppte Krypto-Fälle wegen Glaubwürdigkeitskrise",
+    "KI-Agent hackt erstmals regierungsamtliche Website — Australien"
   ],
   "53e7dd1a5c7a8602315d54ff2945650f": "2026-09-21T10:15:27.551589",
   "cdbcb7c1e6d0feb67e158e7ca1786af5": "2026-09-21T10:15:27.551589",
@@ -306,5 +306,21 @@
   "90b87d1646e208b21d58683e895db94a": "2026-09-23T21:21:39.762927",
   "c5570bdd93ce856254ce35b46516dc0a": "2026-09-23T21:21:39.762927",
   "2f62180636476efb09e2c83c555ea302": "2026-09-23T21:21:39.762927",
-  "74d7776597683937eec0469281b5e316": "2026-09-23T21:21:39.762927"
+  "74d7776597683937eec0469281b5e316": "2026-09-23T21:21:39.762927",
+  "772448fc68ba713bfdff991f987cf29e": "2026-09-24T09:35:53.382396",
+  "499ca49671bc03b2e196d5efa8696d68": "2026-09-24T09:35:53.382396",
+  "d63903fa07fe655e512bb014942819c8": "2026-09-24T09:35:53.382396",
+  "3390016d644ea9aa76a3b145e2362373": "2026-09-24T09:35:53.382396",
+  "eeb3b07671f38c05afb638cd3feb0b63": "2026-09-24T09:35:53.382396",
+  "1b4af6f6bd5666e1b29e5ca33b7f5377": "2026-09-24T09:35:53.382396",
+  "5787d6289e6c5cb9563648336fe0f7f8": "2026-09-24T09:35:53.382396",
+  "37a05552eeae2de9addce03eac356ab6": "2026-09-24T09:35:53.382396",
+  "6cf0b23aadaddc38c0937242a467b41b": "2026-09-24T09:35:53.382396",
+  "263a71091dbffb5d8bccf39be021ffd2": "2026-09-24T09:35:53.382396",
+  "8e77d6aa785bb60b8ebdc4c56b4999d2": "2026-09-24T09:35:53.382396",
+  "f2f2fda0698b897a354d052dfce66b80": "2026-09-24T09:35:53.382396",
+  "da81e9299f244b330799fe9fe988c46c": "2026-09-24T09:35:53.382396",
+  "bc39e0b33c746145eb4d6bd947ef298a": "2026-09-24T09:35:53.382396",
+  "4c147194ef9016bac379f3766917a2c0": "2026-09-24T09:35:53.382396",
+  "a14463035b07662ba77f75a28c9236cf": "2026-09-24T09:35:53.382396"
 }
