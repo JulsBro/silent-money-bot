@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-09-25",
+  "__prices_date__": "2026-09-26",
   "__recent_titles__": [
-    "FTX-Alameda bewegt 75 Millionen Dollar Ether zu Wintermute",
-    "EU warnt: Quantencomputer könnten Krypto-Verschlüsselung knacken",
-    "Nordkorea drainiert 7.000 Krypto-Wallets mit Fake-Job-Interviews",
-    "Senat fordert Anhörung zu Prediction Markets — GOP trifft Kalshi privat",
-    "Hut 8 kauft Poolins Texas-Rechenzentren für 140 Millionen Dollar",
     "Kalshi dementiert CFTC-Untersuchung zu Handelsaktivitäten",
     "Kongressabgeordnete aus Glücksspiel-Staaten fordern Supreme Court auf",
     "Trump offenbart Kauf von Strategy-Aktien bis $100.000",
@@ -61,7 +56,12 @@
     "SEC klärt Position zu Token-Buybacks und Gewinnversprechen",
     "Sixth Circuit verbietet Kalshi-Sportmarktverträge — Staatliche Regulierung obsiegt",
     "Magic Eden: 23.155 NFTs vor Exploit-Verbot gerettet — 5,7 Millionen Dollar Exposure",
-    "KelpDAO klagt LayerZero wegen 292-Millionen-Dollar-rsETH-Exploit"
+    "KelpDAO klagt LayerZero wegen 292-Millionen-Dollar-rsETH-Exploit",
+    "SEC-Kommissärin Peirce verlässt Amt am 2. Oktober",
+    "CFTC verklagt Cash FX wegen 950-Millionen-Dollar-Krypto-Forex-Betrug",
+    "Solana Alpenglow-Upgrade erreicht zweites öffentliches Testnetz",
+    "XRP Ledger Batch-Upgrade verschiebt sich auf 9. Oktober",
+    "Blockchain Association: Merkinger tritt ab, Smith kehrt zurück"
   ],
   "f3c3e46b87181aec562832fd63024ad5": "2026-09-23T09:36:09.128057",
   "bb0d0cd92bf7a395342ed1d72fd63864": "2026-09-23T09:36:09.128057",
@@ -306,5 +306,21 @@
   "498c67c1e8aeaf8bfb8bc08ef40d2b88": "2026-09-25T21:23:13.373222",
   "c056054988e169bfb4947ab805538323": "2026-09-25T21:23:13.373222",
   "ae6703cd71f5e1b19a6b6dcfab5d214c": "2026-09-25T21:23:13.373222",
-  "1ad92ff60b6ed1c8b340d197df5d9150": "2026-09-25T21:23:13.373222"
+  "1ad92ff60b6ed1c8b340d197df5d9150": "2026-09-25T21:23:13.373222",
+  "ec08c360b17a2496cab16c3279de1957": "2026-09-26T09:35:37.490731",
+  "88a58eb44928027d9ba7f24bd998b1e9": "2026-09-26T09:35:37.490731",
+  "d382020a4ec39b3dda2561035fb01785": "2026-09-26T09:35:37.490731",
+  "3dac8f345bd48b23cc43103b2332defc": "2026-09-26T09:35:37.490731",
+  "3feab6b2390cd7e79582b537dc2f5a7e": "2026-09-26T09:35:37.490731",
+  "e04e36de204b6a8eee7a8a7451d8e6e7": "2026-09-26T09:35:37.490731",
+  "60e1231af463757de4183d88c4eb6cab": "2026-09-26T09:35:37.490731",
+  "521f926842076a5699f502fa71d2f7ce": "2026-09-26T09:35:37.490731",
+  "25b45d09a90efcdde83ec698579d3265": "2026-09-26T09:35:37.490731",
+  "4cd07c9f32e3b59ecfc3fa8a125547e8": "2026-09-26T09:35:37.490731",
+  "f7687f64cde5e443bec48819f9c68d90": "2026-09-26T09:35:37.490731",
+  "95973df15bfd6c9e602b67617423863e": "2026-09-26T09:35:37.490731",
+  "97b81d057d6b8ef58e03ddf1c0a99090": "2026-09-26T09:35:37.490731",
+  "434b11784aa5eca0017c78e3af08c95f": "2026-09-26T09:35:37.490731",
+  "efddfa592002a7c4a522df9e83a14719": "2026-09-26T09:35:37.490731",
+  "abc64c1516deaa3bdfe4defebcd52dee": "2026-09-26T09:35:37.490731"
 }
