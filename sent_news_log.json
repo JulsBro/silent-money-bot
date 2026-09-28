@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-09-28",
   "__recent_titles__": [
-    "SEC, CFTC, Fed schreiben Krypto-Regeln ohne Kongress",
-    "Quantum-sichere Bitcoin-Transaktionen 98% billiger",
-    "Kalshi verliert erneut gegen US-Sportwetten-Gesetze",
-    "Tether bestätigt minimale Exposition nach 84-Millionen-Beschlagnahme",
-    "Bitcoin ETFs ziehen $2,4 Mrd wöchentlich an — 2026 wieder positiv",
     "Bitcoin erhält Zcash-ähnliche private Transaktionen ohne Regeländerung",
     "Strategy beantragt tägliche Dividenden für vier Preferred Stocks",
     "IRS-Meldepflicht von Börsen wird zum Steuerkomplexitäts-Problem",
@@ -61,7 +56,12 @@
     "KI-Agenten könnten Bankruns durch automatisierte Geldflüsse auslösen",
     "Strategy kauft 1.665 Bitcoin für 143 Millionen Dollar",
     "Chainlink erlaubt Institutionen eigene Bridge-Sicherheitschecks",
-    "Kalifornien verbietet Politikern Meme-Coin-Ausgaben"
+    "Kalifornien verbietet Politikern Meme-Coin-Ausgaben",
+    "Restaking-Protokolle fahren Renditen zurück, Profite fallen",
+    "Blockchain.com peilt 500-Millionen-Dollar-IPO an",
+    "Citibank akzeptiert Stablecoin-Zahlungen über Coinbase",
+    "Nvidia entwickelt Kill-Switch für unkontrollierte AI-Agenten",
+    "Senatsbericht: Tether ermöglicht Irans Schattenbanksystem"
   ],
   "e60df6956251a2eb26ef049520bb5b0c": "2026-09-25T21:23:13.373222",
   "011676813d719ffe4220f79c82e70259": "2026-09-25T21:23:13.373222",
@@ -315,5 +315,21 @@
   "2c3185852295d0587df7e0cdc98cd51b": "2026-09-28T19:46:18.176721",
   "574b9c84d76e3a7430a17f79d8930928": "2026-09-28T19:46:18.176721",
   "81420414e4a2b9faa169167affebe200": "2026-09-28T19:46:18.176721",
-  "5167e3f9c2d1f9aa04354dcf5a77e0d0": "2026-09-28T19:46:18.176721"
+  "5167e3f9c2d1f9aa04354dcf5a77e0d0": "2026-09-28T19:46:18.176721",
+  "40d32e52366d9e847085aa654011fffa": "2026-09-28T20:59:14.581625",
+  "d6543fbc64df4c78139fbcac825318f4": "2026-09-28T20:59:14.581625",
+  "8b95adb831922d6c970579d569b69a01": "2026-09-28T20:59:14.581625",
+  "590c3fbd4c40a12e10d249818e815199": "2026-09-28T20:59:14.581625",
+  "a1442425369c0a4ea71f701cc3cf079b": "2026-09-28T20:59:14.581625",
+  "7e6c6e53197595c2b3a08c049787a556": "2026-09-28T20:59:14.581625",
+  "3e2b18203baa1bb622dd90f0fa92f89f": "2026-09-28T20:59:14.581625",
+  "aabc26ebb02f585717b1cd446f0532ed": "2026-09-28T20:59:14.581625",
+  "7bd29349397a4ec2bad86b2606ed9576": "2026-09-28T20:59:14.581625",
+  "f0106015efc2a2dea98612486f132448": "2026-09-28T20:59:14.581625",
+  "73b8e32e455b5ad136017c458455d9a0": "2026-09-28T20:59:14.581625",
+  "a44b7357698797901364e9cbf97cd28d": "2026-09-28T20:59:14.581625",
+  "b0e7e221b05b5616e84ec4d2ae478c08": "2026-09-28T20:59:14.581625",
+  "856077c03e317d1ff8efd4cd14a32eb8": "2026-09-28T20:59:14.581625",
+  "1eb8a13d5d9163465e3d3b79abe33872": "2026-09-28T20:59:14.581625",
+  "d5e32194e23bb5bd6d8849541797abba": "2026-09-28T20:59:14.581625"
 }
