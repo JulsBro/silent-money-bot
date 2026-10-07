@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-07",
   "__recent_titles__": [
-    "CFTC schlägt Bundesrahmen für Krypto-Börsenregulierung vor",
-    "OKX und ICE starten 24/7-Handel mit 60+ tokenisierten US-Aktien",
-    "US-Treasury zieht Krypto-Mixing-Regel zurück — Chilling Effect behoben",
-    "China P2P-Stablecoin-Wallets wachsen um 43x trotz Verboten",
-    "Stripe expandiert Stablecoin-Karten auf über 100 Länder bis Jahresende",
     "Fairshake unterstützt 30+ US-Abgeordnete mit Millionen Dollar",
     "Modern Treasury beantragt US-Trust-Bank-Charter für Stablecoins",
     "CFTC veröffentlicht Plan für föderale Krypto-Börsenaufsicht",
@@ -61,7 +56,12 @@
     "US-Kongress: SEC und CFTC verfehlen CLARITY-Bill-Standards",
     "Bitmine stoppt Ethereum-Käufe nach Erreichen von 5%-Ziel",
     "Sui-Netzwerk erreicht 40,6 Millionen Transaktionen pro Sekunde",
-    "US-Regierung transferiert 103 Millionen Dollar beschlagnahmter Krypto"
+    "US-Regierung transferiert 103 Millionen Dollar beschlagnahmter Krypto",
+    "Wells Fargo verhandelt mit Kraken-Mutterkonzern über Krypto-Liquidität",
+    "Gate lanciert All-in-One-Finanz-App als Mega-Trend 2026",
+    "Swift braucht für Blockchain-Ledger interne Sicherheitsschichten",
+    "Tether und Kasachstan erkunden Tenge-Stablecoin und Tokenisierung",
+    "Moody's bewertet Sky Protocol erstmals mit B3-Rating"
   ],
   "0f6974b3b7da99360668a8b2b1441f7e": "2026-10-04T21:09:24.469897",
   "5fbd5da4dc0c87b668952225624b38d3": "2026-10-04T21:09:24.469897",
@@ -297,5 +297,20 @@
   "e804ff0a757b47db5d0ecc7b3fa0a423": "2026-10-07T19:01:23.655991",
   "0f79b856c05140e3f4818ff66d3e6ad6": "2026-10-07T19:01:23.655991",
   "97908e3d895c20123118c2ec34cdab03": "2026-10-07T19:01:23.655991",
-  "2ffd3a1b3d14ae2ada8ec216d9e3848c": "2026-10-07T19:01:23.655991"
+  "2ffd3a1b3d14ae2ada8ec216d9e3848c": "2026-10-07T19:01:23.655991",
+  "0dd2460deb64c2a7d9109b26aeada341": "2026-10-07T20:22:23.586563",
+  "b656ee55b1a8e55c6f033a7f00580e30": "2026-10-07T20:22:23.586563",
+  "562413e0fc6b67f75b9b413c693c768e": "2026-10-07T20:22:23.586563",
+  "9c9cdf6ff9c95f91986ccb19292964f4": "2026-10-07T20:22:23.586563",
+  "490c970a2d6f42d7108bb0161b099034": "2026-10-07T20:22:23.586563",
+  "db64d26e5edd22591228274912e9b8e3": "2026-10-07T20:22:23.586563",
+  "ec7c24fbe9d1812d928566aec527d2ab": "2026-10-07T20:22:23.586563",
+  "69d6094266dcfd3d0f26d7494e17f894": "2026-10-07T20:22:23.586563",
+  "586a7db25e1f0f4cb034c488374a6bbc": "2026-10-07T20:22:23.586563",
+  "87746443691fdb991b7da5c6349219ee": "2026-10-07T20:22:23.586563",
+  "c4dabb26bd0c957e34248d993dafbac8": "2026-10-07T20:22:23.586563",
+  "a04d7e7b6d6fd6960caa025a08050007": "2026-10-07T20:22:23.586563",
+  "8c98ea4f6f84b8953b9121f38bca3294": "2026-10-07T20:22:23.586563",
+  "320952e8674b16f291830ec28293756f": "2026-10-07T20:22:23.586563",
+  "06c25512a0c861451d07b40d831932c3": "2026-10-07T20:22:23.586563"
 }
