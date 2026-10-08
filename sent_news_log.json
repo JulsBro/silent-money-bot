@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-08",
   "__recent_titles__": [
-    "OKX erhält Investitionen von StanChart, Circle, Ripple",
-    "Arbitrum tritt Paxos-Stablecoin-Allianz Global Dollar bei",
-    "Ethereum Glamsterdam vor Kapazitäts-Upgrade getestet",
-    "Ripple erweitert Brevan-Howard-Deal um Prime-Brokerage",
-    "Binance BTC-Abflüsse auf Höchststand seit Mitte 2023",
     "Russlands Digital-Rubel übertrifft Prognose um 4x in erstem Monat",
     "OKX sammelt Kapital bei 25-Milliarden-Dollar-Bewertung",
     "Südkorea forciert Tokenisierung — Securitize-Aktie springt 8%",
@@ -61,7 +56,12 @@
     "Ethereum-Forscher warnt: AI könnte Krypto-Signaturen in Monaten brechen",
     "IWF warnt: Tokenisierte Märkte könnten Finanzrisiken verstärken",
     "Sui Hashi startet mit 500-Millionen-Dollar Bitcoin-Finanzierungsversprechen",
-    "JPMorgan: 50 Milliarden Dollar in Krypto 2026 zugeflossen"
+    "JPMorgan: 50 Milliarden Dollar in Krypto 2026 zugeflossen",
+    "NUVA tokenisiert US-Hypotheken für offshore Investoren",
+    "Ethereum Testnet aktiviert 3x höhere Block-Kapazität",
+    "Securitize tokenisiert Apple, Nvidia, Amazon auf Solana",
+    "AI-Risiko für Krypto-Keys größer als Quantum-Bedrohung",
+    "EU-Parlamentarier setzen Krypto auf Anti-Korruptionsagenda"
   ],
   "0776f73a242cf12ad35cca9d01d74b1e": "2026-10-05T20:38:15.017645",
   "0bbe6a7c12f3e4d57ec2e4a75edac9bb": "2026-10-05T20:38:15.017645",
@@ -324,5 +324,21 @@
   "5459efdd8c2e5a686d0f33a9c279a443": "2026-10-08T18:56:44.211374",
   "d39fd00e977c7b01a5deff0529ecc255": "2026-10-08T18:56:44.211374",
   "b8dd10dd41f79785f5e3f573b0d4b50e": "2026-10-08T18:56:44.211374",
-  "e63dce95223d4f7f3c25c75c3a3b3e7c": "2026-10-08T18:56:44.211374"
+  "e63dce95223d4f7f3c25c75c3a3b3e7c": "2026-10-08T18:56:44.211374",
+  "9b7e24f1a2f2900f0546e10ae8159a5a": "2026-10-08T20:26:07.457337",
+  "54144f898fadfd04678dec8f773895b0": "2026-10-08T20:26:07.457337",
+  "b7f07e7ea4583fbead4f749961b3d4bc": "2026-10-08T20:26:07.457337",
+  "e63466fe4f15275ff6d94afffed86a3b": "2026-10-08T20:26:07.457337",
+  "a1d9c4ccea8e4935659e31acd0d3df04": "2026-10-08T20:26:07.457337",
+  "99a509511559303ea9151902547e585c": "2026-10-08T20:26:07.457337",
+  "4c98fb7e3a31dff98c4905ea20ba33f7": "2026-10-08T20:26:07.457337",
+  "9162585971fd053a367fa39f684bd723": "2026-10-08T20:26:07.457337",
+  "b923db03678de11ec934364da3683e27": "2026-10-08T20:26:07.457337",
+  "5c647d8fb653a1c7fe7851e8b8ae9609": "2026-10-08T20:26:07.457337",
+  "00e2e9f46053a22ed2ff0aae9a0df5d6": "2026-10-08T20:26:07.457337",
+  "6b6ca37fe9993fcd9b10b4f4b65c8278": "2026-10-08T20:26:07.457337",
+  "e1b77319c7fda918d82e1924538307c2": "2026-10-08T20:26:07.457337",
+  "079701f704f84fe1200b2449197f37f3": "2026-10-08T20:26:07.457337",
+  "d9b10662eed7c548fea542772654917e": "2026-10-08T20:26:07.457337",
+  "1aad1d45d561f8f90df9f7806663ec3f": "2026-10-08T20:26:07.457337"
 }
