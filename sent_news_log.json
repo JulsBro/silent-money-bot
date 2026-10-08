@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-08",
   "__recent_titles__": [
-    "US-Dollar auf 18-Monats-Hoch — Bitcoin-Druck steigt",
-    "Krypto-Befürworter wehren sich gegen Banken-Klage gegen OCC",
-    "S&P Global bewertet $10-Mrd-Krypto-Lending-Vault-Sektor",
-    "SEC genehmigt 3x-Hebel-Bitcoin- und Ether-Fonds",
-    "Strive kauft 2.000 Bitcoin — größte Tranche seit Juni",
     "XRP Treasury SPAC vor Evernorth-Fusion um 270% gestiegen",
     "Strive kauft 2.000 Bitcoin für 169 Millionen Dollar",
     "Bitmine kauft 41 Millionen Dollar Ethereum — 99% des Ziels erreicht",
@@ -61,7 +56,12 @@
     "Trump-gestützte WLFI startet Ein-Dollar-Micropayments",
     "Kongressvorsitzender kritisiert SEC- und CFTC-Krypto-Standards",
     "Solanas Orca fusioniert mit Loopscale zu Formation",
-    "Robinhood kauft 25 Millionen Dollar Bitcoin für Bilanz"
+    "Robinhood kauft 25 Millionen Dollar Bitcoin für Bilanz",
+    "Standard Chartered expandiert Krypto-Custody nach Singapur",
+    "Griechenland führt 10% Kapitalertragssteuer auf Krypto ein",
+    "Samsung integriert USDC für 82 Millionen Galaxy-Nutzer",
+    "US-Regierung transferiert 770 Millionen Dollar Bitcoin zu Coinbase",
+    "ESMA setzt 3-Monate-Frist für nicht konforme Stablecoins"
   ],
   "f031719c1b5445f7d22aa1fba6f5b8ef": "2026-10-05T11:53:19.866091",
   "19b0b7c27a2a104bf2231d37a12cb76d": "2026-10-05T11:53:19.866091",
@@ -306,5 +306,20 @@
   "74827632db892a847da13b3ba180e1c2": "2026-10-07T22:57:30.917293",
   "1ade5d8b6ba64df5b17c0b7e21c92bf0": "2026-10-07T22:57:30.917293",
   "643f0ee87c6d504aecba1e146ab7eaa0": "2026-10-07T22:57:30.917293",
-  "6f30276476847f6856d620b648e1b326": "2026-10-07T22:57:30.917293"
+  "6f30276476847f6856d620b648e1b326": "2026-10-07T22:57:30.917293",
+  "f966058cb3003bba6d4953e3e5e94675": "2026-10-08T11:39:10.155876",
+  "9e82b20d837548bac89c53feea9ae0a5": "2026-10-08T11:39:10.155876",
+  "260c99f269b861b9a8b30eae305a2bbc": "2026-10-08T11:39:10.155876",
+  "6f7030ab202718907c98a1e03a924cdd": "2026-10-08T11:39:10.155876",
+  "660775dfaa7f3eb9c1ffe058680e4872": "2026-10-08T11:39:10.155876",
+  "1f355f4baf93002c29c1da26a2b17115": "2026-10-08T11:39:10.155876",
+  "c785f7c806a629010fcba075b17abaf5": "2026-10-08T11:39:10.155876",
+  "33f010e112a918138877f5728b79ac1c": "2026-10-08T11:39:10.155876",
+  "6093fac8882871247db090ea664e535a": "2026-10-08T11:39:10.155876",
+  "b9c66f6cd7afe492e2d9c9e6d76849e6": "2026-10-08T11:39:10.155876",
+  "134f40260458f2177537bf8a33289500": "2026-10-08T11:39:10.155876",
+  "adbec30adfe62f8f2708d4c1cac604ff": "2026-10-08T11:39:10.155876",
+  "89ea036cd3334bd3c362afc107dd7f10": "2026-10-08T11:39:10.155876",
+  "a5f92fae6a8e706b15f4f2962300610c": "2026-10-08T11:39:10.155876",
+  "96b3af6c832308846dbe2bf499495145": "2026-10-08T11:39:10.155876"
 }
