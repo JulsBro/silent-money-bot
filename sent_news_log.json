@@ -1,11 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-10-09",
+  "__prices_date__": "2026-10-10",
   "__recent_titles__": [
-    "Polygon und TRON verbinden 94-Milliarden-Dollar-USDT-Ökosystem",
-    "US-Kongress: SEC und CFTC verfehlen CLARITY-Bill-Standards",
-    "Bitmine stoppt Ethereum-Käufe nach Erreichen von 5%-Ziel",
-    "Sui-Netzwerk erreicht 40,6 Millionen Transaktionen pro Sekunde",
     "US-Regierung transferiert 103 Millionen Dollar beschlagnahmter Krypto",
     "Wells Fargo verhandelt mit Kraken-Mutterkonzern über Krypto-Liquidität",
     "Gate lanciert All-in-One-Finanz-App als Mega-Trend 2026",
@@ -61,7 +57,11 @@
     "THORChain-Manager wirft Tether Sperrung von USDT-Vaults vor",
     "US-Senator Blumenthal fordert Cantor Fitzgerald zu Tether-Offenlegung auf",
     "OpenAI und Anthropic trainieren für KI-Katastrophen-Szenarien",
-    "Empire-Market-Gründer zu 40 Jahren Haft verurteilt, 1.230 Bitcoin forfeitet"
+    "Empire-Market-Gründer zu 40 Jahren Haft verurteilt, 1.230 Bitcoin forfeitet",
+    "CFTC ordnet Event-Kontrakte als Swaps ein",
+    "USA plant Beschlagnahme von 1 Milliarde Iran-gekoppelter Krypto",
+    "Ledger untersucht 86-Millionen-Dollar-Verluste durch Reseller",
+    "Blockchain.com beantragt CFTC-Lizenzen für Derivate-Handel"
   ],
   "4ecc6b00210808e61a9a330e5487479d": "2026-10-06T22:34:02.122929",
   "af9a1918574e533a17e0feb4b9d61443": "2026-10-06T22:34:02.122929",
@@ -241,7 +241,7 @@
   "f8e0024bdb9e60a70c114c729ccbfb38": "2026-10-08T23:10:34.285200",
   "528bf95ecae30cd69fd389974ce25dea": "2026-10-08T23:10:34.285200",
   "305846351bc327aeacea35ae83585a1e": "2026-10-08T23:10:34.285200",
-  "d1854273bce9edbeff8293044df93752": "2026-10-09T11:32:46.592645",
+  "d1854273bce9edbeff8293044df93752": "2026-10-09T22:30:12.469824",
   "034571570b9887b09f72cd5d9a551d63": "2026-10-09T11:32:46.592645",
   "4028130e9f572aefbd4f005fd0d6eac4": "2026-10-09T11:32:46.592645",
   "27c3fe0ab305fc66f228d1c8eb73e6b6": "2026-10-09T11:32:46.592645",
@@ -304,5 +304,19 @@
   "1d7d7b8c54a7b2446ecc2fab46eaee2c": "2026-10-09T19:57:51.747475",
   "51907ec08e1bcbec0b67d861ab98ae3a": "2026-10-09T19:57:51.747475",
   "4792b2b67dfac09bd6c4e27a4b77cb8e": "2026-10-09T19:57:51.747475",
-  "286c9414409a88d08da465d652beede0": "2026-10-09T19:57:51.747475"
+  "286c9414409a88d08da465d652beede0": "2026-10-09T19:57:51.747475",
+  "4cc3192526c120a445a83cf585e98b40": "2026-10-09T22:30:12.469824",
+  "caf663334ed57251d0c4792bbcb17779": "2026-10-09T22:30:12.469824",
+  "57466e648079eb831764083129f4d6b7": "2026-10-09T22:30:12.469824",
+  "3329da496ace99b897ebb2d4af254110": "2026-10-09T22:30:12.469824",
+  "7bd7e065c2d2f9b8382e219aaec769a2": "2026-10-09T22:30:12.469824",
+  "5b2f8590890c57d8d42dc32406253e9a": "2026-10-09T22:30:12.469824",
+  "ec37898e5902a61820c41e6b2ae67f5c": "2026-10-09T22:30:12.469824",
+  "2047cc057295d937e05bbd8e253fb4e9": "2026-10-09T22:30:12.469824",
+  "f43ad8e6ee2006d7109ec16e0ce30c05": "2026-10-09T22:30:12.469824",
+  "2790d9361fb01a6f6b6bfbf2d9b0dd33": "2026-10-09T22:30:12.469824",
+  "5ba95afd6525e30968cba733e87f6353": "2026-10-09T22:30:12.469824",
+  "7323e68ddebbc2b30ac753bdc9f9e0dd": "2026-10-09T22:30:12.469824",
+  "2644a4531c6237b1af0f881ab3c52dd4": "2026-10-09T22:30:12.469824",
+  "34ae86540e7bec89056bdd547c97e650": "2026-10-09T22:30:12.469824"
 }
