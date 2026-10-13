@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-13",
   "__recent_titles__": [
-    "Trump erklärt Waffenstillstand zwischen Russland und Ukraine",
-    "MicroStrategy signalisiert verstärkte Bitcoin-Käufe nach Aktienrückkäufen",
-    "Sam-Altman-gestützte Bitcoin-Versicherung Meanwhile sammelt weitere Mittel",
-    "Tokenisierte Aktien zeigen Nachfrage, bleiben aber illiquide – IWF-Analyse",
-    "Bitcoin-, Ethereum- und Solana-ETFs alle im Oktober rotlichtig",
     "New York AG sichert bis zu $35 Millionen von Ex-Celsius-Chef Mashinsky",
     "Goldman Sachs: Dieselpreise bleiben bis 2027 erhöht – Raffinerie-Engpässe",
     "XRP Ledger behebt kritischen Bug: 18 Billionen XRP hätten gemünzt werden können",
@@ -61,7 +56,12 @@
     "Trezor reduziert Wiederverkäufer nach Ledger-Tampering-Reports",
     "ENS beantragt DAO-Genehmigung für Ethereum-Namensystem-Upgrade",
     "Ripple und Stripe-Tochter Privy verbinden Embedded Wallets",
-    "DRW und Marex schließen ersten tokenisierten Index-Swap ab"
+    "DRW und Marex schließen ersten tokenisierten Index-Swap ab",
+    "Ledger bestätigt Hardware-Implantat in CryptoBilis-Wallets",
+    "Strive kauft 3.311 Bitcoin für $280 Millionen",
+    "Binance beendet Mining-Pool und Cloud-Mining-Services",
+    "UK-Gericht: Chinesisches Recht gilt für $5-Mrd.-Bitcoin-Streit",
+    "Interactive Brokers erweitert um Ethereum-Staking-Dienst"
   ],
   "d2e8eac39c8cd3591367fb176cafdf81": "2026-10-10T21:26:42.722248",
   "7ef44ba11e0f1f5f146d51fc8f613919": "2026-10-10T21:26:42.722248",
@@ -307,5 +307,20 @@
   "f1a83a603e86e45f9bb08c13b78bba39": "2026-10-13T19:25:07.848806",
   "ba05e0f8addb4e1e0688888ef51d65d0": "2026-10-13T19:25:07.848806",
   "945c193ea749b8a9a48ec3585b518bb8": "2026-10-13T19:25:07.848806",
-  "8a79ae88384aabb84150afa85e6290b4": "2026-10-13T19:25:07.848806"
+  "8a79ae88384aabb84150afa85e6290b4": "2026-10-13T19:25:07.848806",
+  "3f2ce6143689fd644e426e341b2c37dc": "2026-10-13T20:27:57.630851",
+  "c001bca947fdf0d58eec76ab1e2a3540": "2026-10-13T20:27:57.630851",
+  "7b078dc587b81770e46724e69ac78dd2": "2026-10-13T20:27:57.630851",
+  "a7850262a2b999b297ac45ef54b24e7f": "2026-10-13T20:27:57.630851",
+  "ae1385e96ef74fee0a42eabb521cbccd": "2026-10-13T20:27:57.630851",
+  "b15944f6200a279d5c82975f355c3fe5": "2026-10-13T20:27:57.630851",
+  "316e1917782d26c5578f59d74c2bc878": "2026-10-13T20:27:57.630851",
+  "1c0ae36541acf5f994786f15731c7836": "2026-10-13T20:27:57.630851",
+  "bd2c6531e42d3b80dd52baacc5fc2456": "2026-10-13T20:27:57.630851",
+  "9c159223d77f76ace91674905c129b6f": "2026-10-13T20:27:57.630851",
+  "43d93cd03ec316e9ecfab2230ba8420e": "2026-10-13T20:27:57.630851",
+  "f722aa5d2d8282642c290b6a5c4fb3e2": "2026-10-13T20:27:57.630851",
+  "9adab88eaf038935ef559071fa69dddc": "2026-10-13T20:27:57.630851",
+  "c3bd698324f54fba03f43a05d26aaaee": "2026-10-13T20:27:57.630851",
+  "900325ea7871b2b4a114a3765b7e3944": "2026-10-13T20:27:57.630851"
 }
