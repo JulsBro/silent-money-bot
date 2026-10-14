@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-14",
   "__recent_titles__": [
-    "JPMorgan: 50 Milliarden Dollar Krypto-Zuflüsse 2026, Q4 beschleunigt",
-    "Gold und Silber fallen: Comex-Preise unter Druck",
-    "US-Erdgas fällt bei neuen Wetterprognosen",
-    "OpenAI-Forscher: Entlassung wegen Priorität auf KI-Sicherheit",
-    "Trump kündigt Dieselhandel mit Russland an",
     "Republikaner und Demokraten lehnen Trumps Dieseldeal ab",
     "Huthi-Raketenanschlag auf Riad tötet zwölf",
     "US-Anleiherenditen fallen, Langfrist-Trend bleibt aufwärts",
@@ -61,7 +56,12 @@
     "Tokenisierte Aktien handeln überwiegend außerhalb US-Handelszeiten",
     "Russland genehmigt Sberbank für Kryptowährungshandel ab Dezember",
     "Binance stellt Bitcoin-Mining-Pool nach sechs Jahren ein",
-    "Ledger-Wallets enthielten LTE-Spionage-Chip mit $86M-Drain"
+    "Ledger-Wallets enthielten LTE-Spionage-Chip mit $86M-Drain",
+    "Coinbase fordert Quantencomputer-Schutz für Bitcoin sofort",
+    "Standard Chartered bietet UAE-Kunden direktes Bitcoin-Trading",
+    "Solana setzt Alpenglow-Upgrade für 150-Millisekunden-Finality",
+    "Frankreich plant 31,4%-Steuer auf regulierte Stablecoins",
+    "Philippinen: Größte Börse Coins.ph unter Zentral-Aufsicht"
   ],
   "dc8c15e9ee57e46fac39044ef596f26b": "2026-10-11T11:03:51.799610",
   "d3412fabac4b9a03154f772aea40ab4e": "2026-10-11T11:03:51.799610",
@@ -324,5 +324,20 @@
   "310a87ed0f76739091d5515e9195199f": "2026-10-13T22:30:18.429593",
   "c8118c1ccc1274e82f44a11734deaa55": "2026-10-13T22:30:18.429593",
   "e0291dfb52181102cdd4703932cc4e2f": "2026-10-13T22:30:18.429593",
-  "f895b2e855eb05cb6bd75ce94cda3ad7": "2026-10-13T22:30:18.429593"
+  "f895b2e855eb05cb6bd75ce94cda3ad7": "2026-10-13T22:30:18.429593",
+  "ddcf0e07b8f56b17897c91b85d4dd72b": "2026-10-14T09:48:33.332301",
+  "5b67b79322df22287742a58c05752a58": "2026-10-14T09:48:33.332301",
+  "088b5680334f5446c442d9fab247b837": "2026-10-14T09:48:33.332301",
+  "a01db9260ad65c94d87e98bfe73da8f5": "2026-10-14T09:48:33.332301",
+  "3c5e290e95c3f34b441d37207e874261": "2026-10-14T09:48:33.332301",
+  "84a929c43865ff5e509420ac6c49c05a": "2026-10-14T09:48:33.332301",
+  "71a9bf1bc85f81c56d4069caab5b8ed5": "2026-10-14T09:48:33.332301",
+  "9755658dbcef9720562537b123d66b9c": "2026-10-14T09:48:33.332301",
+  "057b854c68327a213517b76149f8932b": "2026-10-14T09:48:33.332301",
+  "5d52e1109eee764584c1a5546b0c31e6": "2026-10-14T09:48:33.332301",
+  "551e81d94c3696cac8b2c346a0d4a2ad": "2026-10-14T09:48:33.332301",
+  "6b69a9ea567e527d54bff1e2ea46cb22": "2026-10-14T09:48:33.332301",
+  "0095effe0b91c8431608463ab47f87df": "2026-10-14T09:48:33.332301",
+  "bd83214fd0d64f76f7c464e36b62d7de": "2026-10-14T09:48:33.332301",
+  "db9e44c92170be2d0fb0f0af0f662642": "2026-10-14T09:48:33.332301"
 }
