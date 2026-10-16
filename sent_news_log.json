@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-16",
   "__recent_titles__": [
-    "Philippinen: Größte Börse Coins.ph unter Zentral-Aufsicht",
-    "Kraken-Mutterkonzern kauft erste EU-Bank der Krypto-Branche",
-    "Niederländische Zentralbank genehmigt MiCA-konforme Euro-Token",
-    "US-Inflationsdaten treiben Bitcoin unter 83.000 Dollar",
-    "Perpetuals.com verfolgt tokenisierte US-Aktien unter SEC-Exemption",
     "Hex-Gründer Richard Heart in Istanbul festgenommen",
     "KI-Agenten transferieren 138 Millionen Dollar in Krypto",
     "EasyA strebt 2027er Börsengang mit On-Chain-Aktien an",
@@ -61,7 +56,12 @@
     "Visa Direct setzt USDC-Prefunding in kommerzielle Produktion",
     "Tokenisierte Tesla-Futures nach Roadster-Präsentation explodiert",
     "Circle verteilt $819 Millionen USDC-Umsatz an Partner in H1 2026",
-    "Google Willow senkt Quantenfehler um 40x — Bitcoin-Sicherheit unangetastet"
+    "Google Willow senkt Quantenfehler um 40x — Bitcoin-Sicherheit unangetastet",
+    "US-Gericht lehnt CFTC-Antrag auf Gemini-Einigung-Annullierung ab",
+    "OpenAI-Modell verwendete fremde Ethereum-Wallet ohne Autorisierung",
+    "Coinbase stellt Stablecoin-Zahlungskarten für Marqeta-Kunden bereit",
+    "Google demonstriert Durchbruch bei Quantencomputing-Fehlerkontrolle",
+    "Stablecoin-Überweisungen kosten 84% weniger als traditionelle Transfers"
   ],
   "8966c96b346e589c7c495ea64a571f1a": "2026-10-13T19:25:07.848806",
   "e4af2ed7b924fdadfb5c746d8e95960e": "2026-10-13T19:25:07.848806",
@@ -322,5 +322,20 @@
   "f681e6f68c7800d133791475244fb693": "2026-10-16T16:50:19.549831",
   "5ea8be1591a6aed80a421ef2b2c04549": "2026-10-16T16:50:19.549831",
   "8593ecde56ba40d51889769d1d15d2a9": "2026-10-16T16:50:19.549831",
-  "59e8799e222b6348ec50075fb2af8363": "2026-10-16T16:50:19.549831"
+  "59e8799e222b6348ec50075fb2af8363": "2026-10-16T16:50:19.549831",
+  "ec6e0f2729466d501f6f969b6b26f3c7": "2026-10-16T18:33:35.125724",
+  "d124cebe241b9cfc61decd6a5252fb1a": "2026-10-16T18:33:35.125724",
+  "89c1f50cb2e8e61e3d3445aac023a71b": "2026-10-16T18:33:35.125724",
+  "688ad70c06f454c60a7b2c0fd375d254": "2026-10-16T18:33:35.125724",
+  "53a6e102c7bc4f0370c94da4e7602f39": "2026-10-16T18:33:35.125724",
+  "5e2ffe7ca451ee953e8f53cfdfed7126": "2026-10-16T18:33:35.125724",
+  "ca3c2bc72b04f1adb7aa6f18cc615bf8": "2026-10-16T18:33:35.125724",
+  "aeb3c99835ccbe0586b40d71145de6e8": "2026-10-16T18:33:35.125724",
+  "f4007d3a3509b98e822af35c3a1d7c0d": "2026-10-16T18:33:35.125724",
+  "c3fb2778deae266d1e123ae4f5dcc90a": "2026-10-16T18:33:35.125724",
+  "a6dab4973a102e364e151d1db6e79c46": "2026-10-16T18:33:35.125724",
+  "56bb47ca9ea310773e59988798eab795": "2026-10-16T18:33:35.125724",
+  "c3e4ca8980135778ed8d158543fe2742": "2026-10-16T18:33:35.125724",
+  "f382281a98bdf361cca80579f1311a44": "2026-10-16T18:33:35.125724",
+  "d782e477682a27d88627fd0b2085ee6e": "2026-10-16T18:33:35.125724"
 }
