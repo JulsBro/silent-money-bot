@@ -37,6 +37,7 @@ jobs:
           NEWS_API_KEY:        ${{ secrets.NEWS_API_KEY }}
           GIST_TOKEN:          ${{ secrets.GIST_TOKEN }}
           GIST_ID:             ${{ secrets.GIST_ID }}
+          CLAUDE_MODEL:        ${{ vars.CLAUDE_MODEL }}
         run: python crypto_news_bot.py
 
       - name: Backup log to repo
