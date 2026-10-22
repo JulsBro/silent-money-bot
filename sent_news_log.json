@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-10-21",
+  "__prices_date__": "2026-10-22",
   "__recent_titles__": [
-    "Zerohash startet Tool für Krypto-Transfers ohne Adressenkopie",
-    "Krypto-Vault-Einzahlungen überschreiten 10 Milliarden Dollar",
-    "Visa und Mesh aktivieren Krypto-Ausgaben bei 175 Millionen Händlern",
-    "Große US-Konzerne lehnen tokenisierte Aktien ab",
-    "AnchorWatch launcht Bitcoin-Custody mit bis zu 370 Millionen Dollar Versicherung",
     "BlackRock launcht Bitcoin-ETF mit Schutzstruktur",
     "SEC: Marktakteure kommentieren neue Krypto-Regulierungsvorhaben",
     "US-Gesetz ermöglicht Fehler bei Krypto-Steuererklärungen",
@@ -61,7 +56,12 @@
     "Chainlink, Cardano drängen SEC zu klareren Krypto-Regeln",
     "Standard Chartered übernimmt Zodia Custody endgültig",
     "Tether unterstützt bolivianisches Fintech für USDT-Zahlungen",
-    "Nvidia präsentiert vollständige Kontrollarchitektur für AI-Agenten"
+    "Nvidia präsentiert vollständige Kontrollarchitektur für AI-Agenten",
+    "China beschlagnahmt 61.800 Bitcoin aus 5,7-Mrd-Betrug",
+    "Solana Alpenglow live: Finality auf 150 Millisekunden",
+    "XRP Ledger Bugfix verschoben auf November",
+    "Südkoreas Krypto-Gesetz nähert sich Fertigstellung",
+    "Starknet plant Post-Quantum-Layer-1-Unabhängigkeit"
   ],
   "7b44cc5d26d5a3cf6d79a932a1144419": "2026-10-19T10:21:36.287708",
   "ad7611577fbefa44f9eec7308ff25c36": "2026-10-19T10:21:36.287708",
@@ -309,5 +309,20 @@
   "112c4fd0da2e023cab33dbe2b83c4247": "2026-10-21T21:28:53.281763",
   "5347cb62c638fcdc2f3a9aaaabcdc849": "2026-10-21T21:28:53.281763",
   "ac58c177c468196c09c074bcfcfad93d": "2026-10-21T21:28:53.281763",
-  "a7d8b5a1892701162ba6ba2484f905b8": "2026-10-21T21:28:53.281763"
+  "a7d8b5a1892701162ba6ba2484f905b8": "2026-10-21T21:28:53.281763",
+  "a844e4ec642485393ff19e179dc2926c": "2026-10-22T09:42:28.237055",
+  "07cea5c0bc8150874a8fd7a2dee7984c": "2026-10-22T09:42:28.237055",
+  "2946d786a5df91b57a8bfec46c1ae8be": "2026-10-22T09:42:28.237055",
+  "a0ccce6b5255cf04a0f7aa4984598950": "2026-10-22T09:42:28.237055",
+  "9cb8e200597a63ff93cca7fe1c56e238": "2026-10-22T09:42:28.237055",
+  "0d41d71b761537973787595f42b0e76f": "2026-10-22T09:42:28.237055",
+  "a89806cce82b27cf6e9281d222e4232f": "2026-10-22T09:42:28.237055",
+  "ef7bcd044477a2259b0132b08561c8d4": "2026-10-22T09:42:28.237055",
+  "d5e88e15deb5b6a34b3e9ad6b4da4083": "2026-10-22T09:42:28.237055",
+  "a9ca790b79858344b736731c7d8c3dd4": "2026-10-22T09:42:28.237055",
+  "09825659c7fc669c1ad969a1b783d76d": "2026-10-22T09:42:28.237055",
+  "bccee383fac00c0eeb591da432554653": "2026-10-22T09:42:28.237055",
+  "6aa20ad3c9b1718ff94574b5e23adf15": "2026-10-22T09:42:28.237055",
+  "6e8c9ccd517e1f2c086b712d30e9db9f": "2026-10-22T09:42:28.237055",
+  "f7b34ad32d033d74495d77efad084852": "2026-10-22T09:42:28.237055"
 }
