@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-27",
   "__recent_titles__": [
-    "EZB sieht digitalen Euro als Souveränitätsschutz",
-    "22 Firmen lehnen OKX-ICE-Tokenaktien ab",
-    "Bitcoin-ETFs beenden zweiwöchigen Abwärtstrend",
-    "Keystone-Hardware-Wallet-Datenleck widerlegt Löschversprechen",
-    "Erdgas fällt nach Wetterprognose-Verschiebung",
     "Weiße Haus lockert Kanada-Zölle vor Midterms",
     "Netanyahu plant Blockchain-Einsatz gegen potenzielle Finanzsanktionen",
     "Google ändert Datenschutzrichtlinie für KI-Werbezielgruppen",
@@ -61,7 +56,12 @@
     "Robinhood integriert Ripples RLUSD-Stablecoin",
     "USDC überholt USDT in Euro-Stablecoin-Handel",
     "Circle expandiert mit USDC-Settlement in Kolumbien",
-    "Polymarket ermittelt gegen Dutzende Midterm-Wetten"
+    "Polymarket ermittelt gegen Dutzende Midterm-Wetten",
+    "Intel, Oracle, IBM blockieren OKX-ICE Tokenisierungs-Börse",
+    "CFTC verklagt Utah um Kalshi-Prediction-Markets zu schützen",
+    "Ripple erhält finale OCC-Genehmigung für Trust-Bank",
+    "Galaxy Digital meldet 323-Mio.-USD Quartalsgewinn, 200-Mio.-Aktienrückkauf",
+    "Ripple und BNY testen XRP-Ledger für Rechnungsfinanzierung"
   ],
   "3c4d36f2fa5896868c7bf963e8a9cbd7": "2026-10-24T20:32:22.553305",
   "78f47bd5602f5f9dfa63c35c58311de3": "2026-10-24T20:32:22.553305",
@@ -309,5 +309,21 @@
   "483ac71bb8f7c5f66dc438c84d7f3561": "2026-10-27T18:08:12.210753",
   "e233d9f91c3192162161eba0ed763c8f": "2026-10-27T18:08:12.210753",
   "12e6040e629074b37139de3da83cd55d": "2026-10-27T18:08:12.210753",
-  "fb166d6bad7d2e7c4fd1dfa79b7f02b6": "2026-10-27T18:08:12.210753"
+  "fb166d6bad7d2e7c4fd1dfa79b7f02b6": "2026-10-27T18:08:12.210753",
+  "8f4d297dbcd5c66ba941b21c123df5ce": "2026-10-27T19:46:54.448804",
+  "d15895108f31ded9558983bf5fb532e5": "2026-10-27T19:46:54.448804",
+  "6080a716d7e5ee24dfc626350b4a676e": "2026-10-27T19:46:54.448804",
+  "2f19b988152915e353aa4e300fc515ce": "2026-10-27T19:46:54.448804",
+  "a42f944b8037bf15613d71dc662c2055": "2026-10-27T19:46:54.448804",
+  "6f19f6d4455144af10fa9133b3b9fca2": "2026-10-27T19:46:54.448804",
+  "b193dde26d791f68793525856ebf52d3": "2026-10-27T19:46:54.448804",
+  "9f03f591493fa1930d6656b934e7f87d": "2026-10-27T19:46:54.448804",
+  "66bc7e263f86a43ff7dd527fb7160448": "2026-10-27T19:46:54.448804",
+  "238d0611bea3473cf34896b6aa4339ef": "2026-10-27T19:46:54.448804",
+  "fb0959a62e6cd1424897b674b647e282": "2026-10-27T19:46:54.448804",
+  "13f8181492168f10c66ab256c73d3973": "2026-10-27T19:46:54.448804",
+  "9b6b47fbb4d9472881df56717c362839": "2026-10-27T19:46:54.448804",
+  "43e1a7ce7eba10567a96c01b1609cded": "2026-10-27T19:46:54.448804",
+  "0fc80ee09a7a56ed9008eb4f3cdd1ae6": "2026-10-27T19:46:54.448804",
+  "1f93871dc51e77719ed057a622ecdd32": "2026-10-27T19:46:54.448804"
 }
