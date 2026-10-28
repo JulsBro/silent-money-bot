@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-28",
   "__recent_titles__": [
-    "Anthropic reicht Börsengang ein, plant November-Notierung",
-    "Kanada veröffentlicht Stablecoin-Regeln, verbietet Renditen",
-    "Südkorea verschiebt Krypto-Gewinnsteuer auf 2029",
-    "Aviva Investors tokenisiert £29 Mrd. Anleihefonds auf XRP",
-    "Israels Notenbank verurteilt Netanyahus Krypto-Sanktions-Plan",
     "US-Bankaufsicht fordert Community Banks zu Stablecoin-Zahlungen auf",
     "NBA arbeitet mit CFTC bei Prediction Markets zusammen",
     "Kalshi expandiert mit S&P-Dow-Jones-Indizes-Deal",
@@ -61,7 +56,12 @@
     "JPMorgan, Coca-Cola, Dell blockieren OKX-ICE Tokenisierungs-Börse",
     "Robinhood Krypto-Revenue bricht um 55% ein — Coinbase Earnings-Test",
     "Google Cloud startet MPC-Service für institutionelle Bitcoin-Verwahrung",
-    "FEC-Hack könnte Crypto-PAC-Ausgaben vor Midterms verschleiert haben"
+    "FEC-Hack könnte Crypto-PAC-Ausgaben vor Midterms verschleiert haben",
+    "CFTC-Chef: AI-Agenten könnten autonomen Handel revolutionieren",
+    "Fed hält Zinssätze stabil, Dezember-Erhöhung bleibt möglich",
+    "Coinbase integriert Ripples RLUSD-Stablecoin vollständig",
+    "Hedge Funds reduzierten Bitcoin-ETF-Position um 68.000 BTC",
+    "Ex-Goldman-Blackrock-Team tokenisiert Agrar- und Immobilienkredite"
   ],
   "c7647c012c8e894a21e7aa98d8c105cf": "2026-10-25T20:40:42.907736",
   "8f639a4cfcaab50d1440d859d71234b1": "2026-10-25T20:40:42.907736",
@@ -292,5 +292,20 @@
   "196c88c70e0e819c758f4c5308b81e89": "2026-10-28T18:25:08.186431",
   "c1b1e60ab97dac14ca315a66ff1aa4f7": "2026-10-28T18:25:08.186431",
   "5b92db512b393a33152d30fb1d108dca": "2026-10-28T18:25:08.186431",
-  "1d3c9d093d84590cc44bf65d89e211b5": "2026-10-28T18:25:08.186431"
+  "1d3c9d093d84590cc44bf65d89e211b5": "2026-10-28T18:25:08.186431",
+  "6b4b1200970e352ef665bd5c1fc1b89c": "2026-10-28T20:01:06.486857",
+  "cdf0e34ec76fd63a9b011127f37f113c": "2026-10-28T20:01:06.486857",
+  "c64371627b33f1abbdc75308a4c0003f": "2026-10-28T20:01:06.486857",
+  "09b48f4e89c1aa151804ffcbbe974985": "2026-10-28T20:01:06.486857",
+  "732a01d4cfee4189bf4914315fb34a97": "2026-10-28T20:01:06.486857",
+  "c96d710d61302137448ebe550fc75316": "2026-10-28T20:01:06.486857",
+  "5a5fa9a342beba7c717381af10d8732c": "2026-10-28T20:01:06.486857",
+  "4d91a6b2f0848fc295424ecbc17a9f6b": "2026-10-28T20:01:06.486857",
+  "ddd05984210f4dc85883207b9cf80e87": "2026-10-28T20:01:06.486857",
+  "414712f975a4fe92ca79ae920aa6fe85": "2026-10-28T20:01:06.486857",
+  "fa4fe8b3316ee996ecedf0e85422c002": "2026-10-28T20:01:06.486857",
+  "5e496b64af692b0ec76def6f3d291208": "2026-10-28T20:01:06.486857",
+  "bb5e82b2de5854995abf5352f91a1df1": "2026-10-28T20:01:06.486857",
+  "c3e4001c299e9ac31d79c946f1acd25c": "2026-10-28T20:01:06.486857",
+  "681c02ba7cd6b1a17fdab4801c5330c3": "2026-10-28T20:01:06.486857"
 }
