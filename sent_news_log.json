@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-29",
   "__recent_titles__": [
-    "Ripple erhält finale OCC-Genehmigung für US-Nationalbank",
-    "Ethereum behebt kritischen Staking-Deposit-Bug vor Glamsterdam",
-    "Keystone-Breach: Hackers stahlen Wallet-Verifizierungsschlüssel",
-    "BlackRock, SBI, Startale: Tokenisierte MMF mit JPY-Stablecoin",
-    "Binance reicht Brasilien-Krypto-Lizenz vor Fristende ein",
     "Janus Henderson tokenisiert Nasdaq-100-Index auf Stellar",
     "CF Benchmarks bringt Wall-Street-Preisinfrastruktur onchain",
     "Bitcoin-Miner expandieren in AI — Luxor sammelt $16M",
@@ -61,7 +56,12 @@
     "ICE plant 24/7-Perpetuals-Börse für Aktien, Rohstoffe, Krypto",
     "Bank of England startet Konsultation zu tokenisiertem Clearing-Collateral",
     "Frankreichs Senat beschließt automatischen Krypto-Steuerdaten-Austausch",
-    "Quantenmodell senkt Bitcoin-Schlüssel-Bruch-Hardware um Faktor 17"
+    "Quantenmodell senkt Bitcoin-Schlüssel-Bruch-Hardware um Faktor 17",
+    "Druckenmiller investiert $23M in Hyperliquid via Trade[XYZ]",
+    "Polygon und Solana partnern für Stablecoin-Bankenzahlungen",
+    "Tokenisierte Aktienplattform Canton schlägt OKX-ICE-Venue",
+    "Kalshi sammelt $1B bei $40B Bewertung",
+    "38 Unternehmen blockieren OKX-ICE Tokenisierungs-Börse"
   ],
   "56019ff9369331b6fa18f69571d975c5": "2026-10-26T18:45:26.974219",
   "9ac0fb61c0a5342dce4b59a313fadac6": "2026-10-26T18:45:26.974219",
@@ -304,5 +304,21 @@
   "ab9d5e7663862e83e19509a91786250c": "2026-10-29T15:44:36.704180",
   "247e05f93b46016d81032697db62a004": "2026-10-29T15:44:36.704180",
   "412953759898ea352e87931a3d14d9b4": "2026-10-29T15:44:36.704180",
-  "6cbf8567c81cd29061182397d6d73d68": "2026-10-29T15:44:36.704180"
+  "6cbf8567c81cd29061182397d6d73d68": "2026-10-29T15:44:36.704180",
+  "5264d11037b3d4fb043f64e7fb7eec85": "2026-10-29T18:34:59.950530",
+  "6de3787a54b75b32c349d9ae4931defb": "2026-10-29T18:34:59.950530",
+  "d3abbfa8802f08b8e57ca73744e5e6d1": "2026-10-29T18:34:59.950530",
+  "059eb6ebc4072fc1ba18b8ee7d41fbe3": "2026-10-29T18:34:59.950530",
+  "6335aa3953824250f37074a50d38e1cd": "2026-10-29T18:34:59.950530",
+  "da76d3027bc447217d344c986d359c77": "2026-10-29T18:34:59.950530",
+  "d1670acabd705564cad00ecae30eece0": "2026-10-29T18:34:59.950530",
+  "be876f991124ee768d5435d95d5d3583": "2026-10-29T18:34:59.950530",
+  "93ba1fc93830f79acb632ab61482c5fc": "2026-10-29T18:34:59.950530",
+  "0bf03326b6631d79578fff58e8ca7a1c": "2026-10-29T18:34:59.950530",
+  "89bfe282b84efae889cf0c985c8054ac": "2026-10-29T18:34:59.950530",
+  "8c07c5fab51f557e6af5702b36773838": "2026-10-29T18:34:59.950530",
+  "51c36ac33dabefc3ab4b8cde57428f28": "2026-10-29T18:34:59.950530",
+  "367411709f81211d0ae887f3e94a60b0": "2026-10-29T18:34:59.950530",
+  "444c2b7bd618c52fec9f91a2ac9e285d": "2026-10-29T18:34:59.950530",
+  "b2ef1fdfc10edc8a01a43d598300e121": "2026-10-29T18:34:59.950530"
 }
