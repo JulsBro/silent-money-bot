@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-30",
   "__recent_titles__": [
-    "90% großer Unternehmen nutzen tokenisierte Zahlungen",
-    "Brasiliens größte Bank formalisiert Krypto-Brokerage",
-    "Datavault AI verliert Zugriff auf Bitcoin-Schatz",
-    "Bithumb gehackt: Mitarbeitersystem kompromittiert",
-    "Moody's gibt Ripples RLUSD Investment-Grade-Rating",
     "DTCC bringt 30-Billionen-Dollar-Wertpapiermarkt auf Blockchain",
     "XRP Ledger ermöglicht Stablecoin-Wallets ohne XRP-Reserve",
     "Google präsentiert Krypto-Verwahrung gegen AI-Bedrohungen",
@@ -61,7 +56,12 @@
     "Ethereum-Upgrade EIP-7702 ermöglichte $2,5-Mrd-Drain",
     "MicroStrategy-CFO tritt bei Rekordgewinn ab — 848.517 BTC",
     "Binance kooperiert mit FBI zur Vermögenswiederherstellung",
-    "Israel extradiert Nomad-Bridge-Exploiter an USA"
+    "Israel extradiert Nomad-Bridge-Exploiter an USA",
+    "Binance deckt mehrere Sicherheitslücken im 6,3-Milliarden-Hack auf",
+    "Krypto-Liquidationen springen auf 1,57 Milliarden Dollar",
+    "XRP Ledger verschärft Regeln für Token-Verwaltung",
+    "FBI und Secret Service ermitteln im Binance-Hack",
+    "Nordkoreas TraderTraitor-Gruppe hinter Binance-Hack identifiziert"
   ],
   "fc2a3c4a1af6900587c94c7ca85eaacf": "2026-10-27T18:08:12.210753",
   "89a3075ed8284f78b82584d2dfdafa13": "2026-10-27T18:08:12.210753",
@@ -301,5 +301,20 @@
   "ad2af9a4f789c454811d5e725c2e4ec6": "2026-10-30T15:27:07.680144",
   "a9fd4f3a7ee6e7970fffb644da6a0939": "2026-10-30T15:27:07.680144",
   "1f44a755e95bfe008aee901b732f655f": "2026-10-30T15:27:07.680144",
-  "e87f8738051a23dcbf5793f78389331f": "2026-10-30T15:27:07.680144"
+  "e87f8738051a23dcbf5793f78389331f": "2026-10-30T15:27:07.680144",
+  "57238ae6b2854a2e72a73a074961959b": "2026-10-30T18:07:14.710685",
+  "70b13e38d04931e54661c0132fddf607": "2026-10-30T18:07:14.710685",
+  "c421d639f4856fcf5a41aaeef9349d7f": "2026-10-30T18:07:14.710685",
+  "83d7a44909585f1244aea66de05cda12": "2026-10-30T18:07:14.710685",
+  "3a39c41dc16a1520f1bc7d71262b6d28": "2026-10-30T18:07:14.710685",
+  "2c74801eec4a3e591b317b8fa37f8f3e": "2026-10-30T18:07:14.710685",
+  "9726ce4ddf8b3ccf9b7930a4772bd7fa": "2026-10-30T18:07:14.710685",
+  "b6181cf6ce9268bd94f2e561492cf064": "2026-10-30T18:07:14.710685",
+  "b1c86ef0e11dae673bb44133ad6c3bce": "2026-10-30T18:07:14.710685",
+  "67e77d9642031a3d8586d72110e1a4ff": "2026-10-30T18:07:14.710685",
+  "a2bf7cd6ac71fd748f3faf5e3cfa41df": "2026-10-30T18:07:14.710685",
+  "ac2f48d81fe21ac5a683d83012751bda": "2026-10-30T18:07:14.710685",
+  "426bdc9a91571e146d15953bb1b5435a": "2026-10-30T18:07:14.710685",
+  "b37b019668ad9ba4b18f5eedbd483d4d": "2026-10-30T18:07:14.710685",
+  "25721e6d27200d9388b0bf24cc336932": "2026-10-30T18:07:14.710685"
 }
