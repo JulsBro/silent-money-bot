@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-10-31",
   "__recent_titles__": [
-    "CFTC-Chef: AI-Agenten könnten autonomen Handel revolutionieren",
-    "Fed hält Zinssätze stabil, Dezember-Erhöhung bleibt möglich",
-    "Coinbase integriert Ripples RLUSD-Stablecoin vollständig",
-    "Hedge Funds reduzierten Bitcoin-ETF-Position um 68.000 BTC",
-    "Ex-Goldman-Blackrock-Team tokenisiert Agrar- und Immobilienkredite",
     "Kanada: Bitcoin-besicherte Hypotheken starten — Liquidationsrisiken unklar",
     "Phantom integriert Kalshi-Prediction-Markets für US-Nutzer",
     "Mirae Asset Securities tokenisiert Schuldverschreibungen auf Solana",
@@ -61,7 +56,12 @@
     "Trump signalisiert Ermittlungen zum Binance-Hack",
     "Nordkorea hinter Binance-Hack mit 6,3 Milliarden Dollar",
     "Wall Street-Analysten raten zum Kauf von Krypto-Aktien",
-    "Hacker entleert Altcoins — FUN-Token crasht 90 Prozent"
+    "Hacker entleert Altcoins — FUN-Token crasht 90 Prozent",
+    "Binance-Hack: 18.270 Bitcoin übersteigen Tesla-Bestände deutlich",
+    "Tether, Circle frieren Milliarden nach Hack ein — Rückforderung unklar",
+    "Binance hält 5 Milliarden Dollar Ersatz-Token für Hack-Verluste",
+    "Wall-Street-Analysten: Bitcoin-Aktien statt Börsen-Hacks kaufen",
+    "MicroStrategy meldet 19,5 Milliarden Q3-Gewinn — 848.517 Bitcoin"
   ],
   "699ff311317f2b7aa36bf7a73c7e5e46": "2026-10-28T10:52:27.176450",
   "7d7d21c84caf8dfcc25203356bfb7a9f": "2026-10-28T10:52:27.176450",
@@ -299,5 +299,21 @@
   "293ae097d7f91fee0152319e41cb1a1b": "2026-10-30T22:08:07.524783",
   "5a8244046211f21542cccea1a5dbb067": "2026-10-30T22:08:07.524783",
   "fb6654dd28ae14182367a3aa5f01477a": "2026-10-30T22:08:07.524783",
-  "a8f60899020cf85f7d488d2e43fe2327": "2026-10-30T22:08:07.524783"
+  "a8f60899020cf85f7d488d2e43fe2327": "2026-10-30T22:08:07.524783",
+  "aab8472d51d567bdb1be5fa3c8802ffc": "2026-10-31T10:38:54.566476",
+  "9b88278b78eb99cd8dc4d8a85bb5b9e2": "2026-10-31T10:38:54.566476",
+  "783e410cb3aa62d0981ff8e1030fecf9": "2026-10-31T10:38:54.566476",
+  "08a34351fa138560aa566c7892ffa051": "2026-10-31T10:38:54.566476",
+  "733b8eccad6c8f88a5724fe872962a91": "2026-10-31T10:38:54.566476",
+  "5282f45f31e37807cf299fa28318c350": "2026-10-31T10:38:54.566476",
+  "077d9a97cabcf7caf1b64897e8366416": "2026-10-31T10:38:54.566476",
+  "c30e40f5450c09ae7f4b0f4f29e8d9fd": "2026-10-31T10:38:54.566476",
+  "a1853f671faee24b4493bb64514cdd9b": "2026-10-31T10:38:54.566476",
+  "f9c37ba6f152c4f30b2fc6db536071f4": "2026-10-31T10:38:54.566476",
+  "1580d333fcd9e70f07e7461f9abf44aa": "2026-10-31T10:38:54.566476",
+  "3d9b7505b7d978c5f09ec7d9a2d109f6": "2026-10-31T10:38:54.566476",
+  "9a955f044ce39d4a4d3fe439bada30f6": "2026-10-31T10:38:54.566476",
+  "817e5ba5405e6a548d86af69d6fc5528": "2026-10-31T10:38:54.566476",
+  "0d22fe0d409b7990f44df13b8adfdbb3": "2026-10-31T10:38:54.566476",
+  "d7b466fa1ca28999cea4773b23d8da4c": "2026-10-31T10:38:54.566476"
 }
