@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-01",
   "__recent_titles__": [
-    "Binance erleidet $5,7-Milliarden-Hack — größter in Krypto-Geschichte",
-    "Tether und Circle frieren $1,8 Milliarden nach Binance-Hack ein",
-    "Coinbase meldet $719M Gewinn Q3 — Krypto-Holdings treiben Ergebnis",
-    "ICE bringt Hyperliquid-Perpetuals in USA — HYPE springt 13%",
-    "Utah erhebt Strafanzeige gegen Kalshi — Glücksspiel-Vorwurf",
     "Nordkoreas Lazarus Group vermutlich hinter Binance-Hack",
     "Binance-Hacker splittet 1,4 Milliarden Dollar Bitcoin",
     "Binance-Hack drainierte Reserve-Wallets für Kundenassets",
@@ -61,7 +56,12 @@
     "FBI bestätigt Nordkorea hinter Binance-Hack, fordert DeFi-Blockade",
     "Arabica-Kaffee erreicht Rekordpreis durch Trump-Tariff-Konflikt",
     "Schweizer Franken und Yen steigen nach DeepSeek-Schock",
-    "US-Treasury-Renditen fallen, Langfristzins bleibt unter Aufwärtsdruck"
+    "US-Treasury-Renditen fallen, Langfristzins bleibt unter Aufwärtsdruck",
+    "DeepSeek entwickelt KI-Agent mit weniger menschlichem Input",
+    "Krypto-PACs trieben republikanische Kandidaten vor Wahl voran",
+    "Sherrod Brown gewinnt Ohio — Krypto-Regulierung droht 2027",
+    "Krypto-Kartenstartups häufen Verluste für Kundengewinnung an",
+    "Gestohlenes iPhone führt zu 14.000-Dollar-Krypto-Diebstahl in London"
   ],
   "4d15822b5ec1cf4effc40ea06420d9d7": "2026-10-29T15:44:36.704180",
   "a1090182bce856c41e536e4ac612e0a2": "2026-10-29T15:44:36.704180",
@@ -297,5 +297,21 @@
   "c5e811318f0326c916d1ae02ad70c34f": "2026-11-01T11:32:04.217447",
   "fae25539689d229815b83d5fd59b01cf": "2026-11-01T11:32:04.217447",
   "78a058663464274b4dc619916b17e0dd": "2026-11-01T11:32:04.217447",
-  "e87a45e5d4c058bf16e777f412343fd0": "2026-11-01T11:32:04.217447"
+  "e87a45e5d4c058bf16e777f412343fd0": "2026-11-01T11:32:04.217447",
+  "96c1a58f0899223e97fa86f99201fb5d": "2026-11-01T15:37:27.616817",
+  "b375930b7d210532cc8da54586ba5691": "2026-11-01T15:37:27.616817",
+  "47050c7c4a4761030236345500a03e97": "2026-11-01T15:37:27.616817",
+  "00def578ad14256c3535ba6ba02fc221": "2026-11-01T15:37:27.616817",
+  "24df3d8de5e1ca2be00dd728ffe105fb": "2026-11-01T15:37:27.616817",
+  "f2959e6951b2f8e8d13dba0b6dd25d6f": "2026-11-01T15:37:27.616817",
+  "c3738319973eaa56f93c13b565ae73df": "2026-11-01T15:37:27.616817",
+  "7ba075e4b7bca236b7ffb841b3067ac9": "2026-11-01T15:37:27.616817",
+  "958931d3b1a636b6870856aa854f2d06": "2026-11-01T15:37:27.616817",
+  "3874a33154bf2e050e4e71b51c4d8e6e": "2026-11-01T15:37:27.616817",
+  "9f5d56a04eab94b45bc495d8bf9d86e2": "2026-11-01T15:37:27.616817",
+  "4fefb6ab625ba08726d15915210b9663": "2026-11-01T15:37:27.616817",
+  "7ff823fa87d534d5af8c49cba6dd3d59": "2026-11-01T15:37:27.616817",
+  "3c05a6dc8a716c57e57a89919559edd0": "2026-11-01T15:37:27.616817",
+  "5920d1f9c23e9ca7ada27ea276991381": "2026-11-01T15:37:27.616817",
+  "65b2bf2d658ef333f1af3b36e8fc18ab": "2026-11-01T15:37:27.616817"
 }
