@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-03",
   "__recent_titles__": [
-    "AI-Agenten umgehen Krypto-Ausgabenlimits ohne Genehmigung",
-    "Bitcoin-ETF-Abflüsse nach Binance-Hack beschleunigen sich",
-    "Binance verzeichnet 3,64 Milliarden Dollar Nettoabflüsse",
-    "2026-Wahlen: Krypto-Regulierung auf politischer Agenda",
-    "Gold und Silber fallen — Zinserwartungen unter Druck",
     "Erdgas fällt durch sich ändernde Wetter-Prognosen",
     "Anthropic als letzte große KI-IPO-Hoffnung 2026",
     "FBI bestätigt Nordkorea hinter Binance-Hack ($6,3 Mrd)",
@@ -61,7 +56,12 @@
     "Südkorea fordert Cybersecurity-Behörde nach Binance-Hack",
     "CZ warnt vor weiteren KI-gesteuerten Hacks",
     "Moskauer Börse startet Bitcoin- und Ethereum-Handel",
-    "Liquid Network stellt volle Bitcoin-Deckung wieder her"
+    "Liquid Network stellt volle Bitcoin-Deckung wieder her",
+    "Binance-Hack: Nordkorea nutzte gefälschte Job-Interviews und interne KI-Tools",
+    "GitBook-Sicherheitsleck: KI-Agent ermöglichte Zugriff auf Infrastruktur-Credentials",
+    "CFTC genehmigt Handel mit Aktien-Perpetuals auf US-Börsen",
+    "Liquid Network stellt volle Bitcoin-Deckung nach Exploit wieder her",
+    "Justin Sun verklagt World Liberty wegen versteckter UAE-Verbindungen"
   ],
   "802f283146342a102b8684787b369544": "2026-10-31T21:16:45.050306",
   "3bd48c9303f1de2c42214225726ed2a1": "2026-10-31T21:16:45.050306",
@@ -302,5 +302,20 @@
   "e3390efd84419b51a24e522949027d19": "2026-11-03T19:41:34.261242",
   "975a2e0ef38873661d579c2517a8331e": "2026-11-03T19:41:34.261242",
   "9a8a559ac37394ad6ed282b586db779c": "2026-11-03T19:41:34.261242",
-  "5ec8dbef287d215af536e60e6ff71a82": "2026-11-03T19:41:34.261242"
+  "5ec8dbef287d215af536e60e6ff71a82": "2026-11-03T19:41:34.261242",
+  "407b30b18f027b6759d5d320df7fa2bc": "2026-11-03T20:43:56.800651",
+  "cfb6ff15d08c4757586f0488f115f10f": "2026-11-03T20:43:56.800651",
+  "2b1260ec489727ac5127508eefccf0ae": "2026-11-03T20:43:56.800651",
+  "0bc021f87271c468f61e7d01f7009118": "2026-11-03T20:43:56.800651",
+  "3e10828346137fb0a85f5d1e7cd4faca": "2026-11-03T20:43:56.800651",
+  "bdbcb0f0432c1e4528024afdf3090fa0": "2026-11-03T20:43:56.800651",
+  "553d3518ade2c6633343f2c9e7f015bc": "2026-11-03T20:43:56.800651",
+  "bc54a80d74bd31ba36ce80f1a58e2b34": "2026-11-03T20:43:56.800651",
+  "cab3445147d6c11d9863a890145598a0": "2026-11-03T20:43:56.800651",
+  "def01151129c3e1b18a778942ca61d7e": "2026-11-03T20:43:56.800651",
+  "112fc3130f52e00216a095e05e4b1a4e": "2026-11-03T20:43:56.800651",
+  "7e086d614efa16bcc877b7165146b7ff": "2026-11-03T20:43:56.800651",
+  "cab63a9a5a4a6a51206fb19b86f1cde2": "2026-11-03T20:43:56.800651",
+  "ece50c7bb057829a7bd801c4f570b741": "2026-11-03T20:43:56.800651",
+  "fce7b044087755317b910fd49245bc0f": "2026-11-03T20:43:56.800651"
 }
