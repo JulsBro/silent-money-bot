@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-03",
   "__recent_titles__": [
-    "Texas-Brüder zu 15 Jahren für bewaffneten Krypto-Raub verurteilt",
-    "Quantencomputer-Risiko wird für Bitcoin wirtschaftliches Problem",
-    "Reddit-Aktie stürzt 30% ab — Googles KI-Suche reduziert Traffic",
-    "US-Tech-Aktien kollabieren — DeepSeek-Panik erfasst AI-Sektor",
-    "Binance meldet 90% gestohlener Assets ersetzt, Abhebungen Sonntag",
     "Zentralisierung ermöglichte Binance-Hack, rettete aber $3 Mrd",
     "Bitcoin fiel nur 3% trotz $6,3-Mrd-Hack — 2018 waren es 11%",
     "Texas-Brüder zu 15 Jahren für $8-Mio-Krypto-Raub verurteilt",
@@ -61,7 +56,12 @@
     "EU-Einheit verliert $106 Millionen — neue Hack-Serie",
     "Nordkorea bestreitet FBI-Vorwürfe zum Binance-Hack",
     "Binance schließt Proof-of-Reserves nach Hack ab",
-    "Nvidia, Nike führen Welle gegen Tokenized Stocks an"
+    "Nvidia, Nike führen Welle gegen Tokenized Stocks an",
+    "Bitcoin-Börsenabflüsse deuten auf Angebotsengpass hin",
+    "Mercado Bitcoin bestätigt $46-Millionen-Hack und pausiert Abhebungen",
+    "Nordkorea wäscht Binance-Beute mit automatisierten Wallets",
+    "Strive kauft weitere 124 Bitcoin für $10 Millionen",
+    "DTCC-Tokenisierungsstart validiert Securitize-Geschäftsmodell"
   ],
   "aab8472d51d567bdb1be5fa3c8802ffc": "2026-10-31T10:38:54.566476",
   "9b88278b78eb99cd8dc4d8a85bb5b9e2": "2026-10-31T10:38:54.566476",
@@ -302,5 +302,21 @@
   "23f04103347108faab08a68a28b21588": "2026-11-02T22:57:55.228991",
   "23b51b4fc7cfd1c881320fd689310291": "2026-11-02T22:57:55.228991",
   "5f722a7bfb32361887dbed205d6047eb": "2026-11-02T22:57:55.228991",
-  "3371c678fe9bcf6e48f70a634b0f5e44": "2026-11-02T22:57:55.228991"
+  "3371c678fe9bcf6e48f70a634b0f5e44": "2026-11-02T22:57:55.228991",
+  "9d6d10afb47f8f465259e007bff91383": "2026-11-03T00:49:24.947264",
+  "6ec3f88886868cb97b4bb70702b6c8b6": "2026-11-03T00:49:24.947264",
+  "c5209a6ae2b7ce0d70e41b26e73b3e1d": "2026-11-03T00:49:24.947264",
+  "ccf6be59ee95185207264315bc54f7d6": "2026-11-03T00:49:24.947264",
+  "031be5e75592e0e039f50e1aacbf97f7": "2026-11-03T00:49:24.947264",
+  "65aefe72575cbe96bb08c661e78d3b53": "2026-11-03T00:49:24.947264",
+  "1f0f32ffa088f5836efc6cb0b0bd282c": "2026-11-03T00:49:24.947264",
+  "18c98780e398e225e416817d91a32a0e": "2026-11-03T00:49:24.947264",
+  "b34d66607c7f52bd1cc911646de58231": "2026-11-03T00:49:24.947264",
+  "f666d52e57b4def512603b19d883e569": "2026-11-03T00:49:24.947264",
+  "5ae1005cb9ff64690ed7dd5a03fba3c0": "2026-11-03T00:49:24.947264",
+  "6e45b12027648cf953cc9a91c501d08e": "2026-11-03T00:49:24.947264",
+  "5afb2699ca8279b26b7c8c86f9ec6724": "2026-11-03T00:49:24.947264",
+  "367312108e974b467039c8419aea2f78": "2026-11-03T00:49:24.947264",
+  "64157f8e693cf46bcc3cd42f4bce4c38": "2026-11-03T00:49:24.947264",
+  "b89f4e6c317101837425288598fdc4ca": "2026-11-03T00:49:24.947264"
 }
