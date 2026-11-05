@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-05",
   "__recent_titles__": [
-    "Arbitrum-Rat bewegte 30 Millionen Dollar Hack-Gelder ohne Hacker-Schlüssel",
-    "Frankreich verzichtet auf Krypto-Besteuerungspläne in 2027",
-    "Crypto.com beendet Hong-Kong-Verbraucher-App wegen Regulierungsänderungen",
-    "CFTC genehmigt Perpetual Futures auf Aktien",
-    "56 Unternehmen blockieren OKX-ICE Tokenisierungspläne",
     "Binance-Hack: Nordkorea baute Monate lang Zugang auf",
     "Südkorea befragt Banken zu Krypto-Hack-Risiken",
     "Binance-Abflüsse erreichen 5,3 Milliarden Dollar",
@@ -61,7 +56,12 @@
     "Fed und OCC prüfen US-Banken nach Binance-Hack",
     "Amundi tokenisiert Aktienindex-Fonds auf Ethereum",
     "Solana Labs launcht Leap-App für tokenisierte Aktien und Krypto",
-    "Base aktiviert Denim-Upgrade mit 200ms-Blockzeiten"
+    "Base aktiviert Denim-Upgrade mit 200ms-Blockzeiten",
+    "Binance und Deribit sperren SignalPlus nach Fake-Teams-Angriff",
+    "TraderTraitor-Hacker hinter 6,3-Milliarden-Binance-Diebstahl identifiziert",
+    "Anchorage Digital beantragt CFTC-Swap-Dealer-Registrierung",
+    "Canary's Injective Staking-ETF startet auf Nasdaq",
+    "Samsung Wallet launcht USDC-Konten auf Solana"
   ],
   "9dcdcdd5b257459a8ee746cb513481f7": "2026-11-02T21:50:58.157418",
   "12348802792ab3aef6ce234cdcb8f56d": "2026-11-02T21:50:58.157418",
@@ -314,5 +314,21 @@
   "b311000ea4db319568e5704200df9312": "2026-11-05T20:10:12.372515",
   "cdecee58de688dfc7f0e35cea6b6dc59": "2026-11-05T20:10:12.372515",
   "594f9eb9a8d753598d5d1b821cddc37b": "2026-11-05T20:10:12.372515",
-  "2f486c1a8f394b9de5809c0c03272cd7": "2026-11-05T20:10:12.372515"
+  "2f486c1a8f394b9de5809c0c03272cd7": "2026-11-05T20:10:12.372515",
+  "b0eec36e0f6619024d320ecb75fdae1e": "2026-11-05T21:17:55.328893",
+  "5dd0dab967dc7372c35667e719667df0": "2026-11-05T21:17:55.328893",
+  "10ae9f6b48b9a81caf0b077028abb476": "2026-11-05T21:17:55.328893",
+  "2bdc1954f660866f41223320003a8166": "2026-11-05T21:17:55.328893",
+  "a0b9684bb97aba7e9db453a7c829ed43": "2026-11-05T21:17:55.328893",
+  "5667d52fc0546289cc94c4e615f2f74c": "2026-11-05T21:17:55.328893",
+  "68591748189b01752a539bcb31f2eac5": "2026-11-05T21:17:55.328893",
+  "85fcc7837ac3c30f1c679bdf48ff4b31": "2026-11-05T21:17:55.328893",
+  "255be600343d81e33ceda80541f83b1d": "2026-11-05T21:17:55.328893",
+  "669cb3859f9789e57811532425dca74b": "2026-11-05T21:17:55.328893",
+  "7eeb9cd193df9d83366a82cce91fc253": "2026-11-05T21:17:55.328893",
+  "e7ae98a061b67c17c4ebbd08aaec1dbf": "2026-11-05T21:17:55.328893",
+  "cc9cd63db0035819fa99c191e48102bf": "2026-11-05T21:17:55.328893",
+  "7df80b3b7a3a3561c910ab8ce922dd28": "2026-11-05T21:17:55.328893",
+  "72581a999d9ae736b328d7c8093ba287": "2026-11-05T21:17:55.328893",
+  "a7971ae6aa464d5fc5151bee135d2cc2": "2026-11-05T21:17:55.328893"
 }
