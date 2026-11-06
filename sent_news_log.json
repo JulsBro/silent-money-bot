@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-06",
   "__recent_titles__": [
-    "Liquid Network stellt volle Bitcoin-Deckung nach Exploit wieder her",
-    "Justin Sun verklagt World Liberty wegen versteckter UAE-Verbindungen",
-    "CFTC verklagt über Stock-Perpetuals — Citadel Securities fordert SEC-Zuständigkeit",
-    "Justin Sun verklagt Trump-Verbündete über versteckte UAE-Geschäfte",
-    "Tether hält 150.000 Bitcoin — 50.000 mehr als in Reservebericht gezeigt",
     "CZ fordert Krypto-Sicherheitsbündnis gegen KI-gesteuerte Attacken",
     "NEAR senkt maximale jährliche Token-Ausgabe auf 1,6 Prozent",
     "Circle übertrifft Gewinn- und Umsatzerwartungen durch USDC-Volumen",
@@ -61,7 +56,12 @@
     "Zcash NU7-Upgrade live — Private Zahlungen beschleunigt",
     "Hyperliquid beantragt US-Futures-Plattform-Registrierung",
     "Ex-FBI-Agent gestehen Diebstahl von 2,5 Millionen Dollar Krypto",
-    "DOJ bildet Task Force gegen AI-Missbrauch"
+    "DOJ bildet Task Force gegen AI-Missbrauch",
+    "Nigeria verbietet algorithmische Stablecoins, führt neue Lizenzen ein",
+    "World Liberty Financial plant Token-Rückkauf nach 66%-Verlust",
+    "USA schafft 165.000 Jobs — Fed-Zinserhöhung im Dezember wahrscheinlich",
+    "3,1 Milliarden Dollar Binance-Beute noch nicht gewaschen",
+    "Anthropic-IPO-Bewertung könnte auf 1 Billion fallen — AI-Crash"
   ],
   "92ca7a6349b05a76f844364bf3653e24": "2026-11-03T19:41:34.261242",
   "e9a070a946637d165bf3b38f89c2780c": "2026-11-03T16:44:39.260349",
@@ -296,5 +296,21 @@
   "df97112d369570950f00bf5117110336": "2026-11-06T12:33:01.750616",
   "de7698cb3570513f55d1faf6460db6b8": "2026-11-06T12:33:01.750616",
   "4752937575e2c9d48e25e53e5aa0fc52": "2026-11-06T12:33:01.750616",
-  "0c2ad4a072b7529e646a8abc248e41bb": "2026-11-06T12:33:01.750616"
+  "0c2ad4a072b7529e646a8abc248e41bb": "2026-11-06T12:33:01.750616",
+  "01a126d260557f43e521f6b8ffffe770": "2026-11-06T16:30:35.832056",
+  "83bcbdc5c3dc264680fe6205ddc78309": "2026-11-06T16:30:35.832056",
+  "dfb1425bca133ea86b7841e3fe5318bc": "2026-11-06T16:30:35.832056",
+  "3999f7ae2bffb3f1c66040698b20387d": "2026-11-06T16:30:35.832056",
+  "919f044adf6557f04c6a0248f77ac7c3": "2026-11-06T16:30:35.832056",
+  "deead5a2291dbc3aa6a53cd7623b7eb2": "2026-11-06T16:30:35.832056",
+  "de684b8564d61bfef217478cc6c2c94c": "2026-11-06T16:30:35.832056",
+  "996a21a2270abd496082d5fcb72cd7e1": "2026-11-06T16:30:35.832056",
+  "0eb9eb6ecc687397e217584f5de06f43": "2026-11-06T16:30:35.832056",
+  "321a2c24241ad3cb2c7c12f260a59b6f": "2026-11-06T16:30:35.832056",
+  "05629a2abafece1a285aa5663ebb52e0": "2026-11-06T16:30:35.832056",
+  "74eef4ebf31c1ec9daf429f803878684": "2026-11-06T16:30:35.832056",
+  "b1a67f2540643c66b1091fc77e8bbf2c": "2026-11-06T16:30:35.832056",
+  "f647dedf8acc316de95ebd70a1974fbc": "2026-11-06T16:30:35.832056",
+  "4c4b827c6e3619e78f456520e1e6f38f": "2026-11-06T16:30:35.832056",
+  "e88673971d9590286ae038665184ee5e": "2026-11-06T16:30:35.832056"
 }
