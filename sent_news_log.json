@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-07",
   "__recent_titles__": [
-    "Standard Chartered und SBI sichern Krypto-Versicherer Soter mit $66,5M",
-    "Google erwirbt Einsatz in TeraWulf-AI-Projekt bei Anthropic-Zahlungsausfall",
-    "Gate.io CEO fordert Börsen-Hack-Resilienz wie nach Binance-Angriff",
-    "Ukrainische Zentralbank blockiert Krypto-Legalisierungsbill in aktueller Form",
-    "Kraken-Mutterkonzern Payward kauft massiv AAVE-Token für DeFi-Strategie",
     "US-Justizministerium bildet Task Force gegen ausländische KI-Bedrohungen",
     "Fed und OCC prüfen US-Banken nach Binance-Hack",
     "Amundi tokenisiert Aktienindex-Fonds auf Ethereum",
@@ -61,7 +56,12 @@
     "Gnosis Pay Datenpanne exponiiert Kartendaten und Wallets",
     "Apple blockiert OKX-Tokenaktien-Venue — Alle Big-Tech weigern sich",
     "Bitcoin-ETFs für 2026 negativ — $1,28B Wochenabfluss",
-    "Nvidia könnte unter Trump-Administration stärkerer Gegenwind treffen"
+    "Nvidia könnte unter Trump-Administration stärkerer Gegenwind treffen",
+    "Fed-Präsidentin Daly: Inflation bleibt hartnäckig — Rate-Hikes wahrscheinlich",
+    "Demokraten fordern nationale Moratorium für Daten-Center nach Wahlsieg",
+    "CoreWeave-Anleihen-Rendite über 16% — AI-Debt-Stress wächst",
+    "Berkshire Hathaway verdoppelt Aktienrückkäufe — Gewinne fallen",
+    "Krypto-ETFs verlieren über 500 Millionen Dollar nach Tech-Rout"
   ],
   "82c5eecef5e2a154d1140f3c618dcf68": "2026-11-04T23:28:39.006158",
   "21369dab0842ccdcd387ba1b2a580af2": "2026-11-04T21:00:39.107211",
@@ -317,5 +317,20 @@
   "48bba485895a20f7c4f44fe7fe7bd178": "2026-11-07T17:48:50.457939",
   "8d7d3ec3f4bd15fb2ec9ab65b59ea9b7": "2026-11-07T17:48:50.457939",
   "f2564c96f39de56428819ba8cda1bf2a": "2026-11-07T17:48:50.457939",
-  "bd007f224ed245f6e300616e2f42df87": "2026-11-07T17:48:50.457939"
+  "bd007f224ed245f6e300616e2f42df87": "2026-11-07T17:48:50.457939",
+  "6afc4a68f8d99d0d217bae229528de18": "2026-11-07T19:13:55.299293",
+  "95c3c4264a374495f8f092929a2e49f6": "2026-11-07T19:13:55.299293",
+  "658425f4541fa1be3d9f4729818d40b1": "2026-11-07T19:13:55.299293",
+  "257c87e45329fb12642a384219a7a2a1": "2026-11-07T19:13:55.299293",
+  "57feafa4317fdf3decac4967aba4e376": "2026-11-07T19:13:55.299293",
+  "57c2ce21cb038cdbbfa4511dd527d0e1": "2026-11-07T19:13:55.299293",
+  "456401dddf2848263d5cc3602fff1953": "2026-11-07T19:13:55.299293",
+  "a0cb573872f64d08fe6827d59483d7dc": "2026-11-07T19:13:55.299293",
+  "de46e9f381927a2920f21eec76e77861": "2026-11-07T19:13:55.299293",
+  "c9e4f942ca271cc7cdc895549d960c92": "2026-11-07T19:13:55.299293",
+  "bedf9afd682e8685a217f213f7497245": "2026-11-07T19:13:55.299293",
+  "91a8c3a6d08b63b4dafb37352753e866": "2026-11-07T19:13:55.299293",
+  "1fb8b1995c2abad1e722e6bb02150569": "2026-11-07T19:13:55.299293",
+  "dab4bc4311c56d322f8718b5c56273aa": "2026-11-07T19:13:55.299293",
+  "5453e7e68e1f6d6691def61b1997aeee": "2026-11-07T19:13:55.299293"
 }
