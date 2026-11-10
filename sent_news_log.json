@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-10",
   "__recent_titles__": [
-    "Paraguay-Bankenkrise intensiviert sich — Präsident-Absetzung droht",
-    "Über 1 Milliarde Dollar Liquidationen — Bitcoin testet 11-Wochen-Tief",
-    "Bitcoin-Entwickler schlägt Quantenschutz-Mechanismus vor",
-    "Vitalik: Ethereum sollte als Wertespeicher, nicht Fee-Burner bewertet werden",
-    "Bitcoin-Holder erhalten eCash — Neue Liquiditätsoption verfügbar",
     "Finnische Häuser nutzen Bitcoin-Mining als Zentralheizung",
     "Web3Auth verhindert $5,6M Keplr-Wallet-Diebstahl durch Frontrunning",
     "Demokraten untersuchen Krypto-Industrie nach Wahlsieg",
@@ -61,7 +56,12 @@
     "Ripple Prime: Marc Asch tritt ab, Noel Kimmel folgt",
     "Fed-Zinserhöhung im Dezember nun quasi sicher",
     "Telegrams Krypto-Wallet startet als eigenständige App",
-    "Polymarket US-Handelsvolumen trotz Regulierung +266%"
+    "Polymarket US-Handelsvolumen trotz Regulierung +266%",
+    "US-Inflation überraschend stark — Dezember-Zinserhöhung wahrscheinlicher",
+    "Republikaner drohen Nvidia-CEO Jensen Huang mit Vorladung",
+    "Moody's verteilt Kreditratings über mehrere Blockchains via Chainlink",
+    "Alta sammelt $47,5M für Blockchain mit Privacy & Compliance",
+    "Canaans Q3-Umsatz um 90% eingebrochen — Mining-Hardware-Absturz"
   ],
   "4094412f99ae03ba3707bbe4c235a526": "2026-11-07T21:40:17.865275",
   "ff6b0e0b252fe3ee7cb4f4583e855dba": "2026-11-07T21:40:17.865275",
@@ -312,5 +312,21 @@
   "4ab8b07fce835338d6d85f6bce3a1f7b": "2026-11-10T19:54:24.173731",
   "d169b2e728799a758c750a310c20df1e": "2026-11-10T19:54:24.173731",
   "36185694f64278027fb1478e8f9745ca": "2026-11-10T19:54:24.173731",
-  "536c0c483546b8d5eae5193936659d44": "2026-11-10T19:54:24.173731"
+  "536c0c483546b8d5eae5193936659d44": "2026-11-10T19:54:24.173731",
+  "d36e7eb4e422e98725e64f7570380085": "2026-11-10T21:08:16.231421",
+  "a7fb8ff655a5dd059347b3e640c4cb9e": "2026-11-10T21:08:16.231421",
+  "101856ef7994abf3e2d016bfbe6a8978": "2026-11-10T21:08:16.231421",
+  "8d9f63c9e8165148cee8e9c01e47846d": "2026-11-10T21:08:16.231421",
+  "8d232f57cbaac8425b1930a6ded6df64": "2026-11-10T21:08:16.231421",
+  "fb90f1bad9bf4f0e1db6c7012b788123": "2026-11-10T21:08:16.231421",
+  "4cff78e0bb691dc1ddba46b98d792bd1": "2026-11-10T21:08:16.231421",
+  "db455da421db392a2ff0fd335ab48c8a": "2026-11-10T21:08:16.231421",
+  "f9c3c35a9a69788fb952b0204c1a50b5": "2026-11-10T21:08:16.231421",
+  "5220dcc198a9338e464427f59579eef0": "2026-11-10T21:08:16.231421",
+  "cadefd62dc7172ca09b81ad1d33c6ba9": "2026-11-10T21:08:16.231421",
+  "b04f0f0ab7934cea8533dfe6cac9bf32": "2026-11-10T21:08:16.231421",
+  "f8ba96e044dd7a59deb8a02a76a30a16": "2026-11-10T21:08:16.231421",
+  "5c0a4c23588c9929da26a6eabfc08036": "2026-11-10T21:08:16.231421",
+  "7bca30ee29efdd319632a19d047630e0": "2026-11-10T21:08:16.231421",
+  "e69621653919f3091f4351f0bb53613c": "2026-11-10T21:08:16.231421"
 }
