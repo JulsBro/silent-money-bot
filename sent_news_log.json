@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-11",
   "__recent_titles__": [
-    "NYSE wählt Avalanche für tokenisierte Aktienabwicklung",
-    "Nordkoreanische Hacker waschen Binance-Beute über Memecoins",
-    "PNC Bank testet USDC-Zahlungen in Dollar-Deposits",
-    "EU etabliert Standardisierungsgruppe für tokenisierte Wertpapiere",
-    "Googles AI-Chips verschärfen Druck auf Nvidia",
     "Trump bestätigt Co-Eigentum an World Liberty — UAE-Verbindungen unter Feuer",
     "Robinhood unterstützt Tokenisierung seiner Aktie auf OKX-ICE-Plattform",
     "Elizabeth Warren verspricht Kontrolle von Vorhersage-Märkten und Trump-Krypto",
@@ -61,7 +56,12 @@
     "Bitcoin Core behebt kritischen Bug — hätte Mining lahmlegen können",
     "Apex Group ($3,5T AUM) tritt Hedera Council bei — Tokenisierung erforscht",
     "Finanzstabilität-Rat fordert Türkei auf — Stablecoin-Regulierung schärfen",
-    "Pyth Network integriert NYSE-Aktien und ETF-Daten in Marketplace"
+    "Pyth Network integriert NYSE-Aktien und ETF-Daten in Marketplace",
+    "Nomura erkundet Verkauf der Krypto-Einheit Laser Digital",
+    "Deutsche Bank startet Live-Krypto-Verwahrung für Institutionen",
+    "OKXICE tokenisierte Aktienplattform startet 23. November",
+    "US-Senatoren werfen Trump-Mitarbeiter Insiderhandel vor",
+    "Kraken tokenisiert 200 UK- und EU-Aktien als xStocks"
   ],
   "af4042adc62cab5737837e22ce61da8f": "2026-11-08T21:54:11.632448",
   "3865024ad21448f0063a951418361d0d": "2026-11-08T21:54:11.632448",
@@ -298,5 +298,21 @@
   "89bba42ce8aad040113302bb0e592b5a": "2026-11-11T19:46:15.363949",
   "738257ab90dfa954f5ef561e62510bb0": "2026-11-11T19:46:15.363949",
   "7e3c091b7663a658939217556e4a8b61": "2026-11-11T19:46:15.363949",
-  "e95b3ff0c408dd2720be0ec5bdfb8bbc": "2026-11-11T19:46:15.363949"
+  "e95b3ff0c408dd2720be0ec5bdfb8bbc": "2026-11-11T19:46:15.363949",
+  "f5bd52e16daa8ae27c56c8d226b6e9bb": "2026-11-11T21:41:12.463875",
+  "267088e6c068a0244110d623e638ca69": "2026-11-11T21:41:12.463875",
+  "dc46eda6ab1ce9d0e8b0ad3bd3b2ebdd": "2026-11-11T21:41:12.463875",
+  "321562fe46cae6fca2ddde2a0b193d89": "2026-11-11T21:41:12.463875",
+  "b18e014788d72375a93e65502dd32b3f": "2026-11-11T21:41:12.463875",
+  "065960476dcf22cd044a0ddfb121d2a7": "2026-11-11T21:41:12.463875",
+  "88dcd3241030a6baad83ed8f290743ea": "2026-11-11T21:41:12.463875",
+  "0bfc05cf7d3b3a6b33e8b41b9e9077df": "2026-11-11T21:41:12.463875",
+  "c5bddcc75eb6b548006d77b0063ef2a6": "2026-11-11T21:41:12.463875",
+  "83b25ab95c1649f73f7dbfd98b0630a5": "2026-11-11T21:41:12.463875",
+  "517706adfc4a4cb6b404a88db57c8781": "2026-11-11T21:41:12.463875",
+  "a50382b8b88c3d53e428f14fdcb9da58": "2026-11-11T21:41:12.463875",
+  "cc69dfbf28e1aa2e0586331987dca809": "2026-11-11T21:41:12.463875",
+  "7f39f151e6b61e6a940297f76e5e44c9": "2026-11-11T21:41:12.463875",
+  "c320ceb94ce6aece4e5dd65105e58bef": "2026-11-11T21:41:12.463875",
+  "b5a7280dc1d8206d816eeaa522b4f496": "2026-11-11T21:41:12.463875"
 }
