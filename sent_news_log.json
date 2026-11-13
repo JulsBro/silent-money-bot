@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-13",
   "__recent_titles__": [
-    "OKXICE startet Tokenisierter Aktienhandel mit 70+ Assets",
-    "Spiko Tokenisierter Fonds knackt 2,4 Milliarden Dollar AUM",
-    "Kraken xStocks überschreitet 1,1 Milliarden Dollar mit 200 neuen Aktien",
-    "CoreWeave-Aktie springt 15% nach Q3-Umsatzschlag",
-    "Barclays erhöht BlackRock Bitcoin-ETF-Anteil um 48%",
     "Stablecoin-Angebot bricht um $14,2 Mrd. ein — größte Kontraktion seit 2022",
     "Bitcoin Core behebt kritischen Bug — hätte Mining lahmlegen können",
     "Apex Group ($3,5T AUM) tritt Hedera Council bei — Tokenisierung erforscht",
@@ -61,7 +56,12 @@
     "Fed-Chef Warsh untersucht AI-Inflation und ihre Zinssatz-Implikationen",
     "Payward (Kraken) diversifiziert über Krypto-Trading hinaus",
     "CFTC-Chef kritisiert staatliche Versuche, Prediction-Market-Gründer zu verfolgen",
-    "UK vor FATF-Review — Krypto-Geldwäsche-Lücken identifiziert"
+    "UK vor FATF-Review — Krypto-Geldwäsche-Lücken identifiziert",
+    "US-Regulatoren vorantreiben Crypto-Trust-Charter trotz Senate-Kontrolle",
+    "JPMorgan nähert sich 1 Milliarde Dollar Crypto-Bestände",
+    "House Oversight fordert Verbot für Regierungsbeamte bei Prediction-Märkten",
+    "Hyperliquid überholt Bybit, Kraken, OKX in Open Interest",
+    "Tether-gestützte Twenty One Capital meldet 1,09 Milliarden Dollar Q3-Gewinn"
   ],
   "d36e7eb4e422e98725e64f7570380085": "2026-11-10T21:08:16.231421",
   "a7fb8ff655a5dd059347b3e640c4cb9e": "2026-11-10T21:08:16.231421",
@@ -308,5 +308,21 @@
   "fcc926db4006669aa533fce2a4bb4bd7": "2026-11-13T19:55:45.638359",
   "051d684291560783d2309827b246c6fa": "2026-11-13T19:55:45.638359",
   "156cd409223fb6886f328a7ae3dbed50": "2026-11-13T19:55:45.638359",
-  "9a2a708f2feabe88796ab6a841ae9cd5": "2026-11-13T19:55:45.638359"
+  "9a2a708f2feabe88796ab6a841ae9cd5": "2026-11-13T19:55:45.638359",
+  "b1b241c7faa63e97a6823bb0ef56ee6c": "2026-11-13T21:07:35.506875",
+  "b30f30c6d2f188b9211460d205ff7c42": "2026-11-13T21:07:35.506875",
+  "99978e64b1de4cd3b05a7b22786cb4cc": "2026-11-13T21:07:35.506875",
+  "6cde89cfcec874ae217525978e4c441a": "2026-11-13T21:07:35.506875",
+  "9abd9103bb4f87e395a3a5e57f3be8d4": "2026-11-13T21:07:35.506875",
+  "12c9a666137bf5803d3afccece3d5111": "2026-11-13T21:07:35.506875",
+  "bbf6a88a05b7fa032e3032a66b318b81": "2026-11-13T21:07:35.506875",
+  "61cc2783758328ffe3b82c68fec1622f": "2026-11-13T21:07:35.506875",
+  "3ed703fb0b00005e33c062ad9486c02a": "2026-11-13T21:07:35.506875",
+  "8a29cc9caf3c9f0e2863eb7bb0216c5c": "2026-11-13T21:07:35.506875",
+  "e5623a78632552e7c39e601b55cade0b": "2026-11-13T21:07:35.506875",
+  "6f6fecf30dcaf3a6d393742c7f97fd05": "2026-11-13T21:07:35.506875",
+  "7afd83f1bcc3f9c40b2557a20ff739d5": "2026-11-13T21:07:35.506875",
+  "64140df22430e8ac519426bfd92ec91e": "2026-11-13T21:07:35.506875",
+  "c57c269a1492b788dcd90c65732ee092": "2026-11-13T21:07:35.506875",
+  "9a84e32457a7b2f46c4908738c030c6b": "2026-11-13T21:07:35.506875"
 }
