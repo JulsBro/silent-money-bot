@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-14",
   "__recent_titles__": [
-    "Nomura erkundet Verkauf der Krypto-Einheit Laser Digital",
-    "Deutsche Bank startet Live-Krypto-Verwahrung für Institutionen",
-    "OKXICE tokenisierte Aktienplattform startet 23. November",
-    "US-Senatoren werfen Trump-Mitarbeiter Insiderhandel vor",
-    "Kraken tokenisiert 200 UK- und EU-Aktien als xStocks",
     "Nvidia bereitet Austausch von CEO Jensen Huang vor",
     "SEC interveniert in Regulierungsstreit über Aktien-Perpetuals",
     "Stablecoin-Angebot fällt $14,2 Mrd. — schnellster Rückgang seit 2022",
@@ -61,7 +56,12 @@
     "Blockstream startet Bitcoin-Verwahrsystem mit simplerer Sicherheit",
     "Coinbase unterstützt US-Aktien-Perpetuals — CFTC-Schritt",
     "House Oversight empfiehlt Verbot für Beamte in Prediction-Märkten",
-    "Payward meldet 66% Rückgang Q3 EBITDA — plant US-Prediction-Märkte"
+    "Payward meldet 66% Rückgang Q3 EBITDA — plant US-Prediction-Märkte",
+    "Paraguay-Bitcoin-Miner-Verträge laufen Ende 2027 aus",
+    "Bitcoin-ETFs verlieren $2,35 Milliarden in zwei Wochen",
+    "Thailand limitiert Stablecoin-Transfers auf $148.000 täglich",
+    "MEGA (ehemals MegaETH Foundation) entlässt 20 Prozent",
+    "16 Jahre dormante Bitcoin-Wallets erwachen: $6,9 Millionen bewegt"
   ],
   "eb854e95e831e8e9d211d64b349c8504": "2026-11-11T12:14:45.371123",
   "28c5ebb708d536b49a44718edd559d9b": "2026-11-11T12:14:45.371123",
@@ -310,5 +310,21 @@
   "edc3599f5f6bb5cc1923360d66b2599b": "2026-11-13T23:26:21.813978",
   "07f941d792f6a0afc4bdc0c3b45356d9": "2026-11-13T23:26:21.813978",
   "5bb7062512bbac29c991fe39ced82f13": "2026-11-13T23:26:21.813978",
-  "0bd386a71334d54db4a30d919885936e": "2026-11-13T23:26:21.813978"
+  "0bd386a71334d54db4a30d919885936e": "2026-11-13T23:26:21.813978",
+  "7d1b202d98ce53baeb0b7e5832089354": "2026-11-14T11:48:51.989579",
+  "ff3dc5559c37e49335dfa656a72a8d3f": "2026-11-14T11:48:51.989579",
+  "0bd67e36934d4c91889042189c0c8176": "2026-11-14T11:48:51.989579",
+  "d398fcbcb08fe41656ea8f7a0371b764": "2026-11-14T11:48:51.989579",
+  "2d78b4e19de3da362a4354cb7b7c8732": "2026-11-14T11:48:51.989579",
+  "30cd33f456a08ee0bdc9cdf05522db2f": "2026-11-14T11:48:51.989579",
+  "8ea8af6f8c99a50b8d3ac50889bcd8f4": "2026-11-14T11:48:51.989579",
+  "fc961989b2ef19366257e008cb82c337": "2026-11-14T11:48:51.989579",
+  "69f6d57aca172c04f635ea59feb55cd9": "2026-11-14T11:48:51.989579",
+  "46c024edc2c76c8efe8f4d8b6cc27b2f": "2026-11-14T11:48:51.989579",
+  "e00b137fcf448d1bd944475c2ba7ba45": "2026-11-14T11:48:51.989579",
+  "259d8e97db13265c7ec49b7526038572": "2026-11-14T11:48:51.989579",
+  "1dc93f9667be412fac39cc3a620a5f75": "2026-11-14T11:48:51.989579",
+  "fea5742110981f5f9ea3d393cb299cd4": "2026-11-14T11:48:51.989579",
+  "4f064c3e6fd3cbde6c892badb34f785e": "2026-11-14T11:48:51.989579",
+  "7a7a3977251a9a965b577bba6e4eb62c": "2026-11-14T11:48:51.989579"
 }
