@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-14",
   "__recent_titles__": [
-    "DTCC tokenisiert Aktien und Treasury auf Solana 2027",
-    "Jensen Huang tritt als Nvidia-CEO zurück — Aktie fällt 10%",
-    "Ethereum beschleunigt Quantenschutz — 2027-Start geplant",
-    "Thailand schränkt Stablecoin-Transaktionen auf $148K täglich ein",
-    "KPMG bestätigt $2,2B Golddeckung für Tether Gold",
     "Illinois Crypto-Steuer vor Gericht angefochten",
     "Nvidia-CEO Jensen Huang tritt nach 33 Jahren zurück",
     "Anchorage-Stablecoins live auf Visa VisaNet",
@@ -61,7 +56,12 @@
     "Bitcoin-ETFs verlieren zweite Woche in Folge 1 Milliarde Dollar",
     "Bitcoin fällt auf 68.000 Dollar — Anthropic-IPO zieht Kapital ab",
     "MegaETH entlässt 20 Prozent Personal — Pivot zu AI-Geschäft",
-    "Satoshi-Ära-Wallets erwachen: 100 BTC nach 16 Jahren bewegt"
+    "Satoshi-Ära-Wallets erwachen: 100 BTC nach 16 Jahren bewegt",
+    "Bitcoin fällt auf 12-Wochen-Tief von $65.000",
+    "Nvidia-CEO Jensen Huang nach 33 Jahren zurückgetreten",
+    "OpenAI startet ChatGPT Wallet für AI-Agent-Käufe",
+    "China plant $3,2 Mrd AI-Pipeline mit beschränkten Nvidia-Chips",
+    "CFTC verklagt Louisiana wegen Prediction-Market-Verbot"
   ],
   "9aa974fe39e402cf2862b61a236db408": "2026-11-11T19:46:15.363949",
   "216f6d1effa29c31dff89cd59839bc89": "2026-11-11T19:46:15.363949",
@@ -320,5 +320,21 @@
   "e43b31d9dd37e33990dbb89a563f13c0": "2026-11-14T18:22:49.233254",
   "7378056e4d80ac3468cc81ba2b8d19dc": "2026-11-14T18:22:49.233254",
   "21c509bc11ff359a39224cd370cad492": "2026-11-14T18:22:49.233254",
-  "6ac51156d1a8f02aaca01bb1a22706d2": "2026-11-14T18:22:49.233254"
+  "6ac51156d1a8f02aaca01bb1a22706d2": "2026-11-14T18:22:49.233254",
+  "b8b282c281f46103953b93961afa2098": "2026-11-14T19:38:49.678724",
+  "6a47bdf126c97db5dd1de8f1c89e49da": "2026-11-14T19:38:49.678724",
+  "4c13227ad7d723070ffee3eb62e4ac45": "2026-11-14T19:38:49.678724",
+  "2a1648727e5b57973e065a2570d2f812": "2026-11-14T19:38:49.678724",
+  "5069f242ab76af2a00b50d7d447313d5": "2026-11-14T19:38:49.678724",
+  "29c7af4f3d0e8012a2c30cc57da157ec": "2026-11-14T19:38:49.678724",
+  "3c701af82ff82cf14e84e61ba53d829a": "2026-11-14T19:38:49.678724",
+  "021de96b35d0faaba5f893499530f6dc": "2026-11-14T19:38:49.678724",
+  "694fbbea25c751d97a8e613c82dd5132": "2026-11-14T19:38:49.678724",
+  "4d442b94987ce210a7509b7f7f9dc5a8": "2026-11-14T19:38:49.678724",
+  "8e7e8eb903593701f7c9964fee7c6110": "2026-11-14T19:38:49.678724",
+  "d58a4fc8bcc97c20f4e8435abe3812aa": "2026-11-14T19:38:49.678724",
+  "854a125a25af0d428d424ac66064fadc": "2026-11-14T19:38:49.678724",
+  "26685a654368514cb86a1889fc871187": "2026-11-14T19:38:49.678724",
+  "54585a7553de6bd1f41ad20fb272cc57": "2026-11-14T19:38:49.678724",
+  "1d1b8e45564eb18708b62f0847086ad6": "2026-11-14T19:38:49.678724"
 }
