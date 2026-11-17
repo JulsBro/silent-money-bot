@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-17",
   "__recent_titles__": [
-    "Satoshi-Ära-Wallets erwachen: 100 BTC nach 16 Jahren bewegt",
-    "Bitcoin fällt auf 12-Wochen-Tief von $65.000",
-    "Nvidia-CEO Jensen Huang nach 33 Jahren zurückgetreten",
-    "OpenAI startet ChatGPT Wallet für AI-Agent-Käufe",
-    "China plant $3,2 Mrd AI-Pipeline mit beschränkten Nvidia-Chips",
     "CFTC verklagt Louisiana wegen Prediction-Market-Verbot",
     "Chinas DeepSeek löst Verkaufswelle in US-Tech aus",
     "DOJ sichert $1,2 Mrd aus Binance-Hack — Nordkorea-Netzwerk unterbrochen",
@@ -61,7 +56,12 @@
     "Brasiliens Zentralbank unter Druck wegen Stablecoin-Geldwäsche-Aussagen",
     "Peraire-Bueno-Brüder in Ethereum-MEV-Fall freigesprochen",
     "CFTC genehmigt erste Blockchain-Derivate-Börsen — Backpack, tZERO",
-    "Trezor-Datenleck: 27.000 Kundenadressen bei Versandpartner exponiert"
+    "Trezor-Datenleck: 27.000 Kundenadressen bei Versandpartner exponiert",
+    "Hacker injizieren Malware in 178 große Websites — Krypto-Diebstahl",
+    "Bitcoin-Miner-Hack: KI-gesteuerte Angriffe umleiten Rewards",
+    "Solana beendet Beta-Status — Version 1.0 aktiviert",
+    "Japan plant Tokenisierung von Staatsanleihen — $2T RWA-Potenzial",
+    "Supreme Court lehnt Custodia Bank Fed-Zugang ab — endgültig"
   ],
   "7d1b202d98ce53baeb0b7e5832089354": "2026-11-14T11:48:51.989579",
   "ff3dc5559c37e49335dfa656a72a8d3f": "2026-11-14T11:48:51.989579",
@@ -305,5 +305,21 @@
   "03951b68e7ddd646ff9d73d4a50d0f1f": "2026-11-16T23:36:54.312283",
   "7d077523b6feab299da3e7b37bc05a44": "2026-11-16T23:36:54.312283",
   "fd96eb69089f1ceffb050ff317a812ed": "2026-11-16T23:36:54.312283",
-  "2f3f4c0ff27a77fb444f23c8c73b91c2": "2026-11-16T23:36:54.312283"
+  "2f3f4c0ff27a77fb444f23c8c73b91c2": "2026-11-16T23:36:54.312283",
+  "351c4418387aaa10afc34d37280eeffa": "2026-11-17T01:47:29.288738",
+  "25bb14325053430dfec67c883e337136": "2026-11-17T01:47:29.288738",
+  "9f5ce2ce4c5202bf0216d632ad853100": "2026-11-17T01:47:29.288738",
+  "10ba68ce0b249be97d67162da2f1b78a": "2026-11-17T01:47:29.288738",
+  "efd82b3851b63fd92106b3f4a2920090": "2026-11-17T01:47:29.288738",
+  "9b83457e71c8cf6a52485649ed156710": "2026-11-17T01:47:29.288738",
+  "4df022741de3c28863d0694b5ae10a75": "2026-11-17T01:47:29.288738",
+  "98f587fc296d21b1440a6abd89f0c502": "2026-11-17T01:47:29.288738",
+  "ed2690974808659fe349ce7a2d9eb02e": "2026-11-17T01:47:29.288738",
+  "98271a38a09b8f82fee2d023a211c626": "2026-11-17T01:47:29.288738",
+  "b8775d8fd6d871f77c54fdbf7db79ce3": "2026-11-17T01:47:29.288738",
+  "47e0376ad6418c80ef74336725443537": "2026-11-17T01:47:29.288738",
+  "0bba441d9d0747ea4c0b4129a7eaff40": "2026-11-17T01:47:29.288738",
+  "0dd28e27a916d60ccaff029893d0934d": "2026-11-17T01:47:29.288738",
+  "7a3efd5ea8b89772432f244fcc76355d": "2026-11-17T01:47:29.288738",
+  "95e89c71fb236cd0c36956918082e662": "2026-11-17T01:47:29.288738"
 }
