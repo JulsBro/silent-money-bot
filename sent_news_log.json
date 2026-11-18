@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-11-18",
+  "__prices_date__": "2026-11-19",
   "__recent_titles__": [
-    "Lighter DEX sperrt Abhebungen nach $10,4-Mio-Exploit",
-    "Deutschland erlaubt Krypto-Beschlagnahme ohne Strafverfolgung",
-    "Singapur und Deutschland testen Atom-Settlement für Zahlungen",
-    "Zelle wählt Solana für ZelleUSD-Stablecoin und Zahlungen",
-    "Fed modelliert KI-‚Super-Intelligence'-Szenarien mit Jobverlusten",
     "Ex-Robinhood Engineer gesteht Insider-Trading auf Hyperliquid",
     "US-Demokraten fordern CFTC-Rückzug von Prediction-Market-Ban",
     "Coinbase und Broadridge etablieren Tokenized-Stock-Standard",
@@ -61,7 +56,12 @@
     "Variational Series-B: $110M bei $1,5B Bewertung",
     "Ondo tokenisiert Anthropic-Aktien am IPO-Tag",
     "Ethereum-MEV Freispruch gefährdet Strafverfolgung",
-    "Fed-Gouverneur Waller fordert 50-Basispunkte-Zinserhöhung"
+    "Fed-Gouverneur Waller fordert 50-Basispunkte-Zinserhöhung",
+    "Variational schließt $110M Serie-B bei $1,5B Bewertung ab",
+    "US-Senatoren fordern Treasury-Richtlinien für Stablecoin-Emittenten",
+    "Visa Direct aktiviert Stablecoin-Vorfinanzierung für Asien-Pazifik",
+    "ChatGPT, Claude und Gemini halfen bei Terror-Angriffsplanung in US-Tests",
+    "Ledger bestätigt manipulierte Bitcoin-Wallets in Berlin und Dubai"
   ],
   "5c91053ce5a7373a4e80235e492528d3": "2026-11-15T22:41:00.597230",
   "ef77f730423f94af89714a866fbe9171": "2026-11-15T22:41:00.597230",
@@ -293,5 +293,20 @@
   "32896f7319f9077e8afcdf196b15bcbd": "2026-11-18T20:46:41.697610",
   "ed5c97301f67ccd66ffa71d7365b68ab": "2026-11-18T20:46:41.697610",
   "d73b7db8e5c4fa7a2106a35846fd7f18": "2026-11-18T20:46:41.697610",
-  "eb9a5770e5d42897652808036551e64e": "2026-11-18T20:46:41.697610"
+  "eb9a5770e5d42897652808036551e64e": "2026-11-18T20:46:41.697610",
+  "934cbd124455c17920f5b706598172c2": "2026-11-18T22:26:50.207613",
+  "c9eb3881063bc187857ca9bead4b7941": "2026-11-18T22:26:50.207613",
+  "d3856ae2485f8f37412fc3ade262bb7c": "2026-11-18T22:26:50.207613",
+  "eb4f53bf5c20ebd6b5ab0a455aac6061": "2026-11-18T22:26:50.207613",
+  "01515de32397b09c97be9dae7db046ca": "2026-11-18T22:26:50.207613",
+  "53d6340334162499103c23f35df305ca": "2026-11-18T22:26:50.207613",
+  "53b1733236a11a8828c827b33c74cfd0": "2026-11-18T22:26:50.207613",
+  "54a7581e03013b3c7ebd6bc75588dcb2": "2026-11-18T22:26:50.207613",
+  "7fa548a27defaa11b1c8f1f74dfc26f2": "2026-11-18T22:26:50.207613",
+  "ee4cafbdd73ad46845917b8541035154": "2026-11-18T22:26:50.207613",
+  "8e20291ea9ee0ab57485fa4f19e79078": "2026-11-18T22:26:50.207613",
+  "3028c7ef59a1984c3ec0d1431c950cef": "2026-11-18T22:26:50.207613",
+  "16d632ae2a01381cb0ecdac83dda69d6": "2026-11-18T22:26:50.207613",
+  "a1dc0f4e7708c7315dcad4777f468d76": "2026-11-18T22:26:50.207613",
+  "31bfa75dbf5e190a8883411d51af9f03": "2026-11-18T22:26:50.207613"
 }
