@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-18",
   "__recent_titles__": [
-    "Gold und Silber fallen nach Fed-Entscheidungen",
-    "Market Maker-Aktivität könnte Bitcoin/Ether-Volatilität verstärken",
-    "US-Senatoren kritisieren Prediction Markets für Arzneimittel-Tests",
-    "Kraken-Mutter Payward gewinnt Marktanteile trotz schwächerem Handelsvolumen",
-    "Ex-Nvidia-Chef Huang vor Kongress zu Spionage-Affäre geladen",
     "Huang-Skandal verändert US-China-Beziehungsausblick fundamental",
     "Druck auf Trump-Minister Lutnick wächst nach Nvidia-Skandal",
     "US-Erdgas fällt nach Wetter-Prognose-Shift",
@@ -61,7 +56,12 @@
     "Druckenmiller warnt vor wirtschaftlicher Schwäche 2027",
     "Ukraine zieht $12B Stablecoins in Osteuropa ab",
     "Fed-Gouverneur Waller warnt vor Tokenisierungs-Risiken",
-    "Alpaca Tokenisierungs-Netzwerk überschreitet $10B Volume"
+    "Alpaca Tokenisierungs-Netzwerk überschreitet $10B Volume",
+    "Nvidia-Vorstand lehnt Huang-Rückkehr ab, sucht neuen CEO",
+    "CFTC-Kandidat hinterfragt Nutzen von Prediction Markets",
+    "Ethereum Glamsterdam-Upgrade könnte 15.000 Apps gefährden",
+    "Anchorage und Kalshi Prime ermöglichen Bitcoin-Margin für Institutionen",
+    "DEX Grvt verbindet Rohstoff-Futures an traditionelle Finanzierungskosten"
   ],
   "2a3610822f197d07d5e0f1121bd51a11": "2026-11-15T12:19:54.529971",
   "0433c1e107ef3089e672b58ec35520af": "2026-11-15T12:19:54.529971",
@@ -309,5 +309,20 @@
   "e95595aea297c64e210a08db8489354b": "2026-11-17T22:44:57.239808",
   "3f8e9b123ebf650cb530cc61f9db41ac": "2026-11-17T22:44:57.239808",
   "64d70297e0ca0a437c80f652fca495a8": "2026-11-17T22:44:57.239808",
-  "76d13fbba48135e61fc36b480eb35b86": "2026-11-17T22:44:57.239808"
+  "76d13fbba48135e61fc36b480eb35b86": "2026-11-17T22:44:57.239808",
+  "a4e8942aa59deded30782aac7f869690": "2026-11-18T00:50:00.071219",
+  "5a76a63d1d1e36d343f72e8128c3a99a": "2026-11-18T00:50:00.071219",
+  "8918e2f089559fcc821c868a2a7ef1ff": "2026-11-18T00:50:00.071219",
+  "b749d869756d54a228d87acef96d2062": "2026-11-18T00:50:00.071219",
+  "80ab43dada519b39fb299eb3442be4e0": "2026-11-18T00:50:00.071219",
+  "77df6f852dc0152568489fe753a9de0f": "2026-11-18T00:50:00.071219",
+  "48818c48fdf9a501d3cecad2981d3da7": "2026-11-18T00:50:00.071219",
+  "dbe3242429a64634d802318c94058cca": "2026-11-18T00:50:00.071219",
+  "ed56a913b547d16d27dcdad8bd0db64f": "2026-11-18T00:50:00.071219",
+  "caa44e5e7d0338a58c37db6305be6250": "2026-11-18T00:50:00.071219",
+  "ca6970153e19ddda3ce354d06ea391b3": "2026-11-18T00:50:00.071219",
+  "3c896bc3e032201fb3cfe6450810038f": "2026-11-18T00:50:00.071219",
+  "e0cb4fdcc51df4c0af0a5fac2edbbd34": "2026-11-18T00:50:00.071219",
+  "4a9dabc5bbccb3aa27a5cf1a66d31d43": "2026-11-18T00:50:00.071219",
+  "9c7a828955bbbe86aa6c5032d10999b2": "2026-11-18T00:50:00.071219"
 }
