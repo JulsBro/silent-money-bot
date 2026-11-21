@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-21",
   "__recent_titles__": [
-    "Binance gewinnt 6,5 Milliarden Dollar Sperrorder",
-    "Binance gewinnt $6,5 Mrd. Sperrorder gegen größten Krypto-Hack",
-    "Trump Media hält Bitcoin statt Schulden zu verkaufen",
-    "Hongkong stuft Hyperliquid als verdächtig ein",
-    "IOSCO warnt: Quantencomputer gefährden Blockchain-Sicherheit",
     "Singapur wickelt $77,5 Mio. tokenisierte Rechnungen ab",
     "Sky USDS-Stablecoin verliert 35% nach Illegalitätsbericht",
     "Trumps SEC-Kandidat fordert formale Rulemaking für Tokenisierung",
@@ -61,7 +56,12 @@
     "Chainflip-Vault gehackt: $4,86 Mio. Brücke kompromittiert",
     "Nvidia-Absturz 48%: AI-Blase zeigt erste Risse",
     "CYBER-Bridge: $1 Mio. Exploit, Upbit/Bithumb sperren Transfers",
-    "DeepSeek-Schock: US-Tech-Sektor verliert Billionen-Marktkapitalisierung"
+    "DeepSeek-Schock: US-Tech-Sektor verliert Billionen-Marktkapitalisierung",
+    "Bitcoin fällt unter $57.000 – Zweijahreslief erreicht",
+    "XRP-ETF-Vermögen fällt unter $1 Milliarde",
+    "JPMorgan: Bitcoin-Preisdruck belastet Miner erheblich",
+    "DBS startet Blockchain-basiertes Stablecoin-Deposit-Programm",
+    "Google Gemini erhält Mac-App-Kontrolle – Sicherheitsrisiken erkannt"
   ],
   "27b99d9e9587d54a157374f06f5acde9": "2026-11-18T20:46:41.697610",
   "a08579e46f590e7c7563caca5678653b": "2026-11-18T20:46:41.697610",
@@ -319,5 +319,21 @@
   "25fb6dbfef89ec560f2f69884e02d127": "2026-11-21T19:36:01.773619",
   "bf311c40aebd780d842c6c6e6d719790": "2026-11-21T19:36:01.773619",
   "4989b63a79254101d34c48ffaadfd36f": "2026-11-21T19:36:01.773619",
-  "bad96a6ba7473d7652c4218dd91cdc2e": "2026-11-21T19:36:01.773619"
+  "bad96a6ba7473d7652c4218dd91cdc2e": "2026-11-21T19:36:01.773619",
+  "c59a4e73e41f5f3fce75fd0277779325": "2026-11-21T20:43:38.075343",
+  "ccbe13befe29b5fe21f9ba20b7957e5b": "2026-11-21T20:43:38.075343",
+  "f515aca3aab15471fe67788ee1a7ee0c": "2026-11-21T20:43:38.075343",
+  "9f7394eaae9ef482d4b6d52d748ca374": "2026-11-21T20:43:38.075343",
+  "b61b2252541158cc381ab4e028662746": "2026-11-21T20:43:38.075343",
+  "f294818f9a2c3ee29db1f8309bb8a7b6": "2026-11-21T20:43:38.075343",
+  "b16429a5458457cb764292183227c182": "2026-11-21T20:43:38.075343",
+  "2a0b5147591dce38f7d7caa28cd64d3d": "2026-11-21T20:43:38.075343",
+  "ca74dc6a703f07eebf5a8798d5a0741d": "2026-11-21T20:43:38.075343",
+  "4a8644ae703814932aefb155f8465899": "2026-11-21T20:43:38.075343",
+  "cca63616613966c0d934e6235699fe48": "2026-11-21T20:43:38.075343",
+  "7408e13b8674cc1ba006a793fdac07cb": "2026-11-21T20:43:38.075343",
+  "d63706819373e434f52ca4bc42f7efce": "2026-11-21T20:43:38.075343",
+  "9061537d2e9518b640d0079204b0a357": "2026-11-21T20:43:38.075343",
+  "9aa1aa9167549773ac554f5b67d7ba47": "2026-11-21T20:43:38.075343",
+  "aba9f32e7576733813b356490f34ccba": "2026-11-21T20:43:38.075343"
 }
