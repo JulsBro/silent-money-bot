@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-24",
   "__recent_titles__": [
-    "Chainflip-Vault gehackt: $4,86 Mio. Brücke kompromittiert",
-    "Nvidia-Absturz 48%: AI-Blase zeigt erste Risse",
-    "CYBER-Bridge: $1 Mio. Exploit, Upbit/Bithumb sperren Transfers",
-    "DeepSeek-Schock: US-Tech-Sektor verliert Billionen-Marktkapitalisierung",
-    "Bitcoin fällt unter $57.000 – Zweijahreslief erreicht",
     "XRP-ETF-Vermögen fällt unter $1 Milliarde",
     "JPMorgan: Bitcoin-Preisdruck belastet Miner erheblich",
     "DBS startet Blockchain-basiertes Stablecoin-Deposit-Programm",
@@ -61,7 +56,12 @@
     "USA fordert 1,1 Milliarden Dollar aus Binance-Hack zurück",
     "Kalshi gewinnt vorläufigen Sieg im New-York-Glücksspielstreit",
     "Base priorisiert Quantensicherheit für 2027",
-    "OKX und ICE starten 113 tokenisierte Vermögenswerte"
+    "OKX und ICE starten 113 tokenisierte Vermögenswerte",
+    "CFTC erlaubt Krypto als Rücklagen für Derivate-Firmen",
+    "Ethereum Foundation verdoppelt Protokoll-Sicherheitsteam",
+    "Nordkorea verschiebt $247M Binance-Hack-Beute durch Mixer",
+    "CFTC: Bitcoin, Ether zählen zu Betriebsreserven",
+    "CFTC-Vorhersagemarkt-Regeln gehen an Weißes Haus"
   ],
   "7ce3b0c4bb5036b244cde4da496f810f": "2026-11-21T19:36:01.773619",
   "849743c79e227882721b601e7691ac8f": "2026-11-21T13:05:48.900116",
@@ -299,5 +299,21 @@
   "f67fd90a139ffd45d9a81e72ca19329c": "2026-11-24T00:09:24.401473",
   "9db1a7eb9a7c39831218b1f2acb15447": "2026-11-24T00:09:24.401473",
   "7f29bb48636c6fa82b122e11a45a728d": "2026-11-24T00:09:24.401473",
-  "c02f289b9c1b304fc73bbc79bd20089c": "2026-11-24T00:09:24.401473"
+  "c02f289b9c1b304fc73bbc79bd20089c": "2026-11-24T00:09:24.401473",
+  "3d991d494aadfd354decef7e53303939": "2026-11-24T01:58:34.134879",
+  "cb883028848c48c0933687ad3e4657a1": "2026-11-24T01:58:34.134879",
+  "a042a09875d93654397917c98987dd88": "2026-11-24T01:58:34.134879",
+  "61ddc45d28e0e590fe04600b2b8a561e": "2026-11-24T01:58:34.134879",
+  "0959acf5e764e25bc774e715a82ce681": "2026-11-24T01:58:34.134879",
+  "cc58bac62914f92bf475c92cbda1fdcd": "2026-11-24T01:58:34.134879",
+  "a8a0daef0cb4dffbe1890280de71decb": "2026-11-24T01:58:34.134879",
+  "477e73dc2e4496b18aa73b6b51f55221": "2026-11-24T01:58:34.134879",
+  "821e039e3ef8a876c818b7889b3db7da": "2026-11-24T01:58:34.134879",
+  "d0e2714a58d02b748d839bbf85800129": "2026-11-24T01:58:34.134879",
+  "ea2843addb1230bc438de281bbae6120": "2026-11-24T01:58:34.134879",
+  "089615cf62f0d9557aac0d1bfbe0ae14": "2026-11-24T01:58:34.134879",
+  "2b1990d604be61f786058bf719945040": "2026-11-24T01:58:34.134879",
+  "f1772d6c4da8c1421a277227d6e9a9e1": "2026-11-24T01:58:34.134879",
+  "a8a752fc029b25e44d50bf8f66011dfb": "2026-11-24T01:58:34.134879",
+  "6b4020236f430c9936520cf31c0eeb35": "2026-11-24T01:58:34.134879"
 }
