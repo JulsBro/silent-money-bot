@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-11-25",
+  "__prices_date__": "2026-11-26",
   "__recent_titles__": [
-    "Binance-Hacker verschieben $247M durch koordinierte Bitcoin-Mixer",
-    "New Yorks Gericht blockiert Kalshi-Betrieb vorerst nicht",
-    "$72 Mrd. Ethereum durch zukünftige Quantencomputer gefährdet",
-    "ARK Invest stoppt zwei geplante Krypto-ETF-Launches",
-    "Cross River Bank startet Bitcoin-besicherte Kreditvergabe",
     "CFTC erlaubt Bitcoin als Rücklagen für Börsen",
     "USA fordert 1,1 Milliarden Dollar aus Binance-Hack zurück",
     "Kalshi gewinnt vorläufigen Sieg im New-York-Glücksspielstreit",
@@ -61,7 +56,12 @@
     "Fidelity reicht Antrag für Spot-Chainlink-ETF ein",
     "US-Justizministerium kündigt größte Krypto-Fraud-Offensive an",
     "EZB-Sicherheitenregeln könnten tokenisierte Anleihen-Nachfrage erhöhen",
-    "Französischer Senat lehnt Krypto-Wallet-Meldepflicht ab"
+    "Französischer Senat lehnt Krypto-Wallet-Meldepflicht ab",
+    "Schweiz genehmigt Krypto-Steuerdatenaustausch mit 57 Ländern",
+    "Ethereum Foundation priorisiert Keccak-256 gegen KI-Risiken",
+    "US-Senatoren fordern Absage von SEC-Krypto-Ausnahmeregelung",
+    "Bitcoin-Miner unter Hashrate-Hijacking-Attacke; unverschlüsselte Verbindungen ausgenutzt",
+    "Ukraine legalisiert Krypto-Markt, plant $332M Steuereinnahmen"
   ],
   "304c6133484a14cdc385e2f39e1cedec": "2026-11-22T23:28:48.967046",
   "5cd35ecae637de8c7da7b8bfcfba1e02": "2026-11-22T23:28:48.967046",
@@ -298,5 +298,20 @@
   "675c17d8ed8338dd85f64a755372fe41": "2026-11-25T21:53:05.521913",
   "58318442a94481850698012b2c6d3af8": "2026-11-25T21:53:05.521913",
   "d0778c1175490e980775822b8b3543e7": "2026-11-25T21:53:05.521913",
-  "02d2c61229bab9a6e2ba00abda9ece06": "2026-11-25T21:53:05.521913"
+  "02d2c61229bab9a6e2ba00abda9ece06": "2026-11-25T21:53:05.521913",
+  "3509ad0eb8c81982925398f3af73738e": "2026-11-25T23:26:24.418265",
+  "96449116231312877c9887071d3acfff": "2026-11-25T23:26:24.418265",
+  "ab618620c505aec1abab026382c42b1b": "2026-11-25T23:26:24.418265",
+  "05574737591dcfa9b2631dce27ce24f3": "2026-11-25T23:26:24.418265",
+  "7901b28db9918831a2c4e40dccbfe9bf": "2026-11-25T23:26:24.418265",
+  "9b1e84ef62f6117e13e8fa7f07f4a4de": "2026-11-25T23:26:24.418265",
+  "d33bf7624641febd8fc10376ee7344d5": "2026-11-25T23:26:24.418265",
+  "225a110b13447c9f392f9a43d4fb51ce": "2026-11-25T23:26:24.418265",
+  "1e3419910deabc5f7a493f1edf0bcb24": "2026-11-25T23:26:24.418265",
+  "2871b72b838574e5ec8c1fe2a8323616": "2026-11-25T23:26:24.418265",
+  "89c3140f1386d4da6ad126a6785ae746": "2026-11-25T23:26:24.418265",
+  "c0bf3baeb8c819aa9ae2a2836add8111": "2026-11-25T23:26:24.418265",
+  "b353905a2e96a9601ff56d1411c657ce": "2026-11-25T23:26:24.418265",
+  "7eb9ce76f6cf6ae13714fc90418c6259": "2026-11-25T23:26:24.418265",
+  "db39a2e1195fdb99ff41ebc693d8d028": "2026-11-25T23:26:24.418265"
 }
