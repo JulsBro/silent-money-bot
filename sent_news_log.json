@@ -1,12 +1,7 @@
 {
   "__prices_shown_date__": "2026-04-24",
-  "__prices_date__": "2026-11-26",
+  "__prices_date__": "2026-11-27",
   "__recent_titles__": [
-    "BlackRock startet tokenisierten Geldmarktfonds in Hongkong",
-    "Moskauer Börse führt 22% VAT auf USDT-Käufe ein",
-    "Coldcard-Sicherheitslücke: 5 Jahre von Audits übersehen",
-    "Bitcoin-Spot-ETF: Rekortnegativflüsse von $4,71 Mrd. im November",
-    "Utah lässt Kalshi-Strafverfolgung fallen nach Dienstestelleneinstellung",
     "Trump-Zölle treiben Bitcoin unter $60K – Liquidationen verdreifachen",
     "Anchorage Digital gründet Asset-Management-Tochter 61st Parallel",
     "USA beschlagnahmt weitere $1,1 Mrd. USDC aus Binance-Hack",
@@ -61,7 +56,12 @@
     "Japan erwägt strengere DeFi- und Self-Custody-Aufsicht",
     "Standard Chartered Zodia: Hacker greifen Kundenkontaktdaten ab",
     "US-Chip-Kontrollen stoppen Nvidia-Lieferungen nach Südostasien",
-    "Schweiz genehmigt 57 Länder für Krypto-Datenaustausch ab 2028"
+    "Schweiz genehmigt 57 Länder für Krypto-Datenaustausch ab 2028",
+    "New York gewinnt $1,37 Mrd. Urteil gegen NovaTech-Gründer",
+    "BNB Chain kündigt neue Layer-1 für Trading und AI an",
+    "Nasdaq fordert einheitliche EU-Regeln für tokenisierte Wertpapiere",
+    "Zcash-Team fordert schnellere Abschaltung des Sapling-Pools",
+    "Europas einzige Spot-Bitcoin-ETF startet in der Schweiz"
   ],
   "9ac9929138225c8144a63abe08d52c9e": "2026-11-24T00:09:24.401473",
   "fdfce234ca3ffd2ef2a794415ffa8ca5": "2026-11-24T00:09:24.401473",
@@ -330,5 +330,22 @@
   "6f48e103f3e2abab99f9dab925578e67": "2026-11-26T21:47:42.396060",
   "302d483ab2d17bb88edd989666351354": "2026-11-26T21:47:42.396060",
   "3b61cf476a2cf0369448ba2a38c97648": "2026-11-26T21:47:42.396060",
-  "e595180cabae75f67a8173287ffe72aa": "2026-11-26T21:47:42.396060"
+  "e595180cabae75f67a8173287ffe72aa": "2026-11-26T21:47:42.396060",
+  "b59323046d314c70b93c9ce169f1edd5": "2026-11-26T23:25:56.480053",
+  "976b995cdd08cb65abec0adbce2fbbb9": "2026-11-26T23:25:56.480053",
+  "4c6a9d381ba22e24a6ac6a10d1908d5d": "2026-11-26T23:25:56.480053",
+  "e6a926c1531dc0173e354db2a6c1b2bb": "2026-11-26T23:25:56.480053",
+  "f96cfb51bb78dacefe1ca0b8bc8a1b47": "2026-11-26T23:25:56.480053",
+  "52b863bdf13241a2621e13039dd86e57": "2026-11-26T23:25:56.480053",
+  "e7075033426db4959535818e2be0df46": "2026-11-26T23:25:56.480053",
+  "4776c42e9e0c6887338b4b3f65075fc0": "2026-11-26T23:25:56.480053",
+  "b15b631e25c0d70364369989f89c99fd": "2026-11-26T23:25:56.480053",
+  "edf321ac35eb0ca3fbd6711ea330fe85": "2026-11-26T23:25:56.480053",
+  "65bc3eeb42736ba53e7c0b382529d820": "2026-11-26T23:25:56.480053",
+  "13caf5fcb7de417ab1fea28ecd310ae4": "2026-11-26T23:25:56.480053",
+  "34b254c741256c67d2dda6b93da5374f": "2026-11-26T23:25:56.480053",
+  "fe71dd5d3071e8f6a09e409c7f23eaa9": "2026-11-26T23:25:56.480053",
+  "df147cf758cd9ff5f5a790ad96c4d714": "2026-11-26T23:25:56.480053",
+  "8171614ccaef465e9ad51b3ec713b481": "2026-11-26T23:25:56.480053",
+  "49596ef50b4f08b949e9c1e1d9a2b338": "2026-11-26T23:25:56.480053"
 }
