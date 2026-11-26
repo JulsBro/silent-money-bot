@@ -2,11 +2,6 @@
   "__prices_shown_date__": "2026-04-24",
   "__prices_date__": "2026-11-26",
   "__recent_titles__": [
-    "CFTC erlaubt Krypto als Rücklagen für Derivate-Firmen",
-    "Ethereum Foundation verdoppelt Protokoll-Sicherheitsteam",
-    "Nordkorea verschiebt $247M Binance-Hack-Beute durch Mixer",
-    "CFTC: Bitcoin, Ether zählen zu Betriebsreserven",
-    "CFTC-Vorhersagemarkt-Regeln gehen an Weißes Haus",
     "Nvidia-Vorstand bestätigt Jensen Huang als CEO — Aktie +26% Premarket",
     "OKX-ICE startet Tokenisierungsplattform mit 113 Assets — 24/7-Handel",
     "BTCS liquidiert $44M Ethereum — DeFi-Schulden senken",
@@ -61,7 +56,12 @@
     "Südkoreas Bithumb nach Oktober-Hack phishing-gewarnt",
     "NovaTech-Gründer zu 1,3 Mrd. Dollar Zahlung verurteilt",
     "Franklin Templeton ETF integriert Hyperliquid HYPE-Token",
-    "Bit Digital tilgt 50 Mio. Dollar Schulden nach ETH-Verkauf"
+    "Bit Digital tilgt 50 Mio. Dollar Schulden nach ETH-Verkauf",
+    "Spanien ermächtigt Geldwäsche-Unit, Krypto-Konten ohne Richter zu sperren",
+    "Trump-Strategischer Bitcoin-Reserve-Gesetzentwurf ins Plenum vorgelegt",
+    "$7 Mrd. Bitcoin-Optionen verfallen Freitag – Trader fahren Absicherung hoch",
+    "Auros – Major Krypto-Handelsplattform – stellt Betrieb ein",
+    "UK plant strengere DeFi-Regeln als US und EU – Binance-Hack als Grund"
   ],
   "a9baa5acc100ca39fc3c5af706c9279f": "2026-11-23T15:27:14.440836",
   "bc8c9fc33996a32cda708bbee24e228b": "2026-11-23T15:27:14.440836",
@@ -314,5 +314,20 @@
   "3335b73d25a14b593646a41ddac79b54": "2026-11-26T01:43:28.477415",
   "e3eb7e97cfe1b5ab87f2d9967e273121": "2026-11-26T01:43:28.477415",
   "9f1f2d7d3c991b77c18c55c0936993d7": "2026-11-26T01:43:28.477415",
-  "653578e829a09d2abd55b0851de36df9": "2026-11-26T01:43:28.477415"
+  "653578e829a09d2abd55b0851de36df9": "2026-11-26T01:43:28.477415",
+  "e73bfa11f724c98120300acb51b91eb7": "2026-11-26T14:33:15.531064",
+  "b1ae93457989a85a58c2480a9fe2ccb4": "2026-11-26T14:33:15.531064",
+  "bb914d613e1e201ae777506f107e59ea": "2026-11-26T14:33:15.531064",
+  "1ec44847afb6fa9667b90ac6eb0f7160": "2026-11-26T14:33:15.531064",
+  "4589da87687240f543779f0efd424e96": "2026-11-26T14:33:15.531064",
+  "3250a921c5b694cc615b81ceb98dca45": "2026-11-26T14:33:15.531064",
+  "1a6b534def99b46a42e2474f6fdd8018": "2026-11-26T14:33:15.531064",
+  "a388f3ccc490434b59e85a2e5fcde48e": "2026-11-26T14:33:15.531064",
+  "fcd5a31e145ba5b11cb4cd11915a32e2": "2026-11-26T14:33:15.531064",
+  "3cd3929c7478e79d44ffa379a4581a35": "2026-11-26T14:33:15.531064",
+  "cd9d5d819769a200d4af97ea40a88493": "2026-11-26T14:33:15.531064",
+  "9163cafa1b0b6fc57f4c0efca62e9a74": "2026-11-26T14:33:15.531064",
+  "eea7509e13f611e8fca2cd6b5026fb52": "2026-11-26T14:33:15.531064",
+  "edbffb24556063b9948d5dc1fad05817": "2026-11-26T14:33:15.531064",
+  "d9ba7ae34d048350954fed7ae8dae7cb": "2026-11-26T14:33:15.531064"
 }
